@@ -1,11 +1,11 @@
-// import GlobalStyles from "./styles/GlobalStyle"
+import Header from "./componentes/Header/Header"
+
 
 
 function App() {
   return (
     <>
-    {/* <GlobalStyles/> */}
-    <h1>SOLAR 4.0</h1>
+    <Header/>
     </>
   )
 }
