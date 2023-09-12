@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -20,13 +20,8 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        background-color:171B1E;
     }
-    html{
-    scroll-behavior: smooth;
-    height: 100vh; 
-    
-}
+
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
@@ -36,8 +31,8 @@ const GlobalStyle = createGlobalStyle`
     body {
         line-height: 1;
         width: 100%;
-        height: 100vh;
-        font-family: 'Barlow', sans-serif;
+        height: 100%;
+        font-family: 'Lexend Deca', sans-serif;
     }
 
     ol, ul {
@@ -67,9 +62,8 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Barlow', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
     }
-    
 `
 
-export default GlobalStyle
+export default GlobalStyles;
