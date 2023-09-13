@@ -34,6 +34,7 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
         font-family: 'Lexend Deca', sans-serif;
         background-color: #00a335;
+        background-color:#7FCB27;
     }
 
     ol, ul {
