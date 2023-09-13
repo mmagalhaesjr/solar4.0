@@ -15,7 +15,6 @@ height: 150px;
 ul{
     margin-top: 100px;
     display: flex;
-    width:50%;
     gap: 70px; 
 }
 a{
@@ -26,6 +25,12 @@ a{
 nav{
     display: flex;
     justify-content: space-around;
+}
+
+@media(max-width:999px) {
+    ul{
+        display: none;
+    }
 }
 
 
