@@ -3,38 +3,46 @@ import styled from 'styled-components';
 
 
 export const StyledMain = styled.main`
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  
-  background-image: url('/src/assets/primeira.jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
+ 
   height: 100vh; 
   width: 100%;
-  
   /* margin-top: -100px; */
 
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  text-align: center;
- 
-  
+  #imgInicial{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    z-index: 7;
+   
+  }
+
+  section{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    z-index: 8;
+
+    
+  }
 
 #texto{
-    position: absolute;
-    top: 250px;
     /* left: -400px; */
-    width: 30%;
+    width: 100%;
     font-size: 40px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     gap:20px;
+    
+    
    
 }
 /* #texto h1 {
@@ -42,9 +50,9 @@ export const StyledMain = styled.main`
 } */
 
 button{
-    width: 70%;
+    width: 250px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     background-color:#7FCB27 ;
     color: #ffffff;
@@ -56,7 +64,7 @@ button{
 
 #texto2{
     position: absolute;
-    top: 650px;
+    top: 500px;
     font-weight: 400;
 }
 

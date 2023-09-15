@@ -1,13 +1,14 @@
-import Info1 from "./pages/Info1/Info1"
-import Main from "./pages/Main/Main"
+import Inicial from "./pages/Inicial/Inicial"
+
 
 
 
 function App() {
   return (
     <>
-    <Main/>
-    <Info1/>
+      <Inicial />
+      
+     
     </>
   )
 }
