@@ -2,15 +2,16 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
 background-color: #00BF3E;
-background-color:#7FCB27;
+background-color: transparent;
+z-index: 5;
+
 width: 100%;
-height: 150px;
+height: 100px;
 //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-
 a img{
-width: 300px;
-height: 150px;
+width: 200px;
+height: 100px;
 }
 
 ul{
@@ -19,9 +20,16 @@ ul{
     gap: 70px; 
 }
 a{
+    font-family: 'Barlow', sans-serif;
     color: #ffffff;
-    font-weight:700;
+    font-weight:400;
     cursor: pointer;
+
+    &:hover{
+        text-decoration: underline #00BF3E;
+        transition: .5s;
+        
+    }
 }
 
 nav{

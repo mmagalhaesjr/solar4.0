@@ -1,4 +1,4 @@
-import Header from "./componentes/Header/Header"
+import Info1 from "./pages/Info1/Info1"
 import Main from "./pages/Main/Main"
 
 
@@ -6,8 +6,8 @@ import Main from "./pages/Main/Main"
 function App() {
   return (
     <>
-    <Header/>
     <Main/>
+    <Info1/>
     </>
   )
 }

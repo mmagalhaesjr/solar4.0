@@ -1,7 +1,7 @@
 import { StyledHeader } from './styled';
 import logo from '../../assets/logo.png';
 
-import Form from "../../componentes/Form/Form";
+//import Form from "../../componentes/Form/Form";
 
 
 export default function Header() {
@@ -19,7 +19,7 @@ export default function Header() {
                     <li><a /*onClick={blog}*/ >BLOG</a></li>
                 </ul>
 
-                <Form/>
+             
 
                 {/* <button onClick={mobile}  >
                         <span className='linha'></span>

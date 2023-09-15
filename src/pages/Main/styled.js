@@ -1,34 +1,64 @@
 import styled from 'styled-components';
 
-export const StyledMain = styled.main`
-height: 100vh;
-display: flex;
-justify-content: center;
 
-#container{
+
+export const StyledMain = styled.main`
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  
+  background-image: url('/src/assets/primeira.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%;
+  
+  /* margin-top: -100px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+ 
+  
+
+#texto{
+    position: absolute;
+    top: 250px;
+    /* left: -400px; */
+    width: 30%;
+    font-size: 40px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+   
 }
-img{
-    width: 90%;
-    height: 70%;
-}
+/* #texto h1 {
+    line-height: .8; 
+} */
+
 button{
-    height:50px;
-    width: 20%;
+    width: 70%;
+    height: 40px;
     border-radius: 15px;
-    position: absolute;
-    top: 200px;
-    right: 200px;
     border: none;
-    background-color:#095174;
+    background-color:#7FCB27 ;
     color: #ffffff;
-    font-size: 25px;
+    font-weight:700;
     &:hover{
-        background: rgb(9,81,1);
-        transition:1s;
+       background-color: #00BF3E;
     }
 }
-`
+
+#texto2{
+    position: absolute;
+    top: 650px;
+    font-weight: 400;
+}
+
+
+`;
