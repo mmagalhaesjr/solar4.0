@@ -1,22 +1,14 @@
-import { StyledMain } from "./styled";
-
+import { StyledtextoInicial } from "./styled";
 import primeira from "../../assets/primeira.jpg"
 
-import Header from "../../componentes/Header/Header"
-import QuemSomos from "../../componentes/QuemSomos/QuemSomos";
-import Beneficios from "../../componentes/Beneficios/Beneficios";
 
-
-
-
-export default function Inicial() {
+export default function TelaInicial() {
     return (
-        <StyledMain>
-
-            <Header />
+        <StyledtextoInicial>
 
             <img id="imgInicial" src={primeira} alt="imagem" />
-            <section>
+
+            <div id="container">
                 <div id="texto">
                     <h1>
                         <span style={{ color: '#7FCB27' }}>ECONOMIZE </span>
@@ -26,6 +18,7 @@ export default function Inicial() {
                     </h1>
                     <button>SOLICITE UM ORÇAMENTO</button>
                 </div>
+
                 <div id="texto2">
                     <h2>
                         <span style={{ color: '#ffffff' }}>PROJETOS</span>
@@ -47,11 +40,8 @@ export default function Inicial() {
                         <span style={{ color: '#7FCB27' }}> RURAIS</span>
                     </h2>
                 </div>
-            </section>
+            </div>
 
-            <QuemSomos />
-            <Beneficios/>
-
-        </StyledMain>
+        </StyledtextoInicial>
     )
 }

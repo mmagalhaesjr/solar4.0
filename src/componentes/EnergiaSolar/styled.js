@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
-export const StyledBeneficios = styled.section`
+export const StyledEnergiasolar = styled.section`
 width: 100%;
 height: 100vh;
+;
 
-border: solid 3px #00BF3E;
+border: solid 3px #000000;
+
 
 display: flex;
 flex-direction: column;
@@ -22,10 +24,6 @@ h1{
 h2{
   color:#00BF3E ;
 }
-
-
-
-
 
 
 

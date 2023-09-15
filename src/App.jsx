@@ -1,4 +1,5 @@
-import Inicial from "./pages/Inicial/Inicial"
+
+import Main from "./pages/Main/Main"
 
 
 
@@ -6,7 +7,7 @@ import Inicial from "./pages/Inicial/Inicial"
 function App() {
   return (
     <>
-      <Inicial />
+      <Main />
     </>
   )
 }
