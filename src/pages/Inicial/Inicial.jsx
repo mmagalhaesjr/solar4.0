@@ -4,6 +4,7 @@ import primeira from "../../assets/primeira.jpg"
 
 import Header from "../../componentes/Header/Header"
 import QuemSomos from "../../componentes/QuemSomos/QuemSomos";
+import Beneficios from "../../componentes/Beneficios/Beneficios";
 
 
 
@@ -49,6 +50,7 @@ export default function Inicial() {
             </section>
 
             <QuemSomos />
+            <Beneficios/>
 
         </StyledMain>
     )
