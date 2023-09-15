@@ -1,5 +1,5 @@
 import { StyledQuemSomos } from "./styled";
-import quemSomos from "../../assets/quemSomos.png"
+import quemSomos from "../../assets/quemsomos.png"
 
 export default function QuemSomos() {
     return(
@@ -7,6 +7,7 @@ export default function QuemSomos() {
                 <img id="img" src={quemSomos} alt="imagem" />
 
                 <div id="texto">
+                    <h1>QUEM SOMOS</h1>
                     <p>
                         A Solar 4.0 é uma empresa que faz a gestão da energia elétrica utilizando soluções verdes, 
                         atuando principalmente na Região Sudeste do país e possui polos em Minas Gerais, 
