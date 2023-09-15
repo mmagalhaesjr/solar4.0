@@ -13,8 +13,8 @@ export default function Inicial() {
         <StyledMain>
 
             <Header />
-            <img id="imgInicial" src={primeira} alt="imagem" />
 
+            <img id="imgInicial" src={primeira} alt="imagem" />
             <section>
                 <div id="texto">
                     <h1>
@@ -47,7 +47,6 @@ export default function Inicial() {
                     </h2>
                 </div>
             </section>
-
 
             <QuemSomos />
 

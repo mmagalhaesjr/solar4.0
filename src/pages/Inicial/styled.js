@@ -3,24 +3,21 @@ import styled from 'styled-components';
 
 
 export const StyledMain = styled.main`
+
+height: 100vh;
+
  
-  height: 100vh; 
-  width: 100%;
-  /* margin-top: -100px; */
 
   #imgInicial{
+    position: relative;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    z-index: 7;
-   
+    height: 100vh;
+    
   }
 
   section{
     position: relative;
-    top: 200px;
+    top: -450px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -64,7 +61,7 @@ button{
 
 #texto2{
     position: absolute;
-    top: 500px;
+    top: 400px;
     font-weight: 400;
 }
 
