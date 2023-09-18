@@ -6,7 +6,7 @@ import  { css } from 'styled-components';
 export const StyledMenuMobile = styled.div`
 
     background-color: #00BF3E;
-    background: radial-gradient(circle, rgba(2,79,27,0.7652310924369747) 0%, rgba(1,126,42,0.6419817927170868) 38%, rgba(0,191,62,1) 100%);
+    background: radial-gradient(circle, rgba(4,102,36,1) 0%, rgba(1,126,42,1) 38%, rgba(0,191,62,1) 100%);
     position: fixed;
     width: 100%;
     height: 100vh;

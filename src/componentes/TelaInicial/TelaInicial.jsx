@@ -8,7 +8,7 @@ export default function TelaInicial() {
 
             <img id="imgInicial" src={primeira} alt="imagem" />
 
-            {/* <div id="container">
+            <div id="container">
                 <div id="texto">
                     <h1>
                         <span style={{ color: '#7FCB27' }}>ECONOMIZE </span>
@@ -40,7 +40,7 @@ export default function TelaInicial() {
                         <span style={{ color: '#7FCB27' }}> RURAIS</span>
                     </h2>
                 </div>
-            </div> */}
+            </div>
 
         </StyledtextoInicial>
     )

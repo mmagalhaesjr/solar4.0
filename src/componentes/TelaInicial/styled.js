@@ -15,13 +15,13 @@ flex-direction: column;
 
   #container{
     width: 100%;
-    position: relative;
-    top: -600px;
+    height: 100vh;
+    position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-  
-  
+    border: solid 3px red;
   }
 #texto{
   display: flex;
@@ -31,14 +31,13 @@ flex-direction: column;
   text-align: center;
 
   width: 100%;
+  height: 50%;
   font-size: 40px;
   gap:20px;
   margin-top: 100px;
+  
 
-  position: absolute;
-  
-  
- 
+  border: solid 3px blue;
 }
 #texto h1 {
   line-height: .8; 
@@ -62,7 +61,6 @@ button{
   font-weight: 400;
   margin-top: 200px;
 
-  position: relative;
-  top: 300px;
+  border: solid 3px orange;
 } 
 `
