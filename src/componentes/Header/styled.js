@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { css } from 'styled-components';
 
 export const StyledHeader = styled.header`
 background-color: #00BF3E;
@@ -37,11 +38,59 @@ nav{
     justify-content: space-around;
 }
 
-@media(max-width:999px) {
-    ul{
-        display: none;
-    }
+button{
+  
+  border: solid 1px red;
+   
+   height: 100px;
+   display: none;
+   background: none;
+   border: none;
+   cursor: pointer;
+   margin-top: -30px;
+ }
+.linha{
+   position: relative;
+   width: 40px;
+   height: 5px;
+   background-color:#ffffff;
+   display:block;
+   margin: 10px auto;
+   transform-origin:center;
+   transition:.5s;
 }
+
+${({ mobile }) => mobile && css`
+  .linha:nth-child(1){
+   transform: translateY(0) rotate(-45deg);
+   transition: 1s;
+  }
+  .linha:nth-child(2){
+   display: none;
+   
+   }
+   .linha:nth-child(3){
+   transform: translateY(-15px) rotate(45deg);
+   transition: 1s;
+   }
+`}
+ 
+
+ @media (max-width: 940px) {
+   ul {
+     display: none;
+   }
+   button{
+     display: block;
+     position: absolute;
+     top: 40px;
+     right: 40px;
+   }
+   nav{
+       justify-content: space-between;
+   }
+ }
+
 
 
 `
