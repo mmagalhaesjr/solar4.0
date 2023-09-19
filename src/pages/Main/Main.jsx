@@ -20,8 +20,8 @@ export default function Main() {
             <TelaInicial/>
     
             <QuemSomos />
-            <NossosProjetos/>
             <Energiasolar />
+            <NossosProjetos/>
             <Beneficios />
 
         </StyledMain>

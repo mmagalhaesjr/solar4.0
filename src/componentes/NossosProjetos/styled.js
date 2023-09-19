@@ -9,7 +9,7 @@ position: sticky;
 top: 0;
 left: 0; */
 
-background-color: #ffffff;
+background-color: #00BF3E;
 
 
 /* border: solid 3px #00BF3E; */
@@ -27,7 +27,7 @@ h1{
   color:#000000 ;
 }
 h2{
-  color:#00BF3E ;
+  color:#ffffff ;
 }
 
 
