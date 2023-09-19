@@ -2,7 +2,14 @@ import styled from 'styled-components';
 
 export const StyledtextoInicial = styled.div `
 
+width: 100%;
 height: 100vh;
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
+
+
 
 display: flex;
 flex-direction: column;
@@ -21,7 +28,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
 
-    border: solid 3px red;
+    /* border: solid 3px red; */
   }
 #texto{
   display: flex;
@@ -37,7 +44,7 @@ flex-direction: column;
   margin-top: 100px;
   
 
-  border: solid 3px blue;
+  /* border: solid 3px blue; */
 }
 #texto h1 {
   line-height: .8; 
@@ -61,6 +68,6 @@ button{
   font-weight: 400;
   margin-top: 200px;
 
-  border: solid 3px orange;
+  /* border: solid 3px orange; */
 } 
 `

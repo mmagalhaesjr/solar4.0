@@ -6,9 +6,39 @@ background-color: #00BF3E;
 background-color: transparent;
 width: 100%;
 height: 100px;
-//box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-position: absolute;
+position: fixed;
 z-index: 8;
+transition: background-color 0.3s ease-in-out;
+
+&.rolagem {
+  background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
+  color: #ffffff;
+  height:60px;
+  transition: 2s;
+
+nav{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+img{
+  position: relative;
+  top: -26px;
+}
+ul li a{
+  position: relative;
+  top: -40px;
+  font-weight: 400;
+}
+
+.linha{
+  position: relative;
+  top: -30px;
+}
+
+}
+
 
 a img{
 width: 200px;
@@ -16,27 +46,46 @@ height: 100px;
 }
 
 ul{
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     gap: 70px; 
 }
-a{
-    font-family: 'Barlow', sans-serif;
-    color: #ffffff;
-    font-weight:400;
-    cursor: pointer;
 
-    &:hover{
-        text-decoration: underline #00BF3E;
-        transition: .5s;
-        
-    }
-}
 
 nav{
     display: flex;
     justify-content: space-around;
+
+    /* border: solid 3px black; */
 }
+
+li a{
+    font-family: 'Barlow', sans-serif;
+    cursor: pointer;
+    font-weight:200;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 20px 30px;
+    font-size: 16pxl;
+    color: #ffffff;
+    position: relative;
+    
+}
+li a::after{
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: #00BF3E;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+nav li a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+
 
 button{
   

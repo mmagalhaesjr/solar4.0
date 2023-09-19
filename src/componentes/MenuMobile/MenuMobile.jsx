@@ -1,31 +1,27 @@
-// import { useNavigate } from 'react-router-dom';
+import  { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { StyledMenuMobile } from "./styled";
-import { useEffect } from 'react';
-
-
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
    
-    useEffect(()=> {
+    useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
-    }, [mobileAtivado])
+    }, [mobileAtivado]);
 
     return (
-
         <StyledMenuMobile mobile={mobileAtivado}>
-            
-            <nav className="nav-lista" >
-                <a onClick={() => setMobileAtivado(false) } href="#espacos">SOBRE NÓS</a>
-                <a onClick={() => setMobileAtivado(false) } href="#servicos">SOLUÇÕES</a>
-                <a onClick={() => setMobileAtivado(false) } href="#planos">PROJETOS</a>
-                <a onClick={() => setMobileAtivado(false) } href="#contato">CONTATO</a>
-                <a >BLOG</a>
-               
+            <nav className="nav-lista">
+                <a onClick={() => setMobileAtivado(false)} href="#espacos">SOBRE NÓS</a>
+                <a onClick={() => setMobileAtivado(false)} href="#servicos">SOLUÇÕES</a>
+                <a onClick={() => setMobileAtivado(false)} href="#planos">PROJETOS</a>
+                <a onClick={() => setMobileAtivado(false)} href="#contato">CONTATO</a>
+                <a>BLOG</a>
             </nav>
-            
-
         </StyledMenuMobile>
-
-    )
+    );
 }
 
+MenuMobile.propTypes = {
+    mobileAtivado: PropTypes.bool.isRequired,
+    setMobileAtivado: PropTypes.func.isRequired,
+};

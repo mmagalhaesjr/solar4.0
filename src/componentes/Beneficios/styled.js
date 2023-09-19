@@ -3,17 +3,24 @@ import styled from 'styled-components';
 export const StyledBeneficios = styled.section`
 width: 100%;
 height: 100vh;
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
 
-border: solid 3px #00BF3E;
+background-color: #ffffff;
+
+
+/* border: solid 3px #00BF3E; */
 
 display: flex;
 flex-direction: column;
 text-align: center;
 
-div{
+#titulo{
   font-size: 50px;
   font-weight:700;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 h1{

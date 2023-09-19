@@ -47,13 +47,23 @@ nav{
     padding: 20px 30px;
     font-size: 16pxl;
     color: #ffffff;
+    position: relative;
     
-    &:hover{
-    text-decoration: underline #ffffff;
-    width: 100%;
-
-   }
 }
+a::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+nav a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+
 
 ${({mobile}) => mobile && css`
 

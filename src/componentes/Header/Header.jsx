@@ -1,14 +1,25 @@
-import { StyledHeader } from './styled';
 import logo from '../../assets/logo.png';
-import MenuMobile from '../MenuMobile/MenuMobile';
-
 import { useState, useEffect } from "react";
+import MenuMobile from '../MenuMobile/MenuMobile';
+import { StyledHeader } from './styled';
 
 
 //import Form from "../../componentes/Form/Form";
 
 
 export default function Header() {
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+    
+      const handleScroll = () => {
+        setScrollY(window.scrollY);
+      };
 
     const [mobileAtivado, setMobileAtivado] = useState(false);
     const mobile = () => {
@@ -26,7 +37,7 @@ export default function Header() {
                 mobileAtivado={mobileAtivado}
                 setMobileAtivado={setMobileAtivado} />
                 
-            <StyledHeader>
+            <StyledHeader mobile={mobileAtivado} id="header" className={scrollY > 100  ? 'rolagem' : ''}>
 
                 <nav>
                     <a href="/" ><img src={logo} alt='logo' /></a>
