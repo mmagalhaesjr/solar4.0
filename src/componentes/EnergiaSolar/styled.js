@@ -34,6 +34,10 @@ h2{
 
 #imgCasa{
 height: 100vh;
+background-image: url('src/assets/casinha_sbol.svg');
+background-repeat: no-repeat;
+
+border: solid 1px red;
 
 }
 
@@ -44,6 +48,8 @@ height: 100vh;
   left:0;
   top: 1680px;
 }
+
+
 .circulo{
   position: relative;
   background-color: #eeee00;
@@ -87,7 +93,7 @@ left: 740px;
 }
 #circulo4{
 top:79px;
-left: 878px;
+left: 80px;
 }
   
 

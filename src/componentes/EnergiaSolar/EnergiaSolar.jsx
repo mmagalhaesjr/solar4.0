@@ -1,5 +1,5 @@
 import { StyledEnergiasolar } from "./styled";
-import imgCasa from "../../assets/casinha_sbol.svg"
+// import imgCasa from "../../assets/casinha_sbol.svg"
 
 
 export default function Energiasolar() {
@@ -10,7 +10,7 @@ export default function Energiasolar() {
             </div>
 
             <div id="imgCasa">
-                <img id="img" src={imgCasa} alt="imagem" />
+                {/* <img id="img" src={imgCasa} alt="imagem" /> */}
                 
                 <div className="circulo" id="circulo1" >1</div>
                 <div className="circulo" id="circulo2" >2</div>
