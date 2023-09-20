@@ -13,7 +13,7 @@ transition: background-color 0.3s ease-in-out;
 &.rolagem {
   background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
   color: #ffffff;
-  height:60px;
+  height:50px;
   transition: 2s;
 
 nav{
@@ -24,11 +24,11 @@ nav{
 }
 img{
   position: relative;
-  top: -26px;
+  top: -29px;
 }
 ul li a{
   position: relative;
-  top: -40px;
+  top: -50px;
   font-weight: 400;
 }
 
