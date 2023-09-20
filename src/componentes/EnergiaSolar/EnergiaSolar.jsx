@@ -27,23 +27,43 @@ export default function Energiasolar() {
 
       <div id="container">
         <div
-          className="circulo" id="circulo1" onMouseEnter={() => handleCircleMouseEnter("info1")} onMouseLeave={handleCircleMouseLeave}>
+          className="circulo"
+          id="circulo1"
+          onMouseEnter={() => handleCircleMouseEnter("info1")}
+          onMouseLeave={handleCircleMouseLeave}
+        >
           1
         </div>
         <div
-          className="circulo" id="circulo2" onMouseEnter={() => handleCircleMouseEnter("info2")}onMouseLeave={handleCircleMouseLeave}>
+          className="circulo"
+          id="circulo2"
+          onMouseEnter={() => handleCircleMouseEnter("info2")}
+          onMouseLeave={handleCircleMouseLeave}
+        >
           2
         </div>
         <div
-          className="circulo" id="circulo3" onMouseEnter={() => handleCircleMouseEnter("info3")} onMouseLeave={handleCircleMouseLeave}>
+          className="circulo"
+          id="circulo3"
+          onMouseEnter={() => handleCircleMouseEnter("info3")}
+          onMouseLeave={handleCircleMouseLeave}
+        >
           3
         </div>
         <div
-          className="circulo" id="circulo4" onMouseEnter={() => handleCircleMouseEnter("info4")} onMouseLeave={handleCircleMouseLeave}>
+          className="circulo"
+          id="circulo4"
+          onMouseEnter={() => handleCircleMouseEnter("info4")}
+          onMouseLeave={handleCircleMouseLeave}
+        >
           4
         </div>
         <div
-          className="circulo" id="circulo5" onMouseEnter={() => handleCircleMouseEnter("info5")} onMouseLeave={handleCircleMouseLeave}>
+          className="circulo"
+          id="circulo5"
+          onMouseEnter={() => handleCircleMouseEnter("info5")}
+          onMouseLeave={handleCircleMouseLeave}
+        >
           5
         </div>
       </div>
@@ -65,7 +85,10 @@ export default function Energiasolar() {
         >
           <img id="img" src={img2} alt="imagem" />
           <div className="imgInfo">
-            <p>Medidor bidirecional: Registra a energia que está sendo fornecida à rede e a que está sendo utilizada.</p>
+            <p>
+              Medidor bidirecional: Registra a energia que está sendo fornecida à
+              rede e a que está sendo utilizada.
+            </p>
           </div>
         </div>
 
@@ -75,7 +98,10 @@ export default function Energiasolar() {
         >
           <img id="img" src={img3} alt="imagem" />
           <div className="imgInfo">
-            <p>Inversor: A energia é transformada pelo inversor e inserida na rede elétrica local.</p>
+            <p>
+              Inversor: A energia é transformada pelo inversor e inserida na rede
+              elétrica local.
+            </p>
           </div>
         </div>
 
@@ -85,7 +111,10 @@ export default function Energiasolar() {
         >
           <img id="img" src={img1} alt="imagem" />
           <div className="imgInfo">
-            <p>Taxa mínima: Você paga apenas a taxa mínima pelo uso da rede ou a diferença entre o consumo total e a energia injetada.</p>
+            <p>
+              Taxa mínima: Você paga apenas a taxa mínima pelo uso da rede ou a
+              diferença entre o consumo total e a energia injetada.
+            </p>
           </div>
         </div>
 
@@ -95,7 +124,11 @@ export default function Energiasolar() {
         >
           <img id="img" src={img4} alt="imagem" />
           <div className="imgInfo">
-            <p>Energia: Caso o seu sistema produza mais energia do que você consome, o excesso é convertido em créditos que podem ser transferidos para outras contas em seu nome.</p>
+            <p>
+              Energia: Caso o seu sistema produza mais energia do que você
+              consome, o excesso é convertido em créditos que podem ser
+              transferidos para outras contas em seu nome.
+            </p>
           </div>
         </div>
       </div>
