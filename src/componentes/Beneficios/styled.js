@@ -35,7 +35,7 @@ export const StyledBeneficios = styled.section`
   }
 
   .divIcone {
-    /* Remove largura fixa */
+    
   }
 
   .icone {
@@ -83,5 +83,5 @@ export const StyledBeneficios = styled.section`
     }
   }
 
-  /* Adicione outras media queries conforme necessário */
+  
 `;
