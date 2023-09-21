@@ -93,7 +93,7 @@ button{
    background: none;
    border: none;
    cursor: pointer;
-   margin-top: -30px;
+   margin-top: -35px;
 
  }
 .linha{

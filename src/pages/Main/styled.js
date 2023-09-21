@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledMain = styled.main`
 
 /* scroll-snap-type: y mandatory;
@@ -18,7 +19,6 @@ overflow-y: scroll; */
   }
 
   
-
 
 
 `;

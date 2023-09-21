@@ -1,8 +1,9 @@
 import logo from '../../assets/logo.png';
 
 import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
-import { BsFillTelephoneFill } from 'react-icons/bs';
-// import { ImLocation2 } from 'react-icons/im';
+import {BsFillTelephoneFill } from 'react-icons/Bs';
+
+
 
 import { StyledRodape } from "./styled"
 
@@ -23,20 +24,7 @@ export default function Rodape() {
                     </div>
                 </div>
 
-                {/* <ul className="container" id='endereco'>
-                    <li>
-                        <a href="https://www.google.com.br/maps/@-21.758616,-43.3502606,3a,75y,51.19h,78.22t/data=!3m6!1e1!3m4!1sUnOASUSPrhLND_fyIgVOvw!2e0!7i16384!8i8192?entry=ttu" target="_blank" rel="noreferrer" >
-                            <h3>Endereço</h3>
-                            <div className="contInterno" id="endereço">
-                                <div className="icones">
-                                    <ImLocation2 /><p>Av Rio Branco, 1899 </p>
-                                </div>
-                                <p></p>
-                                <p> CEP:  </p>
-                            </div>
-                        </a>
-                    </li>
-                </ul> */}
+              
 
                 <div className="container" id="endereço">
                     <h3>Redes Sociais</h3>
@@ -54,8 +42,9 @@ export default function Rodape() {
             </div>
             <h6>
                 © 2023
-                Todos os direitos reservados | Temasek Coworking | Política de Privacidade
+                Todos os direitos reservados | Solar 4.0 | Política de Privacidade
             </h6>
+            
         </StyledRodape>
 
     )

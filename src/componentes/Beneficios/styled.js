@@ -1,67 +1,87 @@
 import styled from 'styled-components';
 
 export const StyledBeneficios = styled.section`
-width: 100%;
-height: 100vh;
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
-background-color: #eceeee;
-
-
-/* border: solid 3px #00BF3E; */
-
-display: flex;
-flex-direction: column;
-text-align: center;
-
-#titulo{
-  font-size: 50px;
-  font-weight:700;
-  margin-top: 80px;
-}
-
-h1{
-  color:#000000 ;
-}
-h2{
-  color:#00BF3E ;
-}
-
-#ContainerIcones{
   width: 100%;
-  height: 200px;
+  min-height: 100vh;
+
+  background-color: #eceeee;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 100px;
-}
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
 
-.divIcone{
-  width: 200px;
-}
-
-.icone {
-  font-size: 90px;
-}
-
-.divIcone p{
-  font-size: 18px;
-  margin-top: 20px;
-  color: #839b75;
-}
-h3{
-  margin-top: 100px;
-  color: #839b75;
-}
-
-@media(max-width:996px){
-  #ContainerIcones{
-    height: 100vh;
-    gap: 20px;
+  #titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
   }
-}
-`
+
+  h1 {
+    color: #000000;
+  }
+
+  h2 {
+    color: #00bf3e;
+  }
+
+  #ContainerIcones {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divIcone {
+    /* Remove largura fixa */
+  }
+
+  .icone {
+    font-size: 5rem;
+  }
+
+  .divIcone p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #839b75;
+  }
+
+  h3 {
+    margin-top: 3rem;
+    color: #839b75;
+    
+  }
+
+  button {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00bf3e;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 2rem;
+
+    &:hover {
+      background-color: #7fcb27;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    #ContainerIcones {
+      grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    }
+
+    .icone {
+      font-size: 3rem;
+    }
+
+    .divIcone p {
+      font-size: 0.875rem;
+    }
+  }
+
+  /* Adicione outras media queries conforme necessário */
+`;

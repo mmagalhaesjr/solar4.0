@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const StyledRodape = styled.footer`
 
-background-color:#2A2A2A;
+background-color: #eceeee;
 height: 250px;
 
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-color: #ffffff;
+color: #080808;
 
 @media(max-width:940px){
     height:1000px;
@@ -42,7 +42,7 @@ color: #ffffff;
         width: 100%;
         height: 100px;
         display: flex;
-        color:#ffffff;
+        color: #080808;
         font-size: 30px;
         margin-top: 30px;
 
@@ -60,7 +60,7 @@ color: #ffffff;
     width: 100%;
         height: 100px;
         display: flex;
-        color:#ffffff;
+        color: #080808;
         font-size: 30px;
         margin-top: 30px;
 
@@ -74,10 +74,10 @@ color: #ffffff;
 
 
 ul li a{
-color: #ffffff;
+    color: #080808;
 cursor: pointer;
 &:hover{
-    color:#398462; 
+    color:#00BF3E; 
     transition:0.3s;
     }
 }
@@ -91,7 +91,7 @@ list-style: none;
 h3{
 margin-top: -30px;
 font-size: 30px;
-color: #ffffff;
+color: #080808;
 }
 
 p{
@@ -124,7 +124,7 @@ h6{
 
 #endereco li a #endereço{
     &:hover{
-    color:#398462; 
+    color:#00BF3E; 
     transition:0.3s;
     }
 }
