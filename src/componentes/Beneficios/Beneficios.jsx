@@ -33,7 +33,9 @@ export default function Beneficios() {
             <h3>&ldquo;Especialmente no Brasil, onde temos a maior taxa de irradiação solar do mundo, e em Minas Gerais,
                 onde temos as mais altas tarifas e variações, a energia solar é a solução ideal.&rdquo;</h3>
 
+
             <div id='button'><button>SOLICITE UM ORÇAMENTO</button></div>
+            
 
         </StyledBeneficios>
     )
