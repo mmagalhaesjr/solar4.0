@@ -29,7 +29,7 @@ export const StyledBeneficios = styled.section`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 9rem;
     align-items: center;
     justify-content: center;
   }
@@ -49,7 +49,7 @@ export const StyledBeneficios = styled.section`
   }
 
   h3 {
-    margin-top: 3rem;
+    margin-top: 10rem;
     color: #839b75;
     
   }
