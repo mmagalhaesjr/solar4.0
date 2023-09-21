@@ -24,7 +24,9 @@ nav{
 }
 img{
   position: relative;
-  top: -29px;
+  width:150px ;
+  height:80px ;
+  top: -19px;
 }
 ul li a{
   position: relative;
@@ -36,10 +38,7 @@ ul li a{
   position: relative;
   top: -30px;
 }
-
 }
-
-
 a img{
 width: 200px;
 height: 100px;
@@ -88,20 +87,20 @@ nav li a:hover::after{
 
 
 button{
-  
-  border: solid 1px red;
-   
+ 
    height: 100px;
    display: none;
    background: none;
    border: none;
    cursor: pointer;
    margin-top: -30px;
+
  }
 .linha{
    position: relative;
    width: 40px;
    height: 5px;
+   border-radius: 15px;
    background-color:#ffffff;
    display:block;
    margin: 10px auto;

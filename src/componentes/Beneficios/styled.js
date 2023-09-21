@@ -8,7 +8,7 @@ position: sticky;
 top: 0;
 left: 0; */
 
-background-color: #ffffff;
+background-color: #eceeee;
 
 
 /* border: solid 3px #00BF3E; */

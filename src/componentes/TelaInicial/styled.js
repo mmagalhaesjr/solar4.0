@@ -40,8 +40,10 @@ flex-direction: column;
   width: 100%;
   height: 50%;
   font-size: 40px;
+  font-weight:700;
   gap:20px;
   margin-top: 100px;
+
   
 
   /* border: solid 3px blue; */
@@ -53,19 +55,21 @@ flex-direction: column;
 button{
   width: 250px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   background-color:#7FCB27 ;
   color: #ffffff;
   font-weight:700;
+  
   &:hover{
      background-color: #00BF3E;
   }
 }
 
+
 #texto2{
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 200px;
 
   /* border: solid 3px orange; */

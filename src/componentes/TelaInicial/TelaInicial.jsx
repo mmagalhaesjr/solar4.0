@@ -22,22 +22,22 @@ export default function TelaInicial() {
                 <div id="texto2">
                     <h2>
                         <span style={{ color: '#ffffff' }}>PROJETOS</span>
-                        <span style={{ color: '#7FCB27' }}> RESIDENCIAIS</span>
+                        <span style={{ color: '#88ff00' }}> RESIDENCIAIS</span>
 
                         <span style={{ color: '#ffffff' }}> |</span>
 
                         <span style={{ color: '#ffffff' }}> PROJETOS EM</span>
-                        <span style={{ color: '#7FCB27' }}> CONDOMÍNIOS</span>
+                        <span style={{ color: '#88ff00' }}> CONDOMÍNIOS</span>
 
                         <span style={{ color: '#ffffff' }}> |</span>
 
                         <span style={{ color: '#ffffff' }}> PROJETOS</span>
-                        <span style={{ color: '#7FCB27' }}> EMPRESARIAIS</span>
+                        <span style={{ color: '#88ff00' }}> EMPRESARIAIS</span>
 
                         <span style={{ color: '#ffffff' }}> |</span>
 
                         <span style={{ color: '#ffffff' }}> PROJETOS</span>
-                        <span style={{ color: '#7FCB27' }}> RURAIS</span>
+                        <span style={{ color: '#88ff00' }}> RURAIS</span>
                     </h2>
                 </div>
             </div>
