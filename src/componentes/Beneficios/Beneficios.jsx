@@ -34,6 +34,7 @@ export default function Beneficios() {
                 onde temos as mais altas tarifas e variações, a energia solar é a solução ideal.&rdquo;</h3>
 
             <div id='button'><button>SOLICITE UM ORÇAMENTO</button></div>
+            
 
         </StyledBeneficios>
     )
