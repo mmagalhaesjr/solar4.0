@@ -1,16 +1,21 @@
 import styled from "styled-components";
 
 export const StyledEnergiasolar = styled.section`
+ background-image: url(src/assets/casa.png);
   width: 100%;
   height: 100vh;
   background-color: #ffffff;
-  background-image: url(src/assets/casa.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+
+  #container{
+   
+  }
+
 
   #titulo {
     font-size: 50px;
@@ -33,8 +38,11 @@ export const StyledEnergiasolar = styled.section`
     height: auto;
   }
 
+ 
+ 
+
   .circulo {
-    background-color: #ffff09;
+    background-color: #00bf3e;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -43,10 +51,12 @@ export const StyledEnergiasolar = styled.section`
     align-items: center;
     justify-content: center;
     position: relative;
+    color: #ffffff;
+    font-weight: 700;
     &:hover {
       background-color: #3c64c4;
       transition: .5s;
-      width: 70px;
+      border-radius: 30%;
       
     }
   }
@@ -58,7 +68,7 @@ export const StyledEnergiasolar = styled.section`
 
   #circulo2 {
     top: 88%;
-    left: 38%;
+    left: 40%;
   }
 
   #circulo3 {
@@ -67,13 +77,13 @@ export const StyledEnergiasolar = styled.section`
   }
 
   #circulo4 {
-    top: 58%;
-    left: 65%;
+    top: 37%;
+    left: 59%;
   }
 
   #circulo5 {
-    top: 70%;
-    left: 8%;
+    top: 60%;
+    left: 23%;
   }
 
   #ContainerInfo {
@@ -81,24 +91,25 @@ export const StyledEnergiasolar = styled.section`
   }
 
   .info {
-    width: 400px;
+    width: 350px;
     height: 200px;
     position: absolute;
     display: none;
-
+    
     border-radius: 7px;
-    background: linear-gradient(90deg, rgba(243,247,245,1) 0%, rgba(215,218,216,0.8828781512605042) 54%);
+    background-color: #ffffffef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
     
     &.info-visible {
       display: block;
-      
-      
     }
   }
-
+  
   .info #img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
   }
 
   .info .imgInfo {
@@ -107,27 +118,27 @@ export const StyledEnergiasolar = styled.section`
 
   #info1 {
     top: -100px;
-    left: 40%;
+    left: 42%;
    
   }
 
   #info2 {
     top: 88%;
-    left: 48%;
+    left: 46%;
   }
 
   #info3 {
     top: 92%;
-    left: 57.5%;
+    left: 55.5%;
   }
 
   #info4 {
     top: 28%;
-    left: 70%;
+    left: 66%;
   }
 
   #info5 {
     top: 70%;
-    left: 18%;
+    left: 30%;
   }
 `;
