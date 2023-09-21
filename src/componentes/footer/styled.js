@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledRodape = styled.footer`
+export const StyledFooter = styled.footer`
 
 background-color: #eceeee;
 height: 250px;

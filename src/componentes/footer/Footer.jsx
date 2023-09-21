@@ -1,16 +1,13 @@
 import logo from '../../assets/logo.png';
-
 import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import {BsFillTelephoneFill } from 'react-icons/Bs';
 
+import { StyledFooter } from "./styled"
 
-
-import { StyledRodape } from "./styled"
-
-export default function Rodape() {  
+export default function Footer() {  
     return (
 
-        <StyledRodape>
+        <StyledFooter>
             <div id="container">
                 <div className="container">
                     <h3>Contato</h3>
@@ -45,7 +42,7 @@ export default function Rodape() {
                 Todos os direitos reservados | Solar 4.0 | Política de Privacidade
             </h6>
             
-        </StyledRodape>
+        </StyledFooter>
 
     )
 }
