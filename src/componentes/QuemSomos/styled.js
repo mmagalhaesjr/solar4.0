@@ -32,7 +32,7 @@ export const StyledQuemSomos = styled.section`
     flex-direction: column;
     justify-content: center;
     color: #004000;
-    border: solid 3px red;
+    
   }
 
   h1 {
@@ -50,7 +50,7 @@ export const StyledQuemSomos = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 3px yellow;
+    border: solid 1px yellow;
 
     z-index: 0; 
   }
@@ -60,14 +60,14 @@ export const StyledQuemSomos = styled.section`
     height: 150px;
     position: relative;
     z-index: 1; 
-    border: solid 3px red;
+    border: solid 1px red;
   }
 
-  #imgsol:nth-child(1){
+  /* #imgsol:nth-child(1){
     z-index: 2;
     top: 110px;
     transition: 1s;
-  }
+  } */
   #imgsol:nth-child(2){
     z-index: 1;
     transition: 1s;

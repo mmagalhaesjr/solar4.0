@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const StyledEnergiasolar = styled.section`
- background-image: url(src/assets/casa.png);
+export const StyledEnergiasolarCasa = styled.section`
+ 
   width: 100%;
   height: 100vh;
   background-color: #ffffff;
@@ -12,8 +12,17 @@ export const StyledEnergiasolar = styled.section`
   text-align: center;
   justify-content: center;
 
+
+
   #container{
-   
+    background-image: url(src/assets/casa.png);
+    position: relative;
+  }
+
+  @media(max-width:1300px){
+    #container{
+      display: none;
+    }
   }
 
 
@@ -73,7 +82,7 @@ export const StyledEnergiasolar = styled.section`
 
   #circulo3 {
     top: 92%;
-    left: 47.5%;
+    left: 48.5%;
   }
 
   #circulo4 {
@@ -142,3 +151,7 @@ export const StyledEnergiasolar = styled.section`
     left: 30%;
   }
 `;
+
+export const StyledEnergiasolar = styled.section`
+
+`

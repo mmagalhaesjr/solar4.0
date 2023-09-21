@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { StyledEnergiasolar } from "./styled";
+import { StyledEnergiasolarCasa } from "./styled";
 import img1 from "../../assets/1.png";
 import img2 from "../../assets/2.png";
 import img3 from "../../assets/3.png";
@@ -20,16 +20,15 @@ export default function Energiasolar() {
     };
 
     return (
-        <StyledEnergiasolar>
+        <StyledEnergiasolarCasa>
+
+            <div id="titulo">
+                <h1>
+                    COMO FUNCIONA A <h2>ENERGIA SOLAR</h2>{" "}
+                </h1>
+            </div>
+
             <div id="container">
-
-                <div id="titulo">
-                    <h1>
-                        COMO FUNCIONA A <h2>ENERGIA SOLAR</h2>{" "}
-                    </h1>
-                </div>
-
-                
 
                 <div
                     className="circulo"
@@ -137,7 +136,10 @@ export default function Energiasolar() {
                     </div>
                 </div>
             </div>
+        </StyledEnergiasolarCasa>
 
-        </StyledEnergiasolar>
+
+
+
     );
 }

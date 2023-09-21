@@ -1,7 +1,7 @@
 import { StyledQuemSomos } from "./styled";
 
 import quemSomos from "../../assets/quemsomos.png"
-import sol1 from "../../assets/luz.png"
+// import sol1 from "../../assets/luz.png"
 import sol2 from "../../assets/cor.png"
 import sol3 from "../../assets/sombra.png"
 
@@ -25,7 +25,7 @@ export default function QuemSomos() {
         </div>
 
         <div id="imgSois">
-          <img id="imgsol" src={sol1} alt="imagem" /* style={{ top: `${scrollY}px` }}*/ />
+          {/* <img id="imgsol" src={sol1} alt="imagem" style={{ top: `${scrollY}px` }} /> */}
           <img id="imgsol" src={sol2} alt="imagem" /* style={{ top: `${scrollY}px` }}*/ />
           <img id="imgsol" src={sol3} alt="imagem" /* style={{ top: `${scrollY}px` }}*/ />
         </div>
