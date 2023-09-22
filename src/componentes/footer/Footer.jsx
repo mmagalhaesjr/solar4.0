@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import {BsFillTelephoneFill } from 'react-icons/bs';
 
@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div className="container">
                     <div className="contInterno" id="endereço" >
-                        <a href="#" className="logo"><img src={logo} alt='logo' /></a>
+                        {/* <a href="#" className="logo"><img src={logo} alt='logo' /></a> */}
                     </div>
                 </div>
             </div>

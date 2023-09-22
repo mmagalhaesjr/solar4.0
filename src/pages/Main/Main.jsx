@@ -12,6 +12,7 @@ import Footer from '../../componentes/Footer/Footer';
 
 
 
+
 export default function Main() {
     return (
         <StyledMain>
