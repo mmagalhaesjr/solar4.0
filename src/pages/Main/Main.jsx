@@ -8,6 +8,9 @@ import Energiasolar from "../../componentes/EnergiaSolar/EnergiaSolar";
 import TelaInicial from "../../componentes/TelaInicial/TelaInicial";
 import NossosProjetos from '../../componentes/NossosProjetos/NossosProjetos';
 import Footer from "../../componentes/Footer/Footer";
+import Mvv from "../../componentes/Mvv/Mvv";
+import Numeros from "../../componentes/Numeros/Numeros";
+import Depoimentos from "../../componentes/Depoimentos/Depoimentos";
 
 
 
@@ -23,10 +26,12 @@ export default function Main() {
             <TelaInicial/>
     
             <QuemSomos />
+            <Mvv/>
             <Energiasolar />
-            <NossosProjetos/>
             <Beneficios />
             <NossosProjetos/>
+            <Numeros/>
+            <Depoimentos/>
             <Footer/>
          
 

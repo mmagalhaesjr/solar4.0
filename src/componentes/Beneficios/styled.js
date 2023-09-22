@@ -4,7 +4,7 @@ export const StyledBeneficios = styled.section`
   width: 100%;
   min-height: 100vh;
 
-  background-color: #eceeee;
+  background-color: #eceeee; 
   display: flex;
   flex-direction: column;
   text-align: center;

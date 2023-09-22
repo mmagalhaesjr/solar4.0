@@ -14,7 +14,7 @@ transition: background-color 0.3s ease-in-out;
   background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
   color: #ffffff;
   height:50px;
-  transition: 2s;
+  transition: 1s;
 
 nav{
   position: absolute;

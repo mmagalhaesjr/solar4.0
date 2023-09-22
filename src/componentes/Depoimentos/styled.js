@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledNossosProjetos = styled.section`
+export const StyledDepoimentos = styled.section`
 width: 100%;
 height: 100vh;
 
@@ -9,7 +9,7 @@ position: sticky;
 top: 0;
 left: 0; */
 
-background-color: #00BF3E; 
+background-color: #00BF3E;  
 
 
 /* border: solid 3px #00BF3E; */

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledNossosProjetos = styled.section`
+export const StyledNumeros = styled.section`
 width: 100%;
 height: 100vh;
 
@@ -9,7 +9,7 @@ position: sticky;
 top: 0;
 left: 0; */
 
-background-color: #00BF3E; 
+background-color: #eceeee;
 
 
 /* border: solid 3px #00BF3E; */
@@ -27,7 +27,7 @@ h1{
   color:#000000 ;
 }
 h2{
-  color:#ffffff ;
+  color:#00BF3E ;
 }
 
 

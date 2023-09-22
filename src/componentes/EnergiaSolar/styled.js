@@ -4,7 +4,7 @@ export const StyledEnergiasolarCasa = styled.section`
  
   width: 100%;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #00BF3E;  
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -15,7 +15,7 @@ export const StyledEnergiasolarCasa = styled.section`
 
 
   #container{
-    background-image: url(src/assets/casa.png);
+    /* background-image: url(src/assets/casa.png); */
     position: relative;
   }
 
@@ -37,7 +37,7 @@ export const StyledEnergiasolarCasa = styled.section`
   }
 
   h2 {
-    color: #00bf3e;
+    color: #ffffff;
   }
 
   #img {
@@ -51,7 +51,7 @@ export const StyledEnergiasolarCasa = styled.section`
  
 
   .circulo {
-    background-color: #00bf3e;
+    background-color: #ffffff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -60,7 +60,7 @@ export const StyledEnergiasolarCasa = styled.section`
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
     &:hover {
       background-color: #3c64c4;
