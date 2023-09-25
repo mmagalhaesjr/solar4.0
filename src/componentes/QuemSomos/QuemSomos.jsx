@@ -1,6 +1,6 @@
 import { StyledQuemSomos } from "./styled";
 
-import quemSomos from "../../assets/quemsomos.png"
+// import quemSomos from "../../assets/quemsomos.png"
 // import sol1 from "../../assets/luz.png"
 import sol2 from "../../assets/cor.png"
 import sol3 from "../../assets/sombra.png"
@@ -10,7 +10,7 @@ export default function QuemSomos() {
 
   return (
     <StyledQuemSomos>
-      <img id="img" src={quemSomos} alt="imagem" />
+      {/* <img id="img" src={quemSomos} alt="imagem" /> */}
 
       <div id="container">
         <div id="texto">

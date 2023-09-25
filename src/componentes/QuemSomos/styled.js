@@ -7,6 +7,10 @@ export const StyledQuemSomos = styled.section`
   position: sticky;
   top: 0;
   left: 0; */
+  /* background-image: url('https://efeitosolar.com/wp-content/uploads/2020/03/efeito-solar-placas-solares-empresa-02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #eceeee;
 
   #img {
     position: absolute;
@@ -32,6 +36,10 @@ export const StyledQuemSomos = styled.section`
     flex-direction: column;
     justify-content: center;
     color: #004000;
+   
+    /* background: radial-gradient(circle, rgba(215,215,215,0.8789566852131477) 0%, rgba(255,255,255,0.8565477216277135) 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius:10px ; */
     
   }
 

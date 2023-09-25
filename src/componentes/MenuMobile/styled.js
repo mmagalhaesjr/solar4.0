@@ -7,6 +7,8 @@ export const StyledMenuMobile = styled.div`
 
     background-color: #00BF3E;
     background: radial-gradient(circle, rgba(4,102,36,1) 0%, rgba(1,126,42,1) 38%, rgba(0,191,62,1) 100%);
+    background: radial-gradient(circle, rgba(250,143,61,0.9389005602240896) 0%, rgba(249,182,94,0.8856792717086834) 29%, rgba(241,232,35,0.8884803921568627) 94%, rgba(241,232,35,0.8884803921568627) 100%);
+    backdrop-filter: blur(10px); 
     position: fixed;
     width: 100%;
     height: 100vh;
