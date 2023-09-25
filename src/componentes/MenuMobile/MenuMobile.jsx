@@ -15,6 +15,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
                 <a onClick={() => setMobileAtivado(false)} href="#servicos">SOLUÇÕES</a>
                 <a onClick={() => setMobileAtivado(false)} href="#planos">PROJETOS</a>
                 <a onClick={() => setMobileAtivado(false)} href="#contato">CONTATO</a>
+                <a onClick={() => setMobileAtivado(false)} href="#contato">SERVIÇOS</a>
                 <a>BLOG</a>
             </nav>
         </StyledMenuMobile>

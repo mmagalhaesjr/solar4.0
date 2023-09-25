@@ -46,6 +46,7 @@ export default function Header() {
                         <li><a href="#">SOBRE NÓS</a></li>
                         <li><a href="#">SOLUÇÕES</a></li>
                         <li><a href="#">PROJETOS</a></li>
+                        <li><a href="#">SERVIÇOS</a></li>
                         <li><a href="#">CONTATO</a></li>
                         <li><a >BLOG</a></li>
                     </ul>

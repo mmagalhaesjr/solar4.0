@@ -42,7 +42,7 @@ nav{
 }
 
  a{
-    font-weight:200;
+    font-weight:700;
     text-decoration: none;
     list-style: none;
     display: block;

@@ -17,6 +17,8 @@ import Funcionamento from "../../componentes/Funcionamento/Funcionamento";
 
 
 
+
+
 export default function Main() {
     return (
         <StyledMain>
@@ -30,8 +32,11 @@ export default function Main() {
             <Funcionamento/>
             <Beneficios />
             <NossosProjetos/>
+            
             <Numeros/>
             <Depoimentos/>
+            
+           
             <Footer/>
          
 
