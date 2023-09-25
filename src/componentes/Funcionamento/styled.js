@@ -34,7 +34,7 @@ h2{
   width: 100%;
   background-image:url(src/assets/casinha_sbol.svg);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 50%;
   background-position: center;
   margin-top: 40px;
 

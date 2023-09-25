@@ -58,7 +58,7 @@ export const StyledQuemSomos = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
 
     z-index: 0; 
   }
@@ -68,7 +68,7 @@ export const StyledQuemSomos = styled.section`
     height: 150px;
     position: relative;
     z-index: 1; 
-    border: solid 1px red;
+    /* border: solid 1px red; */
   }
 
   /* #imgsol:nth-child(1){
