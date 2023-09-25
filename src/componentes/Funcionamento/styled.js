@@ -137,9 +137,18 @@ h2{
     display: none;
   }
   @media (max-width:1300px) {
+    height: 130vh;
     #telaMenor{
       display: block;
     }
+  }
+  @media (max-width:419px) {
+    height: 140vh;
+    
+  }
+  @media (max-width:365px) {
+    height: 160vh;
+    
   }
 #container2{
   width: 100%;
