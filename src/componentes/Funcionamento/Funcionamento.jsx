@@ -78,6 +78,7 @@ export default function Funcionamento() {
                     >
                         5
                     </div>
+                    
                 </div>
 
                 <div id="ContainerInfo">

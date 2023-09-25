@@ -12,7 +12,6 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-
 #titulo{
   font-size: 50px;
   font-weight:700;
@@ -25,25 +24,26 @@ h2{
   color:#ffffff ;
 }
 
-
-
-
-
-#telaMaior{
-  @media (max-width: 1300px) {
+@media (max-width: 1300px) {
+  #telaMaior {
     display: none;
   }
-}
-
-#container{
-    /* background-image: url(src/assets/casa.png); */
-    position: relative;
   }
-  #img {
-    max-height: 100%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+#container{
+  height: 70vh;
+  width: 100%;
+  background-image:url(src/assets/casinha_sbol.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  margin-top: 40px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
   }
   .circulo {
     background-color: #ffffff;
@@ -64,27 +64,28 @@ h2{
     }
   }
   #circulo1 {
-    top: 40%;
-    left: 40%;
+    top: -30%;
+    left: 0%;
   }
   #circulo2 {
-    top: 88%;
-    left: 40%;
+    top: -4%;
+    left: -3%;
   }
   #circulo3 {
-    top: 92%;
-    left: 48.5%;
+    top: 0%;
+    left: 0%;
   }
   #circulo4 {
-    top: 37%;
-    left: 59%;
+    top: 0%;
+    left:7%;
   }
   #circulo5 {
-    top: 60%;
-    left: 23%;
+    top: 15%;
+    left: -30%;
   }
   #ContainerInfo {
     position: relative;
+    top: -400px;
   }
   .info {
     width: 350px;
@@ -98,6 +99,12 @@ h2{
       display: block;
     }
   }
+  #img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
   .info #img {
     width: 40%;
     height: 40%;
@@ -106,8 +113,8 @@ h2{
     margin: 5px;
   }
   #info1 {
-    top: -100px;
-    left: 42%;
+    top: 0%;
+    left: 45%;
   }
   #info2 {
     top: 88%;
@@ -125,19 +132,15 @@ h2{
     top: 70%;
     left: 30%;
   }
-  
-
   //estilo da tela menor-------------------------
   #telaMenor{
     display: none;
   }
-
   @media (max-width:1300px) {
     #telaMenor{
       display: block;
     }
   }
-
 #container2{
   width: 100%;
   display: flex;
@@ -153,13 +156,9 @@ h2{
   background: radial-gradient(circle, rgba(215,215,215,0.891281512605042) 0%, rgba(255,255,255,0.8884803921568627) 100%); ;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius:10px ;
-
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
- 
 }
 .informacao{
   width: 100%;
@@ -168,24 +167,17 @@ h2{
   justify-content: center;
   align-items: center;
   gap: 10px;
-  
 }
-
 h3{
   position: relative;
   top: -30%;
   left: 0%;
   font-size: 1.5rem;
-  
 }
-
 .icone{
   font-size: 50px;
-
 }
 .texto{
-  
   width: 300px;
-
 }
 `
