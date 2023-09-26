@@ -35,13 +35,13 @@ h2{
 /*   
   background-image:url(src/assets/casinha.png);  */
 
-background-image:url('src/assets/casinha_sbol.svg') ;
+background-image:url('https://i.pinimg.com/originals/34/1a/82/341a8223bd4dd153e862c14faa892532.png') ;
 background-size: cover;
 background-repeat: no-repeat;
 
 
   background-repeat: no-repeat;
-  background-size: 55%;
+  background-size: 50%;
   background-position: center;
   margin-top: 40px;
 
