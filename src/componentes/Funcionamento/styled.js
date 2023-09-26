@@ -104,6 +104,7 @@ background-repeat: no-repeat;
     display: none;
     border-radius: 7px;
     background-color: #ffffffef;
+    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     &.info-visible {
       display: block;
@@ -114,6 +115,10 @@ background-repeat: no-repeat;
     max-width: 100%;
     width: auto;
     height: auto;
+    margin-top: 20px;
+  }
+  #info5 img{
+    margin-top: 10px;
   }
   .info #img {
     width: 40%;
