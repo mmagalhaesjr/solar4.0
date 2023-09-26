@@ -10,35 +10,7 @@ position: fixed;
 z-index: 8;
 transition: background-color 0.3s ease-in-out;
 
-&.rolagem {
-  background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
-  color: #ffffff;
-  height:50px;
-  transition: 1s;
 
-nav{
-  position: absolute;
-  height: 60px;
-  width: 100%;
-  display: flex;
-}
-img{
-  position: relative;
-  width:150px ;
-  height:80px ;
-  top: -19px;
-}
-ul li a{
-  position: relative;
-  top: -50px;
-  font-weight: 400;
-}
-
-.linha{
-  position: relative;
-  top: -30px;
-}
-}
 a img{
 width: 200px;
 height: 100px;
@@ -47,7 +19,10 @@ height: 100px;
 ul{
     margin-top: 50px;
     display: flex;
-    gap: 70px; 
+    width: 70%;
+    gap: 10px; 
+    white-space: nowrap;
+    /* border: solid 1px red; */
 }
 
 
@@ -122,6 +97,36 @@ nav li a:hover::after{
 }
 .dropdown ul li a:hover{
   background: rgba(59, 234, 11, 0.5); 
+}
+
+&.rolagem {
+  background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
+  color: #ffffff;
+  height:50px;
+  transition: 1s;
+
+nav{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+img{
+  position: relative;
+  width:150px ;
+  height:80px ;
+  top: -19px;
+}
+ul li a{
+  position: relative;
+  top: -50px;
+  font-weight: 400;
+}
+
+.linha{
+  position: relative;
+  top: -30px;
+}
 }
 
 button{

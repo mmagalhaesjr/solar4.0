@@ -34,8 +34,8 @@ export default function Header() {
     return (
         <>
             <MenuMobile
-                mobileAtivado={mobileAtivado}
-                setMobileAtivado={setMobileAtivado} />
+                mobileAtivado={mobileAtivado} setMobileAtivado={setMobileAtivado} />
+                
 
             <StyledHeader mobile={mobileAtivado} id="header" className={scrollY > 100 ? 'rolagem' : ''}>
 

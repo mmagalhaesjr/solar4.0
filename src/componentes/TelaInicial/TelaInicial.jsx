@@ -26,11 +26,6 @@ export default function TelaInicial() {
 
                         <span style={{ color: '#ffffff' }}> |</span>
 
-                        <span style={{ color: '#ffffff' }}> PROJETOS EM</span>
-                        <span style={{ color: '#88ff00' }}> CONDOMÍNIOS</span>
-
-                        <span style={{ color: '#ffffff' }}> |</span>
-
                         <span style={{ color: '#ffffff' }}> PROJETOS</span>
                         <span style={{ color: '#88ff00' }}> EMPRESARIAIS</span>
 
