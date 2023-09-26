@@ -32,7 +32,14 @@ h2{
 #container{
   height: 70vh;
   width: 100%;
-  background-image:url(src/assets/casinha.png); 
+/*   
+  background-image:url(src/assets/casinha.png);  */
+
+  background-image:url('https://windmar.com/wp-content/uploads/2020/02/shutterstock_306298271-scaled.jpg') ;
+background-size: cover;
+background-repeat: no-repeat;
+
+
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;

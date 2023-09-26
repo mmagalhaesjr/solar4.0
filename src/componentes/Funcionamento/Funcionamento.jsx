@@ -36,7 +36,9 @@ export default function Funcionamento() {
             </div>
 
             <section id="telaMaior">
-                <div id="container">
+                <div id="container" >
+
+                   
 
                     <div
                         className="circulo"
@@ -78,7 +80,7 @@ export default function Funcionamento() {
                     >
                         5
                     </div>
-                    
+
                 </div>
 
                 <div id="ContainerInfo">
