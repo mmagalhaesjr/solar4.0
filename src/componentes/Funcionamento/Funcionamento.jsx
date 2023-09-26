@@ -88,7 +88,7 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img5} alt="imagem" />
                         <div className="imgInfo">
-                            <p>Painéis fotovoltaicos: Captam a energia do sol</p>
+                            <p><h3>Painéis fotovoltaicos </h3>Captam a energia do sol</p>
                         </div>
                     </div>
 
@@ -99,7 +99,7 @@ export default function Funcionamento() {
                         <img id="img" src={img2} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                Medidor bidirecional: Registra a energia que está sendo fornecida à
+                                <h3>Medidor bidirecional</h3> Registra a energia que está sendo fornecida à
                                 rede e a que está sendo utilizada.
                             </p>
                         </div>
@@ -112,7 +112,7 @@ export default function Funcionamento() {
                         <img id="img" src={img3} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                Inversor: A energia é transformada pelo inversor e inserida na rede
+                                <h3>Inversor</h3>A energia é transformada pelo inversor e inserida na rede
                                 elétrica local.
                             </p>
                         </div>
@@ -125,7 +125,7 @@ export default function Funcionamento() {
                         <img id="img" src={img1} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                Taxa mínima: Você paga apenas a taxa mínima pelo uso da rede ou a
+                                <h3>Taxa mínima</h3> Você paga apenas a taxa mínima pelo uso da rede ou a
                                 diferença entre o consumo total e a energia injetada.
                             </p>
                         </div>
@@ -138,7 +138,7 @@ export default function Funcionamento() {
                         <img id="img" src={img4} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                Energia: Caso o seu sistema produza mais energia do que você
+                                <h3>Energia</h3> Caso o seu sistema produza mais energia do que você
                                 consome, o excesso é convertido em créditos que podem ser
                                 transferidos para outras contas em seu nome.
                             </p>

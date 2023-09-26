@@ -42,7 +42,7 @@ flex-direction: column;
   font-size: 40px;
   font-weight:700;
   gap:20px;
-  margin-top: 100px;
+  margin-top: 220px;
 
   
 
@@ -70,7 +70,7 @@ button{
 #texto2{
   text-align: center;
   font-weight: 700;
-  margin-top: 200px;
+  margin-top: 70px;
 
   /* border: solid 3px orange; */
 } 

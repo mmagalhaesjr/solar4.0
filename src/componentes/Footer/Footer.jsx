@@ -12,7 +12,7 @@ export default function Footer() {
             <div id="container">
                 <div className="container">
                     <h3>Contato</h3>
-                    <div className="contInterno" id="endereço" >
+                    <div className="contInterno" id="endereco" >
                         <div className="icones">
                             <BsFillTelephoneFill /> <p>(32) 99999999</p>
                         </div>

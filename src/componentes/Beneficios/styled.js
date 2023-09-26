@@ -3,8 +3,7 @@ import styled from 'styled-components';
 export const StyledBeneficios = styled.section`
   width: 100%;
   min-height: 100vh;
-
-  background-color: #eceeee; 
+  background-color: #eceeee;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -26,16 +25,18 @@ export const StyledBeneficios = styled.section`
 
   #ContainerIcones {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 9rem;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    word-wrap: break-word;
+    gap: 0px;
+    margin-top: 7rem;
   }
 
   .divIcone {
-    
+    margin-top: 30px;
+    flex: 1;
+    max-width: 240px; /* Define a max width for each icon container */
   }
 
   .icone {
@@ -46,12 +47,13 @@ export const StyledBeneficios = styled.section`
     font-size: 1rem;
     margin-top: 1rem;
     color: #839b75;
+    color: #000000;
   }
 
   h3 {
     margin-top: 10rem;
     color: #839b75;
-    
+    color: #000000;
   }
 
   button {
@@ -71,7 +73,13 @@ export const StyledBeneficios = styled.section`
 
   @media (max-width: 1000px) {
     #ContainerIcones {
-      grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Stack icons vertically on smaller screens */
+    }
+
+    .divIcone {
+      margin-top: 20px; /* Adjust spacing between icons */
+      max-width: 100%; /* Make icons take full width on smaller screens */
     }
 
     .icone {
@@ -82,6 +90,4 @@ export const StyledBeneficios = styled.section`
       font-size: 0.875rem;
     }
   }
-
-  
 `;

@@ -6,12 +6,14 @@ export default function Mvv() {
         <StyledMvv>
             <div id="container">
                 <div className="card">
-                    <h1>MISÃO</h1>
+                    <h1>MISSÃO</h1>
                     <div className="texto">
                         <p>
-                        Prover soluções de alta qualidade em energia solar,
-                        assegurando a satisfação dos clientes e
-                        contribuindo para o desenvolvimento sustentável.
+                            Empoderar nossos clientes para terem autonomia
+                            e controle sobre sua energia elétrica utilizando fontes de
+                            energia renováveis como uma forma de investimento
+                            para reduzir custos e colaborar para o desenvolvimento
+                            sustentável do planeta.
                         </p>
                     </div>
                 </div>
@@ -19,9 +21,9 @@ export default function Mvv() {
                     <h1>VISÃO</h1>
                     <div className="texto">
                         <p>
-                        Fortalecer a marca em qualidade, eficiência operacional e
-                        pós-venda, consolidando a empresa como referência nacional
-                        em soluções de energia solar até 2024.
+                            Ser a principal referência em gestão de energia elétrica
+                            para o agronegócio na Região Sudeste oferecendo serviços inovadores,
+                            personalizados e confiáveis.
                         </p>
                     </div>
                 </div>
@@ -29,9 +31,11 @@ export default function Mvv() {
                     <h1>VALORES</h1>
                     <div className="texto">
                         <p>
-                        Elevado padrão de ética, contínua responsabilidade corporativa, ambiente de respeito e
-                        valorização das pessoas, com a satisfação de clientes,
-                        funcionários, fornecedores e investidores.
+                            Comprometimento,
+                            Ética,
+                            Sustentabilidade,
+                            Excelência no atendimento,
+                            Qualidade.
                         </p>
                     </div>
                 </div>

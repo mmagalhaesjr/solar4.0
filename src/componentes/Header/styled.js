@@ -85,6 +85,44 @@ nav li a:hover::after{
     transition: .5s;
 }
 
+/* DROP*/
+
+.submenu {
+    display: none;
+    position: relative;
+    top: 50px;
+    left: 730px;
+    width: 200px; 
+    z-index: 1;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    li a::after{
+      display: none;
+      
+    }
+    background-color: transparent;
+    margin-top: 55px;
+}
+
+.submenu li {
+    display: block;
+}
+
+
+.dropdown ul li a{
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+.dropdown ul li a:hover{
+  background: rgba(59, 234, 11, 0.5); 
+}
 
 button{
  
@@ -139,6 +177,38 @@ ${({ mobile }) => mobile && css`
    }
  }
 
+
+
+ /* DROP*/
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 40px;
+    left: 730px;
+    width: 200px; 
+    z-index: 1;
+
+
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background-color: #555;
+}
 
 
 `

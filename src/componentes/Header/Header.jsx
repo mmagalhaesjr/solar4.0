@@ -13,13 +13,13 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
-          window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
-      }, []);
-    
-      const handleScroll = () => {
+    }, []);
+
+    const handleScroll = () => {
         setScrollY(window.scrollY);
-      };
+    };
 
     const [mobileAtivado, setMobileAtivado] = useState(false);
     const mobile = () => {
@@ -36,8 +36,8 @@ export default function Header() {
             <MenuMobile
                 mobileAtivado={mobileAtivado}
                 setMobileAtivado={setMobileAtivado} />
-                
-            <StyledHeader mobile={mobileAtivado} id="header" className={scrollY > 100  ? 'rolagem' : ''}>
+
+            <StyledHeader mobile={mobileAtivado} id="header" className={scrollY > 100 ? 'rolagem' : ''}>
 
                 <nav>
                     <a href="/" ><img src={logo} alt='logo' /></a>
@@ -45,8 +45,17 @@ export default function Header() {
                     <ul className="nav-list">
                         <li><a href="#">SOBRE NÓS</a></li>
                         <li><a href="#">SOLUÇÕES</a></li>
-                        <li><a href="#">PROJETOS</a></li>
-                        <li><a href="#">SERVIÇOS</a></li>
+                        {/* <li><a href="#">SERVIÇOS</a></li> */}
+
+                        <li className="dropdown">
+                            <a href="#">SERVIÇOS</a>
+                            <ul className="submenu">
+                                <li><a href="#">INSTALAÇÕES</a></li>
+                                <li><a href="#">OPERAÇÃO/MANUTENÇÃO</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#">ORÇAMENTO</a></li>
                         <li><a href="#">CONTATO</a></li>
                         <li><a >BLOG</a></li>
                     </ul>
