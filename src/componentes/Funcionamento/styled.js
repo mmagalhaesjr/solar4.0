@@ -35,7 +35,10 @@ h2{
 /*   
   background-image:url(src/assets/casinha.png);  */
 
-background-image:url('https://i.pinimg.com/originals/34/1a/82/341a8223bd4dd153e862c14faa892532.png') ;
+background-image:url('https://energyunlimited.com.mx/wp-content/uploads/2022/11/como-funciona-panel-solar.png') ;
+background-image:url('https://efeitosolar.com/wp-content/uploads/2020/03/efeito-solar-funcionamento-energia-solar-001.png') ;
+background-image:url('https://th.bing.com/th/id/R.42b312917c353b788856a3e9ae1df783?rik=NBuYpBBDyr5Fqg&riu=http%3a%2f%2fbluesol.com.br%2fwp-content%2fuploads%2f2016%2f11%2fimagem-2.png&ehk=ACoCTghZt6U5uPP3aG3NQrH0to5icqxizyFA10KqVqU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1') ;
+
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -75,20 +78,20 @@ background-repeat: no-repeat;
     left: 0%;
   }
   #circulo2 {
-    top: -4%;
-    left: -3%;
+    top: 20%;
+    left: 18%;
   }
   #circulo3 {
-    top: 0%;
-    left: 0%;
+    top: 20%;
+    left: -15%;
   }
   #circulo4 {
-    top: 0%;
-    left:7%;
+    top: 20%;
+    left:0%;
   }
   #circulo5 {
-    top: 15%;
-    left: -30%;
+    top: -25%;
+    left: 15%;
   }
   #ContainerInfo {
     position: relative;
@@ -128,16 +131,16 @@ background-repeat: no-repeat;
     left: 46%;
   }
   #info3 {
-    top: 92%;
-    left: 55.5%;
+    top: 20%;
+    left: 15%;
   }
   #info4 {
     top: 28%;
-    left: 66%;
+    left: 55%;
   }
   #info5 {
     top: 70%;
-    left: 30%;
+    left: 45%;
   }
   //estilo da tela menor-------------------------
   #telaMenor{
