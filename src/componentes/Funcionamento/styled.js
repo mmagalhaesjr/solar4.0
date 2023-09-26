@@ -35,13 +35,13 @@ h2{
 /*   
   background-image:url(src/assets/casinha.png);  */
 
-  background-image:url('https://windmar.com/wp-content/uploads/2020/02/shutterstock_306298271-scaled.jpg') ;
+background-image:url('src/assets/casinha_sbol.svg') ;
 background-size: cover;
 background-repeat: no-repeat;
 
 
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 55%;
   background-position: center;
   margin-top: 40px;
 
