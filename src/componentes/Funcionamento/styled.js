@@ -32,9 +32,9 @@ h2{
 #container{
   height: 70vh;
   width: 100%;
-  background-image:url(src/assets/casinha_sbol.svg); 
+  background-image:url(src/assets/casinha.png); 
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 70%;
   background-position: center;
   margin-top: 40px;
 
