@@ -26,7 +26,7 @@ background-repeat: no-repeat;
 }
 .card{
   width: 25%;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,13 +37,16 @@ background-repeat: no-repeat;
   border-radius:10px ;
 }
 .texto{
-  width: 70%;
+  width: 80%;
   height: 11rem;
   font-size: 1.5rem;
-  margin-top: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
 }
 h1{
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 700;
   color: #004000;
 }

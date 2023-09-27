@@ -31,10 +31,10 @@ export default function Mvv() {
                     <h1>VALORES</h1>
                     <div className="texto">
                         <p>
-                            Comprometimento,
-                            Ética,
-                            Sustentabilidade,
-                            Excelência no atendimento,
+                            Comprometimento,<br />
+                            Ética,<br />
+                            Sustentabilidade,<br />
+                            Excelência no atendimento,<br />
                             Qualidade.
                         </p>
                     </div>
