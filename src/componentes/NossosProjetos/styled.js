@@ -23,12 +23,7 @@ text-align: center;
   font-weight:700;
   margin-top: 80px;
 }
-#titulo2{
-  font-size: 50px;
-  font-weight:700;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 h1{
   color:#000000 ;
 }
@@ -36,27 +31,13 @@ h2{
   color:#ffffff ;
 }
 
-
-#container{
+#projetos{
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#texto{
-  width: 60%;
-  font-size: 22px;
-}
-
-span{
-  font-weight: 700;
-}
-#projetos{
-  display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   width: 100%;
+
+  flex-wrap: wrap;
 }
 .projetos{
   width: 350px;
