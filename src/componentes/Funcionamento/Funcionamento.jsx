@@ -6,6 +6,7 @@ import img2 from "../../assets/2.png";
 import img3 from "../../assets/3.png";
 import img4 from "../../assets/4.png";
 import img5 from "../../assets/5.png";
+import img6 from "../../assets/6.png"
 
 import { TbSolarPanel } from 'react-icons/tb';
 import { MdModelTraining } from 'react-icons/md';
@@ -38,7 +39,7 @@ export default function Funcionamento() {
             <section id="telaMaior">
                 <div id="container" >
 
-                   
+
 
                     <div
                         className="circulo"
@@ -54,7 +55,7 @@ export default function Funcionamento() {
                         onMouseEnter={() => handleCircleMouseEnter("info2")}
                         onMouseLeave={handleCircleMouseLeave}
                     >
-                        3
+                        2
                     </div>
                     <div
                         className="circulo"
@@ -62,8 +63,9 @@ export default function Funcionamento() {
                         onMouseEnter={() => handleCircleMouseEnter("info3")}
                         onMouseLeave={handleCircleMouseLeave}
                     >
-                        2
+                        3
                     </div>
+                   
                     <div
                         className="circulo"
                         id="circulo4"
@@ -88,17 +90,21 @@ export default function Funcionamento() {
                     >
                         6
                     </div>
-
                 </div>
 
+
+
+
+
                 <div id="ContainerInfo">
+
                     <div
                         id="info1"
                         className={`info ${infoVisible === "info1" ? "info-visible" : ""}`}
                     >
-                        <img id="img" src={img5} alt="imagem" />
+                        <img id="img" src={img1} alt="imagem" />
                         <div className="imgInfo">
-                            <p><h3>Painéis fotovoltaicos </h3>Captam a energia do sol</p>
+                            <p><h3>Painéis</h3>Captam a energia do sol</p>
                         </div>
                     </div>
 
@@ -109,8 +115,7 @@ export default function Funcionamento() {
                         <img id="img" src={img2} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                <h3>Medidor bidirecional</h3> Registra a energia que está sendo fornecida à
-                                rede e a que está sendo utilizada.
+                                <h3>Inversor</h3>A energia é transformada e inserida na rede elétrica local.
                             </p>
                         </div>
                     </div>
@@ -122,8 +127,8 @@ export default function Funcionamento() {
                         <img id="img" src={img3} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                <h3>Inversor</h3>A energia é transformada pelo inversor e inserida na rede
-                                elétrica local.
+                                <h3>Quadro de luz</h3>A energia solar é enviada para o quadro de luz e distribuída para a casa ou empresa.
+
                             </p>
                         </div>
                     </div>
@@ -132,11 +137,12 @@ export default function Funcionamento() {
                         id="info4"
                         className={`info ${infoVisible === "info4" ? "info-visible" : ""}`}
                     >
-                        <img id="img" src={img1} alt="imagem" />
+                        <img id="img" src={img4} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                <h3>Taxa mínima</h3> Você paga apenas a taxa mínima pelo uso da rede ou a
-                                diferença entre o consumo total e a energia injetada.
+                            
+                                <h3>Medidor bidirecional</h3>O relógio de luz bidirecional registra o seu consumo de energia fornecido à rede.
+                           
                             </p>
                         </div>
                     </div>
@@ -145,12 +151,22 @@ export default function Funcionamento() {
                         id="info5"
                         className={`info ${infoVisible === "info5" ? "info-visible" : ""}`}
                     >
-                        <img id="img" src={img4} alt="imagem" />
+                        <img id="img" src={img5} alt="imagem" />
                         <div className="imgInfo">
                             <p>
-                                <h3>Energia</h3> Caso o seu sistema produza mais energia do que você
-                                consome, o excesso é convertido em créditos que podem ser
-                                transferidos para outras contas em seu nome.
+                            <h3>Energia</h3>O excesso de energia vai para a rede da distribuidora, gerando créditos!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        id="info6"
+                        className={`info ${infoVisible === "info6" ? "info-visible" : ""}`}
+                    >
+                        <img id="img" src={img6} alt="imagem" />
+                        <div className="imgInfo">
+                            <p>
+                            <h3>Taxa mínima</h3> você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!
                             </p>
                         </div>
                     </div>

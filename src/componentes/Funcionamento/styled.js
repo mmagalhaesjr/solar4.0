@@ -52,9 +52,8 @@ background-repeat: no-repeat;
     text-align: center;
     align-items: center;
     justify-content: center;
-
-
   }
+
   .circulo {
     background-color: #ffffff;
     width: 60px;
@@ -79,26 +78,26 @@ background-repeat: no-repeat;
   }
   #circulo2 {
     top: 20%;
-    left: 20%;
+    left: -13%;
   }
   #circulo3 {
     top: 20%;
-    left: -13%;
-  }
-  #circulo4 {
-    top: 20%;
     left:0%;
   }
+  #circulo4 {
+   
+    top: -15%;
+    left: 35%;
+  }
   #circulo5 {
-    top: -25%;
-    left: 15%;
+    top: 20%;
+    left: 23%;
   }
   #circulo6 {
     top: -20%;
     left: 10%;
   }
 
-  
   #ContainerInfo {
     position: relative;
     top: -400px;
@@ -146,7 +145,7 @@ background-repeat: no-repeat;
     left: 15%;
   }
   #info4 {
-    top: 28%;
+    top: 38%;
     left: 55%;
   }
   #info5 {

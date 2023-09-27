@@ -93,7 +93,6 @@ nav li a:hover::after{
 .dropSolucoes .submenuSolucoes {
     display: none;
     position: absolute;
-    background-color: #333;
     top: 40px;
     left: 680px; 
     width: 200px;
@@ -104,19 +103,23 @@ nav li a:hover::after{
 
 .dropSolucoes:hover .submenuSolucoes {
     display: block;
+    
     li a::after{
       display: none;
     }
+    
     background-color: transparent;
     margin-top: 55px;
 }
 
 .dropSolucoes .submenuSolucoes li {
     display: block;
+    
 }
 
 .dropSolucoes .submenuSolucoes li a {
-  color: #ffffff;
+  
+  color: #000000;
     background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(10px); 
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
@@ -124,6 +127,7 @@ nav li a:hover::after{
 }
 
 .dropSolucoes .submenuSolucoes li a:hover {
+  color: #ffffff;
   background: rgba(59, 234, 11, 0.5); 
 }
 
@@ -153,26 +157,24 @@ nav li a:hover::after{
     display: block;
 }
 .dropServicos ul li a{
-    color: #ffffff;
+    color: #000000;
     background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(10px); 
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
     text-decoration: none;
 }
 .dropServicos ul li a:hover{
+  color: #ffffff;
   background: rgba(59, 234, 11, 0.5); 
 }
 
-
 button{
- 
    height: 100px;
    display: none;
    background: none;
    border: none;
    cursor: pointer;
    margin-top: -35px;
-
  }
 .linha{
    position: relative;
@@ -217,8 +219,6 @@ ${({ mobile }) => mobile && css`
    }
  }
 
-
-
  /* DROP*/
 .submenu {
     display: none;
@@ -228,8 +228,6 @@ ${({ mobile }) => mobile && css`
     left: 730px;
     width: 200px; 
     z-index: 1;
-
-
 }
 
 .dropdown:hover .submenu {
