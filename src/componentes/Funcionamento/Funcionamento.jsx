@@ -54,7 +54,7 @@ export default function Funcionamento() {
                         onMouseEnter={() => handleCircleMouseEnter("info2")}
                         onMouseLeave={handleCircleMouseLeave}
                     >
-                        2
+                        3
                     </div>
                     <div
                         className="circulo"
@@ -62,7 +62,7 @@ export default function Funcionamento() {
                         onMouseEnter={() => handleCircleMouseEnter("info3")}
                         onMouseLeave={handleCircleMouseLeave}
                     >
-                        3
+                        2
                     </div>
                     <div
                         className="circulo"
@@ -79,6 +79,14 @@ export default function Funcionamento() {
                         onMouseLeave={handleCircleMouseLeave}
                     >
                         5
+                    </div>
+                    <div
+                        className="circulo"
+                        id="circulo6"
+                        onMouseEnter={() => handleCircleMouseEnter("info6")}
+                        onMouseLeave={handleCircleMouseLeave}
+                    >
+                        6
                     </div>
 
                 </div>

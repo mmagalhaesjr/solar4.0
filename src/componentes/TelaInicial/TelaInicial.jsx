@@ -27,12 +27,17 @@ export default function TelaInicial() {
                         <span style={{ color: '#ffffff' }}> |</span>
 
                         <span style={{ color: '#ffffff' }}> PROJETOS</span>
-                        <span style={{ color: '#88ff00' }}> EMPRESARIAIS</span>
+                        <span style={{ color: '#88ff00' }}> COMERCIAL</span>
 
                         <span style={{ color: '#ffffff' }}> |</span>
 
                         <span style={{ color: '#ffffff' }}> PROJETOS</span>
-                        <span style={{ color: '#88ff00' }}> RURAIS</span>
+                        <span style={{ color: '#88ff00' }}> INDUSTRIAL</span>
+
+                        <span style={{ color: '#ffffff' }}> |</span>
+
+                        <span style={{ color: '#ffffff' }}> PROJETOS</span>
+                        <span style={{ color: '#88ff00' }}> RURAL</span>
                     </h2>
                 </div>
             </div>

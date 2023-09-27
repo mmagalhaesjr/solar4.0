@@ -1,11 +1,7 @@
-import logo from '../../assets/logo.png';
 import { useState, useEffect } from "react";
+import logo from '../../assets/logo.png';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledHeader } from './styled';
-
-
-//import Form from "../../componentes/Form/Form";
-
 
 export default function Header() {
     const [scrollY, setScrollY] = useState(0);
@@ -22,45 +18,57 @@ export default function Header() {
     };
 
     const [mobileAtivado, setMobileAtivado] = useState(false);
+
     const mobile = () => {
-        setMobileAtivado(!mobileAtivado)
-    }
+        setMobileAtivado(!mobileAtivado);
+    };
 
     useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
-    }, [mobileAtivado])
-
+    }, [mobileAtivado]);
 
     return (
         <>
             <MenuMobile
-                mobileAtivado={mobileAtivado} setMobileAtivado={setMobileAtivado} />
-                
+                mobileAtivado={mobileAtivado}
+                setMobileAtivado={setMobileAtivado}
+            />
 
-            <StyledHeader mobile={mobileAtivado} id="header" className={scrollY > 100 ? 'rolagem' : ''}>
-
+            <StyledHeader
+                mobile={mobileAtivado}
+                id="header"
+                className={scrollY > 100 ? 'rolagem' : ''}
+            >
                 <nav>
-                    <a href="/" ><img src={logo} alt='logo' /></a>
-
+                    <a href="/">
+                        <img src={logo} alt='logo' />
+                    </a>
                     <ul className="nav-list">
                         <li><a href="#">SOBRE NÓS</a></li>
-                        <li><a href="#">SOLUÇÕES</a></li>
-                        {/* <li><a href="#">SERVIÇOS</a></li> */}
 
-                        <li className="dropdown">
+                        <li className="dropSolucoes">
+                            <a href="#">SOLUÇÕES</a>
+                            <ul className="submenuSolucoes">
+                                <li><a href="#">RESIDENCIAL</a></li>
+                                <li><a href="#">COMERCIAL</a></li>
+                                <li><a href="#">RESIDENCIAL</a></li>
+                                <li><a href="#">RURAL</a></li>
+                            </ul>
+                        </li>
+
+                        <li className="dropServicos">
                             <a href="#">SERVIÇOS</a>
-                            <ul className="submenu">
-                                <li><a href="#">INSTALAÇÕES</a></li>
+                            <ul className="submenuServicos">
+                                <li><a href="#">VENDAS E INSTALAÇÕES</a></li>
                                 <li><a href="#">OPERAÇÃO/MANUTENÇÃO</a></li>
                             </ul>
                         </li>
-                        
+
                         <li><a href="#">ORÇAMENTO</a></li>
                         <li><a href="#">CONTATO</a></li>
                         <li><a >BLOG</a></li>
                     </ul>
-
-                    <button onClick={mobile}  >
+                    <button onClick={mobile}>
                         <span className='linha'></span>
                         <span className='linha'></span>
                         <span className='linha'></span>
@@ -68,5 +76,5 @@ export default function Header() {
                 </nav>
             </StyledHeader>
         </>
-    )
+    );
 }

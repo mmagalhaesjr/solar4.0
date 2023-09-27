@@ -79,11 +79,11 @@ background-repeat: no-repeat;
   }
   #circulo2 {
     top: 20%;
-    left: 18%;
+    left: 20%;
   }
   #circulo3 {
     top: 20%;
-    left: -15%;
+    left: -13%;
   }
   #circulo4 {
     top: 20%;
@@ -93,6 +93,12 @@ background-repeat: no-repeat;
     top: -25%;
     left: 15%;
   }
+  #circulo6 {
+    top: -20%;
+    left: 10%;
+  }
+
+  
   #ContainerInfo {
     position: relative;
     top: -400px;
@@ -104,8 +110,8 @@ background-repeat: no-repeat;
     display: none;
     border-radius: 7px;
     background-color: #ffffffef;
-    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
     &.info-visible {
       display: block;
     }
