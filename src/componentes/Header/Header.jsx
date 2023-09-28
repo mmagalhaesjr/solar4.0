@@ -27,6 +27,39 @@ export default function Header() {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
     }, [mobileAtivado]);
 
+
+
+    const blog = () => {
+        window.open('/blog', "_blank");
+    };
+    const orcamento = () => {
+        window.open('/orcamento', "_blank");
+    };
+    const residencial = () => {
+        window.open('/projetoResidencial', "_blank");
+    };
+    const comercial = () => {
+        window.open('/projetoComercial', "_blank");
+    };
+    const industrial = () => {
+        window.open('/projetoIndustrial', "_blank");
+    };
+    const rural = () => {
+        window.open('/projetoRural', "_blank");
+    };
+    const solucoes = () => {
+        window.open('/solucoes', "_blank");
+    };
+    const servicos = () => {
+        window.open('/servicos', "_blank");
+    };
+    const opm = () => {
+        window.open('/opm', "_blank");
+    };
+    const vi = () => {
+        window.open('/vi', "_blank");
+    };
+
     return (
         <>
             <MenuMobile
@@ -47,26 +80,26 @@ export default function Header() {
                         <li><a href="#">SOBRE NÓS</a></li>
 
                         <li className="dropSolucoes">
-                            <a href="#">SOLUÇÕES</a>
+                            <a onClick={solucoes}>SOLUÇÕES</a>
                             <ul className="submenuSolucoes">
-                                <li><a href="#">RESIDENCIAL</a></li>
-                                <li><a href="#">COMERCIAL</a></li>
-                                <li><a href="#">RESIDENCIAL</a></li>
-                                <li><a href="#">RURAL</a></li>
+                                <li><a onClick={residencial}>RESIDENCIAL</a></li>
+                                <li><a onClick={comercial} >COMERCIAL</a></li>
+                                <li><a onClick={industrial}>INDUSTRIAL</a></li>
+                                <li><a onClick={rural}>RURAL</a></li>
                             </ul>
                         </li>
 
                         <li className="dropServicos">
-                            <a href="#">SERVIÇOS</a>
+                            <a onClick={servicos}>SERVIÇOS</a>
                             <ul className="submenuServicos">
-                                <li><a href="#">VENDAS E INSTALAÇÕES</a></li>
-                                <li><a href="#">OPERAÇÃO/MANUTENÇÃO</a></li>
+                                <li><a onClick={vi} >VENDAS E INSTALAÇÕES</a></li>
+                                <li><a onClick={opm} >OPERAÇÃO/MANUTENÇÃO</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="#">ORÇAMENTO</a></li>
+                        <li><a onClick={orcamento} >ORÇAMENTO</a></li>
                         <li><a href="#">CONTATO</a></li>
-                        <li><a >BLOG</a></li>
+                        <li><a onClick={blog}  >BLOG</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledServicos = styled.section`
+export const StyledTeste = styled.section`
 width: 100%;
 height: 100vh;
 
@@ -9,9 +9,8 @@ position: sticky;
 top: 0;
 left: 0; */
 
-
-background-color: #eceeee; 
-background-color: #00BF3E;  
+background-color: #00BF3E; 
+/* background-color: #eceeee;  */
 
 
 
@@ -29,7 +28,7 @@ h1{
   color:#000000 ;
 }
 h2{
-  color:#000000 ;
+  color: #ffffff ;
 }
 
 
