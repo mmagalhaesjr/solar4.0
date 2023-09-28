@@ -44,7 +44,7 @@ export default function Header() {
                         <img src={logo} alt='logo' />
                     </a>
                     <ul className="nav-list">
-                        <li><a href="#">SOBRE NÓS</a></li>
+                        <li><a href="#quemSomos">SOBRE NÓS</a></li>
 
                         <li className="dropSolucoes">
                             <a href="/solucoes">SOLUÇÕES</a>

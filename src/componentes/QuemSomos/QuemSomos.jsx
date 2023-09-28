@@ -9,7 +9,7 @@ export default function QuemSomos() {
   
 
   return (
-    <StyledQuemSomos>
+    <StyledQuemSomos id="quemSomos">
       {/* <img id="img" src={quemSomos} alt="imagem" /> */}
 
       <div id="container">

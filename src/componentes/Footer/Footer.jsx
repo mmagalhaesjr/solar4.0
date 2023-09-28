@@ -14,7 +14,9 @@ export default function Footer() {
                     <h3>Contato</h3>
                     <div className="contInterno" id="endereco" >
                         <div className="icones">
-                            <BsFillTelephoneFill /> <p>(31)99774-9508 </p>
+                            <BsFillTelephoneFill /> BH <p>(31)99774-9508 </p>
+                            
+                            
                         </div>
                         <div className="icones" >
                             <AiOutlineMail /><p>Solar@gmail.com</p>
