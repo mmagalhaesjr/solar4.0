@@ -1,12 +1,12 @@
-import { StyledTeste } from "./styled";
+import { StyledOrcamento } from "./styled";
 
 
-export default function Teste() {
+export default function Orcamento() {
     return(
-        <StyledTeste>    
+        <StyledOrcamento>    
         <div id="titulo">
             <h1>LANDING <h2>PAGE</h2></h1>
         </div>
-        </StyledTeste>
+        </StyledOrcamento>
     )
 }

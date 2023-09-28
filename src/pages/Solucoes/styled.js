@@ -1,21 +1,10 @@
 import styled from 'styled-components';
 
-
-export const StyledTeste = styled.section`
+export const StyledSolucoes = styled.section`
 width: 100%;
 height: 100vh;
-
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
 background-color: #00BF3E; 
 background-color: #eceeee; 
-
-
-
-
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -26,24 +15,19 @@ text-align: center;
   margin-top: 80px;
 }
 h1{
-  color:#000000;
+  color:#00BF3E;
 }
 h2{
   color: #ffffff ;
 }
 #container{
-  border: solid 1px red;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
 }
 #texto{
-  border: solid 1px blue;
   width: 40%;
   height: 50%;
   font-size: 20px;
@@ -53,9 +37,9 @@ h2{
 }
 span{
   font-weight: 700;
+  color: #00BF3E;
 }
 #img{
-  border: solid 1px orange;
   width: 100%;
   height: 50%;
   display: flex;
@@ -63,14 +47,31 @@ span{
   gap: 20px;
   margin-top: 20px;
 }
-.img{
- 
+
+#img img:hover + p {
+  display: block;
+}
+
+#img li p{
+  position: relative;
+  top: -30px;
+  text-decoration: none;
+  color: #ffffff;
+  display: none;
+}
+
+#img li {
+  list-style: none;
 }
 
 .img img{
   width: 300px;
   height: 200px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
-
+.img img:hover{
+  opacity: .9;
+  transition: .5s;
+}
 `

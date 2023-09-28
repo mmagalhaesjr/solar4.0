@@ -1,12 +1,12 @@
-import { StyledTeste } from "./styled";
+import { StyledIndustrial } from "./styled";
 
 
-export default function Teste() {
+export default function Industrial() {
     return(
-        <StyledTeste>    
+        <StyledIndustrial>    
         <div id="titulo">
             <h1>PROJETOS<h2>INDUSTRIAIS</h2></h1>
         </div>
-        </StyledTeste>
+        </StyledIndustrial>
     )
 }

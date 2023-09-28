@@ -1,12 +1,12 @@
-import { StyledTeste } from "./styled";
+import { StyledVI } from "./styled";
 
 
-export default function Teste() {
+export default function VI() {
     return(
-        <StyledTeste>    
+        <StyledVI>    
         <div id="titulo">
             <h1>VENDAS E <h2></h2>INSTALAÇÕES</h1>
         </div>
-        </StyledTeste>
+        </StyledVI>
     )
 }

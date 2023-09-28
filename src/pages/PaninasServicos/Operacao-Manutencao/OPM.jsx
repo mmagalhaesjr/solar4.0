@@ -1,12 +1,12 @@
-import { StyledTeste } from "./styled";
+import { StyledOPM } from "./styled";
 
 
 export default function OPM() {
     return(
-        <StyledTeste>    
+        <StyledOPM>    
         <div id="titulo">
             <h1>OPERAÇÕES<h2></h2>MANUTENÇÃO</h1>
         </div>
-        </StyledTeste>
+        </StyledOPM>
     )
 }

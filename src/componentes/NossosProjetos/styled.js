@@ -81,7 +81,7 @@ section{
   z-index: 1;
   top: -50px;
   color: #ffffff;
- display: none;
+  display: none;
 
   opacity: 0; 
   transition: opacity 1s ease; 
