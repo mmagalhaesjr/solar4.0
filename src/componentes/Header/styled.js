@@ -94,10 +94,9 @@ nav li a:hover::after{
     display: none;
     position: absolute;
     top: 40px;
-    left: 680px; 
-    width: 200px;
+    left: 710px; 
+    
     z-index: 1;
-
     text-align: center;
 }
 
@@ -119,11 +118,16 @@ nav li a:hover::after{
 
 .dropSolucoes .submenuSolucoes li a {
   
-  color: #000000;
+    color: #000000;
     background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(10px); 
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    height:10px;
+    width: 150px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .dropSolucoes .submenuSolucoes li a:hover {
@@ -139,7 +143,7 @@ nav li a:hover::after{
     position: absolute;
     background-color: #333;
     top: 40px;
-    left: 800px; 
+    left: 810px; 
     width: 230px;
     z-index: 1;
 
@@ -157,11 +161,17 @@ nav li a:hover::after{
     display: block;
 }
 .dropServicos ul li a{
+   
     color: #000000;
     background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(10px); 
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    height:10px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .dropServicos ul li a:hover{
   color: #ffffff;
