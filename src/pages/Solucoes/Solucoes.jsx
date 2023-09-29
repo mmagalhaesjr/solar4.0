@@ -27,16 +27,16 @@ export default function Solucoes() {
 
                 <div id="img">
                     <div className="img">
-                        <li><a href="/projetoResidencial"><img src={foto} alt=""/><p>Residencial</p></a></li>
+                        <li><a href="/projetoResidencial"><img src={foto} alt=""/><p>RESIDENCIAL</p></a></li>
                     </div>
                     <div className="img">
-                        <li><a href="/projetoComercial"><img src={foto} alt="" /><p>Comercial</p></a></li>
+                        <li><a href="/projetoComercial"><img src={foto} alt="" /><p>COEMERCIAL</p></a></li>
                     </div>
                     <div className="img">
-                        <li><a href="/projetoIndustrial"><img src={foto} alt="" /><p>Industrial</p></a></li>
+                        <li><a href="/projetoIndustrial"><img src={foto} alt="" /><p>INDUSTRIAL</p></a></li>
                     </div>
                     <div className="img">
-                        <li><a href="/projetoRural"><img src={foto} alt="" /><p>Rural</p></a></li>
+                        <li><a href="/projetoRural"><img src={foto} alt="" /><p>RURAL</p></a></li>
                     </div>
                 </div>
             </div>
