@@ -1,5 +1,7 @@
 import { StyledMain } from "./styled";
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 
 import Header from "../../componentes/Header/Header"
 import QuemSomos from "../../componentes/QuemSomos/QuemSomos";
@@ -11,6 +13,7 @@ import Mvv from "../../componentes/Mvv/Mvv";
 import Numeros from "../../componentes/Numeros/Numeros";
 import Depoimentos from "../../componentes/Depoimentos/Depoimentos";
 import Funcionamento from "../../componentes/Funcionamento/Funcionamento";
+import Orcamento from "../../componentes/Orcamento/Orcamento";
 
 
 
@@ -24,6 +27,8 @@ export default function Main() {
         <StyledMain>
 
             <Header />
+
+            <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
                 
             <TelaInicial/>
     
@@ -35,8 +40,8 @@ export default function Main() {
             
             <Numeros/>
             <Depoimentos/>
-            
-           
+            <Orcamento/>
+        
             <Footer/>
          
 

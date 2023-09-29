@@ -21,7 +21,7 @@ export default function Solucoes() {
                         a fim de apresentar um plano com a quantidade ideal de painéis e o melhor ângulo de instalação.<br></br><br></br> */}
 
                         Invista na sua própria fonte de energia renovável!
-                        Com retorno a curto prazo e uma economia de até 95% na conta de luz. Estamos construindo um futuro mais verde.
+                        Com retorno a curto prazo e uma economia de até 95% <br></br><br></br> na conta de luz, Estamos construindo um futuro mais verde.
                     </p>
                 </div>
 
@@ -30,7 +30,7 @@ export default function Solucoes() {
                         <li><a href="/projetoResidencial"><img src={foto} alt=""/><p>RESIDENCIAL</p></a></li>
                     </div>
                     <div className="img">
-                        <li><a href="/projetoComercial"><img src={foto} alt="" /><p>COEMERCIAL</p></a></li>
+                        <li><a href="/projetoComercial"><img src={foto} alt="" /><p>COMERCIAL</p></a></li>
                     </div>
                     <div className="img">
                         <li><a href="/projetoIndustrial"><img src={foto} alt="" /><p>INDUSTRIAL</p></a></li>

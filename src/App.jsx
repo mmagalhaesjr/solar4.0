@@ -3,7 +3,7 @@ import UserProvider from "./contexts/UserContext";
 
 import Main from "./pages/Main/Main"
 import Blog from "./pages/Blog/Blog"
-import Orcamento from "./pages/Orcamento/Orcamento"
+// import Orcamento from "./pages/Orcamento/Orcamento"
 import Comercial  from "./pages/Projetos/Comercial/Comercial"
 import Industrial from "./pages/Projetos/Industrial/Industrial"
 import Residencial from "./pages/Projetos/Residencial/Residencial"
@@ -27,7 +27,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/blog" element={<Blog />} />
-                <Route path="/orcamento" element={<Orcamento />} />
+                {/* <Route path="/orcamento" element={<Orcamento />} /> */}
                 <Route path="/projetoComercial" element={<Comercial />} />
                 <Route path="/projetoIndustrial" element={<Industrial />} />
                 <Route path="/projetoResidencial" element={<Residencial />} />

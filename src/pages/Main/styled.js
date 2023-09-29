@@ -19,6 +19,24 @@ overflow-y: scroll; */
   }
 
   
-
+  #whattsapp{
+    z-index: 1;
+    position: fixed;
+    font-size: 80px;
+    right: 25px;
+    top:500px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
+@media(max-width:940px){
+        #whattsapp{
+            display: none;
+        }
+    }
 
 `;

@@ -44,7 +44,6 @@ span{
   justify-content: center;
   gap: 10px;
   margin-top: 50px;
-  
 }
 #img li p{
   position: relative;
@@ -57,9 +56,7 @@ span{
 }
 #img img:hover + p {
   display: block;
- 
 }
-
 #img li {
   list-style: none;
 }
@@ -73,7 +70,6 @@ span{
   width: 350px;
   height: 450px;
   border-radius: 8px;
-  
 }
 .img img:hover{
   opacity: .9;
