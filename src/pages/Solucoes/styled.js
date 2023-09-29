@@ -28,7 +28,7 @@ h2{
   margin-top: 30px;
 }
 #texto{
-  width: 90%;
+  width: 70%;
   font-size: 20px;
   display: flex;
   justify-content: center;

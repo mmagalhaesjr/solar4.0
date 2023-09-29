@@ -16,9 +16,9 @@ export default function Solucoes() {
                         Oferecemos soluções personalizadas em energia fotovoltaica para <span> residências</span>, <span> comércio</span>,
                         <span> indústrias</span> e <span> agronegócio</span>. <br></br><br></br>
 
-                        Elaboramos projetos personalizado para cada cliente. Levamos em conta o consumo de
+                        {/* Elaboramos projetos personalizado para cada cliente. Levamos em conta o consumo de
                         energia e o espaço disponível para os painéis solares,
-                        a fim de apresentar um plano com a quantidade ideal de painéis e o melhor ângulo de instalação.<br></br><br></br>
+                        a fim de apresentar um plano com a quantidade ideal de painéis e o melhor ângulo de instalação.<br></br><br></br> */}
 
                         Invista na sua própria fonte de energia renovável!
                         Com retorno a curto prazo e uma economia de até 95% na conta de luz. Estamos construindo um futuro mais verde.
