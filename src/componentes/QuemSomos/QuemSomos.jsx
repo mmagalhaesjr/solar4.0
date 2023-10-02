@@ -22,8 +22,6 @@ export default function QuemSomos() {
       setScrollY(window.scrollY);
   };
 
-  
-
   return (
     <StyledQuemSomos id="quemSomos"   className={scrollY > 100 ? 'rolagem' : ''}>
       {/* <img id="img" src={quemSomos} alt="imagem" /> */}
