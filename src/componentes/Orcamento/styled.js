@@ -47,7 +47,6 @@ form{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .cont{
@@ -57,7 +56,6 @@ height: 300px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-
 }
 
 input{

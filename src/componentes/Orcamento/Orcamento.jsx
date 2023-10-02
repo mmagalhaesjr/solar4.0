@@ -11,7 +11,7 @@ export default function Orcamento() {
 
             <div id="container">
 
-                <form action="https://api.whatsapp.com/send?phone=31997749508" method="POST">
+                <form action="https://api.whatsapp.com/send?phone=32988475771" method="POST">
 
                     <div className="cont">
 

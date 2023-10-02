@@ -57,7 +57,7 @@ button{
   height: 40px;
   border-radius: 5px;
   border: none;
-  background-color:#7FCB27 ;
+  background-color:#7FCB27;
   color: #ffffff;
   font-weight:700;
   

@@ -30,7 +30,8 @@ overflow-y: scroll; */
     text-decoration: none;
 }
 #whattsapp:hover{
-    color: #398462;
+    color: #00BF3E;
+    color: #7FCB27;
     transition:0.3s;
 }
 @media(max-width:940px){
