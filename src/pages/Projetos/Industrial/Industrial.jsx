@@ -25,7 +25,7 @@ export default function Industrial() {
                 <div id="texto">
                     <p>Se você quer <span>estabilidade</span> nos custos
                         de energia, <span>autossuficiência, economia
-                        e valorização do seu empreendimento,</span>
+                            e valorização do seu empreendimento,</span>
                         a energia solar é ideal
                         para você!</p>
                 </div>
@@ -34,42 +34,53 @@ export default function Industrial() {
             </div>
 
             <div id="containerIcones">
-                <div className="box">
-                    <img src={reducao } alt="" />
-                    <h3 className="tituloBox">
 
+                <div className="box">
+                    <img src={reducao} alt="" />
+                    <h3 className="tituloBox">
+                        Redução de custos
                     </h3>
                     <p className="textoBox">
-
+                        A instalação de painéis solares permite que os proprietários gerem
+                        sua própria eletricidade, reduzindo significativamente as contas de
+                        energia elétrica.
                     </p>
                 </div>
 
                 <div className="box">
-                    <img src={retorno } alt="" />
+                    <img src={retorno} alt="" />
                     <h3 className="tituloBox">
-
+                        Retorno Financeiro
                     </h3>
                     <p className="textoBox">
-
+                        o Retorno sobre Investimento (ROI), mesmo variando de acordo com
+                        o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
+                        a durabilidade do equipamento de 25 anos, em 19 anos você
+                        produzirá energia solar com todo o seu investimento já pago.
                     </p>
                 </div>
 
                 <div className="box">
-                    <img src={independencia } alt="" />
+                    <img src={independencia} alt="" />
                     <h3 className="tituloBox">
-
+                        Independência Energética
                     </h3>
                     <p className="textoBox">
-
+                        Com a energia solar, você se torna menos dependente da rede
+                        elétrica pública, o que proporciona mais segurança energética,
+                        especialmente em áreas com interrupções frequentes no
+                        fornecimento de energia.
                     </p>
                 </div>
 
                 <div className="box">
-                    <img src={manutencao } alt="" />
+                    <img src={manutencao} alt="" />
                     <h3 className="tituloBox">
-
+                        Durabilidade e Baixa Manutenção
                     </h3>
                     <p className="textoBox">
+                        Os sistemas de energia solar têm uma vida útil longa e geralmente
+                        requerem pouca manutenção ao longo do tempo.
 
                     </p>
                 </div>
@@ -77,20 +88,24 @@ export default function Industrial() {
                 <div className="box">
                     <img src={valorizacao} alt="" />
                     <h3 className="tituloBox">
-
+                        Valorização do Imóvel
                     </h3>
                     <p className="textoBox">
-
+                        A valorização da propriedade associada aos painéis solares é um
+                        investimento de longo prazo, que continua a render benefícios
+                        financeiros ao longo dos anos.
                     </p>
                 </div>
 
                 <div className="box">
-                    <img src={ marketing } alt="" />
+                    <img src={marketing} alt="" />
                     <h3 className="tituloBox">
-
+                        Benefícios de marketing
                     </h3>
                     <p className="textoBox">
-
+                        Ter energia limpa em sua indústria promove uma cultura de
+                        sustentabilidade que pode ser explorada no marketing da empresa,
+                        atraindo consumidores conscientes.
                     </p>
                 </div>
 

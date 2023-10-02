@@ -99,7 +99,7 @@ h2{
   #texto p{
     font-size: 3rem;
   }
- 
+}
   @media(max-width:460px){
 
     h1{
@@ -118,18 +118,90 @@ h2{
 
   
 // containerIcones ------------------------------
-  .box{
+#containerIcones{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
 
+  
+
+}
+
+.box{
+width: 500px;
+height: 350px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-top: 50px;
 }
 .box img{
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
 }
 .tituloBox{
-
+font-weight: 700;
+font-size: 30px;
+margin-top: 10px;
 }
 .textoBox{
+margin-top: 10px;
+}
 
+@media (max-width:1260px) {
+  #containerIcones{
+    top:-40px ;
+  }
 }
+@media (max-width:1110px) {
+  #containerIcones{
+    top:-100px ;
+  }
 }
+@media (max-width:930px) {
+  #containerIcones{
+    top:-200px ;
+  }
+}
+@media (max-width:770px) {
+  #containerIcones{
+    top:-300px ;
+  }
+}
+@media (max-width:630px) {
+  #containerIcones{
+    top:-350px ;
+  }
+}
+@media (max-width:500px) {
+  #containerIcones{
+    top:-400px ;
+  }
+}
+@media (min-width: 500px) and (min-height: 800px) {
+  #containerIcones{
+    top:-450px ;
+  }
+}
+@media (max-width:450px) {
+  #containerIcones{
+    top:-450px ;
+  }
+}
+@media (max-width:430px) {
+  #containerIcones{
+    top:-730px ;
+  }
+}
+@media (max-width:400px) {
+  #containerIcones{
+    top:-500px ;
+  }
+}
+
 `

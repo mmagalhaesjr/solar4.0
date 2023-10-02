@@ -8,10 +8,6 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-
-
-
-
 #container{
   background-image: url('src/assets/agro.png');
   background-size:100%;
@@ -49,7 +45,7 @@ h2{
 }
 @media(max-width:1500px){
   #texto{
-    top:170px ;
+    top:170px;
     left: 35%;
     width: 60%;
   }
