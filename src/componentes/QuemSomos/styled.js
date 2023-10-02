@@ -66,7 +66,7 @@ export const StyledQuemSomos = styled.section`
 
   .imgsol {
     width: 300px;
-    height: 250px;
+    height: 280px;
     position: relative;
     z-index: 1; 
     
@@ -75,25 +75,27 @@ export const StyledQuemSomos = styled.section`
 
 
   #imgsol1{
-    transform: translateY(-100px);
+    /* transform: translateY(-100px); */
+    top:-150px;
     z-index: 1;
     transition: 1s;
    
    }
   #imgsol2{
-    transform: translateY(500px);
+    /* transform: translateY(500px); */
+    top:150px;
     z-index: 0;
     transition: 1s;
    }
   
  &.rolagem {
   #imgsol1{
-    transform: translateY(150px);
+    transform: translateY(300px);
     z-index: 1;
     transition: 1s;
    }
   #imgsol2{
-    transform: translateY(-60px);
+    transform: translateY(-250px);
     z-index: 0;
     transition: 1s;
    }
@@ -129,9 +131,22 @@ export const StyledQuemSomos = styled.section`
       height: 100%;
       align-items: center;
     }
-    #imgsol {
+    
+    .imgsol {
+      width: 200px;
+      height: 250px;
     }
+    #imgsol1{
+   top: -250px;
+    
+   }
+  #imgsol2{
+    top: 130px;
+   
+   }
   }
+
+
 
   @media (max-width: 419px) {
     #container {
@@ -141,10 +156,7 @@ export const StyledQuemSomos = styled.section`
     #imgSois {
       height: 20%;
     }
-    #imgsol {
-      width: 100px;
-      height: 50px;
-    }
+   
     p {
       font-size: 10px;
       line-height: 35px;
