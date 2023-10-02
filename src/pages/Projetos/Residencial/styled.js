@@ -9,7 +9,7 @@ flex-direction: column;
 text-align: center;
 
 #container{
-  background-image: url('src/assets/residenciais.png');
+  background-image: url(src/assets/residenciais.png);
   background-size:100%;
   background-repeat: no-repeat;
   width: 100%;
