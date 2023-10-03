@@ -11,10 +11,8 @@ left: 0; */
 display: flex;
 flex-direction: column;
 
-
 #imgInicial{
     position: relative;
-    top: -100px;
     width: 100%;
     height: 100vh;
     z-index: 0;
@@ -58,15 +56,17 @@ span{
 }
 
 button{
-  width: 250px;
-  height: 40px;
+  width: 300px;
+  height: 50px;
   border-radius: 20px;
   border: none;
   background-color:#00a335;
   color: #ffffff;
   font-weight:700;
-  font-size: 15px;
+  font-size: 17px;
   margin-top: 50px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
   
   &:hover{
      background-color: #00BF3E;

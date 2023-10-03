@@ -6,10 +6,10 @@ export default function NossosProjetos() {
     return (
         <StyledNossosProjetos>
 
-
+            <div id="linha"></div>
 
             <div id="titulo">
-                <h1>NOSSOS<h2>PROJETOS</h2></h1>
+                <h1>NOSSOS PROJETOS</h1>
             </div>
 
             <div id="projetos">

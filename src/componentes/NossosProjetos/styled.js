@@ -9,30 +9,34 @@ position: sticky;
 top: 0;
 left: 0; */
 
-background-color: #00BF3E; 
-
-
-/* border: solid 3px #00BF3E; */
+background-color: #eceeee;
 
 display: flex;
 flex-direction: column;
+align-items: center;
 text-align: center;
 
+#linha{
+  width: 20%;
+  height: 1.5px;
+  background-color: #000000;
+  margin-bottom: 60px;
+  
+}
+
 #titulo{
-  font-size: 50px;
+  font-size: 40px;
   font-weight:700;
-  margin-top: 80px;
 }
 
 h1{
   color:#000000 ;
-}
-h2{
-  color:#ffffff ;
+  font-family: 'Montserrat', sans-serif;
 }
 
+
 #projetos{
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content:center;

@@ -17,7 +17,7 @@ export default function Beneficios() {
             </div>
 
             <div id='ContainerIcones'>
-                <div className="divIcone"> <img className='icone' src={icone1} alt="" /> <p>Redução de até 95% na conta de luz</p></div>
+                <div className="divIcone"> <img className='icone' src={icone1} alt="" /> <p>Redução de até 95% <br></br>na conta de luz</p></div>
                 <div className="divIcone"> <img className='icone' src={icone2} alt="" /> <p>Energia limpa e renovável</p></div>
                 <div className="divIcone"> <img className='icone' src={icone3} alt="" /><p>Valorização do imóvel</p></div>
                 <div className="divIcone"> <img className='icone' src={icone4} alt="" /><p>Sem ajuste de tarifa</p></div>

@@ -10,8 +10,6 @@ export const StyledQuemSomos = styled.section`
   /* background-image: url('src/assets/fundo2.jpg');
   background-repeat: no-repeat;
   background-color: #eceeee; */
-  
-  
 
   #img {
     position: absolute;

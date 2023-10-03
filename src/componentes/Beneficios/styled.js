@@ -46,7 +46,8 @@ export const StyledBeneficios = styled.section`
   }
 
   .divIcone p {
-    font-size: 1rem;
+    font-size: 17px;
+    font-weight: 700;
     margin-top: 1rem;
     color: #839b75;
     color: #000000;
@@ -57,22 +58,26 @@ export const StyledBeneficios = styled.section`
     color: #839b75;
     color: #000000;
     font-size: 20px;
+    line-height: 1.5; 
   }
 
-  button {
-    width: 250px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: #00bf3e;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 6rem;
-
-    &:hover {
-      background-color: #7fcb27;
-    }
+  button{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color:#00a335;
+  color: #ffffff;
+  font-weight:700;
+  font-size: 17px;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  
+  &:hover{
+     background-color: #00BF3E;
   }
+}
 
   @media (max-width: 1000px) {
     #ContainerIcones {
