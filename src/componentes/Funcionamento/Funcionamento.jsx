@@ -14,6 +14,8 @@ import { SiConvertio } from 'react-icons/si';
 import { BsSpeedometer } from 'react-icons/bs';
 import { GrDocumentDownload } from 'react-icons/gr';
 
+import casa from '../../assets/casinha.png'
+
 
 
 
@@ -37,10 +39,10 @@ export default function Funcionamento() {
             </div>
 
             <section id="telaMaior">
+
+                <img id="casinha" src={casa} alt="" />
+
                 <div id="container" >
-
-
-
                     <div
                         className="circulo"
                         id="circulo1"
@@ -91,10 +93,6 @@ export default function Funcionamento() {
                         6
                     </div>
                 </div>
-
-
-
-
 
                 <div id="ContainerInfo">
 
