@@ -9,12 +9,13 @@ background-color: #09507488;
 width: 100%;
 height: 100px;
 z-index:8;
-position: relative;
+position: fixed;
 
 
 
-/* &.rolagem {
-  background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
+
+&.rolagem {
+  background-color: #095074de;
   color: #ffffff;
   height:50px;
   transition: 1s;
@@ -33,7 +34,7 @@ img{
 }
 ul li a{
   position: relative;
-  top: -50px;
+  top: -20px;
   font-weight: 400;
 }
 
@@ -41,7 +42,12 @@ ul li a{
   position: relative;
   top: -30px;
 }
-} */
+}
+
+
+
+
+
 
 a img{
 width: 200px;

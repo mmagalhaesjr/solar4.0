@@ -11,6 +11,9 @@ left: 0; */
 display: flex;
 flex-direction: column;
 
+
+
+
 #imgInicial{
     position: relative;
     width: 100%;
