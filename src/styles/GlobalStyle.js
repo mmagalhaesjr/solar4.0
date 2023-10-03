@@ -36,7 +36,8 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1;
         width: 100%;
         height: 100vh;
-        font-family: 'Barlow', sans-serif;
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: 'DM Sans', sans-serif;
     }
 
     ol, ul {
@@ -66,7 +67,8 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: 'Barlow', sans-serif;
+        font-family: 'DM Sans', sans-serif;
+        
     }
     
 `

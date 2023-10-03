@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logoBranca.png';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledHeader } from './styled';
 
@@ -44,29 +44,29 @@ export default function Header() {
                         <img src={logo} alt='logo' />
                     </a>
                     <ul className="nav-list">
-                        <li><a href="#quemSomos">SOBRE NÓS</a></li>
+                        <li><a href="#quemSomos">Sobre nós</a></li>
 
                         <li className="dropSolucoes">
-                            <a href="/solucoes">SOLUÇÕES</a>
+                            <a href="/solucoes">Soluções</a>
                             <ul className="submenuSolucoes">
-                                <li><a href="/projetoResidencial">RESIDENCIAL</a></li>
-                                <li><a href="/projetoComercial">COMERCIAL</a></li>
-                                <li><a href="/projetoIndustrial">INDUSTRIAL</a></li>
-                                <li><a href="/projetoRural">RURAL</a></li>
+                                <li><a href="/projetoResidencial">Residencial</a></li>
+                                <li><a href="/projetoComercial">Comercial</a></li>
+                                <li><a href="/projetoIndustrial">Industrial</a></li>
+                                <li><a href="/projetoRural">Rural</a></li>
                             </ul>
                         </li>
 
                         <li className="dropServicos">
-                            <a href="/servicos">SERVIÇOS</a>
+                            <a href="/servicos">Serviços</a>
                             <ul className="submenuServicos">
-                                <li><a href="/vi">VENDAS E INSTALAÇÕES</a></li>
-                                <li><a href="/opm">OPERAÇÃO/MANUTENÇÃO</a></li>
+                                <li><a href="/vi">Vendas e instalações</a></li>
+                                <li><a href="/opm">Operação/Mabutenção</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="/Orcamento" target="_blank" >ORÇAMENTO</a></li>
-                        <li><a href="#">CONTATO</a></li>
-                        <li><a href="/blog" target="_blank">BLOG</a></li>
+                        <li><a href="/Orcamento" target="_blank" >Orçamento</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="/blog" target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>

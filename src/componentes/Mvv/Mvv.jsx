@@ -1,4 +1,5 @@
 import { StyledMvv } from "./styled";
+import logo from "../../assets/logoB.png"
 
 
 export default function Mvv() {
@@ -6,40 +7,42 @@ export default function Mvv() {
         <StyledMvv>
             <div id="container">
                 <div className="card">
-                    <h1>MISSÃO</h1>
+                    <h1>Missão</h1>
                     <div className="texto">
                         <p>
-                            Empoderar nossos clientes para terem autonomia
-                            e controle sobre sua energia elétrica utilizando fontes de
+                            Empoderar nossos clientes para terem<span> autonomia </span>
+                            e controle <span> sobre sua energia elétrica </span>utilizando fontes de
                             energia renováveis como uma forma de investimento
-                            para reduzir custos e colaborar para o desenvolvimento
+                            para reduzir custos e colaborar para o desenvolvimento<br></br>
                             sustentável do planeta.
                         </p>
                     </div>
                 </div>
                 <div className="card">
-                    <h1>VISÃO</h1>
+                    <h1>Visão</h1>
                     <div className="texto">
                         <p>
                             Ser a principal referência em gestão de energia elétrica
-                            para o agronegócio na Região Sudeste oferecendo serviços inovadores,
-                            personalizados e confiáveis.
+                            para o agronegócio na Região Sudeste oferecendo serviços<span> inovadores,
+                            personalizados e confiáveis.</span>
                         </p>
                     </div>
                 </div>
                 <div className="card">
-                    <h1>VALORES</h1>
+                    <h1>Valores</h1>
                     <div className="texto">
                         <p>
-                            Comprometimento,<br />
+                           <span> Comprometimento,<br />
                             Ética,<br />
                             Sustentabilidade,<br />
                             Excelência no atendimento,<br />
-                            Qualidade.
+                            Qualidade.</span>
                         </p>
                     </div>
                 </div>
             </div>
+
+            <img  id="logo" src={logo} alt="" />
         </StyledMvv>
     )
 }

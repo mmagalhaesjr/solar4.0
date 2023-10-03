@@ -8,16 +8,17 @@ height: 100vh;
 position: sticky;
 top: 0;
 left: 0; */
-
-
-
 display: flex;
 flex-direction: column;
 
-#img{
+
+#imgInicial{
+    position: relative;
+    top: -100px;
     width: 100%;
     height: 100vh;
-    
+    z-index: 0;
+   
   }
 
   #container{
@@ -41,25 +42,31 @@ flex-direction: column;
   height: 50%;
   font-size: 40px;
   font-weight:700;
-  gap:20px;
-  margin-top: 220px;
+ 
+  margin-top: 130px;
 
   
 
   /* border: solid 3px blue; */
 }
 #texto h1 {
-  line-height: .8; 
+  line-height: 1.5; 
+  color: #ffffff;
+}
+span{
+  font-size: 50px;
 }
 
 button{
   width: 250px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 20px;
   border: none;
-  background-color:#7FCB27;
+  background-color:#00a335;
   color: #ffffff;
   font-weight:700;
+  font-size: 15px;
+  margin-top: 50px;
   
   &:hover{
      background-color: #00BF3E;
@@ -67,11 +74,5 @@ button{
 }
 
 
-#texto2{
-  text-align: center;
-  font-weight: 700;
-  margin-top: 70px;
 
-  /* border: solid 3px orange; */
-} 
 `

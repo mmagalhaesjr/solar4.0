@@ -7,10 +7,10 @@ export const StyledQuemSomos = styled.section`
   position: sticky;
   top: 0;
   left: 0; */
-  /* background-image: url('https://efeitosolar.com/wp-content/uploads/2020/03/efeito-solar-placas-solares-empresa-02.jpg');
+  /* background-image: url('src/assets/fundo2.jpg');
   background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: #eceeee;
+  background-color: #eceeee; */
+  
   
 
   #img {
@@ -36,8 +36,9 @@ export const StyledQuemSomos = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #004000;
-   
+    color: #000000;
+    position: relative;
+    top: -50px;
     /* background: radial-gradient(circle, rgba(215,215,215,0.8789566852131477) 0%, rgba(255,255,255,0.8565477216277135) 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:10px ; */
@@ -48,12 +49,18 @@ export const StyledQuemSomos = styled.section`
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
+    margin-top: 50px;
   }
+
+span{
+  font-weight: 700;
+}
 
   #imgSois {
     display: flex;

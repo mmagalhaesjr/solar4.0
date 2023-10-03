@@ -34,8 +34,9 @@ export default function Funcionamento() {
 
             <div id="titulo">
                 <h1>
-                    COMO FUNCIONA A <h2>ENERGIA SOLAR</h2>
+                    COMO FUNCIONA A ENERGIA SOLAR
                 </h1>
+              
             </div>
 
             <section id="telaMaior">

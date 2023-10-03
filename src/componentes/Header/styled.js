@@ -2,15 +2,18 @@ import styled from 'styled-components';
 import { css } from 'styled-components';
 
 export const StyledHeader = styled.header`
-background-color: #00BF3E;
-background-color: transparent;
+background-color: #09507488;
+/* background-color: transparent; */
+/* position: fixed; */
+/* transition: background-color 0.3s ease-in-out; */
 width: 100%;
 height: 100px;
-position: fixed;
-z-index: 8;
-transition: background-color 0.3s ease-in-out;
+z-index:8;
+position: relative;
 
-&.rolagem {
+
+
+/* &.rolagem {
   background: linear-gradient(90deg, rgba(0,191,62,1) 0%, rgba(61,244,120,1) 54%);
   color: #ffffff;
   height:50px;
@@ -24,9 +27,9 @@ nav{
 }
 img{
   position: relative;
-  width:150px ;
-  height:80px ;
-  top: -19px;
+  width:130px ;
+  height:40px ;
+  top: -14px;
 }
 ul li a{
   position: relative;
@@ -38,25 +41,28 @@ ul li a{
   position: relative;
   top: -30px;
 }
-}
+} */
 
 a img{
 width: 200px;
-height: 100px;
+height: 60px;
+margin-top: 20px;
+
 }
 
 ul{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
     display: flex;
     gap: 10px; 
     white-space: nowrap;
-    /* border: solid 1px red; */
+   
 }
 
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     /* border: solid 3px black; */
 }

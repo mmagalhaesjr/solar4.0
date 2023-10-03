@@ -7,22 +7,24 @@ top: 0;
 left: 0; */
 width: 100%;
 height: 100vh;
-background-color: #00BF3E;  
+background-color:#EDEDED;
+background-color:#D5FFA4;
 display: flex;
 flex-direction: column;
 text-align: center;
 
+
+
 #titulo{
-  font-size: 50px;
+  font-size: 40px;
   font-weight:700;
   margin-top: 80px;
 }
 h1{
   color:#000000 ;
+  font-family: 'Montserrat', sans-serif;
 }
-h2{
-  color:#ffffff ;
-}
+
 
 #casinha{
     width: 50%;
@@ -57,7 +59,7 @@ top: -500px; */
 }
 
   .circulo {
-    background-color: #ffffff;
+    background-color: #F2CB36;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -69,7 +71,7 @@ top: -500px; */
     color: #000000;
     font-weight: 700;
     &:hover {
-      background-color: #3c64c4;
+      background-color: #FFE583;
       transition: .5s;
       border-radius: 30%;
     }

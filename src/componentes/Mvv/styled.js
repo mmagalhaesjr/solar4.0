@@ -11,9 +11,16 @@ left: 0; */
 
 /* border: solid 3px #00BF3E; */
 background-color: #eceeee;
-background-image:url('https://windmar.com/wp-content/uploads/2020/02/shutterstock_306298271-scaled.jpg') ;
+background-image:url('/src/assets/fundo3.jpg') ;
 background-size: cover;
 background-repeat: no-repeat;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
 
 
 #container{
@@ -25,16 +32,18 @@ background-repeat: no-repeat;
   gap: 20px;
 }
 .card{
+  position: relative;
   width: 25%;
-  height: 60vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.5); 
+  background: rgba(255, 255, 255, 0.537); 
   backdrop-filter: blur(10px); 
   box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
   border-radius:10px ;
+  top: 20px;
 }
 .texto{
   width: 80%;
@@ -43,16 +52,31 @@ background-repeat: no-repeat;
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  text-align: center;
+  line-height: 1.2; 
 
 }
 h1{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
-  color: #004000;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
 }
 .card p{
   font-size: 80%;
+  margin-top: -20px;
 }
+
+span{
+  font-weight: 700;
+}
+
+#logo{
+width: 240px;
+height: 80px;
+margin-bottom: 70px;
+}
+
 @media (max-width:920px) {
   #container{
     flex-direction: column;

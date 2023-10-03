@@ -10,13 +10,14 @@ export const StyledBeneficios = styled.section`
   font-size: 16px;
 
   #titulo {
-    font-size: 3rem;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 3rem;
   }
 
   h1 {
     color: #000000;
+    font-family: 'Montserrat', sans-serif;
   }
 
   h2 {
@@ -36,11 +37,12 @@ export const StyledBeneficios = styled.section`
   .divIcone {
     margin-top: 30px;
     flex: 1;
-    max-width: 240px; /* Define a max width for each icon container */
+    max-width: 240px; 
   }
 
   .icone {
-    font-size: 5rem;
+    width: 80px;
+    height: 80px;
   }
 
   .divIcone p {
@@ -51,9 +53,10 @@ export const StyledBeneficios = styled.section`
   }
 
   h3 {
-    margin-top: 10rem;
+    margin-top: 7rem;
     color: #839b75;
     color: #000000;
+    font-size: 20px;
   }
 
   button {
@@ -64,7 +67,7 @@ export const StyledBeneficios = styled.section`
     background-color: #00bf3e;
     color: #ffffff;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 6rem;
 
     &:hover {
       background-color: #7fcb27;
@@ -74,12 +77,12 @@ export const StyledBeneficios = styled.section`
   @media (max-width: 1000px) {
     #ContainerIcones {
       display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Stack icons vertically on smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     }
 
     .divIcone {
-      margin-top: 20px; /* Adjust spacing between icons */
-      max-width: 100%; /* Make icons take full width on smaller screens */
+      margin-top: 20px;
+      max-width: 100%; 
     }
 
     .icone {
