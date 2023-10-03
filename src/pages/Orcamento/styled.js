@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledOrcamento = styled.section`
 width: 100%;
-height: 70vh;
+height: 100vh;
 
 /* scroll-snap-align: start;
 position: sticky;
@@ -39,6 +39,7 @@ h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 form{
@@ -52,10 +53,11 @@ form{
 .cont{
 margin-top: 60px;
 width: 500px;
-height: 300px;
+height: 350px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+
 }
 
 input{

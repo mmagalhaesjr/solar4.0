@@ -14,7 +14,7 @@ import { SiConvertio } from 'react-icons/si';
 import { BsSpeedometer } from 'react-icons/bs';
 import { GrDocumentDownload } from 'react-icons/gr';
 
-import casa from '../../assets/casinha.png'
+// import casa from '../../assets/casinha.png'
 
 
 
@@ -40,7 +40,7 @@ export default function Funcionamento() {
 
             <section id="telaMaior">
 
-                <img id="casinha" src={casa} alt="" />
+                {/* <img id="casinha" src={casa} alt="" /> */}
 
                 <div id="container" >
                     <div

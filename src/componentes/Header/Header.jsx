@@ -64,7 +64,7 @@ export default function Header() {
                             </ul>
                         </li>
 
-                        <li><a href="#orcamento" >ORÇAMENTO</a></li>
+                        <li><a href="/Orcamento" target="_blank" >ORÇAMENTO</a></li>
                         <li><a href="#">CONTATO</a></li>
                         <li><a href="/blog" target="_blank">BLOG</a></li>
                     </ul>

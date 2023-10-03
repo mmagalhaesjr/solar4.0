@@ -46,14 +46,14 @@ h2{
   justify-content: center;
 
 /* background-image:url('https://th.bing.com/th/id/R.42b312917c353b788856a3e9ae1df783?rik=NBuYpBBDyr5Fqg&riu=http%3a%2f%2fbluesol.com.br%2fwp-content%2fuploads%2f2016%2f11%2fimagem-2.png&ehk=ACoCTghZt6U5uPP3aG3NQrH0to5icqxizyFA10KqVqU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1') ; */
-/* background-image:url('/src/assets/casinha.png');
+background-image:url('/src/assets/casinha.png');
 background-repeat: no-repeat; 
 background-size: 50%;
 background-position: center;
-margin-top: 40px; */
+margin-top: 40px;
 
-position: relative;
-top: -500px;
+/* position: relative;
+top: -500px; */
 }
 
   .circulo {

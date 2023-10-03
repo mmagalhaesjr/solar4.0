@@ -13,6 +13,8 @@ import Servicos from "./pages/Servicos/Servicos"
 import OPM from "./pages/PaninasServicos/Operacao-Manutencao/OPM"
 import VI from "./pages/PaninasServicos/Vendas-Instalacao/VI"
 
+import Orcamento from "./pages/Orcamento/Orcamento";
+
 
 
 
@@ -27,7 +29,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/blog" element={<Blog />} />
-                {/* <Route path="/orcamento" element={<Orcamento />} /> */}
+                <Route path="/orcamento" element={<Orcamento />} />
                 <Route path="/projetoComercial" element={<Comercial />} />
                 <Route path="/projetoIndustrial" element={<Industrial />} />
                 <Route path="/projetoResidencial" element={<Residencial />} />
