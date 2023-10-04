@@ -156,6 +156,8 @@ nav li a:hover::after{
     z-index: 1;
 
     text-align: center;
+
+   
 }
 .dropServicos:hover .submenuServicos {
     
@@ -179,7 +181,7 @@ nav li a:hover::after{
     border-right:solid 1px #0ce053;
     text-decoration: none;
     height:0px;
-    width: 170px;
+    width: 200px;
    display: flex;
    justify-content: center;
    align-items: center;

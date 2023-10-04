@@ -3,37 +3,61 @@ import { useState, useEffect } from "react";
 
 
 
-export default function Numeros() {
 
-    const [scrollY, setScrollY] = useState(0);
-    const [number, setNumber] = useState(0);
 
-  useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
-  }, []);
-
-  const handleScroll = () => {
-      setScrollY(window.scrollY);
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setNumber(prevNumber => {
-        if (prevNumber === 100) {
-          clearInterval(interval);
-          // Pausar a animação quando atingir 100, se necessário
-        }
-        return prevNumber < 100 ? prevNumber + 1 : prevNumber;
-      });
-    }, 50);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+    export default function Numeros() {
+        const [scrollY, setScrollY] = useState(0);
+        const [number1, setNumber1] = useState(0);
+        const [number2, setNumber2] = useState(0);
+        const [number3, setNumber3] = useState(0);
+        const [animationActive, setAnimationActive] = useState(false);
+    
+        useEffect(() => {
+            window.addEventListener('scroll', handleScroll);
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+            };
+        }, []);
+    
+        const handleScroll = () => {
+            setScrollY(window.scrollY);
+            if (window.scrollY > 4500) {
+                setAnimationActive(true);
+            }
+        };
+    
+        useEffect(() => {
+            let interval;
+            if (animationActive) {
+                interval = setInterval(() => {
+                    setNumber1(prevNumber => {
+                        if (prevNumber >= 15000) {
+                            clearInterval(interval);
+                            return prevNumber;
+                        }
+                        return prevNumber + 200;
+                    });
+                    setNumber2(prevNumber => {
+                        if (prevNumber >= 600) {
+                            clearInterval(interval);
+                            return prevNumber;
+                        }
+                        return prevNumber + 10;
+                    });
+                    setNumber3(prevNumber => {
+                        if (prevNumber >= 15000) {
+                            clearInterval(interval);
+                            return prevNumber;
+                        }
+                        return prevNumber + 200;
+                    });
+                }, 50);
+            }
+    
+            return () => {
+                clearInterval(interval);
+            };
+        }, [animationActive]);
 
 
     return (
@@ -46,7 +70,7 @@ export default function Numeros() {
                 <div className="containerTeto-circulo"> 
                 
                 <div id="circulo1" className="circulo">
-                    <div className="circuloInterno">{number}</div>
+                    <div className="circuloInterno">{number1}</div>
                 </div>
 
                 <h3>KWH GERADO/MÊS</h3>
@@ -55,8 +79,8 @@ export default function Numeros() {
 
                 <div className="containerTeto-circulo"> 
                 
-                <div id="circulo1" className="circulo">
-                    <div className="circuloInterno">{number}</div>
+                <div id="circulo2" className="circulo">
+                    <div className="circuloInterno">{number2}</div>
                 </div>
 
                 <h3>MÓDULOS INSTALADOS </h3>
@@ -65,8 +89,8 @@ export default function Numeros() {
 
                 <div className="containerTeto-circulo"> 
                 
-                <div id="circulo1" className="circulo">
-                    <div className="circuloInterno">{number}</div>
+                <div id="circulo3" className="circulo">
+                    <div className="circuloInterno">{number3}</div>
                 </div>
 
                 <h3>KWH GERADO/MÊS</h3>
