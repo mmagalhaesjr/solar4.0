@@ -10,6 +10,8 @@ top: 0;
 left: 0; */
 
 background-color: #eceeee;
+background-image: url('https://nhssolar.com.br/wp-content/uploads/2019/03/shutterstock_175274429-1.jpg');
+background-size: cover;
 
 
 /* border: solid 3px #00BF3E; */
@@ -17,6 +19,9 @@ background-color: #eceeee;
 display: flex;
 flex-direction: column;
 text-align: center;
+
+
+
 
 #titulo{
   font-size: 40px;
@@ -29,11 +34,74 @@ h1{
   font-family: 'Montserrat', sans-serif;
 }
 
+#container{
+display:flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+margin-top: 200px;
+}
+
+.circulo{
+  width: 200px;
+  height: 200px;
+  color: #ffffff;
+  background-color:#00000047 ;
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+  border-radius: 50% 50%;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+  position: relative;
+  top:50px;
+}
+
+&.rolagem {
+  .circulo{
+    transform: translateY(-100px);
+    z-index: 1;
+    transition: 1s;
+   }
+  }
+
+#circulo1{
+
+}
+#circulo2{
+  
+}
+#circulo3{
+  
+}
+
+.circuloInterno{
+  width: 150px;
+  height: 150px;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 50% 50%;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+}
 
 
-
-
-
+h3{
+  color: #000;
+  /* font-weight: 700;
+  color: #ffffff;
+  background-color:#00000047 ;
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+  border-radius:50px 50px 50px 50px; */
+}
 
 
 `

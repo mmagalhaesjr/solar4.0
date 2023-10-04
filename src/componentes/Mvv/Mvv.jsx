@@ -17,7 +17,7 @@ export default function Mvv() {
       setScrollY(window.scrollY);
   };
     return (
-        <StyledMvv  className={scrollY > 900 ? 'rolagem' : ''}>
+        <StyledMvv  className={scrollY > 1000 ? 'rolagem' : ''}>
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>
