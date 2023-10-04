@@ -1,10 +1,23 @@
 import { StyledMvv } from "./styled";
 import logo from "../../assets/logoB.png"
+import { useState, useEffect } from "react";
 
 
 export default function Mvv() {
+    const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+
+  const handleScroll = () => {
+      setScrollY(window.scrollY);
+  };
     return (
-        <StyledMvv>
+        <StyledMvv  className={scrollY > 900 ? 'rolagem' : ''}>
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>

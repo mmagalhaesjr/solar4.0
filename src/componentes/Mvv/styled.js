@@ -61,7 +61,20 @@ h1{
   font-weight: 700;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 100px;
+  transition: 1s;
+ 
 }
+&.rolagem {
+  h1{
+    transform: translateY(-100px);
+    z-index: 1;
+    transition: 1s;
+   }
+  }
+
+
 .card p{
   font-size: 80%;
   margin-top: -20px;

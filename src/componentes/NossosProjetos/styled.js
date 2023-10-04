@@ -27,6 +27,7 @@ text-align: center;
 #titulo{
   font-size: 40px;
   font-weight:700;
+  margin-top: 30px;
 }
 
 h1{

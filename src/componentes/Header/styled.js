@@ -53,26 +53,18 @@ a img{
 width: 200px;
 height: 60px;
 margin-top: 20px;
-
 }
-
 ul{
     margin-top: 20px;
     margin-left: 50px;
     display: flex;
     gap: 10px; 
     white-space: nowrap;
-   
 }
-
-
 nav{
     display: flex;
     justify-content: center;
-
-    /* border: solid 3px black; */
 }
-
 li a{
     font-family: 'Barlow', sans-serif;
     cursor: pointer;
@@ -84,7 +76,6 @@ li a{
     font-size: 16pxl;
     color: #ffffff;
     position: relative;
-    
 }
 li a::after{
     content: " ";
@@ -101,26 +92,28 @@ nav li a:hover::after{
 }
 
 /* DROP soluçoes*/
-
 .dropSolucoes .submenuSolucoes {
     display: none;
     position: absolute;
     top: 40px;
-    left: 710px; 
-    
+    left: 610px; 
     z-index: 1;
     text-align: center;
+    
+    
 }
 
 .dropSolucoes:hover .submenuSolucoes {
-    display: block;
     
     li a::after{
       display: none;
     }
+
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 25px;
     
-    background-color: transparent;
-    margin-top: 55px;
 }
 
 .dropSolucoes .submenuSolucoes li {
@@ -129,45 +122,50 @@ nav li a:hover::after{
 }
 
 .dropSolucoes .submenuSolucoes li a {
-  
     color: #000000;
-    background: rgba(255, 255, 255, 0.5); 
-    backdrop-filter: blur(10px); 
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    background:#00a336ef;
+    /* backdrop-filter: blur(10px); 
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5); */
+    border-right:solid 1px #0ce053;
     text-decoration: none;
-    height:10px;
-    width: 150px;
+    height:0px;
+    width: 100px;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
+
+   
 }
 
 .dropSolucoes .submenuSolucoes li a:hover {
   color: #ffffff;
-  background: rgba(59, 234, 11, 0.5); 
+  background:#00a336a2;
+  
+  
 }
 
 
 
 /* DROP orçamento*/
 .dropServicos .submenuServicos {
-  display: none;
+    display: none;
     position: absolute;
-    background-color: #333;
     top: 40px;
-    left: 810px; 
+    left: 800px; 
     width: 230px;
     z-index: 1;
 
     text-align: center;
 }
 .dropServicos:hover .submenuServicos {
-    display: block;
+    
     li a::after{
       display: none;
     }
-    background-color: transparent;
-    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 25px;
 }
 .submenuServicos li {
     display: block;
@@ -175,20 +173,27 @@ nav li a:hover::after{
 .dropServicos ul li a{
    
     color: #000000;
-    background: rgba(255, 255, 255, 0.5); 
-    backdrop-filter: blur(10px); 
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    background:#00a336ef;
+    /* backdrop-filter: blur(10px); 
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5); */
+    border-right:solid 1px #0ce053;
     text-decoration: none;
-    height:10px;
-    width: 100%;
+    height:0px;
+    width: 170px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 .dropServicos ul li a:hover{
   color: #ffffff;
-  background: rgba(59, 234, 11, 0.5); 
+  background:#00a336a2;
 }
+
+
+//final drop
+
+
+
 
 button{
    height: 100px;

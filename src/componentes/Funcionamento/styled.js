@@ -1,17 +1,20 @@
 import styled from 'styled-components';
 
 export const StyledFuncionamento = styled.section`
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
+
 width: 100%;
 height: 100vh;
 background-color:#EDEDED;
 background-color:#D5FFA4;
+background-color: #044f757d;
 display: flex;
 flex-direction: column;
 text-align: center;
+
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
 
 
 
@@ -60,6 +63,7 @@ top: -500px; */
 
   .circulo {
     background-color: #F2CB36;
+    background-color:#00a3369c;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -72,6 +76,7 @@ top: -500px; */
     font-weight: 700;
     &:hover {
       background-color: #FFE583;
+      background-color:#00a336;
       transition: .5s;
       border-radius: 30%;
     }
@@ -81,25 +86,24 @@ top: -500px; */
     left: 0%;
   }
   #circulo2 {
-    top: 20%;
-    left: -13%;
+    top: 0%;
+    left: -1%;
   }
   #circulo3 {
-    top: 20%;
-    left:0%;
+    top: 7%;
+    left:3%;
   }
   #circulo4 {
-   
-    top: -15%;
-    left: 35%;
+    top: 17%;
+    left:-9%;
   }
   #circulo5 {
-    top: 20%;
-    left: 23%;
+    top: 0%;
+    left: -28%;
   }
   #circulo6 {
-    top: -20%;
-    left: 10%;
+    top: -7%;
+    left: 5%;
   }
 
   #ContainerInfo {
@@ -146,15 +150,19 @@ top: -500px; */
   }
   #info3 {
     top: 20%;
-    left: 15%;
+    left: 23%;
   }
   #info4 {
-    top: 38%;
-    left: 55%;
+    top: 45%;
+    left: 47%;
   }
   #info5 {
     top: 70%;
-    left: 45%;
+    left: 32%;
+  }
+  #info6 {
+    top: 70%;
+    left: 38%;
   }
   //estilo da tela menor-------------------------
   #telaMenor{

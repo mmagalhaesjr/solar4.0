@@ -49,6 +49,8 @@ export const StyledQuemSomos = styled.section`
     font-family: 'Montserrat', sans-serif;
   }
 
+  
+
   p {
     font-size: 25px;
     line-height: 35px;

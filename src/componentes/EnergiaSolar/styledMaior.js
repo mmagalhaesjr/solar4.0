@@ -12,6 +12,11 @@ export const StyledFuncionamento = styled.section`
   text-align: center;
   justify-content: center;
 
+  scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0;
+
   /* @media (max-width: 1300px) {
     display: none;
   } */

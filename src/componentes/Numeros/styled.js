@@ -19,16 +19,16 @@ flex-direction: column;
 text-align: center;
 
 #titulo{
-  font-size: 50px;
+  font-size: 40px;
   font-weight:700;
-  margin-top: 80px;
+  margin-top: 30px;
 }
+
 h1{
   color:#000000 ;
+  font-family: 'Montserrat', sans-serif;
 }
-h2{
-  color:#00BF3E ;
-}
+
 
 
 

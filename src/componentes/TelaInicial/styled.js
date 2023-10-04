@@ -4,14 +4,17 @@ export const StyledtextoInicial = styled.div `
 
 width: 100%;
 height: 100vh;
+display: flex;
+flex-direction: column;
+
 /* scroll-snap-align: start;
 position: sticky;
 top: 0;
 left: 0; */
-display: flex;
-flex-direction: column;
 
-
+/* background-image: url(src/assets/fundo.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
 
 
 #imgInicial{
@@ -44,7 +47,7 @@ flex-direction: column;
   font-size: 40px;
   font-weight:700;
  
-  margin-top: 130px;
+  margin-top: 210px;
 
   
 

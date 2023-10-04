@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledFooter = styled.footer`
 
 background-color: #eceeee;
-height: 250px;
+height: 50vh;
 
 display: flex;
 flex-direction: column;
@@ -11,10 +11,13 @@ justify-content: center;
 align-items: center;
 color: #080808;
 
-@media(max-width:940px){
-    height:1000px;
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
 
-    
+@media(max-width:940px){
+    height:1000px;  
 }
 #container{
     width: 100%;
@@ -45,11 +48,49 @@ color: #080808;
 
         
     }
-    .contInterno{
-        width: 100%;
+    .contContatos{
+        width: 400px;
+        height: 100px;
+        color: #080808;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;  
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 10px;
+   
+
+}
+.icones div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.containerRedesS{
+        width: 400px;
         height: 100px;
         display: flex;
         color: #080808;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        cursor: pointer;  
+        margin-top: 0px;
+
+        .contLogo{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        
         font-size: 30px;
         flex-direction: column;
         justify-content: center;
@@ -58,27 +99,7 @@ color: #080808;
         cursor: pointer;  
 
         margin-top: 0px;
-
-       
-
-       
-}
-
-.containerRedesS{
-    width: 100%;
-        height: 100px;
-        display: flex;
-        color: #080808;
-        font-size: 30px;
-        justify-content: center;
-        align-items: center;
-        
-        gap:30px;
-        cursor: pointer;  
-
-        margin-top: 0px;
-
-        
+        }
 }
 
 
@@ -91,13 +112,16 @@ cursor: pointer;
     transition:0.3s;
     }
 }
+
 ul{
 justify-content:center;
 text-align: center;
 font-size: 15px; 
 list-style: none;
 }
-
+ .ico{
+    font-size: 50px;
+ }
 h3{
 margin-top: -20px;
 font-size: 30px;
@@ -123,14 +147,13 @@ img{
 }
 
 h6{
-    margin-bottom: 10px;
+    
     width: 80%;
     text-align:center;
+    position: relative;
+    top: 70px;
 }
-.icones{
-    display: flex;
-    gap:5px;
-}
+
 
 #endereco li a #endereco{
     &:hover{

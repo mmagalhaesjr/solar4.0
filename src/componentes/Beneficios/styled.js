@@ -9,6 +9,11 @@ export const StyledBeneficios = styled.section`
   text-align: center;
   font-size: 16px;
 
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
+
   #titulo {
     font-size: 40px;
     font-weight: 700;

@@ -22,16 +22,20 @@ export default function Beneficios() {
                 <div className="divIcone"> <img className='icone' src={icone3} alt="" /><p>Valorização do imóvel</p></div>
                 <div className="divIcone"> <img className='icone' src={icone4} alt="" /><p>Sem ajuste de tarifa</p></div>
                 <div className="divIcone"> <img className='icone' src={icone5} alt="" /><p>Tempo de retorno do investimento  entre 2 e 5 anos</p></div>
-                
+
             </div>
 
-            
+
 
             <h3>&ldquo;Especialmente no Brasil, onde temos a maior taxa de irradiação solar do mundo, e em Minas Gerais,<br></br>
                 onde temos as mais altas tarifas e variações, a energia solar é a solução ideal.&rdquo;</h3>
 
-            <div id='button'><button>SOLICITE UM ORÇAMENTO</button></div>
-            
+            <div id='button'>
+              
+              <a href="/Orcamento" target="_blank"> <button>SOLICITE UM ORÇAMENTO</button> </a>
+              
+            </div>
+
 
         </StyledBeneficios>
     )

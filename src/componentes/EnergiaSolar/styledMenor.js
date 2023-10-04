@@ -11,4 +11,9 @@ width: 100%;
   text-align: center;
   justify-content: center;
 
+  scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0;
+
 `

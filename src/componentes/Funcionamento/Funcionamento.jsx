@@ -14,8 +14,6 @@ import { SiConvertio } from 'react-icons/si';
 import { BsSpeedometer } from 'react-icons/bs';
 import { GrDocumentDownload } from 'react-icons/gr';
 
-// import casa from '../../assets/casinha.png'
-
 
 
 
@@ -30,7 +28,7 @@ export default function Funcionamento() {
         setInfoVisible(null);
     };
     return (
-        <StyledFuncionamento>
+        <StyledFuncionamento className={scrollY > 1000 ? 'rolagem' : ''}>
 
             <div id="titulo">
                 <h1>

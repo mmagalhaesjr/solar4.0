@@ -65,7 +65,7 @@ export default function Header() {
                         </li>
 
                         <li><a href="/Orcamento" target="_blank" >Orçamento</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#footer">Contato</a></li>
                         <li><a href="/blog" target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
