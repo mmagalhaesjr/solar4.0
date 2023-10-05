@@ -75,18 +75,16 @@ section{
   height: 250px; 
 
   background: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(10px); 
-
-  
-  
+  backdrop-filter: blur(10%); 
 }
 
 .projetos p{
   position: relative;
   z-index: 1;
   top: -50px;
-  color: #ffffff;
+  color: #000000;
   display: none;
+  font-weight: 700;
 
   opacity: 0; 
   transition: opacity 1s ease; 
@@ -96,7 +94,7 @@ section{
 .projetos:hover p {
   display: block;
   transition: opacity 3s ease; 
-  opacity: 0.5;
+  opacity: 1;
   
 }
 
