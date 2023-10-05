@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { StyledDepoimentos } from "./styled";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -6,12 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function Depoimentos() {
   const sliderRef = useRef(null);
+  const [autoplay, setAutoplay] = useState(true);
 
   const settings = {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    arrows: false, // Desabilita as setas do slick
+    arrows: false,
+    autoplay: autoplay,
+    speed: 8000, // Velocidade da animação do slide (em milissegundos)
     responsive: [
       {
         breakpoint: 768,
@@ -30,14 +33,24 @@ export default function Depoimentos() {
     ],
   };
 
-  const handleNextClick = () => {
-    sliderRef.current.slickNext(); // Move o carrossel para a próxima página
-  };
+  // const handleNextClick = () => {
+  //   sliderRef.current.slickNext();
+  // };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      sliderRef.current.slickNext();
+    }, 10000); // Muda para 5000 para que o carrossel mude a cada 5 segundos
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <StyledDepoimentos>
       <div id="titulo">
-        <h1 >DEPOIMENTOS</h1>
+        <h1>DEPOIMENTOS</h1>
       </div>
 
       <div id="container">
@@ -99,8 +112,11 @@ export default function Depoimentos() {
         </Slider>
 
       </div>
-      <button onClick={handleNextClick}>Próxima</button>
-
+      
+      {/* <button onClick={handleNextClick}>Próxima</button> */}
+      <button onClick={() => setAutoplay(!autoplay)}>
+        {autoplay ? "Pausar" : "Reproduzir"}
+      </button>
     </StyledDepoimentos>
   );
 }

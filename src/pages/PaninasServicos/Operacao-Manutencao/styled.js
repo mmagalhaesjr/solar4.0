@@ -33,7 +33,10 @@ left: 0; */
   width: 800px;
   height: 350px;
   margin-top: 60px;
-  background-color:#00000047 ;
+  /* background-color:#00000047 ;
+  backdrop-filter: blur(10px);
+  opacity: 0.9; */
+  background-color: #9bc4eaa4;
   backdrop-filter: blur(10px);
   opacity: 0.9;
   border-radius: 15px;
@@ -41,7 +44,7 @@ left: 0; */
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 30px; 
+  gap: 50px; 
 }
 
 #cont6{
@@ -54,13 +57,14 @@ left: 0; */
 #cont{
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap:50px;
   margin-left: 20px;
 }
 
 .funcoes{
   display: flex;
   font-size: 30px;
+  gap: 10px;
 }
 
 button{

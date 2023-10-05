@@ -79,7 +79,7 @@ p{
   margin-top: 100px;
 }
 button{
-  width: 20%;
+  width: 7%;
   height: 50px;
   color: #eceeee;
   background-color: #000000;

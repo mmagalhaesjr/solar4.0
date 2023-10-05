@@ -13,6 +13,7 @@ import Mvv from "../../componentes/Mvv/Mvv";
 import Numeros from "../../componentes/Numeros/Numeros";
 import Depoimentos from "../../componentes/Depoimentos/Depoimentos";
 import Funcionamento from "../../componentes/Funcionamento/Funcionamento";
+import Parceiros from "../../componentes/Parceiros/Parceiros";
 
 
 
@@ -40,6 +41,8 @@ export default function Main() {
             
             <Numeros/>
             <Depoimentos/>
+
+            <Parceiros/>
         
             <Footer/>
          
