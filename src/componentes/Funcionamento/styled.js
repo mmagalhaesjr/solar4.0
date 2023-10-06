@@ -63,7 +63,7 @@ top: -500px; */
 
   .circulo {
     background-color: #F2CB36;
-    background-color:#00a3369c;
+    /* background-color:#00a3369c; */
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -76,7 +76,7 @@ top: -500px; */
     font-weight: 700;
     &:hover {
       background-color: #FFE583;
-      background-color:#00a336;
+      background-color: #f7d54e;
       transition: .5s;
       border-radius: 30%;
     }

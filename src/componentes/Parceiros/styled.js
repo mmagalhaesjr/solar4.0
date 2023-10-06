@@ -29,20 +29,21 @@ h1{
 }
 
 #container{
-  width: 100%;
-  height:300px;
-  overflow: hidden;
-  display: flex;
+  width: 60%;
+  
+  /* overflow: hidden; */
+  display:block;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-
-
+  gap: 30px;
+  margin-top: 50px;
+  
 }
 
 #container img{
   width: 200px;
   height: 100px;
+  margin-left: 20px;
 }
 #linha{
   width: 20%;

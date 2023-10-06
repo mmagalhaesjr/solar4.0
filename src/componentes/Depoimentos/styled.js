@@ -9,20 +9,16 @@ height: 100vh;
 position: sticky;
 top: 0;
 left: 0; */
-
 background-color: #eceeee;
 display: flex;
 flex-direction: column;
 align-items: center;
 
 
-
-
-
 #titulo{
   font-size: 40px;
   font-weight:700;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 h1{
@@ -72,12 +68,26 @@ h2{
   color: #000000;
   font-weight: 700;
   margin-top: 10px;
- 
-  
 }
-p{
-  margin-top: 100px;
+.texto{
+  width: 80%;
 }
+
+.star{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.star img{
+width: 100px;
+height: 20px;
+}
+
+
 button{
   width: 7%;
   height: 50px;

@@ -13,14 +13,24 @@ export default function Footer() {
         <StyledFooter id='footer'>
             <div id="container">
                 <div className="container">
-                    <h3>Contato</h3>
+                    <h3 className='tituloContato'>Contato</h3>
                     <div className="contContatos" id="endereco" >
                         <div className="icones">
-                            <div><BsTelephone /> &nbsp;Belo Horizonte &nbsp; <p>(31)99774-9508 </p></div>
-                            <div><BsTelephone /> &nbsp; Juiz de Fora &nbsp; <p>(32)98888-6000 </p></div>
+                            <div> Belo Horizonte &nbsp; <BsTelephone /> &nbsp;&nbsp; <p>(31)&nbsp;98534-5277 </p></div>
+                            
                         </div>
                         <div className="icones" >
-                           <div><AiOutlineMail /><p>Solar@gmail.com</p></div> 
+                           <div><AiOutlineMail />&nbsp;<p>contato@solar40.com.br</p></div> 
+                        </div>
+                    </div>
+
+                    <div className="contContatos" id="endereco" >
+                        <div className="icones">
+                        <div>Juiz de Fora &nbsp; <BsTelephone /> &nbsp; &nbsp;  <p>(32)&nbsp;98888-6000 </p></div>
+                            
+                        </div>
+                        <div className="icones" >
+                           <div><AiOutlineMail />&nbsp;<p>zonadamata@solar40.com.br</p></div> 
                         </div>
                     </div>
 

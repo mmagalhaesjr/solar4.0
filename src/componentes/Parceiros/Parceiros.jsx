@@ -11,7 +11,7 @@ export default function Parceiros() {
     return (
         <StyledParceiros>
             
-            <div id="linha"></div>
+            
 
             <div id="titulo">
                 <h1>NOSSOS PARCEIROS</h1>
@@ -24,11 +24,9 @@ export default function Parceiros() {
                 <img src={foto4} alt="" />
                 <img src={foto5} alt="" />
                 <img src={foto6} alt="" />
-
-
             </div>
 
-            <div id="linha"></div>
+           
 
         </StyledParceiros>
     )

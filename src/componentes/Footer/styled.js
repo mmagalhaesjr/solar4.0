@@ -21,6 +21,7 @@ left: 0; */
 }
 #container{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,9 @@ left: 0; */
     @media(max-width:940px){
     flex-direction:column;
 }
-}
+
+
+} 
 
 @media (max-width:800px) {
     #container{
@@ -131,13 +134,26 @@ color: #080808;
 p{
 font-size: 16px;
 }
+.contContatos{
 
+}
 #endereco{
 gap:3px;
 text-align: center;
+align-items: flex-start;
 flex-direction: column;
 font-size: 15px;
+height: 100%;
 
+
+}
+
+.icones{
+    margin-left: 80px;
+}
+
+.tituloContato{
+    margin-top: 19px;
 }
 
 img{
