@@ -1,5 +1,5 @@
 import { StyledtextoInicial } from "./styled";
-import fundo from "../../assets/fundo.jpg"
+// import fundo from "../../assets/fundo.jpg"
 
 
 
@@ -7,7 +7,7 @@ export default function TelaInicial() {
     return (
         <StyledtextoInicial>
 
-            <img id="imgInicial" src={fundo} alt="imagem" />
+            {/* <img id="imgInicial" src={fundo} alt="imagem" /> */}
 
             <div id="container">
                 <div id="texto">

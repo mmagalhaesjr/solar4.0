@@ -1,13 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledNossosProjetos = styled.section`
-width: 100%;
-height: 170vh;
 
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
+height: 160vh;
 
 background-color: #eceeee;
 
@@ -15,6 +10,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+
+/* scroll-snap-align: start;
+position: sticky;
+top: 0;
+left: 0; */
 
 #linha{
   width: 20%;
@@ -43,7 +43,7 @@ h1{
   justify-content:center;
   align-items: center;
   width: 100%;
-  width:100%;
+  max-width: 1660px;
  
   /* flex-wrap: wrap; */
 }
@@ -112,8 +112,20 @@ height: 100%;
 }
 
 
+@media(min-width:1660px) {
+  height: 100vh;
+}
 
 
+
+@media (max-width:419px) {
+  height: 130vh;
+    
+    #titulo{
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
 
 
 

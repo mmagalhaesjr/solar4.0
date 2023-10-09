@@ -12,9 +12,9 @@ position: sticky;
 top: 0;
 left: 0; */
 
-/* background-image: url(src/assets/fundo.jpg);
+background-image: url(src/assets/fundo.jpg);
 background-repeat: no-repeat;
-background-size: cover; */
+background-size: cover;
 
 
 #imgInicial{
@@ -79,6 +79,8 @@ button{
   }
 }
 
-
+@media(max-width:934px) {
+  height: 70vh;
+}
 
 `

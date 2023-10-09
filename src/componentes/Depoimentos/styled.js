@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledDepoimentos = styled.section`
 width: 100%;
 height: 100vh;
@@ -90,10 +91,20 @@ height: 20px;
 
 
 button{
-  width: 7%;
-  height: 50px;
-  color: #eceeee;
-  background-color: #000000;
-  margin-top: 20px;
+  position: relative;
+background-color: transparent;
+border: none;
+font-size: 50px;
 }
+
+#voltar{
+top: -230px;
+left: -44%;
+}
+
+#proximo{
+  top: -295px;
+  left: 45%;
+}
+
 `

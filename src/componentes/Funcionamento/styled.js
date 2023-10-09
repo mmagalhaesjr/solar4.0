@@ -4,11 +4,11 @@ export const StyledFuncionamento = styled.section`
 
 width: 100%;
 height: 100vh;
-background-color:#EDEDED;
-background-color:#D5FFA4;
 background-color: #044f757d;
 display: flex;
 flex-direction: column;
+/* align-items: center; */
+
 text-align: center;
 
 /* scroll-snap-align: start;
@@ -35,12 +35,7 @@ h1{
     
   }
 
-@media (max-width: 1300px) {
-  #telaMaior {
-    display: none;
-  }
 
-  }
 #container{
   height: 70vh;
   width: 100%;
@@ -49,6 +44,8 @@ h1{
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  border: solid 2px red;
 
 /* background-image:url('https://th.bing.com/th/id/R.42b312917c353b788856a3e9ae1df783?rik=NBuYpBBDyr5Fqg&riu=http%3a%2f%2fbluesol.com.br%2fwp-content%2fuploads%2f2016%2f11%2fimagem-2.png&ehk=ACoCTghZt6U5uPP3aG3NQrH0to5icqxizyFA10KqVqU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1') ; */
 background-image:url('/src/assets/casinha.png');
@@ -164,32 +161,29 @@ top: -500px; */
     top: 70%;
     left: 38%;
   }
-  //estilo da tela menor-------------------------
+  //estilo da tela menor-------------------------------------
+
+  #titulo{
+  
+  margin-top: 80px;
+}
+
+
   #telaMenor{
     display: none;
   }
-  @media (max-width:1300px) {
-    height: 130vh;
-    #telaMenor{
-      display: block;
-    }
-  }
-  @media (max-width:419px) {
-    height: 140vh;
-    
-  }
-  @media (max-width:365px) {
-    height: 160vh;
-    
-  }
+ 
 #container2{
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 100px;
   gap: 30px;
+
+  border: solid 2px red;
 }
 .card{
   width:85% ;
@@ -221,4 +215,39 @@ h3{
 .texto{
   width: 300px;
 }
+
+@media(min-width:1660px) {
+ justify-content: center;
+ align-items: center;
+  #container{
+    width: 1660px;
+  }
+}
+
+@media (max-width: 1300px) {
+  height: 100vh;
+  #telaMaior {
+    display: none;
+  }
+
+  }
+
+  @media (max-width:1300px) {
+    height: 130vh;
+    #telaMenor{
+      display: block;
+    }
+  }
+  @media (max-width:419px) {
+    height: 110vh;
+    #container2{
+      margin-top: 60px;
+    }
+    #titulo{
+      font-size: 25px;
+      font-weight: 700;
+    }
+    
+  }
+  
 `

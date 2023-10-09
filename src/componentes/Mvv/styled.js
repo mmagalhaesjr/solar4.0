@@ -82,10 +82,19 @@ span{
 }
 
 #logo{
+position: relative;
+left: 500px;
 width: 240px;
 height: 80px;
 margin-bottom: 70px;
 }
+&.rolagem {
+  #logo{
+    transform: translatex(-500px);
+    z-index: 1;
+    transition: 1s;
+   }
+  }
 
 @media (max-width:1076px) {
   #container{

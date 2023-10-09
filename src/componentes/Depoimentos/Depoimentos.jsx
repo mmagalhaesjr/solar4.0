@@ -1,22 +1,43 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import estrela from '../../assets/estrela.png'
 import { StyledDepoimentos } from "./styled";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { GrNext } from 'react-icons/gr';
+import { GrPrevious } from 'react-icons/gr';
+
+
 
 export default function Depoimentos() {
   const sliderRef = useRef(null);
-  const [autoplay, /*setAutoplay*/] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      sliderRef.current.slickNext();
+    }, 10000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  const handleNextClick = () => {
+    sliderRef.current.slickNext();
+  };
+
+  const handlePrevClick = () => {
+    sliderRef.current.slickPrev();
+  };
 
   const settings = {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
-    autoplay: autoplay,
-    speed: 8000, // Velocidade da animação do slide (em milissegundos)
+    autoplay: false,
+    speed: 8000,
     responsive: [
       {
         breakpoint: 768,
@@ -35,20 +56,6 @@ export default function Depoimentos() {
     ],
   };
 
-  // const handleNextClick = () => {
-  //   sliderRef.current.slickNext();
-  // };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      sliderRef.current.slickNext();
-    }, 10000); // Muda para 5000 para que o carrossel mude a cada 5 segundos
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
   return (
     <StyledDepoimentos>
       <div id="titulo">
@@ -56,11 +63,15 @@ export default function Depoimentos() {
       </div>
 
       <div id="container">
-        <Slider {...settings} ref={sliderRef}>
+        
+
+<Slider {...settings} ref={sliderRef}>
+
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"> <img src="https://lh3.googleusercontent.com/a/ACg8ocJt5-r21CeNtwbOODpW-rt6pyXoFb81TbLlaEdPNNCU=w75-h75-p-rp-mo-br100" alt="" /></div>
-              
+
               <h2>Pedro Bastos Altomari</h2>
               <div className="star" >
                 <img src={estrela} alt="" />
@@ -72,7 +83,6 @@ export default function Depoimentos() {
                   economia de R$ 400,00 por mês, muito satisfeito e pretendo colocar em outros lugares...
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -89,9 +99,9 @@ export default function Depoimentos() {
                   A instalação foi rápida e funcionou perfeitamenteAtendimento com prestezaeducação e cuidados. Recomendo por ser muito bom.
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWsxHB5ZffItZXXfSj3Df3wKbBBiBqnOgh3yAbD3EG0hdA=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -106,9 +116,9 @@ export default function Depoimentos() {
                   combinadosem transtornos, a economia REALMENTE compensou superando até o prometido
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocLHOkmKjksIWrY02cVjkPumezgpgUsiZHXX7xmt7zni=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -157,7 +167,6 @@ export default function Depoimentos() {
                   Foi investimento excelentepois o retorno e certo!
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -175,7 +184,6 @@ export default function Depoimentos() {
                   Em 1 mês tendo energia solar eu já tive retorno na conta de luz. Nota 10
                 </p>
               </div>
-
             </div>
           </div>
 
@@ -193,9 +201,9 @@ export default function Depoimentos() {
                   Agradeço ao time da Solar 4.0 por me lembrar e por realizar o serviço de maneira excepcional!
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocIe4QU1US-7NjviUztcxyzyLYxAtRvvd2TcJgTIMZjI=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -213,9 +221,9 @@ export default function Depoimentos() {
                   Estou muito satisfeito com a aquisição
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjX9MrUoxkBvZFNDkxZtcFyaCAq0tZPLiaCoWhqcIn3oLef_=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -229,9 +237,9 @@ export default function Depoimentos() {
                   Atendimento excelenteMuito profissionalismo e competência técnica
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjXwmlzlIIzVUOxEMg9h7-auaUQ8D_9YlswWGfRVH7DMEw=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -246,9 +254,9 @@ export default function Depoimentos() {
                   Projeto personalizado e equipamentos intelbras. Recomendo!
                 </p>
               </div>
-
             </div>
           </div>
+
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocIDqCHQgjS5kwUsWA93uw-DEOxrQ9J5ZHUF2AWeoiQm=w75-h75-p-rp-mo-br100" alt="" /></div>
@@ -263,17 +271,16 @@ export default function Depoimentos() {
                   a solar 4.0 me instruiu muito bem. Investimento muito bom
                 </p>
               </div>
-
             </div>
           </div>
+
         </Slider>
 
       </div>
 
-      {/* <button onClick={handleNextClick}>Próxima</button>
-      <button onClick={() => setAutoplay(!autoplay)}>
-        {autoplay ? "Pausar" : "Reproduzir"}
-      </button> */}
+      <button id="voltar" onClick={handlePrevClick}><GrPrevious/></button>
+      <button id="proximo" onClick={handleNextClick}><GrNext/></button>
+      
     </StyledDepoimentos>
   );
 }

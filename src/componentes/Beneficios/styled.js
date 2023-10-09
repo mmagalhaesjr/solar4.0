@@ -4,6 +4,7 @@ export const StyledBeneficios = styled.section`
   width: 100%;
   min-height: 100vh;
   background-color: #eceeee;
+  background-color: red;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -17,7 +18,7 @@ left: 0; */
   #titulo {
     font-size: 40px;
     font-weight: 700;
-    margin-top: 3rem;
+    margin-top: 100px;
   }
 
   h1 {
@@ -84,6 +85,14 @@ left: 0; */
   }
 }
 
+@media(min-width:1660px) {
+  height: 10vh;
+}
+
+
+
+
+
   @media (max-width: 1000px) {
     #ContainerIcones {
       display: grid;
@@ -101,6 +110,13 @@ left: 0; */
 
     .divIcone p {
       font-size: 0.875rem;
+    }
+  }
+  @media (max-width:419px) {
+    
+    #titulo{
+      font-size: 25px;
+      font-weight: 700;
     }
   }
 `;

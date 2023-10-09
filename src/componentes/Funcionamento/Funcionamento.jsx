@@ -169,6 +169,8 @@ export default function Funcionamento() {
                     </div>
                 </div>
             </section>
+            
+{/* ELEMENTO DA TELA MENOR -------------------------------- */}
 
             <section id="telaMenor">
 
@@ -222,6 +224,21 @@ export default function Funcionamento() {
 
                         </div>
                     </div>
+
+                    <div className="card">
+                        <div className="informacao">
+                            {/* <h3>5</h3> */}
+                            <div className="icone">
+                                <SiConvertio className="ico" />
+                            </div>
+                            <div className="texto">
+                                <p>Se o seu sistema gerar mais energia do que você consome, o excedente é acumulado em créditos .  </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div className="card">
                         <div className="informacao">
                             {/* <h3>5</h3> */}
