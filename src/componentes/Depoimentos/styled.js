@@ -10,6 +10,7 @@ position: sticky;
 top: 0;
 left: 0; */
 background-color: #eceeee;
+background-color: red;
 display: flex;
 flex-direction: column;
 align-items: center;

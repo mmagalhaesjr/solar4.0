@@ -20,9 +20,6 @@ flex-direction: column;
 align-items: center;
 
 
-
-
-
 #container{
   width: 100%;
   height: 100vh;
@@ -90,14 +87,37 @@ height: 80px;
 margin-bottom: 70px;
 }
 
+@media (max-width:1076px) {
+  #container{
+    justify-content: space-between;
+  }
+  .card{
+    width: 90%;
+  }
+}
+
 @media (max-width:920px) {
   #container{
     flex-direction: column;
+    justify-content: center;
   }
   .card{
-    width: 100%;
-    height: 30vh;
+    width: 95%;
+    height: 28vh;
   }
+
+  img{
+  display: none;
 }
+}
+
+@media (max-width:450px) {
+.card .texto p{
+  font-size: 70%;
+}
+}
+
+
+
 
 `

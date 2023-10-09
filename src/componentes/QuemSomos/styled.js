@@ -23,33 +23,34 @@ export const StyledQuemSomos = styled.section`
     height: 100%;
     display: flex;
     justify-content: space-around;
+
+    border: solid 2px #fff;
     
     /* border: solid 4px blue; */
   }
 
   #texto {
     width: 50%;
-    height: 100%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #000000;
     position: relative;
-    top: -50px;
+    
     /* background: radial-gradient(circle, rgba(215,215,215,0.8789566852131477) 0%, rgba(255,255,255,0.8565477216277135) 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:10px ; */
+
+    border: solid 2px red;
   }
 
   h1 {
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 20px;
+   
     font-family: 'Montserrat', sans-serif;
   }
-
-  
 
   p {
     font-size: 25px;
@@ -110,24 +111,31 @@ span{
 }
 
   @media (max-width: 800px) {
+    #container{
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
     #texto {
-      width: 100%;
-      height: 100%;
+      width: 95%;
+      margin-top: 50px;
+    }
+    h1{
+      margin-top: 10px;
     }
     p {
       font-size: 20px;
+      margin-top: 30px;
     }
   }
 
   @media (max-width: 573px) {
-    #container {
-      margin-top: 0;
-      flex-direction: column;
-      height: 100%;
-    }
+   
     #texto {
       align-items: center;
       height: 70%;
+      justify-content: center;
+     
     }
     #texto p {
       font-size: 20px;
@@ -151,13 +159,11 @@ span{
    
    }
   }
-
-
-
-  @media (max-width: 419px) {
-    #container {
-    }
-    #texto {
+  @media (max-width: 420px) {
+   
+    #texto h1{
+      font-size: 35px;
+      margin-top: 40px;
     }
     #imgSois {
       height: 20%;
@@ -169,6 +175,14 @@ span{
     }
   }
 
- 
+  @media (max-width: 375px) {
+    #texto h1{
+      font-size: 25px;
+    }
+    p {
+      font-size: 7px;
+      line-height: 25px;
+    }
+  }
 
 `;

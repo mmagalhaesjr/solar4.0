@@ -10,20 +10,15 @@ position: sticky;
 top: 0;
 left: 0; */
 
+/*  #00BF3E; */
 background-color: #eceeee;
 background-image: url('https://nhssolar.com.br/wp-content/uploads/2019/03/shutterstock_175274429-1.jpg');
 background-size: cover;
-
-
-/* border: solid 3px #00BF3E; */
 
 display: flex;
 flex-direction: column;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
-
-
-
 
 #titulo{
   font-size: 40px;
@@ -36,23 +31,27 @@ h1{
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
-
 #container{
+height: 100%;
 display:flex;
 align-items: center;
 justify-content: center;
 gap: 50px;
-margin-top: 200px;
+margin-top: 100px;
+
+border: solid 2px #fff;
 }
 
 .containerCirculo{
+  
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  position: relative;
 
-
+  border: solid 2px blue;
 }
-
 .circulo{
   width: 200px;
   height: 200px;
@@ -61,33 +60,24 @@ margin-top: 200px;
   backdrop-filter: blur(10px);
   opacity: 0.9;
   border-radius: 50% 50%;
-
   display:flex;
   align-items: center;
   justify-content: center;
   font-size: 30px;
 
   position: relative;
-  top:50px;
+  top:150px;
 }
-
 &.rolagem {
   .circulo{
-    transform: translateY(-100px);
+    /* transform: translateY(-150px); */
+    top: -50px;
     z-index: 1;
     transition: 1s;
    }
   }
 
-#circulo1{
 
-}
-#circulo2{
-  
-}
-#circulo3{
-  
-}
 
 .circuloInterno{
   width: 150px;
@@ -102,8 +92,6 @@ margin-top: 200px;
 
   font-size: 30px;
 }
-
-
 h3{
   color: #ffffff;
   font-size: 20px;
@@ -114,20 +102,51 @@ h3{
   opacity: 0.9;
   border-radius:50px 50px 50px 50px; */
 }
-
 .fundoTexto{
   height: 40px;
   width: 300px;
   background-color:#00000047 ;
   backdrop-filter: blur(10px);
   opacity: 0.9;
-
   border-radius: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+@media(max-width:1010px) {
+  #container{
+    justify-content: space-evenly;
+    gap: 0;
+  }
+}
 
+@media(max-width:937px) {
+  #container{
+    flex-wrap: wrap; 
+  }
+}
+
+@media(max-width:615px) {
+  #container{
+    margin-top: 80px;
+  }
+  .containerCirculo{
+
+}
+.circulo{
+width: 150px;
+height: 150px;
+}
+.circuloInterno{
+  width: 120px;
+height: 120px;
+}
+.fundoTexto{
+margin-top: -35px;
+}
+.fundoTexto h3{
+  
+}
+}
 `
