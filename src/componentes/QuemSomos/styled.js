@@ -24,7 +24,7 @@ export const StyledQuemSomos = styled.section`
     display: flex;
     justify-content: space-around;
 
-    border: solid 2px #fff;
+    
     
     /* border: solid 4px blue; */
   }
@@ -42,7 +42,7 @@ export const StyledQuemSomos = styled.section`
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:10px ; */
 
-    border: solid 2px red;
+   
   }
 
   h1 {

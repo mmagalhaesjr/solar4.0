@@ -5,7 +5,7 @@ width: 100%;
 height: 40vh;
 
 background-color: #eceeee; 
-background-color: blue;
+
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -28,18 +28,23 @@ h1{
 }
 
 #container{
+  position: relative;
   width: 90%;
   /* overflow: hidden; */
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
-
   margin-top: 50px;
-
-  border: solid 1px red;
-  
+  left: 900px;
 }
+
+&.rolagem {
+  #container{
+    transform: translatex(-900px);
+    z-index: 1;
+    transition: 1s;
+   }
+  }
 
 #container img{
   width: 200px;
@@ -47,7 +52,7 @@ h1{
   margin-top: 10px;
   
 
-  border: solid 1px white;
+ 
 }
 #linha{
   width: 20%;

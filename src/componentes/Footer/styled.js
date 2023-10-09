@@ -88,7 +88,7 @@ left: 0; */
 
         margin-top: 0px;
 
-        border: solid 2px black;
+        
         }
 }
 
@@ -166,14 +166,14 @@ h6{
 }
 @media (max-width:1251px) {
     #container{
-        border: solid 1px red;
+    
     }
 }
 @media (max-width:1064px) {
     #container{
         
         overflow: hidden;
-        background-color: #00BF3E;
+       
     }
     .contLogo{
         

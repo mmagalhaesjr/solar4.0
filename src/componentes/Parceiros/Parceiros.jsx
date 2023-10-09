@@ -6,10 +6,26 @@ import foto5 from '../../assets/parceiros/5.png'
 import foto6 from '../../assets/parceiros/6.png'
 import { StyledParceiros } from "./styled";
 
+import { useState, useEffect } from "react";
+
 
 export default function Parceiros() {
+
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+  
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
     return (
-        <StyledParceiros>
+        <StyledParceiros className={scrollY > 6000 ? 'rolagem' : ''}>
             
             
 

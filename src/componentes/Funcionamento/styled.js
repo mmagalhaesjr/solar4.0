@@ -45,7 +45,6 @@ h1{
   align-items: center;
   justify-content: center;
 
-  border: solid 2px red;
 
 /* background-image:url('https://th.bing.com/th/id/R.42b312917c353b788856a3e9ae1df783?rik=NBuYpBBDyr5Fqg&riu=http%3a%2f%2fbluesol.com.br%2fwp-content%2fuploads%2f2016%2f11%2fimagem-2.png&ehk=ACoCTghZt6U5uPP3aG3NQrH0to5icqxizyFA10KqVqU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1') ; */
 background-image:url('/src/assets/casinha.png');
@@ -183,7 +182,7 @@ top: -500px; */
   margin-top: 100px;
   gap: 30px;
 
-  border: solid 2px red;
+  
 }
 .card{
   width:85% ;

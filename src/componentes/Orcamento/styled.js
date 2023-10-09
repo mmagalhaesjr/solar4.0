@@ -19,14 +19,16 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-#titulo{
-  font-size: 50px;
-  font-weight:700;
-  margin-top: 80px;
-}
-h1{
-  color:#000000 ;
-}
+#titulo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+
+  h1 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+  }
 h2{
   color:#00BF3E ;
 }

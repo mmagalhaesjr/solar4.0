@@ -228,7 +228,7 @@ export const StyledHeader = styled.header`
 
         /* DROP soluções responsivo */
         .dropSolucoes .submenuSolucoes {
-            left: 70%;
+            left: 40%;
             transform: none;
             width: 100%;
             top: 100%;

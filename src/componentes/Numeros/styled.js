@@ -39,18 +39,17 @@ justify-content: center;
 gap: 50px;
 margin-top: 100px;
 
-border: solid 2px #fff;
+
 }
 
 .containerCirculo{
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
 
-  border: solid 2px blue;
+  
 }
 .circulo{
   width: 200px;

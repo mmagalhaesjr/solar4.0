@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledOrcamento = styled.section`
 width: 100%;
 height: 100vh;
@@ -19,14 +20,16 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-#titulo{
-  font-size: 50px;
-  font-weight:700;
-  margin-top: 80px;
-}
-h1{
-  color:#000000 ;
-}
+#titulo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+
+  h1 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+  }
 h2{
   color:#00BF3E ;
 }
@@ -37,39 +40,43 @@ h2{
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
   align-items: center;
-
 }
 
 form{
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+  margin-top: 50px;
+}
+
+section{
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
 }
 
 .cont{
 margin-top: 60px;
 width: 500px;
-height: 350px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-
 }
+
+
 
 input{
-    margin-bottom: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
+
 .inputBox{
     position: relative;
     width: 100%;
     color:#7a7979 ;   
-
-   
-    
 }
 .inputUser{
     background: none;
@@ -103,12 +110,13 @@ button{
         outline: none;
         border: none;
         color:#eae9e9;
+        border-radius: 10px;
         width: 200px;
         height: 40px;
         font-size: 15px;
         cursor: pointer;
         position:relative;
-        left: 0px;
+       
         top: -0px;
        
     &:hover{
@@ -120,7 +128,30 @@ button{
 }
 
 
+@media(max-width:900px) {
+  form{
+    width: 80%;
+    margin-top: 100px;
+   
+  }
+  section{
+    
+    flex-direction: column;
+    width: 100%;
+  }
+  .cont{
+    width: 100%;
+    align-items: center;
+    margin-top: -30px;
 
+  }
+  input{
+    width: 100%;
+  }
+  button{
+    left: 0;
+  }
+}
 
 
 
