@@ -11,6 +11,7 @@ flex-direction: column;
 text-align: center;
 align-items: center;
 justify-content: center;
+overflow: hidden;
 /* scroll-snap-align: start;
 position: sticky;
 top: 0;
