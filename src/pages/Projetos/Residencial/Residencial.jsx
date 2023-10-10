@@ -10,6 +10,15 @@ import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
 import valorizacao from "../../../assets/icones projetos/valorizacao.png"
 
+import foto1 from '../../../assets/residencial/residencial1.jpeg'
+import foto2 from '../../../assets/residencial/residencial2.jpeg'
+import foto3 from '../../../assets/residencial/residencial3.jpeg'
+import foto4 from '../../../assets/residencial/residencial4.jpeg'
+import foto5 from '../../../assets/residencial/residencial5.jpeg'
+import foto6 from '../../../assets/residencial/residencial6.jpeg'
+import foto7 from '../../../assets/residencial/residencial7.jpeg'
+
+
 
 
 export default function Residencial() {
@@ -118,6 +127,28 @@ export default function Residencial() {
                     </div>
 
                 </div>
+
+            </div>
+
+
+            {/* fotos ------------ */}
+            <div id="containerFotos">
+
+                <div id="foto1" className="fotos">
+                    <img src={foto1} alt="" />
+                    <img src={foto2} alt="" />
+                </div>
+                <div id="foto2" className="fotos">
+                    <img src={foto3} alt="" />
+                    <img src={foto4} alt="" />
+                    <img src={foto5} alt="" />
+                </div>
+                <div id="foto3" className="fotos">
+                    <img src={foto6} alt="" />
+                    <img src={foto7} alt="" />
+                   
+                </div>
+
 
             </div>
 

@@ -90,10 +90,11 @@ height: 20px;
 
 
 button{
-  position: relative;
+position: relative;
 background-color: transparent;
 border: none;
 font-size: 50px;
+cursor: pointer;
 }
 
 #voltar{

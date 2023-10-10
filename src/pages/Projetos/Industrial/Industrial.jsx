@@ -10,6 +10,15 @@ import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 // import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
 import valorizacao from "../../../assets/icones projetos/valorizacao.png"
 
+import foto1 from '../../../assets/industrial/industrial1.jpeg'
+import foto2 from '../../../assets/industrial/industrial2.jpeg'
+import foto3 from '../../../assets/industrial/industrial3.jpeg'
+import foto4 from '../../../assets/industrial/industrial4.jpeg'
+import foto5 from '../../../assets/industrial/industrial5.jpeg'
+import foto6 from '../../../assets/industrial/industrial6.jpeg'
+import foto7 from '../../../assets/industrial/industrial7.jpeg'
+import foto8 from '../../../assets/industrial/industrial8.jpeg'
+
 
 
 export default function Industrial() {
@@ -119,6 +128,26 @@ export default function Industrial() {
 
             </div>
 
+            {/* fotos ------------ */}
+            <div id="containerFotos">
+
+                <div id="foto1" className="fotos">
+                    <img src={foto1} alt="" />
+                    <img src={foto2} alt="" />
+                </div>
+                <div id="foto2" className="fotos">
+                    <img src={foto3} alt="" />
+                    <img src={foto4} alt="" />
+                    <img src={foto5} alt="" />
+                </div>
+                <div id="foto3" className="fotos">
+                    <img src={foto6} alt="" />
+                    <img src={foto7} alt="" />
+                    <img src={foto8} alt="" />
+                </div>
+
+
+            </div>
 
         </StyledIndustrial >
     )

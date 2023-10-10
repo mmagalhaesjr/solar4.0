@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledIndustrial = styled.section`
 width: 100%;
-height: 250vh;
+height: 300vh;
 background-color: #eceeee; 
 display: flex;
 flex-direction: column;
@@ -196,6 +196,52 @@ margin-top: 5px;
 @media(max-width:460px) {
   .box{
     width: 90%;
+  }
+}
+
+// containerFotos ------------------------------
+
+#containerFotos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#foto1{
+width: 40%;
+}
+#foto2{
+  width: 30%;
+}
+#foto3{
+  width: 30%;
+}
+.fotos{
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.fotos img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:1000px) {
+  height: 240vh;
+}
+
+@media (max-width:970px) {
+  #containerFotos{
+    position: relative;
+    top: 400px;
+  }
+}
+@media (max-width:800px) {
+  #containerFotos{
+    position: relative;
+    top: 100px;
   }
 }
 
