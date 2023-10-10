@@ -10,13 +10,23 @@ import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 // import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
 // import valorizacao from "../../../assets/icones projetos/valorizacao.png"
 
+import foto1 from '../../../assets/comercial/comercial1.jpeg'
+import foto2 from '../../../assets/comercial/comercial2.jpeg'
+import foto3 from '../../../assets/comercial/comercial3.jpeg'
+import foto4 from '../../../assets/comercial/comercial4.jpeg'
+import foto5 from '../../../assets/comercial/comercial5.jpeg'
+import foto6 from '../../../assets/comercial/comercial6.jpeg'
+import foto7 from '../../../assets/comercial/comercial7.jpeg'
+import foto8 from '../../../assets/comercial/comercial8.jpeg'
+
 
 export default function Comercial() {
     return (
         <StyledComercial>
 
-            <div id="container">
 
+            {/* capa ------------ */}
+            <div id="container">
                 <div id="titulo">
                     <h1>PROJETOS </h1>
                     <span><h1>COMERCIAIS</h1></span>
@@ -25,12 +35,13 @@ export default function Comercial() {
                 <div id="texto">
                     <p>Se você quer <span>estabilidade </span> nos custos
                         de energia, <span> autossuficiência, economia
-                            e valorização do seu empreendimento,</span>
+                            e valorização do seu empreendimento, </span>
                         a energia solar é ideal
                         para você!</p>
                 </div>
             </div>
 
+            {/* icones------------ */}
             <div id="containerIcones">
 
                 <div id="box" className="box1">
@@ -75,8 +86,6 @@ export default function Comercial() {
 
                 </div>
 
-
-
                 <div id="box" className="box2">
 
                     <div className="box">
@@ -113,8 +122,27 @@ export default function Comercial() {
                             atraindo consumidores conscientes.
                         </p>
                     </div>
-
                 </div>
+            </div>
+
+            {/* fotos ------------ */}
+            <div id="containerFotos">
+
+                <div id="foto1" className="fotos">
+                    <img  src={foto1} alt="" />
+                    <img src={foto2} alt="" />
+                </div>
+                <div id="foto2" className="fotos">
+                    <img src={foto3} alt="" />
+                    <img src={foto4} alt="" />
+                    <img src={foto5} alt="" />
+                </div>
+                <div id="foto3" className="fotos">
+                    <img src={foto6} alt="" />
+                    <img src={foto7} alt="" />
+                    <img src={foto8} alt="" />
+                </div>
+
 
             </div>
         </StyledComercial>
