@@ -1,13 +1,10 @@
 import styled from 'styled-components';
 
+
 export const StyledOPM = styled.section`
 width: 100%;
-height: 100vh;
-
-background-image: url(src/assets/fundo-opreracao.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
+height: 200vh;
+background-color: #ECEEEE;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -16,7 +13,17 @@ position: sticky;
 top: 0;
 left: 0; */
 
+#container{
+  width: 100%;
+  height: 100vh;
+background-image: url(src/assets/fundo-opreracao.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 #titulo {
     font-size: 40px;
     font-weight: 700;
@@ -29,7 +36,7 @@ left: 0; */
   }
 
 
-#container{
+#contInterno{
   width: 800px;
   height: 350px;
   margin-top: 60px;
@@ -85,5 +92,23 @@ button{
   }
 }
 
+#icone{
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#icone {
+  animation: moveUpDown 1s infinite;
+}
 
 `
