@@ -20,7 +20,8 @@ export default function Rural() {
             <div id="container">
 
                 <div id="titulo">
-                    <h1>PROJETOS<h2>RURAIS</h2></h1>
+                    <h1>PROJETOS </h1>
+                    <span><h1>RURAIS</h1></span>
                 </div>
 
                 <div id="texto">
@@ -35,77 +36,85 @@ export default function Rural() {
 
             <div id="containerIcones">
 
-                <div className="box">
-                    <img src={reducao} alt="" />
-                    <h3 className="tituloBox">
-                        Redução de custos
-                    </h3>
-                    <p className="textoBox">
-                        A instalação de painéis solares permite que os proprietários gerem
-                        sua própria eletricidade, reduzindo significativamente as contas de
-                        energia elétrica.
-                    </p>
+                <div id="box" className="box1">
+
+                    <div className="box">
+                        <img src={reducao} alt="" />
+                        <h3 className="tituloBox">
+                            Redução de custos
+                        </h3>
+                        <p className="textoBox">
+                            A instalação de painéis solares permite que os proprietários gerem
+                            sua própria eletricidade, reduzindo significativamente as contas de
+                            energia elétrica.
+                        </p>
+                    </div>
+
+                    <div className="box">
+                        <img src={retorno} alt="" />
+                        <h3 className="tituloBox">
+                            Retorno Financeiro
+                        </h3>
+                        <p className="textoBox">
+                            o Retorno sobre Investimento (ROI), mesmo variando de acordo com
+                            o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
+                            a durabilidade do equipamento de 25 anos, em 19 anos você
+                            produzirá energia solar com todo o seu investimento já pago.
+                        </p>
+                    </div>
+
+                    <div className="box">
+                        <img src={independencia} alt="" />
+                        <h3 className="tituloBox">
+                            Independência Energética
+                        </h3>
+                        <p className="textoBox">
+                            Com a energia solar, você se torna menos dependente da rede
+                            elétrica pública, o que proporciona mais segurança energética,
+                            especialmente em áreas com interrupções frequentes no
+                            fornecimento de energia.
+                        </p>
+                    </div>
+
                 </div>
 
-                <div className="box">
-                    <img src={retorno} alt="" />
-                    <h3 className="tituloBox">
-                        Retorno Financeiro
-                    </h3>
-                    <p className="textoBox">
-                        o Retorno sobre Investimento (ROI), mesmo variando de acordo com
-                        o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
-                        a durabilidade do equipamento de 25 anos, em 19 anos você
-                        produzirá energia solar com todo o seu investimento já pago.
-                    </p>
-                </div>
+                <div id="box" className="box2">
 
-                <div className="box">
-                    <img src={independencia} alt="" />
-                    <h3 className="tituloBox">
-                        Independência Energética
-                    </h3>
-                    <p className="textoBox">
-                        Com a energia solar, você se torna menos dependente da rede
-                        elétrica pública, o que proporciona mais segurança energética,
-                        especialmente em áreas com interrupções frequentes no
-                        fornecimento de energia.
-                    </p>
-                </div>
+                    <div className="box">
+                        <img src={manutencao} alt="" />
+                        <h3 className="tituloBox">
+                            Durabilidade e Baixa Manutenção
+                        </h3>
+                        <p className="textoBox">
+                            Os sistemas de energia solar têm uma vida útil longa e geralmente
+                            requerem pouca manutenção ao longo do tempo.
+                        </p>
+                    </div>
 
-                <div className="box">
-                    <img src={manutencao} alt="" />
-                    <h3 className="tituloBox">
-                        Durabilidade e Baixa Manutenção
-                    </h3>
-                    <p className="textoBox">
-                        Os sistemas de energia solar têm uma vida útil longa e geralmente
-                        requerem pouca manutenção ao longo do tempo.
-                    </p>
-                </div>
+                    <div className="box">
+                        <img src={valorizacao} alt="" />
+                        <h3 className="tituloBox">
+                            Valorização da sua fazenda
+                        </h3>
+                        <p className="textoBox">
+                            A valorização da propriedade associada aos painéis solares é um
+                            investimento de longo prazo, que continua a render benefícios
+                            financeiros ao longo dos anos.
+                        </p>
+                    </div>
 
-                <div className="box">
-                    <img src={valorizacao} alt="" />
-                    <h3 className="tituloBox">
-                        Valorização da sua fazenda
-                    </h3>
-                    <p className="textoBox">
-                        A valorização da propriedade associada aos painéis solares é um
-                        investimento de longo prazo, que continua a render benefícios
-                        financeiros ao longo dos anos.
-                    </p>
-                </div>
+                    <div className="box">
+                        <img src={sustentabilidade} alt="" />
+                        <h3 className="tituloBox">
+                            Sustentabilidade
+                        </h3>
+                        <p className="textoBox">
+                            Ter energia limpa em sua casa contribui para a redução das
+                            emissões de carbono, contribuindo para um presente e futuro mais
+                            sustentáveis
+                        </p>
+                    </div>
 
-                <div className="box">
-                    <img src={sustentabilidade} alt="" />
-                    <h3 className="tituloBox">
-                        Sustentabilidade
-                    </h3>
-                    <p className="textoBox">
-                        Ter energia limpa em sua casa contribui para a redução das
-                        emissões de carbono, contribuindo para um presente e futuro mais
-                        sustentáveis
-                    </p>
                 </div>
 
             </div>

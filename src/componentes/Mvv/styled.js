@@ -126,7 +126,4 @@ margin-bottom: 70px;
 }
 }
 
-
-
-
 `

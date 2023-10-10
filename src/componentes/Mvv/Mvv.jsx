@@ -5,19 +5,23 @@ import { useState, useEffect } from "react";
 
 export default function Mvv() {
     const [scrollY, setScrollY] = useState(0);
+    
 
-  useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
-  }, []);
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
-  const handleScroll = () => {
-      setScrollY(window.scrollY);
-  };
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
+   
+
     return (
-        <StyledMvv  className={scrollY > 1000 ? 'rolagem' : ''}>
+        <StyledMvv className={scrollY > 1100 ? 'rolagem' : ''}>
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>
@@ -37,7 +41,7 @@ export default function Mvv() {
                         <p>
                             Ser a principal referência em gestão de energia elétrica
                             para o agronegócio na Região Sudeste oferecendo serviços<span> inovadores,
-                            personalizados e confiáveis.</span>
+                                personalizados e confiáveis.</span>
                         </p>
                     </div>
                 </div>
@@ -45,17 +49,20 @@ export default function Mvv() {
                     <h1>Valores</h1>
                     <div className="texto">
                         <p>
-                           <span> Comprometimento,<br />
-                            Ética,<br />
-                            Sustentabilidade,<br />
-                            Excelência no atendimento,<br />
-                            Qualidade.</span>
+                            <span> Comprometimento,<br />
+                                Ética,<br />
+                                Sustentabilidade,<br />
+                                Excelência no atendimento,<br />
+                                Qualidade.</span>
                         </p>
                     </div>
                 </div>
             </div>
+            
+          
+                <img id="logo" src={logo} alt="" />
+          
 
-            <img  id="logo" src={logo} alt="" />
         </StyledMvv>
     )
 }
