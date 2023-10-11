@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 
+
 export const StyledOPM = styled.section`
 width: 100%;
-height: 200vh;
+height: 260vh;
 background-color: #ECEEEE;
 display: flex;
 flex-direction: column;
@@ -15,25 +16,25 @@ left: 0; */
 
 #container{
   width: 100%;
-  height: 100vh;
-background-image: url(src/assets/fundo-opreracao.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+  height: 100%;
+  background-image: url(src/assets/fundo-opreracao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #titulo {
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 3rem;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 3rem;
   }
 
-  h1 {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-  }
+h1{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 #contInterno{
@@ -111,4 +112,84 @@ button{
   animation: moveUpDown 1s infinite;
 }
 
+
+
+#container2{
+  width: 100%;
+  height: 100%;
+
+  border: solid 1px red;
+}
+#containerFotos{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+ 
+  border: solid 1px blue;
+}
+h3{
+  font-size: 25px;
+  margin-top: 30px;
+}
+h4{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.foto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.foto img{
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+#containerduvida{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: solid 2px orange;
+}
+
+#containerBotao{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: solid 1px black;
+}
+                       
+.pergunta{
+  width: 100%;
+}
+
+#duvidas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#logo{
+  width: 250px;
+  height: 150px;
+  position: relative;
+  top: 30px;
+}
+#imgPlaca{
+  width: 100%;
+}
 `
