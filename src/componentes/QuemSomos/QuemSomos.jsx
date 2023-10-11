@@ -33,7 +33,7 @@ export default function QuemSomos() {
             A <span>Solar 4.0 </span>é uma empresa que faz a gestão da energia elétrica utilizando soluções verdes,
             atuando principalmente na Região Sudeste do país e possui polos em Minas Gerais,
             nas cidades de<span> Belo Horizonte e Juiz de Fora.</span><br></br><br></br>  Reconhecida pelo <span>serviço personalizado </span> e inovador,
-            ela proporciona autonomia para seus clientes e empresas por ser especializada em sistemas de geração
+            proporcionamos autonomia para nossos clientes e empresas por ser especializada em sistemas de geração
             de energia solar fotovoltaica, oferecendo as melhores e mais completas soluções em energia limpa e renovável.
           </p>
         </div>

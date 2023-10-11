@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 export const StyledOPM = styled.section`
 width: 100%;
-height: 260vh;
 background-color: #ECEEEE;
 display: flex;
 flex-direction: column;
@@ -30,12 +29,10 @@ left: 0; */
   font-weight: 700;
   margin-top: 3rem;
   }
-
 h1{
   color: #000000;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 #contInterno{
   width: 800px;
@@ -112,21 +109,18 @@ button{
   animation: moveUpDown 1s infinite;
 }
 
-
-
+/* fotos--------------------- */
 #container2{
   width: 100%;
   height: 100%;
 
-  border: solid 1px red;
 }
 #containerFotos{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
- 
-  border: solid 1px blue;
+
 }
 h3{
   font-size: 25px;
@@ -153,6 +147,37 @@ h2{
   font-weight: 700;
   margin-top: 100px;
 }
+
+#antes{
+    /* transform: translateY(-100px); */
+    
+    z-index: 1;
+    transition: 1s;
+   
+   }
+  #depois{
+    /* transform: translateY(500px); */
+    
+    z-index: 0;
+    transition: 1s;
+   }
+  
+ &.rolagem {
+  #antes{
+    transform: translateY(300px);
+    z-index: 1;
+    transition: 1s;
+   }
+
+   #depois{
+    transform: translateY(-250px);
+    z-index: 0;
+    transition: 1s;
+   }
+  }
+
+/* botoes-------------------- */
+
 #containerduvida{
   width: 100%;
   display: flex;
@@ -160,7 +185,6 @@ h2{
   align-items: center;
   flex-direction: column;
 
-  border: solid 2px orange;
 }
 
 #containerBotao{
@@ -169,10 +193,23 @@ h2{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  border: solid 1px black;
 }
-                       
+
+
+
+.respostas{
+width: 95%;
+background-color: #ffffff;
+border-radius: 10px;
+display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
+}
+.respostas p{
+  line-height: 1.5;
+  margin: 10px;
+}   
+
+
+
 .pergunta{
   width: 100%;
 }
@@ -184,10 +221,10 @@ h2{
   flex-direction: column;
 }
 #logo{
-  width: 250px;
-  height: 150px;
+  width: 300px;
+  height: 100px;
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 #imgPlaca{
   width: 100%;

@@ -79,8 +79,6 @@ span{
     
   }
 
-
-
   #imgsol1{
     /* transform: translateY(-100px); */
     top:-150px;

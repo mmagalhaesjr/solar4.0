@@ -59,7 +59,7 @@ export default function Header() {
                         <li className="dropServicos">
                             <a href="/servicos">Serviços</a>
                             <ul className="submenuServicos">
-                                <li><a href="/vi">Vendas e instalações</a></li>
+                                <li><a href="/vi">Vendas e Instalações</a></li>
                                 <li><a href="/opm">Operação e Manutenção</a></li>
                             </ul>
                         </li>

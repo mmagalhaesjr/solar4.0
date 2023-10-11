@@ -136,7 +136,7 @@ export default function Depoimentos() {
           </div>
           <div className="carrosselDiv">
             <div className="contCarrossel">
-              <div className="img"><img src="https://img.freepik.com/fotos-gratis/homem-barbudo-com-oculos-de-sol-sentado-e-olhando-para-a-camera_23-2148181519.jpg?w=1060&t=st=1696611653~exp=1696612253~hmac=6e7bfdf1547d7862f46d418ddaf82f0c019598cced76c89419888ce3523cd091" alt="" /></div>
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWbDBOx57Og1FR5VpKMSO-7BgKaxNAmFMV6RN3kBnlVyBs=w75-h75-p-rp-mo-br100" alt="" /></div>
               <h2>Carlos Eduardo de Souza </h2>
               <div className="star" >
                 <img src={estrela} alt="" />
