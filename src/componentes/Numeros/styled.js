@@ -35,9 +35,11 @@ overflow: hidden;
   font-size: 40px;
   font-weight:700;
   margin-top: 90px;
+  z-index: 8;
 }
 
 h1{
+  z-index: 8;
   color:#000000 ;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;

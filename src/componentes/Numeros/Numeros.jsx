@@ -81,7 +81,7 @@ export default function Numeros() {
                     <span style={{ '--i': 70 }}></span>
                     <span style={{ '--i': 1 }}></span>
                     <span style={{ '--i': 38 }}></span>
-                    <span style={{ '--i': 8 }}></span>
+                    {/* <span style={{ '--i': 8 }}></span>
                     <span style={{ '--i': 43 }}></span>
                     <span style={{ '--i': 99 }}></span>
                     <span style={{ '--i': 29 }}></span>
@@ -95,7 +95,7 @@ export default function Numeros() {
                     <span style={{ '--i': 2 }}></span>
                     <span style={{ '--i': 58 }}></span>
                     <span style={{ '--i': 84 }}></span>
-                    <span style={{ '--i': 29 }}></span>
+                    <span style={{ '--i': 29 }}></span> */}
                    
                     
                     
