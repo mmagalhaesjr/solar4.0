@@ -38,7 +38,8 @@ h1{
 #subTitulo{
   font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
 }
 
 #contInterno{
@@ -54,7 +55,7 @@ h1{
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 50px; 
 }
@@ -116,10 +117,11 @@ section{
 }
 #iconeV{
 position: relative;
+top: -50px;
 
 }
 #iconeV img{
-  width: 200px;
+  width: 150px;
 }
 .contas{
   display: flex;
@@ -139,7 +141,7 @@ font-size: 20px;
 font-weight: 700;
 }
 .contas div{
-  border-radius: 15px;
+  border-radius: 20px;
   width: 100px;
   height: 35px;
 
@@ -151,12 +153,21 @@ font-weight: 700;
 }
 
 #valorAntes{
-  
 background-color: #f10808;
 }
 #valorDepois{
 background-color: #0cf509;
 }
+
+.contas .valores{
+width: 150px;
+height: 50px;
+margin-top: 10px;
+}
+.contas .valores h2{
+  font-size: 30px;
+}
+
 
 #tituloDuvidas{
   margin-top: 100px;

@@ -8,7 +8,7 @@ import manutencao from "../../../assets/icones projetos/manutencao.png";
 import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
-import valorizacao from "../../../assets/icones projetos/valorizacao.png"
+import lucro from "../../../assets/icones projetos/lucro.png";
 
 import foto1 from '../../../assets/agro/agro1.jpeg'
 import foto2 from '../../../assets/agro/agro2.jpeg'
@@ -33,11 +33,7 @@ export default function Rural() {
                 </div>
 
                 <div id="texto">
-                    <p>Se você quer <span>economia,
-                        autossuficiência, e independência
-                        energética </span> na sua fazenda,
-                        a energia solar é ideal
-                        para você!</p>
+                    <p>Se você quer <span>reduzir os custos de energia, autonomia e aumento de lucro </span>   no seu Agronegócio, a energia solar é ideal para você!</p>
                 </div>
 
             </div>
@@ -100,14 +96,13 @@ export default function Rural() {
                     </div>
 
                     <div className="box">
-                        <img src={valorizacao} alt="" />
+                        <img src={lucro} alt="" />
                         <h3 className="tituloBox">
-                            Valorização da sua fazenda
+                            Aumento de Lucro
                         </h3>
                         <p className="textoBox">
-                            A valorização da propriedade associada aos painéis solares é um
-                            investimento de longo prazo, que continua a render benefícios
-                            financeiros ao longo dos anos.
+                            A redução da conta de luz por meio da energia solar otimiza significativamente
+                            os custos operacionais e impulsiona os lucros do seu empreendimento.
                         </p>
                     </div>
 

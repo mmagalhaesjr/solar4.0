@@ -16,7 +16,7 @@ export default function Depoimentos() {
   useEffect(() => {
     const interval = setInterval(() => {
       sliderRef.current.slickNext();
-    }, 10000);
+    }, 50000);
 
     return () => {
       clearInterval(interval);
@@ -63,24 +63,26 @@ export default function Depoimentos() {
       </div>
 
       <div id="container">
-        
 
-<Slider {...settings} ref={sliderRef}>
+
+        <Slider {...settings} ref={sliderRef}>
 
 
           <div className="carrosselDiv">
             <div className="contCarrossel">
-              <div className="img"> <img src="https://lh3.googleusercontent.com/a/ACg8ocJt5-r21CeNtwbOODpW-rt6pyXoFb81TbLlaEdPNNCU=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <div className="img"> <img src="https://lh3.googleusercontent.com/a/ACg8ocKb8-imfmxl5HlXUuxmEIq2_oJgnSOUcWtZqQJg53i-=w75-h75-p-rp-mo-br100" alt="" /></div>
 
-              <h2>Pedro Bastos Altomari</h2>
+              <h2>Andreia Castro</h2>
               <div className="star" >
                 <img src={estrela} alt="" />
                 <p>1 ano atrás</p>
               </div>
               <div className="texto">
                 <p>
-                  07 painéis de 590W e inversor de 3,6K gerando 350kWh/mêsproporcionando uma
-                  economia de R$ 400,00 por mês, muito satisfeito e pretendo colocar em outros lugares...
+                  Eu já tinha a 4 anos instalado por uma outra empresa e o equipamento não estava gerando.
+                  Procurei a empresa solar 4.0 soluções verdes e o Fábio que me atendeu prontamente acionou a
+                  garantia e conseguiu que trocassem o conversor.instalaram o conversor e logo começou a gerar.
+                  Fiquei muito satisfeita com trabalho deles!atendimento rápido e eficiente,recomendo muito!
                 </p>
               </div>
             </div>
@@ -88,15 +90,171 @@ export default function Depoimentos() {
 
           <div className="carrosselDiv">
             <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWbM551Ho8wD8DjjO1Osh81YgR6_uHWzHurdlpFucV7Dq4=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Denise Aglio</h2>
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWBykHkhKHVMVVHpxLJw2hW_ApQtvYtMMLtDwaKZmgrg1Ds=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Zilma Reis</h2>
               <div className="star" >
                 <img src={estrela} alt="" />
                 <p>5 meses atrás</p>
               </div>
               <div className="texto">
                 <p>
-                  A instalação foi rápida e funcionou perfeitamenteAtendimento com prestezaeducação e cuidados. Recomendo por ser muito bom.
+                  Instalei em minha residência um sistema com 4 placas e um microinversor.
+                  A produção mensal tem sido em torno de 180kWh. Já estou com a conta mínima em duas residências.
+                  O atendimento da Solar 4.0 foi eficiente,
+                  com gentileza e sem atrasos, seja na venda e também no pós-venda.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjUfriJpzQ25yRrTF97oRYNQgCTS2mG8FJ-CnxEQxUsjYwo=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Jose Candido Oliveira Silva</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>8 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  A empresa que nos atendeu cumpriu com todos os requisitos que foram prometidos;
+                  a equipe técnica muito responsável e eficiente; o sistema implantado para geração de energia fotovoltaica
+                  vem correspondendo  ao que esperávamos com resultados surpreendentes; recomendamos aos interessados a
+                  contratação desta empresa por ter sido muito honesta e responsável com o que foi prometido.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjX-0hTSTOqrADJKl_ALGsrMV38-fCk1gdCAujnjYye93Vg=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Júnia Borges</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>8 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>Fizemos a instalação do sistema fotovoltaico com o Sr. Fábio e ficamos impressionados com o atendimento.
+                  Desde a apresentação da tecnologia, a compra, presteza em nos atender sempre que precisávamos,
+                  na instalação (muito rápida, por sinal) e no pós-venda, sempre atencioso! Estamos muito satisfeitos com a geração da energia,
+                  sistema muito bom! Enfim, recomendamos a Solar 2.0 de olhos fechados!</p>
+              </div>
+
+            </div>
+          </div>
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocKHpeLUZ44DDsSZLisfNUMsk7p5Lu0crm9rs-mEFadk=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Carlos Euardo de Almeida Ribeiro </h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>2 anos atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  A Solar 4.0 instalou 12 painéis na minha residência e a geração superou as minhas expectativas.
+                  O atendimento foi excelente antes, durante e depois da instalação por profissionais qualificados e dedicados.
+                  Recomendo a empresa pela excelência do atendimento,
+                  qualidade do serviço executado, transparência e responsabilidade.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocIpAFgUgRNp_FlUdrg1Q2Q4n0r7yS1E9dtFpR92akGH=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Fabiano Pardini</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>3 anos atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  Atendimento sensacional de toda a equipe. Todo o trabalho de instalação
+                  foi feito com muito capricho e ainda com monitoramento a todo o tempo após a instalação.
+                  Estou extremamente satisfeito com a Solar 4.0 e com a solução de energia solar que tem me
+                  garantido logo após a instalação o retorno financeiro na minha conta de energia.
+                  Super recomendo a empresa e a solução fornecida por eles que é da Intelbras.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWrkz6qFVcGcXtTfgix5897w7tZ5XYOcfq6LMWT7sti8Mk=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Clesio Domiciano</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>6 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  Excelente experiência com a Solar 4.0. Atendimento com muita competência, domínio técnico, funcionários treinados, capacitados e ótima conduta.
+                  Tudo foi cumprido exatamente como contratado.
+                  Suporte muito detalhado desde a apresentação do equipamento, venda, entrega e início da geração de energia.
+                  Atendimento nota 10 em todas as etapas.
+                  Estou muito satisfeito e super recomendo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocJaK6UIZKT2e93Gi1ADg-MS6ydtSlU2Hb4OQ9v5G6fh=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Denilson Ferreira da Silva</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>2 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  Eu achava que era muito complicado instalar energia solar,
+                  mas fiquei surpreso com a praticidade, rapidez e qualidade na instalação. Estou muito satisfeito,
+                  muita economia, recomendo muito a SOLAR 4.0, técnicos preparados e excelente atendimento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjVH1iipJlA6bYmMB-0RwjWD3K6HxhcF9yPXv-5aERimn2Q=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Heloiza Cançado</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>8 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  Instalamos a energia fotovoltaica em nossa casa da Aldeias do Lago no inicio de 2022.
+                  Estamos muito satisfeitos.  O serviço de instalação e esclarecimentos foi perfeito.
+                  A economia gerada está atendendo às nossas expectativas.  Obrigada a Solar 4.0.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="carrosselDiv">
+            <div className="contCarrossel">
+              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocI6ywi0V03Drz-BVW-LoZtKiEXdvJ_H67FvA8GySsEw=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Bruno Godinho</h2>
+              <div className="star" >
+                <img src={estrela} alt="" />
+                <p>9 meses atrás</p>
+              </div>
+              <div className="texto">
+                <p>
+                  Fiz a instalação do sistema de geração de energia fotovoltaica,
+                  bem como do aquecimento solar da água da nossa residência. Serviço de excelente qualidade,
+                  ótimos profissionais, engenheiro presente em todo o processo de instalação do sistema de geração de energia.
+                  Além disso, a produção de energia está acima do esperado. Super recomendo.
+                  Já indiquei para várias pessoas que também ficaram muito satisfeitas com o
+                  resultado do serviço e com o atendimento prestado por todos os funcionários da empresa! Nota 1000
                 </p>
               </div>
             </div>
@@ -108,133 +266,13 @@ export default function Depoimentos() {
               <h2>David Salgado</h2>
               <div className="star" >
                 <img src={estrela} alt="" />
-                <p>8 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  Combinamos à instalação que necessitava de cuidados especiais pois o local para instalação era de difícil acesso Tudo correu dentro do tempo
-                  combinadosem transtornos, a economia REALMENTE compensou superando até o prometido
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocLHOkmKjksIWrY02cVjkPumezgpgUsiZHXX7xmt7zni=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Alexandre Carneiro</h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>8 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>Eles atendem com hora marcada e possuem várias opções de solução em energia
-                  solar que se adequam a necessidade do cliente.Recomendo fortemente</p>
-              </div>
-
-            </div>
-          </div>
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjWbDBOx57Og1FR5VpKMSO-7BgKaxNAmFMV6RN3kBnlVyBs=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Carlos Eduardo de Souza </h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>2 anos atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  O melhor investimento que eu fiz pro meu imóvel foi colocar energia solar. Muito obrigado a equipe da Solar 4.0
-                  que me atendeu rapidamente e me ofereceu um serviço de ponta, com todo suporte e qualidade,
-                  além do serviço de manutenção que já garanti para os próximos meses. Estou satisfeito
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjUOpo8Z7elAoGZkvJby-AO25wgUKXuNKlL1N3CWHddtWgQ=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Bruno Lery </h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>3 anos atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  Excelente. Material de primeira qualidade e cumprindo o seu papel.
-                  Foi investimento excelentepois o retorno e certo!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjW4pKwgDQV7KhKkgPAli2hNLpqlK9HrzjhE8h-eQHIkDTo=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Joaquim Barbosa Ribeiro </h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>6 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  Os equipamentos que eles trabalham são da intelbras. Muita qualidade tanto no atendimento quanto na instalação em si.
-                  Em 1 mês tendo energia solar eu já tive retorno na conta de luz. Nota 10
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjV3Fkk6-sLKG6y-LY1CWzoowjYnS_vdTMn5Dq5xIIC6F-pn=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Paula Guimarães</h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>2 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  Eu confesso que não sabia que de 6 em 6 meses precisava fazer manutenção das placas solares.
-                  Agradeço ao time da Solar 4.0 por me lembrar e por realizar o serviço de maneira excepcional!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocIe4QU1US-7NjviUztcxyzyLYxAtRvvd2TcJgTIMZjI=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Ademir Júnior</h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>8 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  A empresa tem atendimento espetacular, esclarece as dúvidas de forma imediata e com clareza.
-                  Equipamento não apresentou qualquer instabilidade e aparenta ser de excelente qualidade.
-                  Em períodos chuvosos a produção de energia cai bastante,
-                  mas mesmo assim na média produzida cumpre ao que foi proposto pela empresa.
-                  Estou muito satisfeito com a aquisição
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjX9MrUoxkBvZFNDkxZtcFyaCAq0tZPLiaCoWhqcIn3oLef_=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>João Victor Motta </h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
                 <p>9 meses atrás</p>
               </div>
               <div className="texto">
                 <p>
-                  Atendimento excelenteMuito profissionalismo e competência técnica
+                  Combinamos à instalação que necessitava de cuidados especiais pois o
+                  local para instalação era de difícil acesso. Tudo correu dentro do tempo combinado,
+                  sem transtornos. E a economia REALMENTE compensou superando até o prometido.
                 </p>
               </div>
             </div>
@@ -242,33 +280,16 @@ export default function Depoimentos() {
 
           <div className="carrosselDiv">
             <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a-/ALV-UjXwmlzlIIzVUOxEMg9h7-auaUQ8D_9YlswWGfRVH7DMEw=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Bianca Costa </h2>
-              <div className="star" >
-                <img src={estrela} alt="" />
-                <p>9 meses atrás</p>
-              </div>
-              <div className="texto">
-                <p>
-                  A economia que a Solar 4.0 me permitiu investir muito mais no meu negócio.
-                  Projeto personalizado e equipamentos intelbras. Recomendo!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="carrosselDiv">
-            <div className="contCarrossel">
-              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocIDqCHQgjS5kwUsWA93uw-DEOxrQ9J5ZHUF2AWeoiQm=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Maria Antônia Gomes </h2>
+              <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocJt5-r21CeNtwbOODpW-rt6pyXoFb81TbLlaEdPNNCU=w75-h75-p-rp-mo-br100" alt="" /></div>
+              <h2>Pedro Bastos Altomari</h2>
               <div className="star" >
                 <img src={estrela} alt="" />
                 <p>1 mês atrás</p>
               </div>
               <div className="texto">
                 <p>
-                  A visita na minha casa foi rápida e gostei muito do atendimento. Mesmo não tendo muito conhecimento de energia solar,
-                  a solar 4.0 me instruiu muito bem. Investimento muito bom
+                  07 painéis de 590W e inversor de 3,6K gerando 350kWh/mês, proporcionando uma economia de
+                  R$ 400,00 por mês, muito satisfeito e pretendo colocar em outros lugares...
                 </p>
               </div>
             </div>
@@ -278,9 +299,9 @@ export default function Depoimentos() {
 
       </div>
 
-      <button id="voltar" onClick={handlePrevClick}><GrPrevious/></button>
-      <button id="proximo" onClick={handleNextClick}><GrNext/></button>
-      
+      <button id="voltar" onClick={handlePrevClick}><GrPrevious /></button>
+      <button id="proximo" onClick={handleNextClick}><GrNext /></button>
+
     </StyledDepoimentos>
   );
 }

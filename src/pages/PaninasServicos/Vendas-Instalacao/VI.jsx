@@ -32,7 +32,7 @@ export default function VI() {
                 <div id="subTitulo">
                     <p>
                         Invista em sua própria fonte de energia sustentável e reduza
-                        os gastos de energia na sua casa, empresa ou agronegócio.
+                        os gastos de energia <br></br> na sua casa, empresa ou agronegócio.
                     </p>
                 </div>
 
@@ -42,7 +42,6 @@ export default function VI() {
                             <div className="funcoes"><CiCircleCheck /> <p>Gestão de Energia Elétrica</p></div>
                             <div className="funcoes"><CiCircleCheck /><p>Soluções Personalizadas</p></div>
                             <div className="funcoes"><CiCircleCheck /><p>Garantia Iltelbras</p></div>
-
                         </div>
                         <div id="cont">
                             <div className="funcoes"><CiCircleCheck /><p>Manutenções</p></div>
@@ -65,7 +64,7 @@ export default function VI() {
                     <div id="antes" className="contas">
                         <img src={foto1} alt="" />
                         <h3>Antes</h3>
-                        <div id="valorAntes"><h2>R$ 637,74</h2></div>
+                        <div className="valores"   id="valorAntes"><h2>R$ 637,74</h2></div>
                     </div>
 
                     <div id="iconeV">
@@ -75,7 +74,7 @@ export default function VI() {
                     <div id="depois" className="contas">
                         <img src={foto2} alt="" />
                         <h3>Depois</h3>
-                        <div id="valorDepois"><h2>R$ 113,74</h2></div>
+                        <div className="valores" id="valorDepois"><h2>R$ 113,74</h2></div>
                     </div>
 
                 </section>

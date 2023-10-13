@@ -92,7 +92,7 @@ export const StyledHeader = styled.header`
         display: none;
         position: absolute;
         top: 40px;
-        left: 55.2%;
+        left: 57.6%;
         transform: translateX(-50%);
         width: 200px;
         z-index: 1;

@@ -1,7 +1,7 @@
 import { StyledComercial } from "./styled";
 
-import economia from "../../../assets/icones projetos/economia-energia.png"
-import estabilidade from "../../../assets/icones projetos/estabilidade.png";
+import reducao from "../../../assets/icones projetos/reducao-custo.png";
+import lucro from "../../../assets/icones projetos/lucro.png";
 import independencia from "../../../assets/icones projetos/independencia.png";
 import manutencao from "../../../assets/icones projetos/manutencao.png";
 import marketing from "../../../assets/icones projetos/marketing.png";
@@ -33,11 +33,7 @@ export default function Comercial() {
                 </div>
 
                 <div id="texto">
-                    <p>Se você quer <span>estabilidade </span> nos custos
-                        de energia, <span> autossuficiência, economia
-                            e valorização do seu empreendimento, </span>
-                        a energia solar é ideal
-                        para você!</p>
+                    <p>Se você quer  <span> reduzir os custos de energia, autonomia e aumento de lucro, </span> a energia solar é ideal para você!</p>
                 </div>
             </div>
 
@@ -47,9 +43,9 @@ export default function Comercial() {
                 <div id="box" className="box1">
 
                     <div className="box">
-                        <img src={economia} alt="" />
+                        <img src={reducao} alt="" />
                         <h3 className="tituloBox">
-                            Economia de Energia
+                            Redução de custos
                         </h3>
                         <p className="textoBox">
                             A instalação de painéis solares permite que os proprietários gerem
@@ -64,10 +60,9 @@ export default function Comercial() {
                             Retorno Financeiro
                         </h3>
                         <p className="textoBox">
-                            o Retorno sobre Investimento (ROI), mesmo variando de acordo com
-                            o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
-                            a durabilidade do equipamento de 25 anos, em 19 anos você
-                            produzirá energia solar com todo o seu investimento já pago.
+                            O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo,
+                            é obtido em um prazo máximo de 4 anos. Com a durabilidade do equipamento de pelo menos 25 anos,
+                            em 21 anos você produzirá o lucro líquido.
                         </p>
                     </div>
 
@@ -77,10 +72,8 @@ export default function Comercial() {
                             Independência Energética
                         </h3>
                         <p className="textoBox">
-                            Com a energia solar, você se torna menos dependente da rede
-                            elétrica pública, o que proporciona mais segurança energética,
-                            especialmente em áreas com interrupções frequentes no
-                            fornecimento de energia.
+                            Com a energia solar, você se torna menos dependente da concessionária,
+                            o que proporciona mais autonomia e segurança energética.
                         </p>
                     </div>
 
@@ -100,14 +93,13 @@ export default function Comercial() {
                     </div>
 
                     <div className="box">
-                        <img src={estabilidade} alt="" />
+                        <img src={lucro} alt="" />
                         <h3 className="tituloBox">
-                            Estabilidade de custos
+                            Aumento de Lucro
                         </h3>
                         <p className="textoBox">
-                            Residências com sistemas de energia fotovoltaica tendem a ter um
-                            valor de mercado mais elevado, sendo frequentemente mais
-                            atrativas para compradores em potencial.
+                            A redução da conta de luz por meio da energia solar otimiza significativamente
+                            os custos operacionais e impulsiona os lucros do seu empreendimento.
                         </p>
                     </div>
 
@@ -117,9 +109,8 @@ export default function Comercial() {
                             Benefícios de marketing
                         </h3>
                         <p className="textoBox">
-                            Ter energia limpa em seu empreendimento promove uma cultura de
-                            sustentabilidade que pode ser explorada no marketing da empresa,
-                            atraindo consumidores conscientes.
+                            Ter energia limpa em seu empreendimento promove uma cultura de sustentabilidade que pode ser explorada no marketing,
+                            consolidando o posicionamento da empresa e atraindo consumidores conscientes.
                         </p>
                     </div>
                 </div>
@@ -129,7 +120,7 @@ export default function Comercial() {
             <div id="containerFotos">
 
                 <div id="foto1" className="fotos">
-                    <img  src={foto1} alt="" />
+                    <img src={foto1} alt="" />
                     <img src={foto2} alt="" />
                 </div>
                 <div id="foto2" className="fotos">

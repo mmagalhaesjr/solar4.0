@@ -35,7 +35,6 @@ left: 0; */
         justify-content: center;
         align-items: center;
 
-        border:solid 1px blue;
     }
     .contContatos{
         width: 400px;
@@ -121,8 +120,8 @@ color: #080808;
 p{
 font-size: 16px;
 }
-.contContatos{
-
+.contContatos span{
+font-weight: 700;
 }
 #endereco{
 gap:3px;

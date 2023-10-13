@@ -49,10 +49,10 @@ export default function Header() {
                         <li className="dropSolucoes">
                             <a href="/solucoes">Soluções</a>
                             <ul className="submenuSolucoes">
-                                <li><a href="/projetoResidencial">Residencial</a></li>
-                                <li><a href="/projetoComercial">Comercial</a></li>
-                                <li><a href="/projetoIndustrial">Industrial</a></li>
-                                <li><a href="/projetoRural">Rural</a></li>
+                                <li><a href="/projetoResidencial">Residenciais</a></li>
+                                <li><a href="/projetoComercial">Comerciais</a></li>
+                                <li><a href="/projetoIndustrial">Industriais</a></li>
+                                <li><a href="/projetoRural">Agronegócio</a></li>
                             </ul>
                         </li>
 

@@ -11,7 +11,7 @@ left: 0; */
 
 /* border: solid 3px #00BF3E; */
 background-color: #eceeee;
-background-image:url('/src/assets/fundoBaixo.jpeg') ;
+background-image:url('/src/assets/fundo-baixo.jpeg') ;
 background-size: cover;
 background-repeat: no-repeat;
 

@@ -54,12 +54,13 @@ h1{
 }
 
 .img{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: #000000;
+ 
   overflow: hidden;
   margin-top: 20px;
+  border: none;
 }
 img{
   width: 100%;

@@ -74,6 +74,8 @@ section{
   gap: 30px;
   height: 250px; 
 
+  border: solid 4px #eceeee;
+
   background: rgba(255, 255, 255, 0.5); 
   backdrop-filter: blur(10%); 
 }
@@ -106,7 +108,7 @@ height: 100%;
 
 &:hover{
  filter: opacity(90%);
- border: solid 1px #000000c6;
+ 
  
 }
 }

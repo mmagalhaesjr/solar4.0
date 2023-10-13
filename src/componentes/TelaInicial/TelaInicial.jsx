@@ -13,7 +13,7 @@ export default function TelaInicial() {
                 <div id="texto">
                     <h1>
                        Conquiste sua independência energética.<br></br>
-                       <span>Transforme luz solar em economia!</span> 
+                       <span>Transforme energia solar em economia!</span> 
                     </h1>
                     <a href="/Orcamento" target="_blank"><button>SOLICITE UM ORÇAMENTO</button></a>
                 </div>

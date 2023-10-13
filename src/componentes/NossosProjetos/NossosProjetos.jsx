@@ -11,8 +11,8 @@ import foto9 from "../../assets/projetos/9.jpg"
 import foto10 from "../../assets/projetos/10.jpg"
 import foto11 from "../../assets/projetos/11.jpg"
 import foto12 from "../../assets/projetos/12.jpg"
-import foto13 from "../../assets/projetos/12.jpg"
-import foto14 from "../../assets/projetos/12.jpg"
+import foto13 from "../../assets/comercial/comercial1.jpeg"
+import foto14 from "../../assets/industrial/industrial3.jpeg"
 
 
 

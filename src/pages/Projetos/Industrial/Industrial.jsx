@@ -8,7 +8,8 @@ import marketing from "../../../assets/icones projetos/marketing.png";
 import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 // import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
-import valorizacao from "../../../assets/icones projetos/valorizacao.png"
+import lucro from "../../../assets/icones projetos/lucro.png";
+
 
 import foto1 from '../../../assets/industrial/industrial1.jpeg'
 import foto2 from '../../../assets/industrial/industrial2.jpeg'
@@ -33,11 +34,7 @@ export default function Industrial() {
                 </div>
 
                 <div id="texto">
-                    <p>Se você quer <span>estabilidade</span> nos custos
-                        de energia, <span>autossuficiência, economia
-                            e valorização do seu empreendimento,</span>
-                        a energia solar é ideal
-                        para você!</p>
+                    <p>Se você quer <span>reduzir os custos de energia, autonomia e aumento de lucro, </span>  a energia solar é ideal para você!</p>
                 </div>
             </div>
 
@@ -63,10 +60,9 @@ export default function Industrial() {
                             Retorno Financeiro
                         </h3>
                         <p className="textoBox">
-                            o Retorno sobre Investimento (ROI), mesmo variando de acordo com
-                            o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
-                            a durabilidade do equipamento de 25 anos, em 19 anos você
-                            produzirá energia solar com todo o seu investimento já pago.
+                        O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo, 
+                        é obtido em um prazo máximo de 4 anos. Com a durabilidade do equipamento 
+                        de pelo menos 25 anos, em 21 anos você produzirá o lucro líquido.
                         </p>
                     </div>
 
@@ -76,10 +72,8 @@ export default function Industrial() {
                             Independência Energética
                         </h3>
                         <p className="textoBox">
-                            Com a energia solar, você se torna menos dependente da rede
-                            elétrica pública, o que proporciona mais segurança energética,
-                            especialmente em áreas com interrupções frequentes no
-                            fornecimento de energia.
+                        Com a energia solar, você se torna menos dependente da concessionária,
+                         o que proporciona mais autonomia e segurança energética.
                         </p>
                     </div>
 
@@ -101,14 +95,13 @@ export default function Industrial() {
                     </div>
 
                     <div className="box">
-                        <img src={valorizacao} alt="" />
+                        <img src={lucro} alt="" />
                         <h3 className="tituloBox">
-                            Valorização do Imóvel
+                            Aumento de Lucro
                         </h3>
                         <p className="textoBox">
-                            A valorização da propriedade associada aos painéis solares é um
-                            investimento de longo prazo, que continua a render benefícios
-                            financeiros ao longo dos anos.
+                            A redução da conta de luz por meio da energia solar otimiza significativamente
+                            os custos operacionais e impulsiona os lucros do seu empreendimento.
                         </p>
                     </div>
 
@@ -118,9 +111,8 @@ export default function Industrial() {
                             Benefícios de marketing
                         </h3>
                         <p className="textoBox">
-                            Ter energia limpa em sua indústria promove uma cultura de
-                            sustentabilidade que pode ser explorada no marketing da empresa,
-                            atraindo consumidores conscientes.
+                        Ter energia limpa em seu empreendimento promove uma cultura de sustentabilidade que pode ser explorada no marketing, 
+                        consolidando o posicionamento da empresa e atraindo consumidores conscientes.
                         </p>
                     </div>
 

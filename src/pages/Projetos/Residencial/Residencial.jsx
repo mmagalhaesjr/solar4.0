@@ -1,6 +1,7 @@
 import { StyledResidencial } from "./styled";
 
-import economia from "../../../assets/icones projetos/economia-energia.png"
+
+import reducao from "../../../assets/icones projetos/reducao-custo.png";
 // import estabilidade from "../../../assets/icones projetos/estabilidade.png";
 import independencia from "../../../assets/icones projetos/independencia.png";
 import manutencao from "../../../assets/icones projetos/manutencao.png";
@@ -33,11 +34,7 @@ export default function Residencial() {
                 </div>
 
                 <div id="texto">
-                    <p>Se você quer <span>economia,
-                        autossuficiência, conforto e
-                        valorização do seu imóvel,</span>
-                        a energia solar é ideal
-                        para você!</p>
+                    <p>Se você quer <span> economia, conforto,  autonomia e valorização do seu imóvel,</span> a energia solar é ideal <br></br>para você!</p>
                 </div>
 
             </div>
@@ -47,10 +44,10 @@ export default function Residencial() {
                 <div id="box" className="box1">
 
 
-                    <div className="box">
-                        <img src={economia} alt="" />
+                <div className="box">
+                        <img src={reducao} alt="" />
                         <h3 className="tituloBox">
-                            Economia de Energia
+                            Redução de custos
                         </h3>
                         <p className="textoBox">
                             A instalação de painéis solares permite que os proprietários gerem
@@ -66,10 +63,9 @@ export default function Residencial() {
 
                         </h3>
                         <p className="textoBox">
-                            o Retorno sobre Investimento (ROI), mesmo variando de acordo com
-                            o consumo, costuma ser obtido em um prazo médio de 6 anos. Com
-                            a durabilidade do equipamento de 25 anos, em 19 anos você
-                            produzirá energia solar com todo o seu investimento já pago.
+                            O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo,
+                            é obtido em um prazo máximo de 4 anos. Com a durabilidade
+                            do equipamento de pelo menos 25 anos, em 21 anos <br /> você produzirá o lucro líquido.
                         </p>
                     </div>
 
@@ -79,10 +75,8 @@ export default function Residencial() {
                             Independência Energética
                         </h3>
                         <p className="textoBox">
-                            Com a energia solar, você se torna menos dependente da rede
-                            elétrica pública, o que proporciona mais segurança energética,
-                            especialmente em áreas com interrupções frequentes no
-                            fornecimento de energia.
+                            Com a energia solar, você se torna menos dependente da concessionária,
+                            o que proporciona mais autonomia e segurança energética.
 
                         </p>
                     </div>
@@ -108,9 +102,8 @@ export default function Residencial() {
                             Valorização do Imóvel
                         </h3>
                         <p className="textoBox">
-                            Residências com sistemas de energia fotovoltaica tendem a ter um
-                            valor de mercado mais elevado, sendo frequentemente mais
-                            atrativas para compradores em potencial.
+                            Residências com sistemas de energia fotovoltaica possuem um valor de mercado mais elevado,
+                            sendo mais atrativas para compradores em potencial.
                         </p>
                     </div>
 
@@ -120,9 +113,8 @@ export default function Residencial() {
                             Consciência Ambiental
                         </h3>
                         <p className="textoBox">
-                            Ter energia limpa em sua casa contribui para a redução das
-                            emissões de carbono, contribuindo para um presente e futuro mais
-                            sustentáveis.
+                            Ter energia limpa em sua casa contribui para a redução das emissões de carbono,
+                            contribuindo para o desenvolvimento sustentável do planeta.
                         </p>
                     </div>
 
@@ -146,7 +138,7 @@ export default function Residencial() {
                 <div id="foto3" className="fotos">
                     <img src={foto6} alt="" />
                     <img src={foto7} alt="" />
-                   
+
                 </div>
 
 

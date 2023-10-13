@@ -34,7 +34,7 @@ export default function Funcionamento() {
                 <h1>
                     COMO FUNCIONA A ENERGIA SOLAR
                 </h1>
-              
+
             </div>
 
             <section id="telaMaior">
@@ -66,7 +66,7 @@ export default function Funcionamento() {
                     >
                         3
                     </div>
-                   
+
                     <div
                         className="circulo"
                         id="circulo4"
@@ -101,7 +101,8 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img1} alt="imagem" />
                         <div className="imgInfo">
-                            <p><h3>Painéis</h3>Captam a energia do sol</p>
+                            <h3>Painéis</h3>
+                            <p>Captam a energia do sol</p>
                         </div>
                     </div>
 
@@ -111,9 +112,8 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img2} alt="imagem" />
                         <div className="imgInfo">
-                            <p>
-                                <h3>Inversor</h3>A energia é transformada e inserida na rede elétrica local.
-                            </p>
+                            <h3>Inversor</h3>
+                            <p>A energia é transformada e inserida na rede elétrica local.</p>
                         </div>
                     </div>
 
@@ -123,10 +123,8 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img3} alt="imagem" />
                         <div className="imgInfo">
-                            <p>
-                                <h3>Quadro de luz</h3>A energia solar é enviada para o quadro de luz e distribuída para a casa ou empresa.
-
-                            </p>
+                            <h3>Quadro geral</h3>
+                            <p>A energia solar é enviada para o quadro de luz e distribuída para a casa ou empresa.</p>
                         </div>
                     </div>
 
@@ -136,11 +134,8 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img4} alt="imagem" />
                         <div className="imgInfo">
-                            <p>
-                            
-                                <h3>Medidor bidirecional</h3>O relógio de luz bidirecional registra o seu consumo de energia fornecido à rede.
-                           
-                            </p>
+                            <h3>Medidor bidirecional</h3>
+                            <p>Realiza a leitura da energia solar injetada na rede e a consumida pelo imóvel.</p>
                         </div>
                     </div>
 
@@ -150,9 +145,9 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img5} alt="imagem" />
                         <div className="imgInfo">
-                            <p>
-                            <h3>Energia</h3>O excesso de energia vai para a rede da distribuidora, gerando créditos!
-                            </p>
+
+                            <h3>Energia</h3>
+                            <p>O excesso de energia vai para a rede da distribuidora, gerando créditos!</p>
                         </div>
                     </div>
 
@@ -162,15 +157,15 @@ export default function Funcionamento() {
                     >
                         <img id="img" src={img6} alt="imagem" />
                         <div className="imgInfo">
-                            <p>
-                            <h3>Taxa mínima</h3> você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!
-                            </p>
+
+                            <h3>Taxa mínima</h3>
+                            <p> você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!</p>
                         </div>
                     </div>
                 </div>
             </section>
-            
-{/* ELEMENTO DA TELA MENOR -------------------------------- */}
+
+            {/* ELEMENTO DA TELA MENOR -------------------------------- */}
 
             <section id="telaMenor">
 

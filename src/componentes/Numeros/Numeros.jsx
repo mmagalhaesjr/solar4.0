@@ -60,12 +60,47 @@ export default function Numeros() {
     }, [animationActive]);
 
 
+
     return (
         <StyledNumeros className={scrollY > 4500 ? 'rolagem' : ''}>
             <div id="titulo">
                 <h1>NOSSOS NÚMEROS</h1>
             </div>
             <div id="container">
+
+
+                <div className="bolhas">
+                    <span style={{ '--i': 11 }}></span>
+                    <span style={{ '--i': 40 }}></span>
+                    <span style={{ '--i': 2 }}></span>
+                    <span style={{ '--i': 18 }}></span>
+                    <span style={{ '--i': 22 }}></span>
+                    <span style={{ '--i': 7 }}></span>
+                    <span style={{ '--i': 38 }}></span>
+                    <span style={{ '--i': 11 }}></span>
+                    <span style={{ '--i': 70 }}></span>
+                    <span style={{ '--i': 1 }}></span>
+                    <span style={{ '--i': 38 }}></span>
+                    <span style={{ '--i': 8 }}></span>
+                    <span style={{ '--i': 43 }}></span>
+                    <span style={{ '--i': 99 }}></span>
+                    <span style={{ '--i': 29 }}></span>
+                    <span style={{ '--i': 18 }}></span>
+                    <span style={{ '--i': 11 }}></span>
+                    <span style={{ '--i': 5 }}></span>
+                    <span style={{ '--i': 73 }}></span>
+                    <span style={{ '--i': 24 }}></span>
+                    <span style={{ '--i': 29 }}></span>
+                    <span style={{ '--i': 11 }}></span>
+                    <span style={{ '--i': 2 }}></span>
+                    <span style={{ '--i': 58 }}></span>
+                    <span style={{ '--i': 84 }}></span>
+                    <span style={{ '--i': 29 }}></span>
+                   
+                    
+                    
+                    
+                </div>
 
                 <div className="containerCirculo">
 
@@ -104,6 +139,8 @@ export default function Numeros() {
                     </div>
 
                 </div>
+
+
 
             </div>
         </StyledNumeros>

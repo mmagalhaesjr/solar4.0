@@ -150,13 +150,15 @@ h2{
 
 #antes{
     /* transform: translateY(-100px); */
-    
+    position: relative;
+    transform: translatex(-500px);
     z-index: 1;
     transition: 1s;
    
    }
   #depois{
-    /* transform: translateY(500px); */
+    transform: translateY(500px);
+    position: relative;
     
     z-index: 0;
     transition: 1s;
@@ -164,13 +166,14 @@ h2{
   
  &.rolagem {
   #antes{
-    transform: translateY(300px);
+    transform: translatex(0px);
     z-index: 1;
     transition: 1s;
+
    }
 
    #depois{
-    transform: translateY(-250px);
+    transform: translatex(0px);
     z-index: 0;
     transition: 1s;
    }
