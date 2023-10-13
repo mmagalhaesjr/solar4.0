@@ -1,43 +1,57 @@
 import { StyledSolucoes } from "./styled";
 
-import foto from "../../assets/primeira.jpg"
+import residencial from "../../assets/residencial/residencial3.jpeg"
+import comercial from "../../assets/comercial/comercial2.jpeg"
+import industrial from "../../assets/industrial/industrial6.jpeg"
+import agro from "../../assets/agro/agro2.jpeg"
 
 
 export default function Solucoes() {
     return (
         <StyledSolucoes>
-            <div id="titulo">
-                <h1>SOLUÇÕES<h2></h2></h1>
-            </div>
-
             <div id="container">
+
+                <div id="titulo">
+                    <h1>SOLUÇÕES<h2></h2></h1>
+                </div>
                 <div id="texto">
                     <p>
-                        Oferecemos soluções personalizadas em energia fotovoltaica para <span> residências</span>, <span> comércio</span>,
-                        <span> indústrias</span> e <span> agronegócio</span>. <br></br><br></br>
+                        Oferecemos soluções personalizadas em energia fotovoltaica para <span> residências, comércio, indústrias
+                        </span> e para o <span>agronegócio.</span><br /> <br /> <br />
 
-                        {/* Elaboramos projetos personalizado para cada cliente. Levamos em conta o consumo de
-                        energia e o espaço disponível para os painéis solares,
-                        a fim de apresentar um plano com a quantidade ideal de painéis e o melhor ângulo de instalação.<br></br><br></br> */}
+                        Elaboramos um projeto personalizado para cada cliente. Levamos em conta o consumo
+                        de energia e o espaço disponível para a instalação dos painéis solares. <br></br><br></br>
+                    </p>
 
-                        Invista na sua própria fonte de energia renovável!
-                        Com retorno a curto prazo e uma economia de até 95% <br></br><br></br> na conta de luz, Estamos construindo um futuro mais verde.
+                    <button>Invista na sua própria fonte de energia renovável!</button>
+
+                    <p>
+                        Com retorno a curto prazo e uma economia de até 95% na conta de luz,
+                        o investimento em energia solar é a melhor escolha.
                     </p>
                 </div>
 
-                <div id="img">
-                    <div className="img">
-                        <li><a href="/projetoResidencial"><img src={foto} alt=""/><p>RESIDENCIAL</p></a></li>
+
+
+                <div id="containerImg">
+
+                    <div  id="subTitulo"><h1>Projetos</h1></div>
+
+                    <div id="img">
+                        <div className="img">
+                            <li><a href="/projetoResidencial"><img src={residencial} alt="" /><p>RESIDENCIAL</p></a></li>
+                        </div>
+                        <div className="img">
+                            <li><a href="/projetoComercial"><img src={comercial} alt="" /><p>COMERCIAL</p></a></li>
+                        </div>
+                        <div className="img">
+                            <li><a href="/projetoIndustrial"><img src={industrial} alt="" /><p>INDUSTRIAL</p></a></li>
+                        </div>
+                        <div className="img">
+                            <li><a href="/projetoRural"><img src={agro} alt="" /><p>AGRO</p></a></li>
+                        </div>
                     </div>
-                    <div className="img">
-                        <li><a href="/projetoComercial"><img src={foto} alt="" /><p>COMERCIAL</p></a></li>
-                    </div>
-                    <div className="img">
-                        <li><a href="/projetoIndustrial"><img src={foto} alt="" /><p>INDUSTRIAL</p></a></li>
-                    </div>
-                    <div className="img">
-                        <li><a href="/projetoRural"><img src={foto} alt="" /><p>RURAL</p></a></li>
-                    </div>
+
                 </div>
             </div>
         </StyledSolucoes>

@@ -223,11 +223,22 @@ width: 40%;
   display: flex;
   gap: 10px;
   flex-direction: column;
+  overflow: hidden;
 }
 .fotos img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
+ opacity: .7; 
+ transition: opacity .5s ease; 
 }
+
+.fotos img:hover{
+ transform: scale(1.3);
+ border-radius: 15px;
+ opacity: 1;
+}
+
 
 @media (max-width:1000px) {
   height: 240vh;
