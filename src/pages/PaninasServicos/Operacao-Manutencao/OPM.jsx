@@ -80,7 +80,7 @@ export default function OPM() {
                     <div className="foto" id='depois'>
                         <img src={depois} alt="" />
                         <h3>Depois</h3>
-                        <h4>9.510,9kwh/m</h4>
+                        <h4>13.600kwh/m</h4>
                     </div>
 
                 </div>

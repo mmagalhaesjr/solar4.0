@@ -1,6 +1,7 @@
 import { StyledMain } from "./styled";
 
-// import { BsWhatsapp } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
+import intelb from '../../assets/intelb.png'
 
 
 import Header from "../../componentes/Header/Header"
@@ -29,7 +30,8 @@ export default function Main() {
 
             <Header />
 
-            {/* <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> */}
+            <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+            <img id="intel" src={intelb} alt="" />
                 
             <TelaInicial/>
     

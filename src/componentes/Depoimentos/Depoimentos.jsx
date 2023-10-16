@@ -146,7 +146,7 @@ export default function Depoimentos() {
           <div className="carrosselDiv">
             <div className="contCarrossel">
               <div className="img"><img src="https://lh3.googleusercontent.com/a/ACg8ocKHpeLUZ44DDsSZLisfNUMsk7p5Lu0crm9rs-mEFadk=w75-h75-p-rp-mo-br100" alt="" /></div>
-              <h2>Carlos Euardo de Almeida Ribeiro </h2>
+              <h2>Carlos Eduardo de Almeida Ribeiro </h2>
               <div className="star" >
                 <img src={estrela} alt="" />
                 <p>2 anos atrás</p>

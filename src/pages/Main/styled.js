@@ -18,13 +18,22 @@ overflow-y: scroll; */
     
   }
 
+  #intel{
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: -10px;
+    top:470px;
+   
+  }
   
   #whattsapp{
     z-index: 1;
     position: fixed;
     font-size: 80px;
     right: 25px;
-    top:500px;
+    top:630px;
     cursor: pointer;
     color: #000000;
     text-decoration: none;

@@ -19,8 +19,8 @@ export default function Solucoes() {
                         Oferecemos soluções personalizadas em energia fotovoltaica para <span> residências, comércio, indústrias
                         </span> e para o <span>agronegócio.</span><br /> <br /> <br />
 
-                        Elaboramos um projeto personalizado para cada cliente. Levamos em conta o consumo
-                        de energia e o espaço disponível para a instalação dos painéis solares. <br></br><br></br>
+                        Elaboramos um projeto personalizado para cada cliente: levamos em consideração todo o cenário
+                         para potencializar a geração de energia, a partir dos equipamentos da Intelbras. <br></br><br></br>
                     </p>
 
                     <button>Invista na sua própria fonte de energia renovável!</button>
