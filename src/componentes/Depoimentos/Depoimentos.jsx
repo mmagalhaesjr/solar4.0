@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import estrela from '../../assets/estrela.png'
+
 import { StyledDepoimentos } from "./styled";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { GrNext } from 'react-icons/gr';
 import { GrPrevious } from 'react-icons/gr';
 
-
+import estrela from '../../assets/logosIcones/estrela.png'
 
 export default function Depoimentos() {
   const sliderRef = useRef(null);

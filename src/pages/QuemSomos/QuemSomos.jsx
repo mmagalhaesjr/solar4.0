@@ -5,8 +5,8 @@ import { useState, useEffect } from "react";
 import quemSomos from "../../assets/fundoCima.jpeg"
 
 
-import sol2 from "../../assets/cor.png"
-import sol3 from "../../assets/sombra.png"
+import sol2 from "../../assets/logosIcones/cor.png"
+import sol3 from "../../assets/logosIcones/sombra.png"
 
 export default function QuemSomos() {
   

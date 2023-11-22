@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import foto from '../../assets/casinha.png';
+import foto from '../../assets/gif.gif';
 
 const fotoCaminho = `url(${foto})`;
 

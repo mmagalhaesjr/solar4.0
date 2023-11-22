@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+import foto from '../../../assets/comercial/comerciais.jpg';
+
+const fotoCaminho = `url(${foto})`;
+
 
 export const StyledComercial = styled.section`
 width: 100%;
@@ -12,8 +16,7 @@ text-align: center;
 font-family: 'Montserrat', sans-serif;
 
 #container{
-  background-image: url('src/assets/comerciais.jpg');
-  /* background-image: url('https://lh3.googleusercontent.com/pw/ADCreHfDTz34-jS0MqOgUyD5jj7hSya5eXjYwAWYFC8KPSQdgHsK8Dj7BpPLRUhnb4N4ihA0bLuymAAn6XA__LDSyZWsqFllVmlUajape9VqZkqgJgNB17Hd-gkYHGCFWxgyO4n68A2myJ6L2gAoeefdnIexP41m7O4zPmQvvitiSo4Z2pPOMUnltU1yZRfLzWU2Yllbf3uieH-FqrLY9NOlPPN6zmd9TUWe7oGMxA6JOe6OGzb3ozLzOShLv4gMM1NQ_2LyJMJJ9pYDZP-F1F-dhvuGJH1jcAedatoFukSgEbGFrWFG3VnIMHQFqDc0Vde5T0ieKTyQYQ7V5vIEAQd8HPUTtwVVxBippYpHv4GDqLDE3Dc9R6sFa5VOUCNyPDCJkr9-tz2e0XZTY196y39RAIUXO-UIQkKxgqcHTq69dDyzxV8k4OzpXNtDXrZ25k6narVvxy-Xe5UndK7kUj6mT_i6IscLT0WeecWmVcCfsZCF32nOoogz6-Iy-Ew66cVowVdwSPCxnBdizyqDSI04XytmUUkKQGdX36XAgzO7U32VR6eilWJfdnpTepoHcd8nKQRRnzHrAWuszYlhRAJPYVvrPne-Cow2egHy1gY83R9mkg2ZHWRNrrv8x78Gdi82dyzO7ON9aRQWE2pavRbw5PeWac8PXLfg60XqPjrNgjoeWkSD3f0qwf3koxQRA9mbVVTzeaXif0jkyJ0LE7EcAbYo3vcVZWUNxkQDk_WvR7xKv9qvXwGgbhFYHYa5hGUWmgkWi-KZm9PiQpLSWOK4dg9RD7QNEaj5l4iuogtlsE-6kpwQwERduws-JuWUan4ste9kGIBU6VtT1f1r6UEeawBxwCdco-e-a4S14_Oh41vaWHUQsLoBQZ3oLnyYb0GccuKp29BCewtS22aZUpwfdA=w1600-h695-s-no?authuser=0'); */
+  background-image: ${fotoCaminho};
   background-size:100%;
   background-repeat: no-repeat;
   width: 100%;

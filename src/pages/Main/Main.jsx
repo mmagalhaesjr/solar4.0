@@ -1,25 +1,21 @@
 import { StyledMain } from "./styled";
 
 import { BsWhatsapp } from 'react-icons/bs';
-import intelb from '../../assets/intelb.png'
+import intelb from '../../assets/logosIcones/intelb.png'
 
 
 import Header from "../../componentes/Header/Header"
-import QuemSomos from "../../componentes/QuemSomos/QuemSomos";
-import Beneficios from "../../componentes/Beneficios/Beneficios";
-import TelaInicial from "../../componentes/TelaInicial/TelaInicial";
-import NossosProjetos from '../../componentes/NossosProjetos/NossosProjetos';
 import Footer from "../../componentes/Footer/Footer";
-import Mvv from "../../componentes/Mvv/Mvv";
-import Numeros from "../../componentes/Numeros/Numeros";
 import Depoimentos from "../../componentes/Depoimentos/Depoimentos";
-import Funcionamento from "../../componentes/Funcionamento/Funcionamento";
 import Parceiros from "../../componentes/Parceiros/Parceiros";
 
-
-
-
-
+import Funcionamento from "../Funcionamento/Funcionamento";
+import Beneficios from "../Beneficios/Beneficios";
+import NossosProjetos from '../NossosProjetos/NossosProjetos';
+import TelaInicial from "../../pages/TelaInicial/TelaInicial";
+import QuemSomos from "../../pages/QuemSomos/QuemSomos";
+import Mvv from "../../pages/Mvv/Mvv";
+import Numeros from "../../pages/Numeros/Numeros";
 
 
 

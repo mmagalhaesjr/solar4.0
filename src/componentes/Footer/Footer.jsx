@@ -1,4 +1,4 @@
-import logo from '../../assets/logo2.png';
+import logo from '../../assets/logosIcones/logo2.png';
 
 import { AiOutlineMail } from 'react-icons/ai';
 import { CiFacebook } from 'react-icons/ci';

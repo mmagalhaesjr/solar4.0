@@ -6,7 +6,7 @@ import { BsChevronDoubleDown } from 'react-icons/bs'
 import antes from '../../../assets/antes.jpg'
 import depois from '../../../assets/depois.jpg'
 import placa from '../../../assets/fundoOem.jpg'
-import logo from '../../../assets/logo2.png'
+import logo from '../../../assets/logosIcones/logo2.png'
 
 
 export default function OPM() {

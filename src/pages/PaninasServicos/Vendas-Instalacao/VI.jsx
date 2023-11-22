@@ -4,7 +4,7 @@ import foto1 from '../../../assets/ve/contaAntes.png'
 import foto2 from '../../../assets/ve/contaDepois.png'
 import iconeV from '../../../assets/ve/iconeV.png'
 import placa from '../../../assets/fundoOem.jpg'
-import logo from '../../../assets/logo2.png'
+import logo from '../../../assets/logosIcones/logo2.png'
 
 import { CiCircleCheck } from 'react-icons/ci';
 import { BsChevronDoubleDown } from 'react-icons/bs'

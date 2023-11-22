@@ -1,6 +1,8 @@
 import { StyledMvv } from "./styled";
-import logo from "../../assets/logoB.png"
+
 import { useState, useEffect } from "react";
+
+import logo from "../../assets/logosIcones/logoB.png"
 
 
 export default function Mvv() {

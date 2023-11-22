@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from '../../assets/logoBranca.png';
+import logo from '../../assets/logosIcones/logoBranca.png';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledHeader } from './styled';
 
