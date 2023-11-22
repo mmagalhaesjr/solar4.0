@@ -35,7 +35,7 @@ export default function Solucoes() {
 
                 <div id="containerImg">
 
-                    <div  id="subTitulo"><h1>Projetos</h1></div>
+                    <div  id="subTitulo"><h1>PROJETOS</h1></div>
 
                     <div id="img">
                         <div className="img">

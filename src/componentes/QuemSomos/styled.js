@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const StyledQuemSomos = styled.section`
   width: 100%;
   height: 100vh;
@@ -7,9 +9,7 @@ export const StyledQuemSomos = styled.section`
   position: sticky;
   top: 0;
   left: 0; */
-  /* background-image: url('src/assets/fundo2.jpg');
-  background-repeat: no-repeat;
-  background-color: #eceeee; */
+ 
 
   #img {
     position: absolute;

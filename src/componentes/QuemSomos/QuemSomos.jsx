@@ -3,7 +3,8 @@ import { StyledQuemSomos } from "./styled";
 import { useState, useEffect } from "react";
 
 import quemSomos from "../../assets/fundoCima.jpeg"
-// import sol1 from "../../assets/luz.png"
+
+
 import sol2 from "../../assets/cor.png"
 import sol3 from "../../assets/sombra.png"
 

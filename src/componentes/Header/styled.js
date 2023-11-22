@@ -39,7 +39,7 @@ export const StyledHeader = styled.header`
             top: -30px;
         }
     }
-
+    
     a img {
         width: 200px;
         height: 60px;
