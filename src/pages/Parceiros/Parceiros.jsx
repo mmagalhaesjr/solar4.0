@@ -4,6 +4,8 @@ import foto3 from '../../assets/parceiros/3.png'
 import foto4 from '../../assets/parceiros/4.png'
 import foto5 from '../../assets/parceiros/5.png'
 import foto6 from '../../assets/parceiros/6.png'
+import foto7 from '../../assets/parceiros/7.png'
+
 import { StyledParceiros } from "./styled";
 
 import { useState, useEffect } from "react";
@@ -40,6 +42,7 @@ export default function Parceiros() {
                 <img src={foto4} alt="" />
                 <img src={foto5} alt="" />
                 <img src={foto6} alt="" />
+                <img src={foto7} alt="" />
             </div>
 
            

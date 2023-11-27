@@ -43,10 +43,4 @@ overflow-y: scroll; */
     color: #7FCB27;
     transition:0.3s;
 }
-@media(max-width:940px){
-        #whattsapp{
-            display: none;
-        }
-    }
-
 `;

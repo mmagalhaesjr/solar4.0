@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledParceiros = styled.section`
 width: 100%;
-height: 40vh;
+
 
 background-color: #eceeee; 
 
@@ -20,7 +20,7 @@ left: 0; */
 #titulo{
   font-size: 40px;
   font-weight:700;
-  margin-top: 0px;
+  margin-top: 10%;
 }
 
 h1{
@@ -34,7 +34,8 @@ h1{
   /* overflow: hidden; */
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10%;
   margin-top: 50px;
   left: 900px;
 }

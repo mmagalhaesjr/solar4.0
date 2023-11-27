@@ -10,8 +10,8 @@ import Residencial from "./pages/Projetos/Residencial/Residencial"
 import Rural  from "./pages/Projetos/Rural/Rural"
 import Solucoes  from "./pages/Solucoes/Solucoes"
 import Servicos from "./pages/Servicos/Servicos"
-import OPM from "./pages/PaninasServicos/Operacao-Manutencao/OPM"
-import VI from "./pages/PaninasServicos/Vendas-Instalacao/VI"
+import OPM from "./pages/Servicos/Operacao-Manutencao/OPM"
+import VI from "./pages/Servicos/Vendas-Instalacao/VI"
 
 import Orcamento from "./pages/Orcamento/Orcamento";
 

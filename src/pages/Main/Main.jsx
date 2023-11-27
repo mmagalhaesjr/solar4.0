@@ -6,16 +6,17 @@ import intelb from '../../assets/logosIcones/intelb.png'
 
 import Header from "../../componentes/Header/Header"
 import Footer from "../../componentes/Footer/Footer";
-import Depoimentos from "../../componentes/Depoimentos/Depoimentos";
-import Parceiros from "../../componentes/Parceiros/Parceiros";
 
-import Funcionamento from "../Funcionamento/Funcionamento";
+import Parceiros from "../../pages/Parceiros/Parceiros";
+
+import Funcionamento from "../TelaCasinha/TelaCasinha";
 import Beneficios from "../Beneficios/Beneficios";
 import NossosProjetos from '../NossosProjetos/NossosProjetos';
 import TelaInicial from "../../pages/TelaInicial/TelaInicial";
 import QuemSomos from "../../pages/QuemSomos/QuemSomos";
-import Mvv from "../../pages/Mvv/Mvv";
+import Mvv from "../MissaoVisaoValores/MissaoVisaoValores";
 import Numeros from "../../pages/Numeros/Numeros";
+import Depoimento from "../Depoimento/Depoimento";
 
 
 
@@ -38,7 +39,7 @@ export default function Main() {
             <NossosProjetos/>
             
             <Numeros/>
-            <Depoimentos/>
+            <Depoimento/>
 
             <Parceiros/>
         
