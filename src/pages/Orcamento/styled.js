@@ -2,158 +2,189 @@ import styled from 'styled-components';
 
 
 
+
+
+
 export const StyledOrcamento = styled.section`
 width: 100%;
-height: 100vh;
-
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
-background-color: #eceeee;
-
-
-/* border: solid 3px #00BF3E; */
+background: linear-gradient(3deg, rgba(0,131,69,1) 0%, rgba(0,163,54,1) 54%);
 
 display: flex;
 flex-direction: column;
-text-align: center;
-
-#titulo {
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 100px;
-  }
-
-  h1 {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
-  }
-h2{
-  color:#00BF3E ;
-}
-
-#container{
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  
-  align-items: center;
-}
-
-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-
-section{
-  display: flex;
 align-items: center;
 justify-content: center;
-gap: 30px;
-}
 
-.cont{
-margin-top: 60px;
-width: 500px;
+
+
+
+.cabecalho{
+width: 100%;
+height: 100px;
+background-color: #14a238;
+
 display: flex;
-flex-direction: column;
-align-items: flex-start;
+align-items: center;
+justify-content:space-between;
+}
+
+.cabecalho img{
+  width: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.cabecalho .intel{
+  width: 8rem;
+}
+.cx1{
+  width: 100%;
+}
+.cx1 img{
+  width: 100%;
+}
+//-------------------
+.cxTexto{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+
+}
+.cxTexto h1{
+font-size: 4rem;
+margin-top: 5%;
+}
+.cxTexto h2{
+  font-size: 3rem;
+  margin-top: 3%;
 }
 
 
-
-input{
-  border-radius: 10px;
-  margin-bottom: 30px;
+//--------------fomulario
+.cxForm{
+  width: 80%;
+  margin-top: 5%;
+ 
 }
+form{
+    width:100%; 
+    /* max-width: 700px; */
+    height:70%;
+    min-height: 400px;
+    max-height: 450px;
 
-.inputBox{
-    position: relative;
-    width: 100%;
-    color:#7a7979 ;   
-}
-.inputUser{
-    background: none;
-    border: none;
-    border: 1px solid #000000;
-    outline: none;
-    color: #00BF3E;
-    font-size: 20px;
-    width: 100%;
-    height: 40px;
-    letter-spacing: 2px; 
-}
-.inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput{
-    top: -40px;
-    font-size: 12px;
-    color: #00BF3E;
-}
-.labelInput{
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    margin-top: 20px;
-    pointer-events: none;
-    transition: .5s;
-} 
-
-
-button{
-        background-color: #00BF3E;
-        outline: none;
-        border: none;
-        color:#eae9e9;
-        border-radius: 10px;
-        width: 200px;
-        height: 40px;
-        font-size: 15px;
-        cursor: pointer;
-        position:relative;
-       
-        top: -0px;
-       
-    &:hover{
-        border: 2px solid #eae9e9;
-        color:#398462;
-        transition:0.7s;
-
-    }
-}
-
-
-@media(max-width:900px) {
-  form{
-    width: 80%;
-    margin-top: 100px;
-   
-  }
-  section{
-    
+    display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-  .cont{
-    width: 100%;
+    justify-content: center;
     align-items: center;
-    margin-top: -30px;
+    color:#101010 ;
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-background-color: rgba(18, 18, 18, 0.458);
+    backdrop-filter: blur(10px);
+    background-color: rgba(12, 12, 12, 0.333);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
-  }
-  input{
-    width: 100%;
-  }
-  button{
-    left: 0;
-  }
+}
+
+#nome{
+  display: flex;
+  width: 100%;
+}
+.nome{
+  width: 100%;
+}
+#emailTelefone{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.emailTelefone{
+width: 45%;
+}
+#endereco{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.endereco{
+  width: 40%;
+}
+#estado{
+  width: 15%;
+}
+#instalacao{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.instalacao{
+width: 30%;
+}
+#msg{
+  margin-top: 3%;
+}
+input{
+  margin-top: 3%;
+  height: 40px;
 }
 
 
+//-------------------
+.rodape{
+width: 100%;
+height: 100px;
+margin-top: 5%;
+background-color: #14a238;
 
+display: flex;
+align-items: center;
+justify-content:space-around;
+}
+.rodape p{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.rodape img{
+  width: 200px;
+}
+.icones{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:10px;
+}
+.ico{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  color:#14a238 ;
+}
+
+/* @media(min-width:1150px) {
+  max-width: 1000px;
+} */
+
+@media(max-width:820px) {
+ .rodape p{
+  display: none;
+ }
+ .rodape img{
+  display: none;
+ }
+}
+@media(max-width:400px) {
+  .cabecalho img{
+    margin-left:1%;
+    margin-right: 1%;
+  }
+}
 
 `

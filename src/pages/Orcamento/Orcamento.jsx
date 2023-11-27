@@ -1,76 +1,86 @@
 import { StyledOrcamento } from "./styled";
 
 
+import logo from "../../assets/logosIcones/logo.png"
+import logo2 from "../../assets/logosIcones/intel-solar.png"
+import casal from '../../assets/orcamento/casal.jpg'
+
+import { AiOutlineFacebook } from "react-icons/ai";
+import { MdOutlineMail } from "react-icons/md";
+import { FiInstagram } from "react-icons/fi";
+import { IoLocationOutline } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa6";
+
+
 export default function Orcamento() {
     return (
         <StyledOrcamento id="orcamento">
 
-            <div id="titulo">
-                <h1>FAÇA UM ORÇAMENTO</h1>
+            <div className="cabecalho">
+                <img src={logo} alt="logo" />
+                <img className="intel" src={logo2} alt="logo" />
             </div>
 
-            <div id="container">
+            <div className="cx1">
+                <img src={casal} alt="foto" />
+            </div>
 
-                <form action="https://api.whatsapp.com/send?phone=32988475771" method="POST">
-                    <section>
-                        <div className="cont">
+            <div className="cxTexto">
+                <h1>Economize até 95% em sua conta de luz!</h1>
 
-                            <input type="hidden" name="_next" value='http://localhost:5173/confirmar/' />
-                            <input type="hidden" name="_captcha" value="false"></input>
+                <h2>E ainda fique protegido dos aumentos de,<br />
+                    energia elétrica por pelo menos 25 anos.</h2>
+            </div>
 
-                            <div className="inputBox">
-                                <input type="text" name="nome" id="nome" className="inputUser" required />
-                                <label htmlFor="nome" className="labelInput">Nome completo</label>
-                            </div>
+            <div className="cxForm">
+                <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST"  >
 
-                            <div className="inputBox">
-                                <input type="text" name="email" id="email" className="inputUser" required />
-                                <label htmlFor="email" className="labelInput">Email</label>
-                            </div>
+                    <div id="nome">
+                        <input type="text" name="" className="nome" />
+                    </div>
 
-                            <div className="inputBox">
-                                <input type="text" name="telefone" id="email" className="inputUser" required />
-                                <label htmlFor="number" className="labelInput">Telefone</label>
-                            </div>
+                    <div id="emailTelefone">
+                        <input type="email" name="" className="emailTelefone" />
+                        <input type="text" name="" className="emailTelefone" />
+                    </div>
 
-                            <div className="inputBox">
-                                <input type="text" name="nome" id="nome" className="inputUser" required />
-                                <label htmlFor="nome" className="labelInput">Cidade</label>
-                            </div>
+                    <div id="endereco">
+                        <input type="text" name="" className="endereco" />
+                        <input type="text" name="" className="endereco" />
+                        <input type="text" name="" className="endereco" id="estado" />
+                    </div>
 
-                        </div>
+                    <div id="instalacao">
+                        <input type="text" name="" className="instalacao" />
+                        <input type="text" name="" className="instalacao" />
+                        <input type="text" name="" className="instalacao" />
+                    </div>
 
-
-                        <div className="cont">
-
-                            <div className="inputBox">
-                                <input type="text" name="email" id="email" className="inputUser" required />
-                                <label htmlFor="nome" className="labelInput">Estado</label>
-                            </div>
-
-                            <div className="inputBox">
-                                <input type="text" name="nome" id="nome" className="inputUser" required />
-                                <label htmlFor="nome" className="labelInput">Tipo de telhado </label>
-                            </div>
-
-                            <div className="inputBox">
-                                <input type="text" name="nome" id="nome" className="inputUser" required />
-                                <label htmlFor="nome" className="labelInput">Padrão CEMIG</label>
-                            </div>
-
-                            <div className="inputBox">
-                                <input type="number" name="telefone" id="email" className="inputUser" required />
-                                <label htmlFor="number" className="labelInput">Media mensal</label>
-                            </div>
-                        </div>
-                    </section>
-
+                    <div id="msg">
+                        <label htmlFor="email" className="msg"></label>
+                        <textarea id="msg" className="imputMesnsagem" name="msg" rows="4" cols="50"></textarea>
+                    </div>
 
                     <button>ENVIAR</button>
 
 
-                </form>
 
+                </form>
+            </div>
+
+            <div className="rodape">
+                <img src={logo} alt="logo" />
+                <p>Todos Direitos Reservados</p>
+
+                <div className="icones">
+
+                    <div className="ico"><AiOutlineFacebook /></div>
+                    <div className="ico"><MdOutlineMail /></div>
+                    <div className="ico"><FiInstagram /></div>
+                    <div className="ico"><IoLocationOutline /></div>
+                    <div className="ico"><FaWhatsapp /></div>
+
+                </div>
             </div>
 
         </StyledOrcamento>
