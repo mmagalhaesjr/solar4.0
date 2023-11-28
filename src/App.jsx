@@ -14,6 +14,7 @@ import OPM from "./pages/Servicos/Operacao-Manutencao/OPM"
 import VI from "./pages/Servicos/Vendas-Instalacao/VI"
 
 import Orcamento from "./pages/Orcamento/Orcamento";
+import ConfirmarEnvio from "./pages/ConfirmarEnvio/ConfirmarEnvio";
 
 
 
@@ -38,6 +39,8 @@ function App() {
                 <Route path="/servicos" element={<Servicos />} />
                 <Route path="/opm" element={<OPM />} />
                 <Route path="/vi" element={<VI />} />
+
+                <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
             </Routes>
         </div>
     </UserProvider>

@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 
 
-
-
-
 export const StyledOrcamento = styled.section`
 width: 100%;
 background: linear-gradient(3deg, rgba(0,131,69,1) 0%, rgba(0,163,54,1) 54%);
@@ -13,8 +10,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-
 
 
 .cabecalho{
@@ -62,73 +57,124 @@ margin-top: 5%;
 
 //--------------fomulario
 .cxForm{
-  width: 80%;
+  width: 90%;
   margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
  
 }
-form{
-    width:100%; 
-    /* max-width: 700px; */
-    height:70%;
-    min-height: 400px;
-    max-height: 450px;
 
+.iconesLatetral{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  gap:4rem;
+  margin-top: -5%;
+
+}
+.iconesLatetral img{
+ width:8rem;
+ height: 7.5rem;
+}
+form{
+    width:90%; 
+    /* max-width: 700px; */
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap:10px;
     align-items: center;
     color:#101010 ;
-    -webkit-backdrop-filter: blur(10px);
+
+    /* -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(18, 18, 18, 0.458);
     backdrop-filter: blur(10px);
     background-color: rgba(12, 12, 12, 0.333);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  */
 
 }
 
-#nome{
-  display: flex;
-  width: 100%;
+
+
+
+
+.inputBox{
+height: 100px;
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-.nome{
-  width: 100%;
-}
-#emailTelefone{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.emailTelefone{
-width: 45%;
-}
-#endereco{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.endereco{
-  width: 40%;
-}
-#estado{
-  width: 15%;
-}
-#instalacao{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.instalacao{
-width: 30%;
-}
-#msg{
-  margin-top: 3%;
+.cxInput{
+    position: relative;
+    width: 100%;
+    height:100px ;
+    align-items: center;
+    border: solid 5px transparent; 
 }
 input{
-  margin-top: 3%;
+  width: 100%;
   height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+ padding: 1%;
+  outline: none;
 }
+.labelImput{
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    pointer-events: none; 
+} 
+.texto{
+    width: 100%;
+    height: 100px;
+    color: #101010;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    padding: 1%;
+}
+button{
+  width:150px;
+  height: 50px;
+  border-radius: 200px;
+  border: none;
 
+  margin-top:50px;
+  margin-bottom: 20px;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#14a238;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #14a238;
+  color: #ffffff;
+}
+select{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+ padding: 1%;
+  outline: none;
+}
 //-------------------
 .rodape{
 width: 100%;
