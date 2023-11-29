@@ -1,4 +1,4 @@
-import Depoimento from "../../pages/Depoimento/Depoimento"
+import Depoimento from "../../componentes/Depoimento/Depoimento"
 
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -6,11 +6,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { StyledCadaDepoimento } from "./styled";
+import { StyledTelaDepoimento } from "./styled";
 
 export default function CadaDepoimento() {
     return (
-        <StyledCadaDepoimento>
+        <StyledTelaDepoimento>
             <div id="titulo">
                 <h1>DEPOIMENTOS</h1>
             </div>
@@ -158,6 +158,6 @@ export default function CadaDepoimento() {
 
                 </Swiper>
             </div>
-        </StyledCadaDepoimento>
+        </StyledTelaDepoimento>
     )
 }

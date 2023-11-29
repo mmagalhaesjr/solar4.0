@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const StyledCadaDepoimento = styled.section`
+export const StyledTelaDepoimento = styled.section`
 
 width:100%;
 background-color: #eceeee;

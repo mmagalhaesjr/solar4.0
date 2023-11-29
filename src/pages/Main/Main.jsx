@@ -17,7 +17,7 @@ import QuemSomos from "../../pages/QuemSomos/QuemSomos";
 import Mvv from "../MissaoVisaoValores/MissaoVisaoValores";
 import Numeros from "../../pages/Numeros/Numeros";
 // import Depoimento from "../Depoimento/Depoimento";
-import CadaDepoimento from "../../componentes/CadaDepoimento/CadaDepoimento";
+import TelaDepoimento from "../TelaDepoimento/TelaDepoimento";
 
 
 
@@ -41,7 +41,7 @@ export default function Main() {
             
             <Numeros/>
             {/* <Depoimento/> */}
-            <CadaDepoimento/>
+            <TelaDepoimento/>
 
             <Parceiros/>
         
