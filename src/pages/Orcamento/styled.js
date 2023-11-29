@@ -1,16 +1,35 @@
 import styled from 'styled-components';
 
+import foto from '../../assets/fundo-orcamento.jpg';
+
+
+const fotoCaminho = `url(${foto})`;
+
 
 
 export const StyledOrcamento = styled.section`
-width: 100%;
-background: linear-gradient(3deg, rgba(0,131,69,1) 0%, rgba(0,163,54,1) 54%);
-
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 
+background-image: ${fotoCaminho};
+background-repeat: no-repeat;
+background-size:cover;
+
+
+
+
+
+#container{
+width: 100%;
+max-width:1730px;
+background: linear-gradient(3deg, rgba(0,131,69,1) 0%, rgba(0,163,54,1) 54%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
 
 .cabecalho{
 width: 100%;
@@ -131,7 +150,6 @@ input{
     position: absolute;
     top: 0px;
     left: 0px;
-    
     pointer-events: none; 
 } 
 .texto{
@@ -218,6 +236,12 @@ gap:10px;
   max-width: 1000px;
 } */
 
+@media(max-width:1020px) {
+  .iconesLatetral{
+    display: none;
+  }
+}
+
 @media(max-width:820px) {
  .rodape p{
   display: none;
@@ -225,6 +249,32 @@ gap:10px;
  .rodape img{
   display: none;
  }
+}
+@media(max-width:760px) {
+  .cxTexto{
+    width: 98%;
+  }
+  .cxForm{
+    width: 100%;
+  }
+  form{
+    width: 100%;
+    border: solid 1px red;
+  }
+}
+@media(max-width:610px) {
+  .cxTexto h1{
+    font-size: 3rem;
+  }
+  .cxTexto h2{
+    font-size: 2rem;
+  }
+  .labelImput{
+    font-size: .7rem;
+    top: -10px;
+
+  }
+
 }
 @media(max-width:400px) {
   .cabecalho img{

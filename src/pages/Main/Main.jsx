@@ -16,7 +16,8 @@ import TelaInicial from "../../pages/TelaInicial/TelaInicial";
 import QuemSomos from "../../pages/QuemSomos/QuemSomos";
 import Mvv from "../MissaoVisaoValores/MissaoVisaoValores";
 import Numeros from "../../pages/Numeros/Numeros";
-import Depoimento from "../Depoimento/Depoimento";
+// import Depoimento from "../Depoimento/Depoimento";
+import CadaDepoimento from "../../componentes/CadaDepoimento/CadaDepoimento";
 
 
 
@@ -39,7 +40,8 @@ export default function Main() {
             <NossosProjetos/>
             
             <Numeros/>
-            <Depoimento/>
+            {/* <Depoimento/> */}
+            <CadaDepoimento/>
 
             <Parceiros/>
         
