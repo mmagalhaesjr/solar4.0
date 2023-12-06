@@ -1,80 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import foto from '../../assets/fundo-orcamento.jpg';
+export const StyledFormulario = styled.section`
+width: 100%;
 
-
-const fotoCaminho = `url(${foto})`;
-
-
-
-export const StyledOrcamento = styled.section`
 display: flex;
-flex-direction: column;
 align-items: center;
 justify-content: center;
 
-background-image: ${fotoCaminho};
-background-repeat: no-repeat;
-background-size:cover;
-
-
-
-
-
-#container{
-width: 100%;
-max-width:1730px;
-background: linear-gradient(3deg, rgba(0,131,69,1) 0%, rgba(0,163,54,1) 54%);
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.cabecalho{
-width: 100%;
-height: 100px;
-background-color: #14a238;
-
-display: flex;
-align-items: center;
-justify-content:space-between;
-}
-
-.cabecalho img{
-  width: 200px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.cabecalho .intel{
-  width: 8rem;
-}
-.cx1{
-  width: 100%;
-}
-.cx1 img{
-  width: 100%;
-}
-//-------------------
-.cxTexto{
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: #ffffff;
-
-}
-.cxTexto h1{
-font-size: 4rem;
-margin-top: 5%;
-}
-.cxTexto h2{
-  font-size: 3rem;
-  margin-top: 3%;
-}
-
-
-//--------------fomulario
 .cxForm{
   width: 90%;
   margin-top: 5%;
@@ -189,82 +121,21 @@ select{
  padding: 1%;
   outline: none;
 }
-//-------------------
-.rodape{
-width: 100%;
-height: 100px;
-margin-top: 5%;
-background-color: #14a238;
-
-display: flex;
-align-items: center;
-justify-content:space-around;
-}
-.rodape p{
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-.rodape img{
-  width: 200px;
-}
-.icones{
-display: flex;
-align-items: center;
-justify-content: center;
-gap:10px;
-}
-.ico{
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #ffffff;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 1.5rem;
-  color:#14a238 ;
-}
-
-/* @media(min-width:1150px) {
-  max-width: 1000px;
-} */
-
 @media(max-width:1020px) {
   .iconesLatetral{
     display: none;
   }
 }
 
-@media(max-width:820px) {
- .rodape p{
-  display: none;
- }
- .rodape img{
-  display: none;
- }
-}
 @media(max-width:760px) {
-  .cxTexto{
-    width: 98%;
-  }
   .cxForm{
     width: 100%;
   }
   form{
     width: 100%;
-    border: solid 1px red;
   }
 }
 @media(max-width:610px) {
-  .cxTexto h1{
-    font-size: 3rem;
-  }
-  .cxTexto h2{
-    font-size: 2rem;
-  }
   .labelImput{
     font-size: .7rem;
     top: -10px;
@@ -272,11 +143,6 @@ gap:10px;
   }
 
 }
-@media(max-width:400px) {
-  .cabecalho img{
-    margin-left:1%;
-    margin-right: 1%;
-  }
-}
+
 
 `
