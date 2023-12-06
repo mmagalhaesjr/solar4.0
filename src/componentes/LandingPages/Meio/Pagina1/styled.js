@@ -87,6 +87,10 @@ export const StyledSobreEnergiaSolarp1 = styled.section`
     justify-content: space-between;
    
 }
+.cabecalho{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
 .pagina1-texto{
     margin-bottom: 50%;
 }

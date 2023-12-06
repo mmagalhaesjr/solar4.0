@@ -6,8 +6,6 @@ import logo3 from '../../../../assets/logosIcones/logoB.png'
 import Formulario from "../../../../componentes/Formulario/Formulario";
 
 
-
-
 export default function Pagina7() {
     return (
         <StyledSobreEnergiaSolarP7>

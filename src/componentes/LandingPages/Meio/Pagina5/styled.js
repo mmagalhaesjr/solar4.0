@@ -97,7 +97,10 @@ span{
         height: 100%;
         background-color: #14a237b4;
     }
- 
+    
+ ul{
+    list-style: none;
+}
 }
 
 
