@@ -132,7 +132,6 @@ flex-direction: column;
         width: 100%;
         height: 60vh;
         margin-top: 5%;
-        
     }
     .foto2{
     left: 0;
