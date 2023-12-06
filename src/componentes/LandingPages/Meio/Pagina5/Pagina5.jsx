@@ -29,7 +29,7 @@ export default function Pagina5() {
                         </div>
                         <ul>
                             <li>
-                                Na <span>Solar 4.0</span> oferecemos <span>erviços de Operação e
+                                Na <span>Solar 4.0</span> oferecemos <span>serviços de Operação e
                                     Manutenção (O&M)</span>  de alta qualidade, buscando
                                 a melhor performance para potencializar a
                                 geração e aumentar o retorno sobre seu

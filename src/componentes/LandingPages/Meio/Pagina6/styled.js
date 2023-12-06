@@ -93,7 +93,8 @@ export const StyledSobreEnergiaSolarP6 = styled.section`
 }
 .botao{
     width: 50%;
-    height:50px;
+    min-width: 150px;
+    height:80px;
     border-radius: 30px;
     background-color: #14a238;
     margin-top: 10%;

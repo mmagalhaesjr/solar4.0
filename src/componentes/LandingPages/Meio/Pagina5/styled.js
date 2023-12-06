@@ -37,9 +37,6 @@ span{
     display: flex;
     align-items: center;
     justify-content: left;
-
- 
-
 }
 .cxTexto{
     width: 60%;
