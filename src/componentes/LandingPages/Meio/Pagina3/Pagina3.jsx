@@ -2,6 +2,7 @@ import { StyledSobreEnergiaSolarP3} from './styled';
 
 
 import logo4 from '../../../../assets/logosIcones/logo2.png'
+import logo5 from '../../../../assets/logosIcones/verde.png'
 
 
 
@@ -20,7 +21,7 @@ export default function SobreEnergiaSolar() {
                 </div>
                 <div className='cximg'>
                     <img src={logo4} alt="logo" />
-                    <img src={logo4} alt="logo" />
+                    <img className='intel' src={logo5} alt="logo" />
                 </div>
             </div>
             <div className='texto'>
@@ -40,7 +41,7 @@ export default function SobreEnergiaSolar() {
 
         <div className='cximg2'>
                     <img src={logo4} alt="logo" />
-                    <img src={logo4} alt="logo" />
+                    <img className='intel' src={logo5} alt="logo" />
                 </div>
 
         </section>

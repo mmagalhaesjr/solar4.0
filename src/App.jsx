@@ -15,7 +15,7 @@ import VI from "./pages/Servicos/Vendas-Instalacao/VI"
 
 import Orcamento from "./pages/Orcamento/Orcamento";
 import ConfirmarEnvio from "./pages/ConfirmarEnvio/ConfirmarEnvio";
-import SobreEnergiaSolar from "./pages/landingPages/SobreEnergiaSolar/SobreEnergiaSolar";
+import MeioFunil from "./pages/landingPages/MeioFunil/MeioFunil";
 
 
 
@@ -43,7 +43,7 @@ function App() {
 
                 <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
 
-                <Route path="/sobreenergiasolar" exact element={<SobreEnergiaSolar />} />
+                <Route path="/energiasolar" exact element={<MeioFunil />} />
             </Routes>
         </div>
     </UserProvider>

@@ -43,6 +43,9 @@ export const StyledSobreEnergiaSolarP3 = styled.section`
     width: 100px;
     margin-top: 10%;
 }
+.intel{
+    width: 50px;
+}
 .cabecalho{
     width: 95%;
     min-height: 200px;
@@ -74,9 +77,13 @@ export const StyledSobreEnergiaSolarP3 = styled.section`
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    gap: 5%;
 }
 .cximg img{
     width: 200px;
+}
+.cximg .intel{
+    width: 150px;
 }
 .texto{
     width: 95%;
@@ -112,7 +119,6 @@ margin-top: 5%;
 @media(max-width:600px){
     .cximg{
         display: none;
-       
     }
     .cximg2{
         display: block;

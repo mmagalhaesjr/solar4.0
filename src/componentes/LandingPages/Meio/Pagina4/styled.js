@@ -80,7 +80,7 @@ span{
     margin-left:3%;
 }
 .logo2{
-    width: 200px;
+    width: 150px;
     margin-right:3%;
 }
 .foto2{

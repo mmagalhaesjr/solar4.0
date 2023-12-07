@@ -3,6 +3,7 @@ import { StyledSobreEnergiaSolarP4 } from './styled';
 
 
 import logo4 from '../../../../assets/logosIcones/logo2.png'
+import logo5 from '../../../../assets/logosIcones/verde.png'
 
 
 
@@ -41,7 +42,7 @@ export default function Pagina4() {
             <div className='box2'>
                 <div className='cabecalho'>
                     <img className='logo1' src={logo4} alt="logo" />
-                    <img className='logo2' src={logo4} alt="logo" />
+                    <img className='logo2' src={logo5} alt="logo" />
                 </div>
 
 

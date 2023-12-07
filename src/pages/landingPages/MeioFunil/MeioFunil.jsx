@@ -12,7 +12,7 @@ import RodapeLandingPages from '../../../componentes/RodapeLandingPages/RodapeLa
 
 
 
-export default function SobreEnergiaSolar() {
+export default function MeioFunil() {
     return (
         <>
             <Pagina1/>
