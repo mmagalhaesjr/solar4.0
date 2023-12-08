@@ -42,8 +42,6 @@ export const StyledPagina2 = styled.section`
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        border: solid 2px red; 
     }
     .txtTitulo{
         width: 400px;
@@ -52,8 +50,6 @@ export const StyledPagina2 = styled.section`
         display: flex;
         flex-direction: column;
         justify-content: left;
-
-        border: solid 1px #ffffff;
     }
     .txtTitulo h1{
         font-size: 5rem;
@@ -87,8 +83,6 @@ export const StyledPagina2 = styled.section`
         align-items: center;
         justify-content: center;
         text-align: center;
-
-        border: solid 1px red;
     }
     .cxCadaIcone p{
         font-size:1rem;
@@ -99,8 +93,55 @@ export const StyledPagina2 = styled.section`
     .containerIcones img{
         width:100px;
     }
+    @media(max-width:1350px){
+        .containerIcones{
+            width: 90%;
+            gap: 0;
+        }
+    }
+    @media(max-width:1230px){
+        .containerIcones{
+            width: 80%;
+            justify-content: left;
+        }
+        .cxCadaIcone{
+            width: 150px;
+            height: 150px;
+            margin-left: 5%;
+        }
+        .containerIcones img{
+            width:60px;
+        }
+        .cxCadaIcone p{
+            font-size:.8rem;
+        }
+    }
+    @media(max-width:1160px){
+        .cabecalho img{
+            width:30%;
+    }
+    }
+    @media(max-width:1125px){
+       
+        .containerIcones{
+            width: 70%;
+            justify-content: center;
+            margin-left:0;
+        }
+        .cxCadaIcone{
+            width: 100px;
+            height: 100px;
+        }
+        .containerIcones img{
+            width:50px;
+        }
+        .cxCadaIcone p{
+            font-size:.7rem;
+        }
+    }
 
-    @media(max-width:500px){
+    //responsividade mobile---
+    @media(max-width:570px){
         justify-content: center;
         height: 80vh;
         .meioVerde{
@@ -132,8 +173,6 @@ export const StyledPagina2 = styled.section`
             height: fit-content;
             justify-content: center;
             margin-top: 10%;
-
-            border: solid 1px blue;
         }
         .cxCadaIcone{
             width: 100px;
