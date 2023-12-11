@@ -68,19 +68,16 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border: solid 1px red;
 }
 .caixa{
-    width: 400px;
+    width: 360px;
     height: 400px;
+    margin-bottom: 3%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    border: solid 1px #ffffff;
 }
 .txt{
     width: 90%;
@@ -108,13 +105,10 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border: solid 1px red;
 }
 .divisaoCx section{
     width: 100%;
     height: 100%;
-    border: solid 1px orange;
 
     display: flex;
     align-items: center;
@@ -159,6 +153,29 @@ align-items: center;
         
     }
 }
+@media( max-width:790px) {
+    .cximg img{
+        display: none;
+    }
+    .subtitulo{
+        text-align: center;
+        justify-content: center;
+    }
+    .subtitulo h2{
+        font-size: 3rem;
+    }
+    .container{
+    
+}
+.caixa{
+    margin-top: 3%;
+}
+.txt h3{
+    font-size: 1.7rem;
+}
+}
+
+
 
 
 

@@ -92,7 +92,7 @@ export default function CadaDepoimento() {
                     <SwiperSlide>
                         <Depoimento
                             img="https://lh3.googleusercontent.com/a-/ALV-UjWrkz6qFVcGcXtTfgix5897w7tZ5XYOcfq6LMWT7sti8Mk=w75-h75-p-rp-mo-br100"
-                            nome="lesio Domiciano"
+                            nome="Clesio Domiciano"
                             data="6 meses atrás"
                             texto="AExcelente experiência com a Solar 4.0. Atendimento com muita competência, domínio técnico, funcionários treinados, capacitados e ótima conduta.
                             Tudo foi cumprido exatamente como contratado.
