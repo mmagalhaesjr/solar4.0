@@ -1,51 +1,64 @@
-import { StyledResidencial } from "./styled";
+import { StyledContainerIcones, StyledContainerImagens, StyledResidencial } from "./styled";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
+
 
 
 import reducao from "../../../assets/icones projetos/reducao-custo.png";
-// import estabilidade from "../../../assets/icones projetos/estabilidade.png";
 import independencia from "../../../assets/icones projetos/independencia.png";
 import manutencao from "../../../assets/icones projetos/manutencao.png";
-// import marketing from "../../../assets/icones projetos/marketing.png";
-// import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
 import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
 import valorizacao from "../../../assets/icones projetos/valorizacao.png"
 
-import foto1 from '../../../assets/residencial/residencial1.jpeg'
+import foto3 from '../../../assets/residencial/residencial1.jpeg'
 import foto2 from '../../../assets/residencial/residencial2.jpeg'
-import foto3 from '../../../assets/residencial/residencial3.jpeg'
+import foto1 from '../../../assets/residencial/residencial3.jpeg'
 import foto4 from '../../../assets/residencial/residencial4.jpeg'
 import foto5 from '../../../assets/residencial/residencial5.jpeg'
 import foto6 from '../../../assets/residencial/residencial6.jpeg'
 import foto7 from '../../../assets/residencial/residencial7.jpeg'
+import Header from "../../../componentes/Header/Header";
+import Footer from "../../../componentes/Footer/Footer";
 
 
 
 
 export default function Residencial() {
     return (
-        <StyledResidencial>
+        <>
+            <Header />
+            <StyledResidencial>
 
-            <div id="container">
+                <section id="container">
 
-                <div id="titulo">
-                    <h1>PROJETOS </h1>
-                    <span><h1>RESIDENCIAIS</h1></span>
-                </div>
+                    <div id="titulo">
+                        <h1>PROJETOS </h1>
+                        <span><h1>RESIDENCIAIS</h1></span>
+                    </div>
 
-                <div id="texto">
-                    <p>Se você quer <span> economia, conforto,  autonomia e valorização do seu imóvel,</span> a energia solar é ideal <br></br>para você!</p>
-                </div>
+                    <div id="texto">
+                        <p>Se você quer <span> economia, conforto,  autonomia e valorização do seu imóvel,</span> a energia solar é ideal <br></br>para você!</p>
+                    </div>
 
-            </div>
-
-            <div id="containerIcones">
-
-                <div id="box" className="box1">
+                </section>
+            </StyledResidencial>
 
 
-                <div className="box">
-                        <img src={reducao} alt="" />
+            <StyledContainerIcones>
+
+                <div id="box">
+
+
+                    <div className="box">
+                        <img src={reducao} alt="foto" />
                         <h3 className="tituloBox">
                             Redução de custos
                         </h3>
@@ -57,10 +70,9 @@ export default function Residencial() {
                     </div>
 
                     <div className="box">
-                        <img src={retorno} alt="" />
+                        <img src={retorno} alt="foto" />
                         <h3 className="tituloBox">
                             Retorno Financeiro
-
                         </h3>
                         <p className="textoBox">
                             O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo,
@@ -70,7 +82,7 @@ export default function Residencial() {
                     </div>
 
                     <div className="box">
-                        <img src={independencia} alt="" />
+                        <img src={independencia} alt="foto" />
                         <h3 className="tituloBox">
                             Independência Energética
                         </h3>
@@ -81,12 +93,10 @@ export default function Residencial() {
                         </p>
                     </div>
 
-                </div>
 
-                <div id="box" className="box2">
 
                     <div className="box">
-                        <img src={manutencao} alt="" />
+                        <img src={manutencao} alt="foto" />
                         <h3 className="tituloBox">
                             Durabilidade e Baixa Manutenção
                         </h3>
@@ -97,7 +107,7 @@ export default function Residencial() {
                     </div>
 
                     <div className="box">
-                        <img src={valorizacao} alt="" />
+                        <img src={valorizacao} alt="foto" />
                         <h3 className="tituloBox">
                             Valorização do Imóvel
                         </h3>
@@ -108,7 +118,7 @@ export default function Residencial() {
                     </div>
 
                     <div className="box">
-                        <img src={sustentabilidade} alt="" />
+                        <img src={sustentabilidade} alt="foto" />
                         <h3 className="tituloBox">
                             Consciência Ambiental
                         </h3>
@@ -120,30 +130,58 @@ export default function Residencial() {
 
                 </div>
 
-            </div>
+            </StyledContainerIcones>
 
 
             {/* fotos ------------ */}
-            <div id="containerFotos">
+            <StyledContainerImagens>
 
-                <div id="foto1" className="fotos">
-                    <img src={foto1} alt="" />
-                    <img src={foto2} alt="" />
+                <div id="containerFoto">
+
+                    <Swiper
+                        modules={[EffectCreative, Navigation, Pagination, A11y]}
+                        navigation
+                        grabCursor={true}
+                        effect={'creative'}
+                        creativeEffect={{
+                            prev: {
+                                shadow: true,
+                                translate: [0, 0, -400],
+                            },
+                            next: {
+                                translate: ['100%', 0, 0],
+                            },
+                        }}
+
+                        className="swiper-slide"
+                    >
+                        <SwiperSlide><img className="foto" src={foto1} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto2} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto3} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto4} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto5} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto6} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto7} alt="foto" /></SwiperSlide>
+
+                    </Swiper>
+
+                    {/* <div id="foto1" className="fotos">
+                        <img src={foto1} alt="foto" />
+                        <img src={foto2} alt="foto" />
+                    </div>
+                    <div id="foto2" className="fotos">
+                        <img src={foto3} alt="foto" />
+                        <img src={foto4} alt="foto" />
+                        <img src={foto5} alt="foto" />
+                    </div>
+                    <div id="foto3" className="fotos">
+                        <img src={foto6} alt="foto" />
+                        <img src={foto7} alt="foto" />
+                    </div> */}
                 </div>
-                <div id="foto2" className="fotos">
-                    <img src={foto3} alt="" />
-                    <img src={foto4} alt="" />
-                    <img src={foto5} alt="" />
-                </div>
-                <div id="foto3" className="fotos">
-                    <img src={foto6} alt="" />
-                    <img src={foto7} alt="" />
+            </StyledContainerImagens>
 
-                </div>
-
-
-            </div>
-
-        </StyledResidencial>
+            <Footer />
+        </>
     )
 }
