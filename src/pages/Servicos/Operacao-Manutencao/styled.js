@@ -1,22 +1,25 @@
 import styled from 'styled-components';
 
+import foto from '../../../assets/fundoCima.jpeg';
+
+const fotoCaminho = `url(${foto})`;
+
+
 
 
 export const StyledOPM = styled.section`
 width: 100%;
 background-color: #ECEEEE;
+
 display: flex;
 flex-direction: column;
 align-items: center;
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
+
 
 #container{
   width: 100%;
   height: 100%;
-  background-image: url(src/assets/fundo-opreracao.jpg);
+  background-image: ${fotoCaminho};
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -38,13 +41,11 @@ h1{
   width: 800px;
   height: 350px;
   margin-top: 60px;
-  /* background-color:#00000047 ;
-  backdrop-filter: blur(10px);
-  opacity: 0.9; */
   background-color: #9bc4eaa4;
   backdrop-filter: blur(10px);
   opacity: 0.9;
   border-radius: 15px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -67,8 +68,9 @@ h1{
 }
 
 .funcoes{
-  display: flex;
   font-size: 30px;
+
+  display: flex;
   gap: 10px;
 }
 
@@ -114,9 +116,11 @@ button{
   width: 100%;
   height: 100%;
 
+
 }
 #containerFotos{
   width: 100%;
+
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;

@@ -7,10 +7,6 @@ export const StyledServicos = styled.section`
 width: 100%;
 height: 100vh;
 
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
 background-color: #eceeee; 
 display: flex;
 flex-direction: column;

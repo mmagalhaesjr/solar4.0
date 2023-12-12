@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
+import foto from '../../../assets/fundoCima.jpeg';
 
+const fotoCaminho = `url(${foto})`;
 
 export const StyledVI = styled.section`
 width: 100%;
@@ -17,7 +19,7 @@ left: 0; */
 #container{
   width: 100%;
   height: 100vh;
-  background-image: url(src/assets/instalacoes.jpg);
+  background-image: ${fotoCaminho};
   background-repeat: no-repeat;
   background-size: cover;
 
