@@ -1,13 +1,23 @@
-import { StyledIndustrial } from "./styled";
+import {  StyledContainerIcones, StyledContainerImagens, StyledIndustrial } from "./styled";
 
-// import economia from "../../../assets/icones projetos/economia-energia.png"
-// import estabilidade from "../../../assets/icones projetos/estabilidade.png";
+import Header from "../../../componentes/Header/Header";
+import Footer from "../../../componentes/Footer/Footer";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
+
+
 import independencia from "../../../assets/icones projetos/independencia.png";
 import manutencao from "../../../assets/icones projetos/manutencao.png";
 import marketing from "../../../assets/icones projetos/marketing.png";
 import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
-// import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
 import lucro from "../../../assets/icones projetos/lucro.png";
 
 
@@ -22,25 +32,31 @@ import foto8 from '../../../assets/industrial/industrial8.jpeg'
 
 
 
-export default function Industrial() {
+
+export default function Comercial() {
     return (
-        <StyledIndustrial>
+        <>
+            <Header />
+            <StyledIndustrial>
 
-            <div id="container">
+                <section id="container">
 
-                <div id="titulo">
-                    <h1>PROJETOS</h1>
-                    <span><h1>INDUSTRIAIS</h1></span>
-                </div>
+                    <div id="titulo">
+                        <h1>PROJETOS</h1>
+                        <span><h1>INDUSTRIAIS</h1></span>
+                    </div>
 
-                <div id="texto">
-                    <p>Se você quer <span>reduzir os custos de energia, autonomia e aumento de lucro, </span>  a energia solar é ideal para você!</p>
-                </div>
-            </div>
+                    <div id="texto">
+                        <p>Se você quer <span>reduzir os custos de energia, autonomia e aumento de lucro, </span>  a energia solar é ideal para você!</p>
+                    </div>
+                </section>
+            </StyledIndustrial>
 
-            <div id="containerIcones">
 
-                <div id="box" className="box1">
+            <StyledContainerIcones>
+
+                <div id="box">
+
 
                     <div className="box">
                         <img src={reducao} alt="" />
@@ -60,9 +76,9 @@ export default function Industrial() {
                             Retorno Financeiro
                         </h3>
                         <p className="textoBox">
-                        O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo, 
-                        é obtido em um prazo máximo de 4 anos. Com a durabilidade do equipamento 
-                        de pelo menos 25 anos, em 21 anos você produzirá o lucro líquido.
+                            O Retorno sobre Investimento (ROI), mesmo variando de acordo com o consumo,
+                            é obtido em um prazo máximo de 4 anos. Com a durabilidade do equipamento de pelo menos 25 anos,
+                            em 21 anos você produzirá o lucro líquido.
                         </p>
                     </div>
 
@@ -72,15 +88,12 @@ export default function Industrial() {
                             Independência Energética
                         </h3>
                         <p className="textoBox">
-                        Com a energia solar, você se torna menos dependente da concessionária,
-                         o que proporciona mais autonomia e segurança energética.
+                            Com a energia solar, você se torna menos dependente da concessionária,
+                            o que proporciona mais autonomia e segurança energética.
                         </p>
                     </div>
 
-                </div>
 
-
-                <div id="box" className="box2">
 
                     <div className="box">
                         <img src={manutencao} alt="" />
@@ -90,7 +103,6 @@ export default function Industrial() {
                         <p className="textoBox">
                             Os sistemas de energia solar têm uma vida útil longa e geralmente
                             requerem pouca manutenção ao longo do tempo.
-
                         </p>
                     </div>
 
@@ -111,36 +123,66 @@ export default function Industrial() {
                             Benefícios de marketing
                         </h3>
                         <p className="textoBox">
-                        Ter energia limpa em seu empreendimento promove uma cultura de sustentabilidade que pode ser explorada no marketing, 
-                        consolidando o posicionamento da empresa e atraindo consumidores conscientes.
+                            Ter energia limpa em seu empreendimento promove uma cultura de sustentabilidade que pode ser explorada no marketing,
+                            consolidando o posicionamento da empresa e atraindo consumidores conscientes.
                         </p>
                     </div>
 
                 </div>
 
-            </div>
+            </StyledContainerIcones>
+
 
             {/* fotos ------------ */}
-            <div id="containerFotos">
+            <StyledContainerImagens>
 
-                <div id="foto1" className="fotos">
-                    <img src={foto1} alt="" />
-                    <img src={foto2} alt="" />
+                <div id="containerFoto">
+
+                    <Swiper
+                        modules={[EffectCreative, Navigation, Pagination, A11y]}
+                        navigation
+                        grabCursor={true}
+                        effect={'creative'}
+                        creativeEffect={{
+                            prev: {
+                                shadow: true,
+                                translate: [0, 0, -400],
+                            },
+                            next: {
+                                translate: ['100%', 0, 0],
+                            },
+                        }}
+
+                        className="swiper-slide"
+                    >
+                        <SwiperSlide><img className="foto" src={foto1} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto2} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto3} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto4} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto5} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto6} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto7} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto8} alt="foto" /></SwiperSlide>
+
+                    </Swiper>
+
+                    {/* <div id="foto1" className="fotos">
+                        <img src={foto1} alt="foto" />
+                        <img src={foto2} alt="foto" />
+                    </div>
+                    <div id="foto2" className="fotos">
+                        <img src={foto3} alt="foto" />
+                        <img src={foto4} alt="foto" />
+                        <img src={foto5} alt="foto" />
+                    </div>
+                    <div id="foto3" className="fotos">
+                        <img src={foto6} alt="foto" />
+                        <img src={foto7} alt="foto" />
+                    </div> */}
                 </div>
-                <div id="foto2" className="fotos">
-                    <img src={foto3} alt="" />
-                    <img src={foto4} alt="" />
-                    <img src={foto5} alt="" />
-                </div>
-                <div id="foto3" className="fotos">
-                    <img src={foto6} alt="" />
-                    <img src={foto7} alt="" />
-                    <img src={foto8} alt="" />
-                </div>
+            </StyledContainerImagens>
 
-
-            </div>
-
-        </StyledIndustrial >
+            <Footer />
+        </>
     )
 }

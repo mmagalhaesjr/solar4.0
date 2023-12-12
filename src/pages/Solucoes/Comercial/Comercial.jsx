@@ -1,14 +1,24 @@
-import { StyledComercial } from "./styled";
+import { StyledComercial, StyledContainerIcones, StyledContainerImagens } from "./styled";
+
+import Header from "../../../componentes/Header/Header";
+import Footer from "../../../componentes/Footer/Footer";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import lucro from "../../../assets/icones projetos/lucro.png";
 import independencia from "../../../assets/icones projetos/independencia.png";
 import manutencao from "../../../assets/icones projetos/manutencao.png";
 import marketing from "../../../assets/icones projetos/marketing.png";
-// import reducao from "../../../assets/icones projetos/reducao-custo.png";
 import retorno from "../../../assets/icones projetos/retorno-financeiro.png";
-// import sustentabilidade from "../../../assets/icones projetos/sustentabilidade.png";
-// import valorizacao from "../../../assets/icones projetos/valorizacao.png"
+
 
 import foto1 from '../../../assets/comercial/comercial1.jpeg'
 import foto2 from '../../../assets/comercial/comercial2.jpeg'
@@ -20,27 +30,31 @@ import foto7 from '../../../assets/comercial/comercial7.jpeg'
 import foto8 from '../../../assets/comercial/comercial8.jpeg'
 
 
+
+
 export default function Comercial() {
     return (
-        <StyledComercial>
+        <>
+            <Header />
+            <StyledComercial>
+
+                <section id="container">
+                    <div id="titulo">
+                        <h1>PROJETOS </h1>
+                        <span><h1>COMERCIAIS</h1></span>
+                    </div>
+
+                    <div id="texto">
+                        <p>Se você quer  <span> reduzir os custos de energia, autonomia e aumento de lucro, </span> a energia solar é ideal para você!</p>
+                    </div>
+                </section>
+            </StyledComercial>
 
 
-            {/* capa ------------ */}
-            <div id="container">
-                <div id="titulo">
-                    <h1>PROJETOS </h1>
-                    <span><h1>COMERCIAIS</h1></span>
-                </div>
+            <StyledContainerIcones>
 
-                <div id="texto">
-                    <p>Se você quer  <span> reduzir os custos de energia, autonomia e aumento de lucro, </span> a energia solar é ideal para você!</p>
-                </div>
-            </div>
+                <div id="box">
 
-            {/* icones------------ */}
-            <div id="containerIcones">
-
-                <div id="box" className="box1">
 
                     <div className="box">
                         <img src={reducao} alt="" />
@@ -77,9 +91,7 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                </div>
 
-                <div id="box" className="box2">
 
                     <div className="box">
                         <img src={manutencao} alt="" />
@@ -113,29 +125,62 @@ export default function Comercial() {
                             consolidando o posicionamento da empresa e atraindo consumidores conscientes.
                         </p>
                     </div>
+
                 </div>
-            </div>
+
+            </StyledContainerIcones>
+
 
             {/* fotos ------------ */}
-            <div id="containerFotos">
+            <StyledContainerImagens>
 
-                <div id="foto1" className="fotos">
-                    <img src={foto1} alt="" />
-                    <img src={foto2} alt="" />
-                </div>
-                <div id="foto2" className="fotos">
-                    <img src={foto3} alt="" />
-                    <img src={foto4} alt="" />
-                    <img src={foto5} alt="" />
-                </div>
-                <div id="foto3" className="fotos">
-                    <img src={foto6} alt="" />
-                    <img src={foto7} alt="" />
-                    <img src={foto8} alt="" />
-                </div>
+                <div id="containerFoto">
 
+                    <Swiper
+                        modules={[EffectCreative, Navigation, Pagination, A11y]}
+                        navigation
+                        grabCursor={true}
+                        effect={'creative'}
+                        creativeEffect={{
+                            prev: {
+                                shadow: true,
+                                translate: [0, 0, -400],
+                            },
+                            next: {
+                                translate: ['100%', 0, 0],
+                            },
+                        }}
 
-            </div>
-        </StyledComercial>
+                        className="swiper-slide"
+                    >
+                        <SwiperSlide><img className="foto" src={foto1} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto2} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto3} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto4} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto5} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto6} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto7} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto8} alt="foto" /></SwiperSlide>
+
+                    </Swiper>
+
+                    {/* <div id="foto1" className="fotos">
+                        <img src={foto1} alt="foto" />
+                        <img src={foto2} alt="foto" />
+                    </div>
+                    <div id="foto2" className="fotos">
+                        <img src={foto3} alt="foto" />
+                        <img src={foto4} alt="foto" />
+                        <img src={foto5} alt="foto" />
+                    </div>
+                    <div id="foto3" className="fotos">
+                        <img src={foto6} alt="foto" />
+                        <img src={foto7} alt="foto" />
+                    </div> */}
+                </div>
+            </StyledContainerImagens>
+
+            <Footer />
+        </>
     )
 }
