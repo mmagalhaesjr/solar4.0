@@ -10,7 +10,7 @@ import Footer from "../../componentes/Footer/Footer";
 import Parceiros from "../../pages/Parceiros/Parceiros";
 
 import Funcionamento from "../TelaCasinha/TelaCasinha";
-import Beneficios from "../Beneficios/Beneficios";
+import VantagensBeneficios from "../VantagensBeneficios/VantagensBeneficios"
 import NossosProjetos from '../NossosProjetos/NossosProjetos';
 import TelaInicial from "../../pages/TelaInicial/TelaInicial";
 import QuemSomos from "../../pages/QuemSomos/QuemSomos";
@@ -36,7 +36,7 @@ export default function Main() {
             <QuemSomos />
             <Mvv/>
             <Funcionamento/>
-            <Beneficios />
+            <VantagensBeneficios />
             <NossosProjetos/>
             
             <Numeros/>
