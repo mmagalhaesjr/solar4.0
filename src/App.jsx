@@ -20,6 +20,7 @@ import ConfirmarEnvio from "./pages/ConfirmarEnvio/ConfirmarEnvio";
 
 import MeioFunil from "./pages/landingPages/MeioFunil/MeioFunil";
 import TopoFunil from './pages/landingPages/TopoFunil/TopoFunil';
+import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 
 
 
@@ -48,8 +49,9 @@ function App() {
 
                 <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
 
-                <Route path="/energiasolar" exact element={<MeioFunil />} />
                 <Route path="/economizeenergia" exact element={<TopoFunil />} />
+                <Route path="/energiasolar" exact element={<MeioFunil />} />
+                <Route path="/economize" exact element={<FundoFunil />} />
 
             </Routes>
         </div>
