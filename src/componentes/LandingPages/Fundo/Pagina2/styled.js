@@ -167,6 +167,7 @@ h3{
   height: 80px;
   align-items: center;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .texto ul{

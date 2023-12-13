@@ -43,10 +43,10 @@ export const StyledPagina1 = styled.section`
     width: 200px;
     margin-right:3%;
 }
-.pagina1-titulo{
+.titulo{
     color: #ffffff;
     font-size: 5rem;
-    margin-top: 3%;
+    margin: 5%;
     font-weight: 600;
 }
 .txt{
@@ -61,6 +61,7 @@ export const StyledPagina1 = styled.section`
     font-size: 3rem;
     font-weight: 300;
     color:#ffffff;
+    margin: 5%;
 }
 .boxVerde{
     width: 60%;
@@ -79,7 +80,7 @@ export const StyledPagina1 = styled.section`
     margin: 3%;
 }
 @media(max-width:1030px) {
-    .pagina1-titulo{
+    .titulo{
         font-size: 3rem;
     }
     .boxVerde{
@@ -87,7 +88,7 @@ export const StyledPagina1 = styled.section`
     }
 }
 @media(max-width:630px){
-    .pagina1-titulo{
+    .titulo{
         text-align: center;
     }
     .boxVerde{

@@ -43,20 +43,26 @@ span{
     margin-top: 3%;
 }
 .subtitulo{
-    height: 200px;
     width: fit-content;
 
     display: flex;
     justify-content: flex-start;
     align-items: center; 
 }
+
 .texto ul{
     width: 90%;
+    margin-top: 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .texto ul li{
-    line-height:1.3;
-    font-size: 1.4rem;
+    font-size:2rem;
+    font-weight: 600;
     margin-top: 3%;
+    text-align: center;
 }
 .box2{
     width: 50%;
@@ -122,8 +128,10 @@ img{
     height: 80px;
 }
 h3{
+    width: 50%;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
+
 }
 }
 
@@ -134,6 +142,10 @@ h3{
 }
 
 @media(max-width:870px){
+
+    ul li{
+        display: none;
+    }
     .texto h2{
         font-size: 4rem;
     }
@@ -166,8 +178,11 @@ h3{
 
 .subtitulo{
   height: 80px;
+margin-bottom: 10%;
+
   align-items: center;
   text-align: center;
+
 }
 
 .texto ul{

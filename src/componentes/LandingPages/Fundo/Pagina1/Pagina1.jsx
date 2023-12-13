@@ -12,7 +12,7 @@ export default function Pagina1() {
 
             </div>
             <div className='boxVerde'>
-                <h1 className='pagina1-titulo'>
+                <h1 className='titulo'>
                     A melhor escolha
                     para sua economia
                 </h1>

@@ -4,9 +4,11 @@ import { StyledPagina5 } from './styled';
 
 import logo4 from '../../../../assets/logosIcones/logo2.png';
 import logo5 from '../../../../assets/logosIcones/verde.png';
-import ico1 from '../../../../assets/landingPage/fundoFunil/icone3.png';
-import ico2 from '../../../../assets/landingPage/fundoFunil/icone4.png';
-import ico3 from '../../../../assets/landingPage/fundoFunil/icone6.png';
+import ico1 from '../../../../assets/landingPage/fundoFunil/icone1.png';
+import ico2 from '../../../../assets/landingPage/fundoFunil/icone2.png';
+import ico4 from '../../../../assets/landingPage/fundoFunil/icone5.png';
+import ico5 from '../../../../assets/landingPage/fundoFunil/icone7.png';
+import ico8 from '../../../../assets/landingPage/fundoFunil/icone8.png';
 
 
 
@@ -32,19 +34,19 @@ export default function Pagina5() {
 
                     <div className='containerBoxIcones'>
                         <div className='boxIcones'>
-                            <div className='ico'> <img src={ico1} alt="foto" /> <h3>Tecnologia de Ponta</h3> </div>
+                            <div className='ico'> <img src={ico1} alt="foto" /> <h3>Preencha o formulário</h3> </div>
                         </div>
                         <div className='boxIcones'>
-                            <div className='ico'> <img src={ico2} alt="foto" /> <h3>Monitoramento Remoto</h3> </div>
+                            <div className='ico'> <img src={ico2} alt="foto" /> <h3>Consulta com especialista</h3> </div>
                         </div>
                         <div className='boxIcones'>
-                            <div className='ico'> <img src={ico3} alt="foto" /> <h3>Manutenção Simplificada</h3> </div>
+                            <div className='ico'> <img src={ico4} alt="foto" /> <h3>Proposta detalhada</h3> </div>
                         </div>
                         <div className='boxIcones'>
-                            <div className='ico'> <img src={ico3} alt="foto" /> <h3>Manutenção Simplificada</h3> </div>
+                            <div className='ico'> <img src={ico5} alt="foto" /> <h3>Visita técnica</h3> </div>
                         </div>
                         <div className='boxIcones'>
-                            <div className='ico'> <img src={ico3} alt="foto" /> <h3>Manutenção Simplificada</h3> </div>
+                            <div className='ico'> <img src={ico8} alt="foto" /> <h3>Instalação e pós-venda</h3> </div>
                         </div>
                     </div>
 
