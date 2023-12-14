@@ -1,0 +1,171 @@
+import styled from "styled-components";
+
+
+import foto from '../../../../assets/landingPage/UsinaSolar/1.jpg'
+const img = `url(${foto})`;
+
+export const StyledPagina1 = styled.section`
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+
+span{
+    font-weight: 600;
+    color:#14a238 ;
+}
+#container{
+    width: 50%;
+    background-color: #14a238;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.cxContainer{
+    width: 95%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitulo{
+    height: 250px;
+    width: fit-content;
+    background-color: #ffffff;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitulo h2{
+    color: #14a238;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 3%;
+    text-align: center;
+}
+.cxContainer ul{
+    width: 90%;
+    margin-top: 5%;
+}
+.cxContainer ul li{
+    color: #ffffff;
+    line-height:1.3;
+    font-size: 2rem;
+    margin-top: 3%;
+    text-align: center;
+}
+#botao{
+    width: 50%;
+    height: 70px;
+    background-color: #ffffff;
+    margin-top: 5%;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #14a238;
+}
+#containerDireito{
+    width: 50%;
+    background-image: ${img};
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+}
+.cabecalho{
+    width: 100%;
+    height: 170px;
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.logo1{
+    width: 200px;
+    margin-left:3%;
+}
+.logo2{
+    width: 150px;
+    margin-right:3%;
+}
+.foto2{
+    position: relative;
+    width: 100%;
+    left: -7%;
+}
+@media(max-width:1300px){
+    .cxContainer ul li{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width:1170px){
+    #botao{
+        width: 60%;
+        height: 70px;
+    }
+    #botao p{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:870px){
+    .cxContainer h2{
+        font-size: 4rem;
+    }
+    .cxContainer ul li{
+        font-size: 1.3rem;
+    }
+    .cabecalho{
+        height:70px;
+    }
+    .logo1{
+        width: 100px;
+        margin-left:3%;
+    }
+    .logo2{
+        width: 100px;
+        margin-right:3%;
+    }
+}
+@media(max-width:700px){
+display: flex;
+flex-direction: column;
+    #container{
+        width: 90%;
+        height: 100%;
+    }
+    .cabecalho{
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .cxContainer h2{
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+    #container{
+        width: 100%;   
+    }
+    #containerDireito{
+        width: 100%;
+        height: 50vh;
+        background-position: 70% 25%;
+    }
+    #botao{
+        width: 60%;
+        height: 70px;
+    }
+    #botao p{
+        font-size: 1.1rem;
+    }
+}
+`
