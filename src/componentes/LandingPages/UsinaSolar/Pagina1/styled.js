@@ -6,7 +6,6 @@ const img = `url(${foto})`;
 
 export const StyledPagina1 = styled.section`
     width: 100%;
-    height: 100vh;
     background-color:#14a238 ; 
    
     display: flex;
@@ -23,6 +22,8 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center; 
+
+    
 }
 .cxContainer{
     width: 95%;
@@ -35,6 +36,7 @@ span{
 .subtitulo{
     height: 250px;
     width: fit-content;
+    background-color: #ffffff;
    
     display: flex;
     align-items: center;
@@ -77,9 +79,9 @@ span{
 #containerDireito{
     width: 50%;
     background-image: ${img};
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-position: 5% 5%;
+    background-position: 10% 100%;
 }
 .cabecalho{
     width: 100%;
@@ -106,6 +108,9 @@ span{
     .cxContainer ul li{
         font-size: 1.7rem;
     }
+    .subtitulo h2{
+        font-size: 3rem;
+    }
 }
 
 @media(max-width:1170px){
@@ -118,9 +123,7 @@ span{
     }
 }
 @media(max-width:870px){
-    .cxContainer h2{
-        font-size: 4rem;
-    }
+   
     .cxContainer ul li{
         font-size: 1.3rem;
     }
@@ -135,12 +138,17 @@ span{
         width: 100px;
         margin-right:3%;
     }
+    #botao{
+        width: 90%;
+        height: 70px;
+    }
 }
 @media(max-width:700px){
 display: flex;
 flex-direction: column;
+background-color: #134489;
     #container{
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
     .cabecalho{
@@ -151,17 +159,15 @@ flex-direction: column;
         font-size: 3rem;
         margin-top: 5%;
     }
-    #container{
-        width: 100%;   
-    }
     #containerDireito{
         width: 100%;
-        height: 50vh;
-        background-position: 70% 25%;
+        height: 40vh;
+        background-position: 70% 100%;
     }
     #botao{
         width: 60%;
         height: 70px;
+        margin-bottom: 3%;
     }
     #botao p{
         font-size: 1.1rem;
