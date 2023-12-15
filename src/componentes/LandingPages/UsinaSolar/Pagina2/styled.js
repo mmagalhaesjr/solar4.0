@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-import f3 from '../../../../assets/landingPage/usinaSolar/2.jpg'
+import f3 from '../../../../assets/landingPage/usinaSolar/2.png'
 
 
 
@@ -11,14 +11,16 @@ export const StyledPagina2 = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    
+    
 
-    span{
+span{
         font-weight: 600;
         color:#14a238 ;
-    }
+}
 #container{
     width: 100%;
-    background-color: #ffffff;
     
     display: flex;
     flex-direction: column;
@@ -67,25 +69,29 @@ export const StyledPagina2 = styled.section`
 }
 .cxTexto{
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
-    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
     height: 200px;
     margin-top: 3%;
+    margin-bottom:3%;
     line-height: 1.2;
    
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:left;
 }
 .texto{
-    width: 90%;
+    width: 65%;
+    margin-left: 3%;
 }
 .texto p{
     font-size: 2rem;
 }
-
-
-
+.cxTexto img{
+    width:30%;
+    position: absolute;
+    right: 0rem;
+}
 
 #containerImg{
     width: 100%;
@@ -106,9 +112,6 @@ export const StyledPagina2 = styled.section`
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-
-
-    border: solid 2px #ee0909;
 }
 .boxIcones{
     width: 40%;
@@ -117,8 +120,18 @@ export const StyledPagina2 = styled.section`
     border: solid 2px #14a238;
     border-radius: 50px;
 
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
 }
-
+.boxIcones p{
+    width:60%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.boxIcones img{
+    width: 70px;
+}
 
 
 
@@ -137,13 +150,22 @@ export const StyledPagina2 = styled.section`
 
 
 
-
+@media(max-width:1070px){
+    .texto p{
+        font-size: 1.5rem;
+    }
+    .boxIcones img{
+    width: 50px;
+}
+}
 @media(max-width:850px){
     .cximg{
         z-index: 2;
         display: flex;
-        justify-content: center;
-        
+        justify-content: center;   
+    }
+    .subtitulo h2{
+        font-size: 3rem;
     }
 }
 
@@ -153,6 +175,9 @@ export const StyledPagina2 = styled.section`
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .texto p{
+        font-size: 1.2rem;
     }
 }
 @media(max-width:600px){
@@ -173,11 +198,13 @@ export const StyledPagina2 = styled.section`
     .cxTexto {
         
     }
+
+    .boxIcones{
+        width: 60%;
+    }
 }
 @media(max-width:560px){
-    #containerImg{
-        height: 40vh;
-    }
+   
     .cabecalho{
         margin-top: 10%;
     }
@@ -192,6 +219,9 @@ export const StyledPagina2 = styled.section`
     .cxTexto p{
         font-size: 1rem;
         margin-top: 5%;
+    }
+    .boxIcones{
+        width: 90%;
     }
    
 }

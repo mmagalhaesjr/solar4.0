@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 
-import foto from '../../../../assets/landingPage/UsinaSolar/1.jpg'
+import foto from '../../../../assets/landingPage/UsinaSolar/1.png'
 const img = `url(${foto})`;
 
 export const StyledPagina1 = styled.section`
     width: 100%;
     height: 100vh;
+    background-color:#14a238 ; 
    
     display: flex;
     justify-content: center;
@@ -34,9 +35,7 @@ span{
 .subtitulo{
     height: 250px;
     width: fit-content;
-    background-color: #ffffff;
    
-
     display: flex;
     align-items: center;
     justify-content: center;
