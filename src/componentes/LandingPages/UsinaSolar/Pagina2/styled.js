@@ -2,9 +2,6 @@ import styled from "styled-components";
 
 
 import f3 from '../../../../assets/landingPage/usinaSolar/2.png'
-
-
-
 const foto3 = `url(${f3})`;
 
 export const StyledPagina2 = styled.section`
@@ -132,9 +129,6 @@ span{
 .boxIcones img{
     width: 70px;
 }
-
-
-
 
 
 .cximg2{

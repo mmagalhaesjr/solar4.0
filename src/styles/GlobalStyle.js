@@ -40,9 +40,9 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'DM Sans', sans-serif;
     }
 
-    ol, ul {
+    /* ol, ul {
         list-style: none;
-    }
+    } */
 
     blockquote, q {
         quotes: none;

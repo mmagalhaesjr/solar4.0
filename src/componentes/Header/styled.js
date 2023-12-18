@@ -52,6 +52,8 @@ export const StyledHeader = styled.header`
         display: flex;
         gap: 10px;
         white-space: nowrap;
+
+        list-style: none;
     }
 
     nav {

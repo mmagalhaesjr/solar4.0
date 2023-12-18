@@ -1,5 +1,6 @@
 import { StyledPagina3 } from "./styled";
 
+import { BsCoin } from "react-icons/bs";
 import logo4 from '../../../../assets/logosIcones/logoB.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
@@ -27,7 +28,10 @@ export default function Pagina3() {
                         Realizamos o planejamento e a construção da sua usina
                         com nossa equipe própria e especializada.
                     </p>
+
+                    <div id="icone"><BsCoin /></div>
                 </div>
+
 
                 <ul>
                     <li>
@@ -41,10 +45,10 @@ export default function Pagina3() {
                         Possuímos engenharia própria, facilitando todo o processo;
                     </li>
                     <li>
-                        Equipamentos com garantia, assistencia técnica e pós-venda da
-                        Intelbras;
+                        Equipamentos com garantia, assistencia técnica e pós-venda da Intelbras;
                     </li>
                 </ul>
+
 
                 <div className="texto3">
                     <h2>
@@ -53,11 +57,16 @@ export default function Pagina3() {
                 </div>
 
                 <div className="faixaBranca2">
-
+                    <p>
+                        Rendimentos mensais de 1,3% a 1,7% para o investidor.
+                        O investimento é seu, portanto a usina é sua.
+                    </p>
                 </div>
 
                 <div id="botao">
-
+                    <p>
+                        QUERO INVESTIR
+                    </p>
                 </div>
 
             </div>

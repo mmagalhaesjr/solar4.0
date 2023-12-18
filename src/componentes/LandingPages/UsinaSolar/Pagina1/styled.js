@@ -15,6 +15,9 @@ span{
     font-weight: 600;
     color:#14a238 ;
 }
+ul{
+    list-style: none;
+}
 #container{
     width: 50%;
     background-color: #14a238;
@@ -135,7 +138,7 @@ span{
         margin-left:3%;
     }
     .logo2{
-        width: 100px;
+        width: 80px;
         margin-right:3%;
     }
     #botao{
