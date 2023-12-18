@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-import foto from '../../../../assets/landingPage/UsinaSolar/1.png'
+import foto from '../../../../assets/landingPage/usinaSolar/1.png'
 const img = `url(${foto})`;
 
 export const StyledPagina1 = styled.section`
