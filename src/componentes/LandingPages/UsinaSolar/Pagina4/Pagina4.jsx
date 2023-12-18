@@ -2,7 +2,7 @@ import { StyledPagina4 } from "./styled";
 
 import logo4 from '../../../../assets/logosIcones/logo2.png'
 import logo5 from '../../../../assets/logosIcones/verde.png'
-// import foto from '../../../../assets/landingPage/usinaSolar/teste.png'
+import foto from '../../../../assets/landingPage/usinaSolar/teste.png'
 
 
 
@@ -28,6 +28,7 @@ export default function Pagina4(){
 
                 <div id="containerImg">
                    
+                   <img src={foto} alt="" />
 
                 </div>
 

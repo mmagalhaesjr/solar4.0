@@ -9,7 +9,6 @@ export const StyledPagina4 = styled.section`
 
 #container{
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +24,7 @@ export const StyledPagina4 = styled.section`
     align-items: center;
     justify-content:space-between;
 
-    border: solid 2px green;
+   
 }
 .subtitulo{
     height: 200px;
@@ -35,7 +34,7 @@ export const StyledPagina4 = styled.section`
     align-items: center;
     justify-content: center;
 
-    border: solid 2px blue;
+   
 }
 .subtitulo h2{
     color: #14a238;
@@ -48,11 +47,11 @@ export const StyledPagina4 = styled.section`
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: right;
+  
     gap: 5%;
 
-    border: solid 2px black;
+   
 }
 .cximg img{
     width: 200px;
@@ -63,15 +62,20 @@ export const StyledPagina4 = styled.section`
 
 #containerImg{
     width: 100%;
-    height: 75vh;
+   
 
-    background-image: ${foto3};
+    /* background-image: ${foto3};
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10% 100%;
-    background-position: center;
+    background-position: center; */
 
-    border: solid 1px red;
+    /* border: solid 5px #14a238; */
+}
+
+#containerImg img{
+    width: 100%;
+
 }
 
 @media(max-width:1020px) {
@@ -96,9 +100,15 @@ export const StyledPagina4 = styled.section`
         height: fit-content;
         text-align: center;
     }
+    .subtitulo h2{
+        color: #14a238;
+        font-size: 2rem;
+        font-weight: 600;
+}
     .cximg{
         width: 100%;
         height:100px;
+        justify-content: center;
     }
     #containerImg{
         
