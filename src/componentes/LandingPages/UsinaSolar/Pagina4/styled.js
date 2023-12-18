@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import f3 from '../../../../assets/landingPage/usinaSolar/teste.png'
-const foto3 = `url(${f3})`;
+// import f3 from '../../../../assets/landingPage/usinaSolar/imgp4.png'
+// const foto3 = `url(${f3})`;
 
 export const StyledPagina4 = styled.section`
 
@@ -64,7 +64,7 @@ export const StyledPagina4 = styled.section`
     width: 100%;
    
 
-    /* background-image: ${foto3};
+    /* background-image: ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10% 100%;
