@@ -29,7 +29,7 @@ export const StyledPagina2 = styled.section`
     .meioVerde{
         position: relative;
         left: -15%;
-        width: 70%;
+        width: 75%;
         height: 100%;
         background-color: #198f37;
         border-radius: 0px 0px 700px 0px;
@@ -76,12 +76,13 @@ export const StyledPagina2 = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 5%;
+        gap: 3%;
         flex-wrap: wrap;
+        margin-left: 3%;
     }
     .cxCadaIcone{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
 
         display: flex;
         flex-direction: column;
@@ -96,8 +97,9 @@ export const StyledPagina2 = styled.section`
         color: #ffffff;
     }
     .containerIcones img{
-        width:100px;
+        width:80px;
     }
+ 
     @media(max-width:1350px){
         .containerIcones{
             width: 90%;
@@ -144,23 +146,27 @@ export const StyledPagina2 = styled.section`
             font-size:.7rem;
         }
     }
+  
 
     //responsividade mobile---
-    @media(max-width:570px){
+    @media(max-width:980px){
         justify-content: center;
         height: 80vh;
         .meioVerde{
             width: 90%;
+            max-width: 500px;
             height: fit-content;
             border-radius: 0;
             left: 0;
         }
         .cabecalho{
+            margin-top: 5%;
             height: 150px;
             flex-direction: column;
         }
         .cabecalho img{
             width:30%;
+            margin-top: 3%;
         }
         .txtTitulo{
             width:90%;
@@ -175,6 +181,7 @@ export const StyledPagina2 = styled.section`
 
         .containerIcones{
             width:100%;
+           
             height: fit-content;
             justify-content: center;
             margin-top: 10%;
