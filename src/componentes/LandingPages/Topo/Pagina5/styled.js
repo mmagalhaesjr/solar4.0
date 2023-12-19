@@ -6,7 +6,7 @@ const foto = `url(${fot})`;
 
 export const StyledPagina5 = styled.section`
 width: 100%;
-height: 100vh;
+
 
 background-image: ${foto};
 background-size: cover;
@@ -16,6 +16,11 @@ background-position: 5% 70%;
 display: flex;
 flex-direction:column;
 align-items: center;
+
+#container{
+    width: 100%;
+    max-width: 2000px;
+}
 
 
 .cabecalho{

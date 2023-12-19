@@ -6,7 +6,7 @@ const foto = `url(${fot})`;
 
 export const StyledPagina4 = styled.section`
 width: 100%;
-height: 100vh;
+
 
 background-image: ${foto};
 background-size: cover;
@@ -15,13 +15,32 @@ background-position: 5% 70%;
 
 display: flex;
 flex-direction:column;
+/* justify-content: center; */
 align-items: center;
+
+#container{
+    width: 100%;
+    max-width:2000px;
+    height: fit-content;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cxVideo{
+    width: 50%;
+    height: 400px;
+    background-color: #00000094;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
 
 
 .cabecalho{
-    width: 90%;
     margin-top: 3%;
-   
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -40,8 +59,6 @@ align-items: center;
     margin-top: 3%;
 }
 .cximg{
-    width: 95%;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -55,29 +72,18 @@ align-items: center;
     width: 150px;
 }
 
-.cxVideo{
-width: 70%;
-height: 80%;
-max-height: 700px;
-background-color: #000000;
-margin-bottom: 3%;
-}
 
-@media(max-width:820px) {
-   
-    .subtitulo{
-        text-align: center;
-        justify-content: center;
-    }
-    .subtitulo h2{
-        font-size: 3rem;
-    }
-}
+
 
 @media(max-width:1000px) {
     .cabecalho{
         display: flex;
         flex-direction: column;
+        height: 300px;
+    }
+    .cximg{
+        justify-content: space-between;
+        width: 90%;
     }
     .cxVideo{
         width: 95%;
@@ -85,12 +91,22 @@ margin-bottom: 3%;
     
 }
 
+@media(max-width:820px) {
+   
+   .subtitulo{
+       text-align: center;
+       justify-content: center;
+   }
+   .subtitulo h2{
+       font-size: 3rem;
+   }
+}
+
 @media(max-width:500px){
     .cabecalho{
      
     }
     .cximg{
-    justify-content: center;
     margin-top: 3%;
     margin-bottom: 3%;
     }

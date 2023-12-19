@@ -7,15 +7,20 @@ const foto1 = `url(${f1})`;
 
 export const StyledPagina2 = styled.section`
     width: 100%;
-    height: 100vh;
+    
     background-image: ${foto1};
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 5% 70%;
 
+   
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+
 
     span{
         font-weight: 600;
@@ -41,7 +46,7 @@ export const StyledPagina2 = styled.section`
 
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .txtTitulo{
         width: 400px;
@@ -63,7 +68,7 @@ export const StyledPagina2 = styled.section`
         margin-top: 5%;
     }
     .cabecalho img{
-        width:400px;
+        width:350px;
     }
     .containerIcones{
         width: 70%;

@@ -20,7 +20,7 @@ export default function Pagina2() {
                 <ul>
                     <li>
                         Com o passar dos anos, os
-                        avanços tecnológicos e incentívos
+                        avanços tecnológicos e incentivos
                         fiscais, o custo para este
                         investimento vem reduzindo
                         cada vez mais.

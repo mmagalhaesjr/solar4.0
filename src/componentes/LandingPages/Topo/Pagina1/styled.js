@@ -10,7 +10,6 @@ export const StyledPagina1 = styled.section`
 
     width: 100%;
     height: 100vh;
-    
 
     background-image: ${foto1};
     background-size: cover;
@@ -19,7 +18,20 @@ export const StyledPagina1 = styled.section`
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+  
+
+#container{
+    width: 100%;
+    max-width:2000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
     span{
         font-weight: 600;
@@ -63,7 +75,7 @@ export const StyledPagina1 = styled.section`
     color:#ffffff;
 }
 .pagina1-texto{
-    width: 60%;
+    width: 40%;
     background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
     margin-top: 7%;
     border-radius: 30px;

@@ -8,6 +8,7 @@ export const StyledPagina6 = styled.section`
 width: 100%;
 height: 100vh;
 
+
 display: flex;
 flex-direction:column;
 align-items: center;
@@ -93,7 +94,7 @@ align-items: center;
 }
 .texto{
     width: 100%;
-    font-size: 1rem;
+    font-size: .9rem;
     color:#ffffff ;
     margin-top: 5%;
 }
@@ -125,11 +126,57 @@ align-items: center;
         font-size: .7rem;
     }
 }
+@media(max-width:1200px){
+
+.cabecalho{
+    height: 200px;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+
+    margin-top: 5%;
+}
+.subtitulo h2{
+    font-size: 3rem;
+}
+.cximg img{
+    width: 150px;
+}
+.cximg .intel{
+    width: 100px;
+}
+
+#tela{
+    height: 50%;
+}
+.container{
+   flex-direction: column;
+   position:relative;
+   height: 50%;
+   width: 100%;
+   margin-top: 2px;
+}
+
+.cxAmarela{
+    width: 95%;
+    height:70px;
+    box-shadow:none;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.texto{
+    font-size: .9rem;
+    margin-top: 0;
+}
+}
 @media(max-width:990px){
-    .cabecalho{
+.cabecalho{
     width: 90%;
     height:100px;
-    margin-top: 1%;
+    margin-top: 10%;
 }
 .subtitulo{
     display: flex;
@@ -149,57 +196,21 @@ align-items: center;
     width: 100px;
 }
 
-    .cxAmarela{
-        width: 150px;
-        height:90px;
-    }
     .texto{
         font-size: .6rem;
     }
 }
-@media(max-width:680px){
-
-    .cabecalho{
-        height: 200px;
-        flex-direction:column;
-        justify-content:center;
-        text-align: center;
-    }
-    .subtitulo h2{
-        font-size: 3rem;
-    }
-    .cximg img{
-        width: 150px;
-}
-    .cximg .intel{
-        width: 100px;
-}
-
+@media(max-width:600px){
     #tela{
-        height: 50%;
+        background-position: 45% 0%;
     }
-    .container{
-       flex-direction: column;
-       position:relative;
-       height: 50%;
-       width: 100%;
-       margin-top: 2px;
-    }
-
-    .cxAmarela{
-        width: 95%;
-        height:70px;
-        box-shadow:none;
-        
-
-        display: flex;
-        align-items: center;
-        justify-content: center;  
-    }
-    .texto{
-        font-size: .9rem;
-        margin-top: 0;
-    }
+   
 }
+@media(max-width:500px){
+    .cabecalho{
+    margin-top: 20%;
+}
+}
+
 
 `

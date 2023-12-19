@@ -17,6 +17,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+#container{
+    width: 100%;
+    max-width:2000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .cabecalho{
@@ -59,8 +69,6 @@ align-items: center;
     width: 150px;
 }
 
-
-
 .container{
     width: 80%;
     height: 500px;
@@ -68,6 +76,14 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.txt{
+    width: 90%;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .caixa{
     width: 360px;
@@ -79,13 +95,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
 }
-.txt{
-    width: 90%;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 3%;
-    font-size: 2rem;
-}
+
 .cx{
     width: 90%;
     min-width:350px ;
@@ -98,6 +108,8 @@ align-items: center;
     align-items: center;
     justify-content: center;
     gap: 5%;
+
+   
 }
 .divisaoCx{
     width: 95%;
@@ -174,9 +186,5 @@ align-items: center;
     font-size: 1.7rem;
 }
 }
-
-
-
-
 
 `
