@@ -4,6 +4,10 @@ import Pagina1 from "../../../componentes/LandingPages/UsinaSolar/Pagina1/Pagina
 import Pagina2 from '../../../componentes/LandingPages/UsinaSolar/Pagina2/Pagina2';
 import Pagina3 from "../../../componentes/LandingPages/UsinaSolar/Pagina3/Pagina3";
 import Pagina4 from "../../../componentes/LandingPages/UsinaSolar/Pagina4/Pagina4";
+import Pagina5 from "../../../componentes/LandingPages/UsinaSolar/Pagina5/Pagina5";
+import Pagina7 from "../../../componentes/LandingPages/UsinaSolar/Pagina7/Pagina7";
+import Pagina8 from "../../../componentes/LandingPages/UsinaSolar/Pagina8/Pagina8";
+import RodapeLandingPages from '../../../componentes/RodapeLandingPages/RodapeLandingPages';
 
 
 
@@ -15,6 +19,13 @@ export default function UsinaSolar(){
             <Pagina2 />
             <Pagina3 />
             <Pagina4 />
+            <Pagina5 />
+
+            <Pagina7 />
+            <Pagina8 />
+            <RodapeLandingPages/>
+            
+            
 
         </StyledUsinaSolar>
     )

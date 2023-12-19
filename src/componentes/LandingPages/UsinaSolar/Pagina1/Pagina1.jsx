@@ -6,9 +6,6 @@ import logo4 from '../../../../assets/logosIcones/logoB.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
 
-
-
-
 export default function Pagina1() {
     return (
 

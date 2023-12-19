@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const StyledPagina4 = styled.section`
 
+width: 100%;
 
 
 #container{
@@ -23,8 +24,6 @@ export const StyledPagina4 = styled.section`
     display: flex;
     align-items: center;
     justify-content:space-between;
-
-   
 }
 .subtitulo{
     height: 200px;
@@ -32,9 +31,7 @@ export const StyledPagina4 = styled.section`
 
     display: flex;
     align-items: center;
-    justify-content: center;
-
-   
+    justify-content: center; 
 }
 .subtitulo h2{
     color: #14a238;
@@ -48,10 +45,7 @@ export const StyledPagina4 = styled.section`
     display: flex;
     align-items: center;
     justify-content: right;
-  
-    gap: 5%;
-
-   
+    gap: 5%; 
 }
 .cximg img{
     width: 200px;
@@ -60,22 +54,14 @@ export const StyledPagina4 = styled.section`
     width: 150px;
 }
 
+
 #containerImg{
     width: 100%;
-   
-
-    /* background-image: ;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 10% 100%;
-    background-position: center; */
-
-    /* border: solid 5px #14a238; */
 }
 
 #containerImg img{
     width: 100%;
-
+    height: 100%;
 }
 
 @media(max-width:1020px) {
@@ -109,9 +95,6 @@ export const StyledPagina4 = styled.section`
         width: 100%;
         height:100px;
         justify-content: center;
-    }
-    #containerImg{
-        
     }
 }
 `
