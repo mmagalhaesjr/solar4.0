@@ -45,7 +45,7 @@ export const StyledPagina1 = styled.section`
    
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-between;  
 }
 .logo1{
     width: 250px;
@@ -55,11 +55,21 @@ export const StyledPagina1 = styled.section`
     width: 200px;
     margin-right:3%;
 }
+
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
 .pagina1-titulo{
     color: #ffffff;
     font-size: 5rem;
     margin-top: 3%;
     font-weight: 600;
+
+   
 }
 .txt{
     width: 90%;
@@ -119,11 +129,14 @@ export const StyledPagina1 = styled.section`
     justify-content: space-between;
 }
 .cabecalho{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 10%;
 }
+.pagina1-titulo{
+    margin-top: 0;
+}
 .pagina1-texto {
-    margin-bottom: 3%;
+    margin-bottom: 30%;
 }
 .pagina1-texto h2{
     font-size: 1rem;

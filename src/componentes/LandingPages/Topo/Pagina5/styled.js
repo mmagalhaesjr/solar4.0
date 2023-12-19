@@ -20,6 +20,11 @@ align-items: center;
 #container{
     width: 100%;
     max-width: 2000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
