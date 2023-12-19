@@ -7,13 +7,12 @@ const foto = `url(${fot})`;
 export const StyledPagina6 = styled.section`
 width: 100%;
 height: 100vh;
+background-color: #78af37;
 
 
 display: flex;
 flex-direction:column;
 align-items: center;
-
-background-color: #78af37;
 
 
 #tela{
@@ -49,7 +48,6 @@ align-items: center;
     font-weight: 600;
 }
 .cximg{
-    min-height: 200px;
     width: fit-content;
 
     display: flex;
@@ -65,13 +63,12 @@ align-items: center;
     width: 150px;
 }
 
-
-
+//--------------------
 
 
 .container{
     width: 100%;
-    height: 200px;
+    height: fit-content;
     position: absolute;
     margin-top: 130px;
     display: flex;
@@ -113,70 +110,71 @@ align-items: center;
     top: 10px;
 }
 
-@media(max-width:1221px) {
-    .container{
+
+
+
+
+
+//--------------------
+
+@media(max-width:1224px) {
+    height: 1200px;
+    #tela{
+        width: 100%;
+        height: 100%;
+
+        background-image: ${foto};
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 70%;
         
+
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        margin-top:0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
 
     .cxAmarela{
-        width: 170px;
-        height:100px;
+        width:95%;
+        height:90px;
+        background-color: #e9c200;
+        border-radius: 20px;
+        box-shadow:none;
+        margin: 1%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;   
     }
-    .texto{
-        font-size: .7rem;
-    }
-}
-@media(max-width:1200px){
-
-.cabecalho{
-    height: 200px;
-    flex-direction:column;
-    justify-content:center;
-    text-align: center;
-
-    margin-top: 5%;
-}
-.subtitulo h2{
-    font-size: 3rem;
-}
-.cximg img{
-    width: 150px;
-}
-.cximg .intel{
-    width: 100px;
 }
 
-#tela{
-    height: 50%;
-}
-.container{
-   flex-direction: column;
-   position:relative;
-   height: 50%;
-   width: 100%;
-   margin-top: 2px;
-}
 
-.cxAmarela{
-    width: 95%;
-    height:70px;
-    box-shadow:none;
-    
 
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
-.texto{
-    font-size: .9rem;
-    margin-top: 0;
-}
-}
-@media(max-width:990px){
+@media(max-width:1000px) {
+
+//cabeçalho apatir de 590px
 .cabecalho{
     width: 90%;
-    height:100px;
-    margin-top: 10%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 5%;
 }
 .subtitulo{
     display: flex;
@@ -184,33 +182,74 @@ align-items: center;
     align-items: center; 
 }
 .subtitulo h2{
-    font-size: 3em;
+    color: #14a238;
+    font-size: 3rem;
+    font-weight: 600;
 }
 .cximg{
-    min-height: 100px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 5%;
+    margin-top:5%;
 }
 .cximg img{
-    width: 150px;
+    width: 200px;
 }
 .cximg .intel{
-    width: 100px;
+    width: 150px;
+}
+   
+    .cximg{
+        justify-content: space-between;
+        width: 90%;
+    }
 }
 
-    .texto{
-        font-size: .6rem;
-    }
+@media(max-width:820px) {
+   .subtitulo{
+       text-align: center;
+       justify-content: center;
+   }
+   .subtitulo h2{
+       font-size: 3rem;
+   }
 }
-@media(max-width:600px){
+
+@media(max-width:615px){
     #tela{
-        background-position: 45% 0%;
+        width: 100%;
+        height: 100%;
+
+        background-image: ${foto};
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 48% 60%;
+
+        display: flex;
+        flex-direction:column;
+        align-items: center;
     }
-   
 }
-@media(max-width:500px){
-    .cabecalho{
-    margin-top: 20%;
+
+@media(max-width:590px){
+height: 100vh;
+    .cximg{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    }
+    .cximg img{
+    width: 100px;
+    }
+    .cximg .intel{
+    width: 70px;
+    }
+
+
 }
-}
+
 
 
 `

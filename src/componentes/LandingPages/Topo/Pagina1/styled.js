@@ -77,18 +77,23 @@ export const StyledPagina1 = styled.section`
 .pagina1-texto{
     width: 40%;
     background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 30px;
     
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .pagina1-texto h2{
     color: #ffffff;
     font-size: 3rem;
     margin: 3%;
+}
+@media(max-width:1030px) {
+    
 }
 @media(max-width:1030px) {
     .pagina1-titulo{

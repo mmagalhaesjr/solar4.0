@@ -72,13 +72,14 @@ export const StyledPagina2 = styled.section`
     }
     .containerIcones{
         width: 70%;
+        max-width:600px;
         
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 3%;
+        margin-bottom: 2%;
         flex-wrap: wrap;
-        margin-left: 3%;
     }
     .cxCadaIcone{
         width: 150px;
@@ -87,10 +88,13 @@ export const StyledPagina2 = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         text-align: center;
+        margin-top: 2%;
     }
     .cxCadaIcone p{
+        width: 99%;
+        height: 50px;
         font-size:1rem;
         flex-wrap: wrap;
         margin-top: 5%;
@@ -98,64 +102,13 @@ export const StyledPagina2 = styled.section`
     }
     .containerIcones img{
         width:80px;
+        height: 80px;
     }
 
-    
-    @media(max-width:2030px){
-        .containerIcones{
-            max-width: 600px;
-        }
-    }
-    @media(max-width:1350px){
-        .containerIcones{
-            width: 90%;
-            gap: 0;
-        }
-    }
-    @media(max-width:1230px){
-        .containerIcones{
-            width: 80%;
-            justify-content: left;
-        }
-        .cxCadaIcone{
-            width: 150px;
-            height: 150px;
-            margin-left: 5%;
-        }
-        .containerIcones img{
-            width:60px;
-        }
-        .cxCadaIcone p{
-            font-size:.8rem;
-        }
-    }
-    @media(max-width:1160px){
-        .cabecalho img{
-            width:30%;
-    }
-    }
-    @media(max-width:1125px){
-       
-        .containerIcones{
-            width: 70%;
-            justify-content: center;
-            margin-left:0;
-        }
-        .cxCadaIcone{
-            width: 100px;
-            height: 100px;
-        }
-        .containerIcones img{
-            width:50px;
-        }
-        .cxCadaIcone p{
-            font-size:.7rem;
-        }
-    }
-  
+
 
     //responsividade mobile---
-    @media(max-width:980px){
+    @media(max-width:1360px){
         justify-content: center;
         height: 80vh;
         .meioVerde{
@@ -164,6 +117,11 @@ export const StyledPagina2 = styled.section`
             height: fit-content;
             border-radius: 0;
             left: 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         .cabecalho{
             margin-top: 5%;
@@ -187,6 +145,7 @@ export const StyledPagina2 = styled.section`
 
         .containerIcones{
             width:100%;
+            max-width: 400px;
            
             height: fit-content;
             justify-content: center;
