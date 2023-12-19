@@ -216,6 +216,7 @@ span{
     }
     .boxIcones{
         width: 90%;
+        margin-bottom: 3%;
     }
    
 }

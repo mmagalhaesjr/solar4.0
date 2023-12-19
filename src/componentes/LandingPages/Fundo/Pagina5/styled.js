@@ -56,7 +56,9 @@ span{
     
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
+    
+    list-style-type: none;
 }
 .texto ul li{
     font-size:2rem;
@@ -80,7 +82,7 @@ span{
    
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 }
 .logo1{
     width: 200px;

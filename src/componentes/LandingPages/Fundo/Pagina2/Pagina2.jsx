@@ -25,14 +25,14 @@ export default function Pagina2() {
                     </div>
                     <ul>
                         <li>
-                            A <span>Solar 4.0 </span>é orgulhosamente parceira da
+                            A <span>Solar 4.0 </span> é orgulhosamente parceira da
                             <span>Intelbras</span>, líder em tecnologia para geração
                             de energia solar.
                         </li>
                         <li>
                             Oferecemos equipamentos de qualidade,
                             utilizando os mais recentes produtos da
-                            <span>Intelbras</span> para garantir eficiência e
+                            <span> Intelbras</span> para garantir eficiência e
                             durabilidade.
                         </li>
                     </ul>

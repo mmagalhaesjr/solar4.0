@@ -66,6 +66,8 @@ span{
     background-repeat: no-repeat;
     background-position: 70% 5%;
     transform: scale(1.1);
+
+    
 }
 .cabecalho{
     width: 100%;
@@ -73,7 +75,8 @@ span{
    
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+
 }
 .logo1{
     width: 200px;
