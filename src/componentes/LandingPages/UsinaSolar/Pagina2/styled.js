@@ -198,7 +198,9 @@ span{
     }
 }
 @media(max-width:560px){
-   
+   #containerImg{
+        height:fit-content ;
+   }
     .cabecalho{
         margin-top: 10%;
     }
