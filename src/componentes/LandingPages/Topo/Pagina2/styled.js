@@ -99,7 +99,13 @@ export const StyledPagina2 = styled.section`
     .containerIcones img{
         width:80px;
     }
- 
+
+    
+    @media(max-width:2030px){
+        .containerIcones{
+            max-width: 600px;
+        }
+    }
     @media(max-width:1350px){
         .containerIcones{
             width: 90%;
