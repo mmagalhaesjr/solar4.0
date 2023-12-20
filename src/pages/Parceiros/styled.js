@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const StyledParceiros = styled.section`
 width: 100%;
-
-
 background-color: #eceeee; 
 
 display: flex;
@@ -12,10 +10,7 @@ text-align: center;
 align-items: center;
 justify-content: center;
 overflow: hidden;
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
+
 
 #titulo{
   font-size: 40px;
@@ -32,12 +27,14 @@ h1{
   position: relative;
   width: 90%;
   /* overflow: hidden; */
+  margin-bottom: 5%;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10%;
   margin-top: 50px;
   left: 900px;
+
 }
 
 &.rolagem {

@@ -10,12 +10,11 @@ justify-content: center;
 .cxForm{
   width: 90%;
   margin-top: 5%;
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-
- 
 }
 
 .iconesLatetral{
@@ -50,27 +49,27 @@ form{
 }
 
 .inputBox{
-height: 100px;
-width: 100%;
+width: 98%;
+height: fit-content;
 
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 }
 .cxInput{
     position: relative;
     width: 100%;
-    height:100px ;
+    height: fit-content;
     align-items: center;
     border: solid 5px transparent; 
 }
 input{
   width: 100%;
   height: 40px;
-  border-radius: 10px;
+  
   border: none;
   margin-top: 20px;
- padding: 1%;
+  padding: 1%;
   outline: none;
 }
 .labelImput{
@@ -79,6 +78,7 @@ input{
     top: 0px;
     left: 0px;
     pointer-events: none; 
+  
 } 
 .texto{
     width: 100%;

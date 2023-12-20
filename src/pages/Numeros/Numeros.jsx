@@ -9,7 +9,6 @@ export default function Numeros() {
     const [scrollY, setScrollY] = useState(0);
     const [number1, setNumber1] = useState(0);
     const [number2, setNumber2] = useState(0);
-    const [number3, setNumber3] = useState(0);
     const [animationActive, setAnimationActive] = useState(false);
 
     useEffect(() => {
@@ -31,26 +30,21 @@ export default function Numeros() {
         if (animationActive) {
             interval = setInterval(() => {
                 setNumber1(prevNumber => {
-                    if (prevNumber >= 15000) {
+                    if (prevNumber >= 17000) {
                         clearInterval(interval);
                         return prevNumber;
                     }
                     return prevNumber + 200;
                 });
+
                 setNumber2(prevNumber => {
-                    if (prevNumber >= 600) {
+                    if (prevNumber >= 1000) {
                         clearInterval(interval);
                         return prevNumber;
                     }
                     return prevNumber + 10;
                 });
-                setNumber3(prevNumber => {
-                    if (prevNumber >= 15000) {
-                        clearInterval(interval);
-                        return prevNumber;
-                    }
-                    return prevNumber + 200;
-                });
+              
             }, 50);
         }
 
@@ -96,14 +90,9 @@ export default function Numeros() {
                     <span style={{ '--i': 58 }}></span>
                     <span style={{ '--i': 84 }}></span>
                     <span style={{ '--i': 29 }}></span> */}
-                   
-                    
-                    
-                    
                 </div>
 
                 <div className="containerCirculo">
-
                     <div id="circulo1" className="circulo">
                         <div className="circuloInterno">{number1}</div>
                     </div>
@@ -111,12 +100,9 @@ export default function Numeros() {
                     <div className="fundoTexto">
                         <h3>KWH GERADO/MÊS</h3>
                     </div>
-
-
                 </div>
 
                 <div className="containerCirculo">
-
                     <div id="circulo2" className="circulo">
                         <div className="circuloInterno">{number2}</div>
                     </div>
@@ -124,23 +110,7 @@ export default function Numeros() {
                     <div className="fundoTexto">
                         <h3>MÓDULOS INSTALADOS </h3>
                     </div>
-
-
                 </div>
-
-                <div className="containerCirculo">
-
-                    <div id="circulo3" className="circulo">
-                        <div className="circuloInterno">{number3}</div>
-                    </div>
-
-                    <div className="fundoTexto">
-                        <h3>MÓDULOS INSTALADOS </h3>
-                    </div>
-
-                </div>
-
-
 
             </div>
         </StyledNumeros>

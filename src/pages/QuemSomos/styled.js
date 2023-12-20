@@ -71,24 +71,23 @@ span{
     z-index: 0; 
   }
 
-  .imgsol {
+  .imgsol{
     width: 300px;
-    height: 280px;
+    height: 150px;
     position: relative;
     z-index: 1; 
-    
   }
 
   #imgsol1{
     /* transform: translateY(-100px); */
-    top:-150px;
+    top:-200px;
     z-index: 1;
     transition: 1s;
    
    }
   #imgsol2{
     /* transform: translateY(500px); */
-    top:150px;
+    top:250px;
     z-index: 0;
     transition: 1s;
    }
@@ -149,7 +148,7 @@ span{
       height: 250px;
     }
     #imgsol1{
-   top: -250px;
+      top: -250px;
     
    }
   #imgsol2{

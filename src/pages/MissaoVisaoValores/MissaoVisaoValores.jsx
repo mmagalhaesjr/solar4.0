@@ -24,6 +24,7 @@ export default function Mvv() {
 
     return (
         <StyledMvv className={scrollY > 1100 ? 'rolagem' : ''}>
+            
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>

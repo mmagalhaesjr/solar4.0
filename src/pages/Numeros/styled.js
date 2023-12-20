@@ -28,14 +28,11 @@ overflow: hidden;
 
 
 
-
-
-
 #titulo{
   font-size: 40px;
   font-weight:700;
   margin-top: 90px;
-  z-index: 8;
+
 }
 
 h1{

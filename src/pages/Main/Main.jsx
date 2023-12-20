@@ -28,25 +28,29 @@ export default function Main() {
 
             <Header />
 
-            <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
-            <img id="intel" src={intelb} alt="" />
-                
-            <TelaInicial/>
-    
-            <QuemSomos />
-            <Mvv/>
-            <Funcionamento/>
-            <VantagensBeneficios />
-            <NossosProjetos/>
-            
-            <Numeros/>
-            {/* <Depoimento/> */}
-            <TelaDepoimento/>
+            <div id="cxIcones">
+                <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer">
+                    <BsWhatsapp id="whattsapp" /></a>
+                <img id="intel" src={intelb} alt="intel" />
+            </div>
 
-            <Parceiros/>
-        
-            <Footer/>
-         
+
+            <TelaInicial />
+
+            <QuemSomos />
+            <Mvv />
+            <Funcionamento />
+            <VantagensBeneficios />
+            <NossosProjetos />
+
+            <Numeros />
+            {/* <Depoimento/> */}
+            <TelaDepoimento />
+
+            <Parceiros />
+
+            <Footer />
+
 
         </StyledMain>
     )

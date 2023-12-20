@@ -6,7 +6,7 @@ import quemSomos from "../../assets/fundoCima.jpeg"
 
 
 import sol2 from "../../assets/logosIcones/cor.png"
-import sol3 from "../../assets/logosIcones/sombra.png"
+import sol3 from "../../assets/logosIcones/luz.png"
 
 export default function QuemSomos() {
   

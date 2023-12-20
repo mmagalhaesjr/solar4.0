@@ -21,13 +21,6 @@ background-repeat: no-repeat;
 background-size: cover;
 
 
-#imgInicial{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    z-index: 0;
-  }
-
   #container{
     width: 100%;
     height: 100vh;

@@ -11,6 +11,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 
+
+
 #titulo{
   font-size: 40px;
   font-weight:700;
