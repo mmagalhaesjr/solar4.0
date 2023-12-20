@@ -1,32 +1,28 @@
 import styled from 'styled-components';
 
 
+import foto from '../../assets/fundoCima.jpeg';
+
+const fotoCaminho = `url(${foto})`;
 
 export const StyledQuemSomos = styled.section`
   width: 100%;
-  height: 100vh;
-  /* scroll-snap-align: start;
-  position: sticky;
-  top: 0;
-  left: 0; */
  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  #img {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-  }
-
+  
   #container {
-    position: relative;
+  background-image: ${fotoCaminho};
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 10% 100%;
     width: 100%;
     height: 100%;
+
     display: flex;
     justify-content: space-around;
-
-    
-    
-    /* border: solid 4px blue; */
   }
 
   #texto {
@@ -37,17 +33,12 @@ export const StyledQuemSomos = styled.section`
     justify-content: center;
     color: #000000;
     position: relative;
-    
-    /* background: radial-gradient(circle, rgba(215,215,215,0.8789566852131477) 0%, rgba(255,255,255,0.8565477216277135) 100%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    border-radius:10px ; */
-
-   
   }
 
   h1 {
     font-size: 50px;
     font-weight: 700;
+    margin-top: 5%;
    
     font-family: 'Montserrat', sans-serif;
   }
@@ -66,7 +57,7 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: solid 1px yellow; */
+   
 
     z-index: 0; 
   }
@@ -80,10 +71,9 @@ span{
 
   #imgsol1{
     /* transform: translateY(-100px); */
-    top:-200px;
+    top:-100px;
     z-index: 1;
     transition: 1s;
-   
    }
   #imgsol2{
     /* transform: translateY(500px); */
@@ -94,7 +84,7 @@ span{
   
  &.rolagem {
   #imgsol1{
-    transform: translateY(300px);
+    transform: translateY(220px);
     z-index: 1;
     transition: 1s;
    }
@@ -126,7 +116,7 @@ span{
     }
   }
 
-  @media (max-width: 573px) {
+  @media (max-width: 600px) {
    
     #texto {
       align-items: center;
@@ -145,11 +135,10 @@ span{
     
     .imgsol {
       width: 200px;
-      height: 250px;
+      height: 100px;
     }
     #imgsol1{
-      top: -250px;
-    
+      top: -200px;
    }
   #imgsol2{
     top: 130px;

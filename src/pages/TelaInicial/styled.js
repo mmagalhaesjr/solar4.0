@@ -2,68 +2,60 @@ import styled from 'styled-components';
 
 import foto from '../../assets/inicial.jpg';
 
+
 const fotoCaminho = `url(${foto})`;
 
-export const StyledtextoInicial = styled.div `
+export const StyledtextoInicial = styled.div`
 
 width: 100%;
 height: 100vh;
-display: flex;
-flex-direction: column;
-
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
 background-image: ${fotoCaminho};
 background-repeat: no-repeat;
 background-size: cover;
 
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 
-  #container{
+
+#container{
     width: 100%;
     height: 100vh;
-    position: absolute;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* border: solid 3px red; */
+    justify-content: center;
   }
-#texto{
+#cxTexto{
+  width: 90%;
+  font-size: 40px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-
-  width: 100%;
-  height: 50%;
-  font-size: 40px;
-  font-weight:700;
- 
-  margin-top: 210px;
-
-  
-
-  /* border: solid 3px blue; */
+  text-align: center;  
 }
-#texto h1 {
+#cxTexto h1 {
+  font-weight:700;
+  font-size: 3rem;
   line-height: 1.5; 
   color: #ffffff;
 }
 span{
-  font-size: 50px;
+  font-size: 4rem;
 }
-
+a{
+  width: 100%;
+}
 button{
   width: 300px;
   height: 50px;
   border-radius: 20px;
   border: none;
   background-color:#00a335;
-  color: #ffffff;
   font-weight:700;
   font-size: 17px;
   margin-top: 50px;
@@ -73,10 +65,16 @@ button{
   &:hover{
      background-color: #00BF3E;
   }
+
+}
+button p{
+  font-size:100%;
+  color:#ffffff;
+  margin: 3%;
 }
 
-@media(max-width:934px) {
-  height: 70vh;
-}
+//tela maior
+
+
 
 `

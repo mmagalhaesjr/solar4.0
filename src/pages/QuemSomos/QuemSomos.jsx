@@ -2,11 +2,10 @@ import { StyledQuemSomos } from "./styled";
 
 import { useState, useEffect } from "react";
 
-import quemSomos from "../../assets/fundoCima.jpeg"
 
 
 import sol2 from "../../assets/logosIcones/cor.png"
-import sol3 from "../../assets/logosIcones/luz.png"
+import sol3 from "../../assets/logosIcones/sombra.png"
 
 export default function QuemSomos() {
   
@@ -25,7 +24,7 @@ export default function QuemSomos() {
 
   return (
     <StyledQuemSomos id="quemSomos"   className={scrollY > 100 ? 'rolagem' : ''}>
-      <img id="img" src={quemSomos} alt="imagem" />
+      
 
       <div id="container">
         <div id="texto">

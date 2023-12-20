@@ -8,37 +8,37 @@ export const StyledHeader = styled.header`
     z-index: 8;
     position: fixed;
 
-    &.rolagem {
-        background-color: #095074de;
-        color: #ffffff;
-        height: 50px;
-        transition: 1s;
+            &.rolagem {
+                background-color: #095074de;
+                color: #ffffff;
+                height: 50px;
+                transition: 1s;
 
-        nav {
-            position: absolute;
-            height: 60px;
-            width: 100%;
-            display: flex;
-        }
+                nav {
+                    position: absolute;
+                    height: 60px;
+                    width: 100%;
+                    display: flex;
+                }
 
-        img {
-            position: relative;
-            width: 130px;
-            height: 40px;
-            top: -14px;
-        }
+                img {
+                    position: relative;
+                    width: 130px;
+                    height: 40px;
+                    top: -14px;
+                }
 
-        ul li a {
-            position: relative;
-            top: -20px;
-            font-weight: 400;
-        }
+                ul li a {
+                    position: relative;
+                    top: -20px;
+                    font-weight: 400;
+                }
 
-        .linha {
-            position: relative;
-            top: -30px;
-        }
-    }
+                .linha {
+                    position: relative;
+                    top: -30px;
+                }
+            }
     
     a img {
         width: 200px;
@@ -52,13 +52,14 @@ export const StyledHeader = styled.header`
         display: flex;
         gap: 10px;
         white-space: nowrap;
-
         list-style: none;
     }
 
     nav {
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     li a {
@@ -83,7 +84,6 @@ export const StyledHeader = styled.header`
         bottom: 15px;
         left: 0;
     }
-
     nav li a:hover::after {
         width: 100%;
         transition: .5s;
@@ -94,7 +94,7 @@ export const StyledHeader = styled.header`
         display: none;
         position: absolute;
         top: 40px;
-        left: 57.6%;
+        left: 63%;
         transform: translateX(-50%);
         width: 200px;
         z-index: 1;
@@ -138,7 +138,7 @@ export const StyledHeader = styled.header`
         display: none;
         position: absolute;
         top: 40px;
-        left: 62.3%;
+        left: 68%;
         transform: translateX(-50%);
         width: 200px;
         z-index: 1;

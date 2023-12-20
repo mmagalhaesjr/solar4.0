@@ -23,7 +23,7 @@ export default function Mvv() {
    
 
     return (
-        <StyledMvv className={scrollY > 1100 ? 'rolagem' : ''}>
+        <StyledMvv className={scrollY > 900 ? 'rolagem' : ''}>
             
             <div id="container">
                 <div className="card">
