@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const StyledNumeros = styled.section`
 width: 100%;
 height: 100vh;
@@ -32,12 +31,11 @@ overflow: hidden;
   font-size: 40px;
   font-weight:700;
   margin-top: 90px;
-
+  z-index:2;
 }
 
 h1{
-  z-index: 8;
-  color:#000000 ;
+  z-index:2;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
@@ -49,11 +47,6 @@ h1{
   justify-content: center;
   gap: 50px;
   margin-top: 100px;
-
-  
-  
-
-
 }
 
 .containerCirculo{
@@ -62,31 +55,24 @@ h1{
   justify-content: center;
   align-items: center;
   position: relative;
-
-  
-
-  
 }
 .circulo{
   width: 200px;
   height: 200px;
   color: #ffffff;
-  background-color:#00000047 ;
-  backdrop-filter: blur(10px);
   opacity: 0.9;
-
   background-color:#68f20bbf ;
   backdrop-filter: blur(10px);
-  opacity: 0.9;
-
   border-radius: 50% 50%;
+  font-size: 30px;
+  position: relative;
+  top:-250px;
+  font-size: 1;
+
   display:flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
-
-  position: relative;
-  top:-250px;
+ 
 }
 &.rolagem {
   .circulo{
