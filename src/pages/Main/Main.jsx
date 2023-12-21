@@ -41,9 +41,12 @@ export default function Main() {
             <Mvv />
             <Funcionamento />
             <VantagensBeneficios />
-            <NossosProjetos />
 
             <Numeros />
+
+            <NossosProjetos />
+
+            
             {/* <Depoimento/> */}
             <TelaDepoimento />
 
