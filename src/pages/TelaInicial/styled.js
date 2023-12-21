@@ -73,7 +73,17 @@ button p{
   margin: 3%;
 }
 
-//tela maior
+@media(max-width:500px){
+  #cxTexto h1{
+  font-weight:700;
+  font-size: 2rem;
+  line-height: 1.5; 
+  color: #ffffff;
+  }
+  span{
+  font-size: 2rem;
+}
+}
 
 
 
