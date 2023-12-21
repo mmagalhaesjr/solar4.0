@@ -10,6 +10,7 @@ const fotoCaminho = `url(${foto})`;
 export const StyledOPM = styled.section`
 width: 100%;
 background-color: #ECEEEE;
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 
 display: flex;
 flex-direction: column;

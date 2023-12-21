@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const StyledParceiros = styled.section`
 width: 100%;
-background-color: #eceeee; 
+background-color: #eceeee;
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 
 display: flex;
 flex-direction: column;

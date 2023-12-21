@@ -5,14 +5,12 @@ export const StyledTelaDepoimento = styled.section`
 
 width:100%;
 background-color: #eceeee;
-background: linear-gradient(0deg, rgba(236,238,238,1) 0%, rgba(196,196,196,1) 50%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-
 
 #titulo{
   font-size: 40px;
@@ -59,7 +57,17 @@ color: #000000;
   background-color: #000000;
 }
 
-
+@media(max-width:500px){
+.swiper-button-prev,
+.swiper-button-next{
+color: #000000;
+ width: 30px;
+ height: 50px;
+ padding: 20px;
+ border-radius: 10px;
+ margin-top: 25%;
+ }
+}
 
 
 `

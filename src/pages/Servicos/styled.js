@@ -8,6 +8,7 @@ width: 100%;
 height: 100vh;
 
 background-color: #eceeee; 
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -84,8 +85,6 @@ button{
   }
 }
 
-
-
 `
 
 export const StyledServicos2 = styled.section`
@@ -93,6 +92,7 @@ export const StyledServicos2 = styled.section`
 width: 100%;
 height: 100vh;
 background-color: #eceeee; 
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 display: flex;
 flex-direction: column;
 text-align: center;

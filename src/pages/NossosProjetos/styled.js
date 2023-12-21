@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyledNossosProjetos = styled.section`
 
 background-color: #eceeee;
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 
 display: flex;
 flex-direction: column;
@@ -14,16 +15,11 @@ position: sticky;
 top: 0;
 left: 0; */
 
-#linha{
-  width: 20%;
-  height: 1.5px;
-  background-color: #000000;
-  margin-bottom: 60px; 
-}
+
 #titulo{
   font-size: 40px;
   font-weight:700;
-  margin-top: 30px;
+  margin-top: 5%;
 }
 h1{
   color:#000000 ;

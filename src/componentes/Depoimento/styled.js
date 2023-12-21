@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const StyledDepoimento = styled.section`
 
 .box-depoimento{
-    width: 500px;
+    width: 400px;
     height: 350px;
     background-color:#c1baba47 ;
     backdrop-filter: blur(10px);
     opacity: 0.9;
     border: solid 10px #eceeee ;
+    
    
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,24 @@ height: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media(max-width:500px){
+    .box-depoimento{
+    width:80%;
+    height: 350px;
+    background-color:#c1baba47 ;
+    backdrop-filter: blur(10px);
+    opacity: 0.9;
+    border: solid 10px #eceeee ;
    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
 }
 
 `
