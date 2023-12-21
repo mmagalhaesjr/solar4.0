@@ -20,7 +20,6 @@ export default function NossosProjetos() {
     return (
         <StyledNossosProjetos>
 
-            <div id="linha"></div>
 
             <div id="titulo">
                 <h1>NOSSOS PROJETOS</h1>

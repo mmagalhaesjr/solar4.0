@@ -5,6 +5,7 @@ export const StyledTelaDepoimento = styled.section`
 
 width:100%;
 background-color: #eceeee;
+background: linear-gradient(0deg, rgba(236,238,238,1) 0%, rgba(196,196,196,1) 50%);
 
 display: flex;
 flex-direction: column;

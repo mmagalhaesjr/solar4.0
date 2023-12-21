@@ -37,13 +37,13 @@ h1{
 
 
 #projetos{
+  width: 90%;
+  max-width: 1660px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  width: 100%;
-  max-width: 1660px;
  
   /* flex-wrap: wrap; */
 }
@@ -56,19 +56,8 @@ section{
   align-items: center;
   width: 100%;
 }
-#secao1{
-  
-  
-}
-#secao2{
-  
-}
-#secao3{
-  
-}
-#secao3{
-  
-}
+
+
 .projetos{
   width: 100%;
   gap: 30px;

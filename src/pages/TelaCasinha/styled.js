@@ -27,10 +27,6 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-border: solid 4px blue;
-
-
-
 
 #titulo{
   font-size: 40px;
@@ -41,15 +37,10 @@ h1{
   color:#000000 ;
   font-family: 'Montserrat', sans-serif;
 }
-
-
 #casinha{
     width: 50%;
     height: 50%;
-    
   }
-
-
 #container{
   height: 70vh;
   width: 100%;
@@ -68,7 +59,6 @@ h1{
 /* position: relative;
 top: -500px; */
 }
-
   .circulo {
     background-color: #F2CB36;
     /* background-color:#00a3369c; */
@@ -180,8 +170,6 @@ top: -500px; */
   #containerTelaMenor{
     width:100%;
     display: none;
-
-    border: solid 3px #ffffff;
   }
 
   #telaMenor{
@@ -205,8 +193,6 @@ top: -500px; */
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border: solid 3px orange;
   }
 
   .containerCxAmarela{
@@ -215,8 +201,6 @@ top: -500px; */
 
     display: flex;
     flex-direction: column;
-   
-   
   }
 
   .cxAmarela{
@@ -272,8 +256,6 @@ top: -500px; */
     background-color: #78AC34;
 
     margin-top: -100px;
-
-    border: solid 3px orange;
   }
   }
 
