@@ -6,7 +6,7 @@ const fotoCaminho = `url(${foto})`;
 
 export const StyledMvv = styled.section`
 width: 100%;
-height: 100vh;
+
 
 /* scroll-snap-align: start;
 position: sticky;
@@ -27,46 +27,40 @@ align-items: center;
 
 #container{
   width: 100%;
-  height: 100vh;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .card{
-  position: relative;
+  max-width:400px;
+  min-width: 350px;
   width: 25%;
+  max-height: 400px;
   height: 55vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
   background: rgba(255, 255, 255, 0.537); 
   backdrop-filter: blur(10px); 
   box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
   border-radius:10px ;
-  top: 20px;
-}
-.texto{
-  width: 80%;
-  height: 11rem;
-  font-size: 1.5rem;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  line-height: 1.2; 
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 h1{
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 700;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 100px;
   transition: 1s;
- 
 }
 &.rolagem {
   h1{
@@ -76,10 +70,18 @@ h1{
    }
   }
 
+  .cxTexto{
+  width: 80%;
+  height:50%;
+  margin-top: 3%;
 
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2; 
+}
 .card p{
-  font-size: 80%;
-  margin-top: -20px;
+  font-size: 1.3rem;
 }
 
 span{
@@ -110,7 +112,7 @@ margin-bottom: 70px;
   }
 }
 
-@media (max-width:920px) {
+@media (max-width:1100px) {
   #container{
     flex-direction: column;
     justify-content: center;
@@ -125,10 +127,10 @@ margin-bottom: 70px;
 }
 }
 
-@media (max-width:450px) {
-.card .texto p{
-  font-size: 70%;
-}
+@media (max-width:500px) {
+  .card h1{
+    font-size: 2rem;
+  }
 }
 
 `

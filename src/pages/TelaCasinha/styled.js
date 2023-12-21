@@ -1,24 +1,34 @@
 import styled from 'styled-components';
 
 import foto from '../../assets/gif.gif';
+import fundo from '../../assets/fundoCasa.png';
+import telaMenor from '../../assets/casinha.png';
+
+
+
+
 
 const fotoCaminho = `url(${foto})`;
+const fundoCasa = `url(${fundo})`;
+const fotoTMenor = `url(${telaMenor})`;
 
 export const StyledFuncionamento = styled.section`
 
 width: 100%;
-height: 100vh;
-background-color: #044f757d;
+height: fit-content;
+
+
+background-image: ${fundoCasa};
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+
 display: flex;
 flex-direction: column;
-/* align-items: center; */
-
 text-align: center;
 
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
+border: solid 4px blue;
+
 
 
 
@@ -44,20 +54,17 @@ h1{
   height: 70vh;
   width: 100%;
 
+  background-image: ${fotoCaminho};
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center;
+  margin-top: 40px;
+
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-
-
-
-  background-image: ${fotoCaminho};
-
-background-repeat: no-repeat; 
-background-size: 50%;
-background-position: center;
-margin-top: 40px;
-
+ 
 /* position: relative;
 top: -500px; */
 }
@@ -75,6 +82,7 @@ top: -500px; */
     position: relative;
     color: #000000;
     font-weight: 700;
+    cursor: pointer;
     &:hover {
       background-color: #FFE583;
       background-color: #f7d54e;
@@ -92,19 +100,19 @@ top: -500px; */
   }
   #circulo3 {
     top: 7%;
-    left:3%;
+    left:4%;
   }
   #circulo4 {
-    top: 17%;
-    left:-9%;
+    top: 20%;
+    left:-23%;
   }
   #circulo5 {
     top: 0%;
-    left: -28%;
+    left: -37%;
   }
   #circulo6 {
-    top: -7%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
   }
 
   #ContainerInfo {
@@ -157,7 +165,7 @@ top: -500px; */
   }
   #info4 {
     top: 45%;
-    left: 47%;
+    left: 35%;
   }
   #info5 {
     top: 70%;
@@ -165,95 +173,112 @@ top: -500px; */
   }
   #info6 {
     top: 70%;
-    left: 38%;
+    left: 32%;
   }
   //estilo da tela menor-------------------------------------
 
-  #titulo{
-  
-  margin-top: 80px;
-}
+  #containerTelaMenor{
+    width:100%;
+    display: none;
 
+    border: solid 3px #ffffff;
+  }
 
   #telaMenor{
-    display: none;
+    width: 100%;
+    height: 100%;
+
+    background-image: ${fotoTMenor};
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 30%;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
   }
- 
-#container2{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  margin-top: 100px;
-  gap: 30px;
+  #funcoVerde{
+    width: 100%;
+    height: fit-content;
+    background-color: #78AC34;
 
-  
-}
-.card{
-  width:85% ;
-  height:100px;
-  background: radial-gradient(circle, rgba(215,215,215,0.891281512605042) 0%, rgba(255,255,255,0.8884803921568627) 100%); ;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  border-radius:10px ;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.informacao{
-  width: 100%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-h3{
-  position: relative;
-  top: -30%;
-  left: 0%;
-  font-size: 1.5rem;
-}
-.icone{
-  font-size: 50px;
-}
-.texto{
-  width: 300px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-@media(min-width:1660px) {
- justify-content: center;
- align-items: center;
-  #container{
-    width: 1660px;
-  }
-}
-
-@media (max-width: 1300px) {
-  height: 100vh;
-  #telaMaior {
-    display: none;
+    border: solid 3px orange;
   }
 
+  .containerCxAmarela{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+   
+   
   }
 
-  @media (max-width:1300px) {
-    height: 130vh;
-    #telaMenor{
-      display: block;
+  .cxAmarela{
+    width: 95%;
+    height: 50px;
+    background-color: #F2CB36;
+    border: solid 2px #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content:left;
+  }
+  .numero{
+    width: 30px;
+    height: 100%;
+
+    display: flex;
+    justify-content:center;
+}
+.numero h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#ffffff ;
+    position: relative;
+    top: 10px;
+}
+
+  @media(max-width:1000px){
+  height: 80vh;
+    #telaMaior{
+        display: none;
     }
+    #containerTelaMenor{
+        display: block;
+        height: 300px;
   }
-  @media (max-width:419px) {
-    height: 110vh;
-    #container2{
-      margin-top: 60px;
+  #telaMenor{
+        width: 100%;
+        height: 100%;
+
+        background-image: ${foto};
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 48% 60%;
+
+        display: flex;
+        flex-direction:column;
+        align-items: center;
     }
-    #titulo{
-      font-size: 25px;
-      font-weight: 700;
-    }
-    
+    #funcoVerde{
+    width: 100%;
+   
+    background-color: #78AC34;
+
+    margin-top: -100px;
+
+    border: solid 3px orange;
   }
+  }
+
+
+
+
   
 `

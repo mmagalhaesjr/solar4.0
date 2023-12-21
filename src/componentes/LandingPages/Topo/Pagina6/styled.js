@@ -64,8 +64,6 @@ align-items: center;
 }
 
 //--------------------
-
-
 .container{
     width: 100%;
     height: fit-content;

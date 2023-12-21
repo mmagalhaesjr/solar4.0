@@ -8,11 +8,12 @@ import img4 from "../../assets/iconesCasinha/4.png";
 import img5 from "../../assets/iconesCasinha/5.png";
 import img6 from "../../assets/iconesCasinha/6.png"
 
-import { TbSolarPanel } from 'react-icons/tb';
-import { MdModelTraining } from 'react-icons/md';
-import { SiConvertio } from 'react-icons/si';
-import { BsSpeedometer } from 'react-icons/bs';
-import { GrDocumentDownload } from 'react-icons/gr';
+
+// import { TbSolarPanel } from 'react-icons/tb';
+// import { MdModelTraining } from 'react-icons/md';
+// import { SiConvertio } from 'react-icons/si';
+// import { BsSpeedometer } from 'react-icons/bs';
+// import { GrDocumentDownload } from 'react-icons/gr';
 
 
 
@@ -39,7 +40,7 @@ export default function Funcionamento() {
 
             <section id="telaMaior">
 
-                {/* <img id="casinha" src={casa} alt="" /> */}
+
 
                 <div id="container" >
                     <div
@@ -166,90 +167,84 @@ export default function Funcionamento() {
             </section>
 
             {/* ELEMENTO DA TELA MENOR -------------------------------- */}
+            <div id="containerTelaMenor">
+                <div id="telaMenor">
 
-            <section id="telaMenor">
+                </div>
+                <div id="funcoVerde">
+                    <div className="containerCxAmarela">
 
-                <div id="container2">
-
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>1</h3> */}
-                            <div className="icone">
-                                <TbSolarPanel className="ico" />
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>1.</h3>
                             </div>
+
                             <div className="texto">
-                                <p>Os painéis fotovoltaicos captam a energia solar.</p>
+                                <p>
+                                    Os paineis Captam a energia do sol
+                                </p>
+                            </div>
+                        </div>
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>2.</h3>
                             </div>
 
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>2</h3> */}
-                            <div className="icone">
-                                <MdModelTraining className="ico" />
-                            </div>
                             <div className="texto">
-                                <p>A energia é convertida pelo inversor e é injetada na rede local.</p>
+                                <p>
+                                    Atraves do inversor a energia é transformada e inserida na rede elétrica local.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>3.</h3>
                             </div>
 
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>3</h3> */}
-                            <div className="icone">
-                                <BsSpeedometer className="ico" />
-                            </div>
                             <div className="texto">
-                                <p>O medidor bidirecional contabiliza a energia injetada na rede e a que está sendo consumida.</p>
+                                <p>
+                                    A energia solar é enviada para o quadro de luz e distribuída para a casa ou empresa.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>4.</h3>
                             </div>
 
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>4</h3> */}
-                            <div className="icone">
-                                <GrDocumentDownload className="ico" />
-                            </div>
                             <div className="texto">
-                                <p>Você só paga a taxa mínima pelo uso da rede ou a diferença entre o valor consumido e o injetado.</p>
+                                <p>
+                                    O medidor bidirecionalRealiza a leitura da energia solar injetada na rede e a consumida pelo imóvel.
+                                </p>
                             </div>
-
                         </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>5</h3> */}
-                            <div className="icone">
-                                <SiConvertio className="ico" />
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>5.</h3>
                             </div>
+
                             <div className="texto">
-                                <p>Se o seu sistema gerar mais energia do que você consome, o excedente é acumulado em créditos .  </p>
-
+                                <p>
+                                    excesso de energia vai para a rede da distribuidora, gerando créditos!
+                                </p>
                             </div>
-
                         </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="informacao">
-                            {/* <h3>5</h3> */}
-                            <div className="icone">
-                                <SiConvertio className="ico" />
+                        <div className="cxAmarela">
+                            <div className="numero">
+                                <h3>6.</h3>
                             </div>
+
                             <div className="texto">
-                                <p>Se o seu sistema gerar mais energia do que você consome, o excedente é acumulado em créditos .  </p>
-
+                                <p>
+                                Taxa mínima você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!
+                                </p>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
+            </div>
 
-            </section>
 
         </StyledFuncionamento>
     )

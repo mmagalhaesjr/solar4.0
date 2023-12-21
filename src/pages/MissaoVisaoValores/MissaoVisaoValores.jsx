@@ -28,7 +28,7 @@ export default function Mvv() {
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>
-                    <div className="texto">
+                    <div className="cxTexto">
                         <p>
                             Empoderar nossos clientes para terem<span> autonomia </span>
                             e controle <span> sobre sua energia elétrica </span>utilizando fontes de
@@ -40,7 +40,7 @@ export default function Mvv() {
                 </div>
                 <div className="card">
                     <h1>Visão</h1>
-                    <div className="texto">
+                    <div className="cxTexto">
                         <p>
                             Ser a principal referência em gestão de energia elétrica
                             para o agronegócio na Região Sudeste oferecendo serviços<span> inovadores,
@@ -50,7 +50,7 @@ export default function Mvv() {
                 </div>
                 <div className="card">
                     <h1>Valores</h1>
-                    <div className="texto">
+                    <div className="cxTexto">
                         <p>
                             <span> Comprometimento,<br />
                                 Ética,<br />
