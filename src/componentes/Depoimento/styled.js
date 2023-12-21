@@ -10,7 +10,6 @@ export const StyledDepoimento = styled.section`
     opacity: 0.9;
     border: solid 10px #eceeee ;
     
-   
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -65,7 +65,7 @@ color: #000000;
  height: 50px;
  padding: 20px;
  border-radius: 10px;
- margin-top: 25%;
+
  }
 }
 
