@@ -87,14 +87,8 @@ color: #ffffff;
 
     display: flex;
     justify-content: center;
-    align-items: center;
-   
-
-    
+    align-items: center;    
 }
-
-
-
 
 ul li a{
 color:#ffffff;
@@ -104,7 +98,6 @@ cursor: pointer;
     transition:0.3s;
     }
 }
-
 ul{
     justify-content:center;
     text-align: center;
@@ -118,7 +111,6 @@ h3{
     margin-top: -20px;
     font-size: 30px;
 }
-
 p{
     font-size: 16px;
 }
@@ -133,21 +125,17 @@ p{
     font-size: 15px;
     height: 100%;
 }
-
 .icones{
     margin-left: 80px;
 }
-
 .tituloContato{
     margin-top: 19px;
 }
-
 img{
     width: 250px;
     height: 70px;
     background:none;
 }
-
 h6{
     width: 80%;
     text-align:center;
@@ -161,7 +149,6 @@ h6{
     transition:0.3s;
     }
 }
-
 @media (max-width:1064px) {
     #container{
         overflow: hidden;
@@ -192,8 +179,6 @@ h6{
     .container{
         margin-top: 15%;
         height: fit-content;
-
-       
     }
 }
 

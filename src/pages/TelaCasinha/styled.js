@@ -44,6 +44,7 @@ h1{
 #container{
   height: 70vh;
   width: 100%;
+  max-width: 1100px;
 
   background-image: ${fotoCaminho};
   background-repeat: no-repeat; 
@@ -58,6 +59,12 @@ h1{
  
 /* position: relative;
 top: -500px; */
+}
+
+#telaMaior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   .circulo {
     background-color: #F2CB36;
@@ -81,12 +88,12 @@ top: -500px; */
     }
   }
   #circulo1 {
-    top: -30%;
+    top: -25%;
     left: 0%;
   }
   #circulo2 {
     top: 0%;
-    left: -1%;
+    left: -3%;
   }
   #circulo3 {
     top: 7%;
@@ -94,15 +101,15 @@ top: -500px; */
   }
   #circulo4 {
     top: 20%;
-    left:-23%;
+    left:-30%;
   }
   #circulo5 {
     top: 0%;
-    left: -37%;
+    left: -45%;
   }
   #circulo6 {
     top: 0%;
-    left: 0%;
+    left: 2%;
   }
 
   #ContainerInfo {
@@ -142,37 +149,37 @@ top: -500px; */
     margin: 5px;
   }
   #info1 {
-    top: 0%;
-    left: 45%;
+    top: 10rem;
+    left: -40rem;
   }
   #info2 {
-    top: 88%;
-    left: 46%;
+    top: 10rem;
+    left: -40rem;
   }
   #info3 {
-    top: 20%;
-    left: 23%;
+    top: 12rem;
+    left: -40rem;
   }
   #info4 {
-    top: 45%;
-    left: 35%;
+    top: 20rem;
+    left: -50rem;
   }
   #info5 {
-    top: 70%;
-    left: 32%;
+    top: 20rem;
+    left: -57rem;
   }
   #info6 {
-    top: 70%;
-    left: 32%;
+    top: 20rem;
+    left: -48rem;
   }
   //estilo da tela menor-------------------------------------
 
-  #containerTelaMenor{
+  /* #containerTelaMenor{
     width:100%;
     display: none;
-  }
+  } */
 
-  #telaMenor{
+  /* #telaMenor{
     width: 100%;
     height: 100%;
 
@@ -226,36 +233,77 @@ top: -500px; */
     color:#ffffff ;
     position: relative;
     top: 10px;
+} */
+// tela menor-----------------------
+
+   @media(max-width:1000px){
+  #container{
+    height: 70vh;
+    width: 100%;
+    max-width: 450px;
+
+    background-image: ${fotoCaminho};
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    margin-top: 40px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-  @media(max-width:1000px){
-  height: 80vh;
-    #telaMaior{
-        display: none;
+.circulo {
+    background-color: #F2CB36;
+    /* background-color:#00a3369c; */
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      background-color: #FFE583;
+      background-color: #f7d54e;
+      transition: .5s;
+      border-radius: 30%;
     }
-    #containerTelaMenor{
-        display: block;
-        height: 300px;
   }
-  #telaMenor{
-        width: 100%;
-        height: 100%;
 
-        background-image: ${foto};
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 48% 60%;
-
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-    }
-    #funcoVerde{
-    width: 100%;
-   
-    background-color: #78AC34;
-
-    margin-top: -100px;
+#circulo1 {
+    top: -13%;
+    left: 0%;
+  }
+  #circulo2 {
+    top: 0%;
+    left: -3%;
+  }
+  #circulo3 {
+    top: 7%;
+    left:4%;
+  }
+  #circulo4 {
+    top: 8%;
+    left:-35%;
+  }
+  #circulo5 {
+    top: 0%;
+    left: -55%;
+  }
+  #circulo6 {
+    top: 0%;
+    left: 2%;
+  }
+//---------------
+#info1,#info2,#info3,#info4,#info5,#info6{
+    top: 33rem;
+    left: -24rem;
   }
   }
 

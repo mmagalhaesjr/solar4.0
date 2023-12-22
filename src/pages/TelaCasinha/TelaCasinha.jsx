@@ -167,7 +167,7 @@ export default function Funcionamento() {
             </section>
 
             {/* ELEMENTO DA TELA MENOR -------------------------------- */}
-            <div id="containerTelaMenor">
+            {/* <div id="containerTelaMenor">
                 <div id="telaMenor">
 
                 </div>
@@ -243,7 +243,7 @@ export default function Funcionamento() {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
         </StyledFuncionamento>
