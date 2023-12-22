@@ -240,7 +240,7 @@ top: -500px; */
   #container{
     height: 70vh;
     width: 100%;
-    max-width: 450px;
+    max-width: 451px;
 
     background-image: ${fotoCaminho};
     background-repeat: no-repeat; 
