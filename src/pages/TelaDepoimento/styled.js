@@ -16,6 +16,7 @@ justify-content: center;
   font-size: 40px;
   font-weight:700;
   margin-top: 90px;
+  margin-bottom: 3%;
 }
 
 h1{
@@ -26,32 +27,48 @@ h1{
 #container{
   overflow: hidden;
   width: 100%;
-  height:50%;
-  margin-top: 100px;
+  max-width: 1700px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-.swiper-button-prev,
+.swiper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev{
+  color: #000000;
+  width: 30px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -10px;
+}
 .swiper-button-next{
-color: #000000;
- width: 30px;
- height: 50px;
- padding: 20px;
- border-radius: 10px;
+  color: #000000;
+  width: 30px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right:-10px;
  }
 
-.swiper-button-next.swiper-button-disabled,
+/* .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   display: none;
-}
+} */
 
-.swiper-wrapper{
-}
+
 .swiper-initialized{
-  height: 50%;
- 
+  height: 100%;
 }
 .swiper-clickable{
-    color: #fff;
+    color: #ffffff;
 }
 .swiper-pagination-bullet {
   background-color: #000000;
@@ -60,12 +77,7 @@ color: #000000;
 @media(max-width:500px){
 .swiper-button-prev,
 .swiper-button-next{
-color: #000000;
- width: 30px;
- height: 50px;
- padding: 20px;
- border-radius: 10px;
-
+    display: none;
  }
 }
 

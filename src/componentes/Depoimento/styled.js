@@ -2,14 +2,18 @@ import styled from 'styled-components';
 
 export const StyledDepoimento = styled.section`
 
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
+
 .box-depoimento{
-    width: 400px;
+    width: 100%;
     height: 350px;
     background-color:#c1baba47 ;
     backdrop-filter: blur(10px);
     opacity: 0.9;
-    border: solid 10px #eceeee ;
-    
+    border-right: 20px solid  rgba(255,255,255,1);
+    border-left: 20px solid  rgba(255,255,255,1);
+    overflow:hidden;  
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,13 +36,11 @@ export const StyledDepoimento = styled.section`
     width:70px;
     height: 70px;
     border-radius: 50%;
-
     background-color: #eceeee;
 }
 h3{
     font-size: 1rem;
     font-weight: 700;
-   
 }
 .estrelas{
     width: 90%;
@@ -58,7 +60,6 @@ height: 20px;
     height: 90%;
     margin-top: 3%;
     
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,14 +67,15 @@ height: 20px;
 
 @media(max-width:500px){
     .box-depoimento{
-    width:80%;
+    width:100%;
     height: 350px;
     background-color:#c1baba47 ;
     backdrop-filter: blur(10px);
     opacity: 0.9;
     border: solid 10px #eceeee ;
+    margin-left:none;
+    margin-right:none;
    
-
     display: flex;
     flex-direction: column;
     align-items: center;

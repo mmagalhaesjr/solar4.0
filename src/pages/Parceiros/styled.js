@@ -50,9 +50,6 @@ h1{
   width: 200px;
   height: 100px;
   margin-top: 10px;
-  
-
- 
 }
 #linha{
   width: 20%;
@@ -67,20 +64,17 @@ h1{
   justify-content: space-between;
  }
 }
-@media(max-width:1251) {
-  height: 60vh;
-}
-@media(max-width:735px) {
-  height: 100vh;
-  
-  #container{
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-  }
 
+
+@media(max-width:500px) {
+  #container img{
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
 }
-@media(max-width:491px) {
-  height: 100vh;
+#container{
+  width: 70%;
+  justify-content: space-between;
+ }
 }
 `

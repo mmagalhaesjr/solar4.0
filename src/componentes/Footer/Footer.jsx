@@ -12,6 +12,7 @@ export default function Footer() {
 
         <StyledFooter id='footer'>
             <div id="container">
+                
                 <div className="container">
                     <h3 className='tituloContato'>Contato</h3>
                     <div className="contContatos" id="endereco" >

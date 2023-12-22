@@ -16,15 +16,15 @@ color: #ffffff;
 
 
 #container{
-    width: 100%;
+    width: 95%;
     height: 100%;
     bottom:0;
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   
-   
+
+    /* border: solid 1px  #000000; */
 } 
 .container{
     height: 200px;
@@ -34,6 +34,8 @@ color: #ffffff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* border: solid 1px #ffffff; */
 }
 .contContatos{
     width: 400px;
@@ -44,6 +46,8 @@ color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    /* border: solid 1px red; */
         
 }
 .icones{ 
@@ -71,21 +75,22 @@ color: #ffffff;
     justify-content: center;
     align-items: center;
     gap:30px;
-        
+
+    /* border: solid 1px red; */     
 } 
 
 .contLogo{
     width: 100%;
-    height: 700px;
     font-size: 30px;
     cursor: pointer;  
     margin-top: 0px;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:30px;
+   
+
+    
 }
 
 
@@ -147,53 +152,49 @@ h6{
     width: 80%;
     text-align:center;
     position: relative;
-    top: -20px;
+    margin-bottom: 3%;
+    margin-top: 5%;
 }
-
-
 #endereco li a #endereco{
     &:hover{
     color:#00BF3E; 
     transition:0.3s;
     }
 }
-@media (max-width:1251px) {
-    #container{
-    
-    }
-}
+
 @media (max-width:1064px) {
     #container{
-        
         overflow: hidden;
-       
-    }
-    .contLogo{
-        
     }
     .container .logo img{
         width: 180px;
         height: 50px;
     }
-
 }
 @media(max-width:940px){
-    height:1000px;  
-
     #container{
         flex-direction:column;
     }
+    .container{
+        margin-top: 5%;
+        height: fit-content;
+    }
+    h3{
+    margin-top:0px;
+    font-size: 30px;
+}
     .container .logo img{
         width: 250px;
         height: 70px;
     }
 }
-@media (max-width:800px) {
-    #container{
-        gap:50px;
-    }
-    h6{
-        top: -40px;
+@media(max-width:500px){
+    .container{
+        margin-top: 15%;
+        height: fit-content;
+
+       
     }
 }
+
 `
