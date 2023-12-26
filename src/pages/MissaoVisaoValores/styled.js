@@ -22,11 +22,12 @@ background-repeat: no-repeat;
 
 display: flex;
 flex-direction: column;
+
 align-items: center;
 
 
 #container{
-  width: 100%;
+  width: 95%;
  
   display: flex;
   justify-content: center;
@@ -34,13 +35,10 @@ align-items: center;
   gap: 20px;
 }
 .card{
-  max-width:400px;
-  min-width: 350px;
-  width: 25%;
-  max-height: 400px;
-  height: 55vh;
-  margin-bottom: 5%;
-  margin-top: 5%;
+ width: 450px;
+ height: 350px;
+ margin-bottom: 5%;
+ margin-top: 5%;
 
   background: rgba(255, 255, 255, 0.537); 
   backdrop-filter: blur(10px); 
@@ -59,7 +57,7 @@ h1{
   color: #000000;
   font-family: 'Montserrat', sans-serif;
   position: relative;
-  top: 100px;
+  top: 120px;
   transition: 1s;
 }
 &.rolagem {
@@ -70,10 +68,10 @@ h1{
    }
   }
 
-  .cxTexto{
+.cxTexto{
   width: 80%;
-  height:50%;
-  margin-top: 3%;
+  height:90%;
+  margin-top: 10%;
 
   display: flex;
   justify-content: center;
@@ -103,34 +101,78 @@ margin-bottom: 70px;
    }
   }
 
-@media (max-width:1076px) {
-  #container{
-    justify-content: space-between;
-  }
-  .card{
-    width: 90%;
-  }
-}
+
 
 @media (max-width:1100px) {
   #container{
     flex-direction: column;
     justify-content: center;
   }
+ 
   .card{
-    width: 95%;
-    height: 28vh;
+    width:400px;
+    height:250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .cxTexto{
+  width: 80%;
+  height: fit-content;
+  
 
-  img{
-  display: none;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2; 
 }
-}
-
-@media (max-width:500px) {
   .card h1{
     font-size: 2rem;
   }
+  .card p{
+    font-size: 1rem;
+  }
+  img{
+  display: none;
 }
+
+}
+@media (max-width:500px) {
+  #container{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card{
+    width:95%;
+    height:250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cxTexto{
+  width: 80%;
+  height: fit-content;
+  
+
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.2; 
+}
+  .card h1{
+    font-size: 2rem;
+  }
+  .card p{
+    font-size: 1rem;
+  }
+  img{
+  display: none;
+}
+
+}
+
+
 
 `
