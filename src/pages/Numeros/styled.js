@@ -34,11 +34,16 @@ h1{
 #container{
   height: 100%;
   width: 100%;
+  margin-top: 100px;
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  margin-top: 100px;
+ 
+
+  border: solid 2px red;
 }
 
 .containerCirculo{
@@ -113,10 +118,16 @@ h3{
 }
 
 .bolhas{
+  width: 100%;
+  height: 100%;
+
   position: absolute;
   display: flex;
   flex-wrap: wrap; 
   gap: 8px;
+  
+  overflow-y:hidden;
+  border:solid 2px green;
  
 }
 
