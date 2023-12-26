@@ -39,10 +39,7 @@ export default function Funcionamento() {
             </div>
 
             <section id="telaMaior">
-
-
-
-                <div id="container" >
+                <div id="containerCasinha" >
                     <div
                         className="circulo"
                         id="circulo1"

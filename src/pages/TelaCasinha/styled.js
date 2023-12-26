@@ -17,16 +17,21 @@ export const StyledFuncionamento = styled.section`
 width: 100%;
 height: fit-content;
 
-
 background-image: ${fundoCasa};
 background-repeat: no-repeat; 
 background-size: cover;
 background-position: center;
 
+
 display: flex;
 flex-direction: column;
 text-align: center;
 
+#telaMaior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #titulo{
   font-size: 40px;
@@ -37,11 +42,8 @@ h1{
   color:#000000 ;
   font-family: 'Montserrat', sans-serif;
 }
-#casinha{
-    width: 50%;
-    height: 50%;
-  }
-#container{
+
+#containerCasinha{
   height: 70vh;
   width: 100%;
   max-width: 1100px;
@@ -56,16 +58,14 @@ h1{
   text-align: center;
   align-items: center;
   justify-content: center;
+
+ 
  
 /* position: relative;
 top: -500px; */
 }
 
-#telaMaior{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
   .circulo {
     background-color: #F2CB36;
     /* background-color:#00a3369c; */
@@ -129,10 +129,7 @@ top: -500px; */
       display: block;
     }
   }
-  #img {
-   
-    
-  }
+
   #info5 img{
     margin-top: 10px;
   }
@@ -236,22 +233,31 @@ top: -500px; */
 } */
 // tela menor-----------------------
 
-   @media(max-width:1000px){
-  #container{
-    height: 70vh;
-    width: 100%;
-    max-width: 451px;
+@media(max-width:1000px){
+  #telaMaior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #containerCasinha{
+    height:400px;
+    width: 600px;
+    /* max-width: 451px; */
 
     background-image: ${fotoCaminho};
     background-repeat: no-repeat; 
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     margin-top: 40px;
+    background-position: 40% 30%;
 
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 .circulo {
@@ -277,7 +283,7 @@ top: -500px; */
   }
 
 #circulo1 {
-    top: -13%;
+    top: -30%;
     left: 0%;
   }
   #circulo2 {
@@ -290,7 +296,7 @@ top: -500px; */
   }
   #circulo4 {
     top: 8%;
-    left:-35%;
+    left:-38%;
   }
   #circulo5 {
     top: 0%;
@@ -298,13 +304,178 @@ top: -500px; */
   }
   #circulo6 {
     top: 0%;
-    left: 2%;
+    left: 7%;
   }
 //---------------
-#info1,#info2,#info3,#info4,#info5,#info6{
-    top: 33rem;
-    left: -24rem;
+#ContainerInfo {
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
+  .info {
+    width: 90%;
+    height: 100px;
+    position: static;
+    display: none;
+    border-radius: 7px;
+    background-color: #ffffffef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+    &.info-visible {
+      display: flex;
+      text-align: left;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  #info5 img{
+    margin-top: 0px;
+  }
+  .info #img {
+    width:130px ;
+    height:80px;
+    margin-top: 0px;
+  }
+  .info h3{
+    margin-bottom: 2%;
+    font-weight: 700;
+  }
+  .info p{
+    margin-top: 0px;
+  }
+  .info .imgInfo {
+    margin:0;
+  }
+  }
+
+@media(max-width:610px){
+ 
+  #containerCasinha{
+    height:70vh;
+    width: 100%;
+    /* max-width: 451px; */
+
+    background-image: ${fotoCaminho};
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    margin-top: 40px;
+    background-position: 50% 0%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+     
+  }
+@media(max-width:500px){
+    //pagina
+    width: 100%;
+    height: 60vh;
+
+    background-image: ${fundoCasa};
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-position: 40% 30%;
+    border: solid 2px red;
+
+    #titulo{
+      font-size: 1.5rem;
+      font-weight:700;
+      margin-top:3%;
+      margin-bottom: 3%;
+    }
+    h1{
+      color:#000000 ;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    #containerCasinha{
+      width: 100%;
+      height: 40vh;
+      background-image: ${fotoCaminho};
+      background-repeat: no-repeat; 
+      background-size: contain;
+      background-position: center;
+      background-position: 50% 0%;
+      margin-top: 25%;
+
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      border: solid 2px white;
+    }
+
+    #ContainerInfo {
+    position: relative;
+    margin-top:-15%;
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .circulo {
+    background-color: #F2CB36;
+    /* background-color:#00a3369c; */
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      background-color: #FFE583;
+      background-color: #f7d54e;
+      transition: .5s;
+      border-radius: 30%;
+    }
+  }
+
+#circulo1 {
+    top: -35%;
+    left: 0%;
+  }
+  #circulo2 {
+    top: -10%;
+    left: -3%;
+  }
+  #circulo3 {
+    top: -8%;
+    left:4%;
+  }
+  #circulo4 {
+    top: -5%;
+    left:-37%;
+  }
+  #circulo5 {
+    top: -15%;
+    left: -55%;
+  }
+  #circulo6 {
+    top: -10%;
+    left: 2%;
+  }
+
   }
 
 
