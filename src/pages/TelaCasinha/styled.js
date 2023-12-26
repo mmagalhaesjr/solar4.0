@@ -27,6 +27,10 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
+#casinhaGif{
+  display: none;
+}
+
 #telaMaior{
   display: flex;
   align-items: center;
@@ -255,10 +259,9 @@ top: -500px; */
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
-
-    
+    justify-content: center;  
 }
+
 
 .circulo {
     background-color: #F2CB36;
@@ -354,28 +357,8 @@ top: -500px; */
   }
   }
 
-@media(max-width:610px){
- 
-  #containerCasinha{
-    height:70vh;
-    width: 100%;
-    /* max-width: 451px; */
 
-    background-image: ${fotoCaminho};
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-position: center;
-    margin-top: 40px;
-    background-position: 50% 0%;
-
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-     
-  }
-@media(max-width:500px){
+@media(max-width:600px){
     //pagina
     width: 100%;
     height: 60vh;
@@ -401,19 +384,23 @@ top: -500px; */
     #containerCasinha{
       width: 100%;
       height: 40vh;
-      background-image: ${fotoCaminho};
-      background-repeat: no-repeat; 
-      background-size: contain;
-      background-position: center;
-      background-position: 50% 0%;
+      background-image:none;
+      
       margin-top: 25%;
 
       display: flex;
+      flex-direction: column;
       text-align: center;
       align-items: center;
       justify-content: center;
 
       border: solid 2px white;
+    }
+    #casinhaGif{
+      width: 100%;
+      height: 40%;
+      display: block;
+     
     }
 
     #ContainerInfo {
@@ -449,6 +436,8 @@ top: -500px; */
       transition: .5s;
       border-radius: 30%;
     }
+
+    display: none;
   }
 
 #circulo1 {

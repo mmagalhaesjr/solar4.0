@@ -8,6 +8,8 @@ import img4 from "../../assets/iconesCasinha/4.png";
 import img5 from "../../assets/iconesCasinha/5.png";
 import img6 from "../../assets/iconesCasinha/6.png"
 
+import casinha from "../../assets/gif.gif"
+
 
 // import { TbSolarPanel } from 'react-icons/tb';
 // import { MdModelTraining } from 'react-icons/md';
@@ -40,6 +42,9 @@ export default function Funcionamento() {
 
             <section id="telaMaior">
                 <div id="containerCasinha" >
+
+                 <img id="casinhaGif" src={casinha} alt="foto" /> {/*apararece apartir de 600px*/}
+
                     <div
                         className="circulo"
                         id="circulo1"
@@ -90,6 +95,8 @@ export default function Funcionamento() {
                         6
                     </div>
                 </div>
+
+
 
                 <div id="ContainerInfo">
 
