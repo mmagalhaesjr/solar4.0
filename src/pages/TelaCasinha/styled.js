@@ -2,15 +2,11 @@ import styled from 'styled-components';
 
 import foto from '../../assets/gif.gif';
 import fundo from '../../assets/fundoCasa.png';
-import telaMenor from '../../assets/casinha.png';
-
-
-
 
 
 const fotoCaminho = `url(${foto})`;
 const fundoCasa = `url(${fundo})`;
-const fotoTMenor = `url(${telaMenor})`;
+
 
 export const StyledFuncionamento = styled.section`
 
@@ -173,68 +169,7 @@ top: -500px; */
     top: 20rem;
     left: -48rem;
   }
-  //estilo da tela menor-------------------------------------
 
-  /* #containerTelaMenor{
-    width:100%;
-    display: none;
-  } */
-
-  /* #telaMenor{
-    width: 100%;
-    height: 100%;
-
-    background-image: ${fotoTMenor};
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 40% 30%;
-
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-  }
-  #funcoVerde{
-    width: 100%;
-    height: fit-content;
-    background-color: #78AC34;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .containerCxAmarela{
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cxAmarela{
-    width: 95%;
-    height: 50px;
-    background-color: #F2CB36;
-    border: solid 2px #ffffff;
-
-    display: flex;
-    align-items: center;
-    justify-content:left;
-  }
-  .numero{
-    width: 30px;
-    height: 100%;
-
-    display: flex;
-    justify-content:center;
-}
-.numero h3{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color:#ffffff ;
-    position: relative;
-    top: 10px;
-} */
 // tela menor-----------------------
 
 @media(max-width:1000px){
@@ -327,6 +262,7 @@ top: -500px; */
     border-radius: 7px;
     background-color: #ffffffef;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
 
 
     &.info-visible {
@@ -357,118 +293,9 @@ top: -500px; */
   }
   }
 
-
-@media(max-width:600px){
-    //pagina
-    width: 100%;
-    height: 60vh;
-
-    background-image: ${fundoCasa};
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center;
-    background-position: 40% 30%;
-    border: solid 2px red;
-
-    #titulo{
-      font-size: 1.5rem;
-      font-weight:700;
-      margin-top:3%;
-      margin-bottom: 3%;
-    }
-    h1{
-      color:#000000 ;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    #containerCasinha{
-      width: 100%;
-      height: 40vh;
-      background-image:none;
-      
-      margin-top: 25%;
-
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-
-      border: solid 2px white;
-    }
-    #casinhaGif{
-      width: 100%;
-      height: 40%;
-      display: block;
-     
-    }
-
-    #ContainerInfo {
-    position: relative;
-    margin-top:-15%;
-
-
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  @media(max-width:600px){
+      display: none;
   }
-
-
-  .circulo {
-    background-color: #F2CB36;
-    /* background-color:#00a3369c; */
-    width: 30px;
-    height:30px;
-    border-radius: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #000000;
-    font-weight: 700;
-    cursor: pointer;
-    &:hover {
-      background-color: #FFE583;
-      background-color: #f7d54e;
-      transition: .5s;
-      border-radius: 30%;
-    }
-
-    display: none;
-  }
-
-#circulo1 {
-    top: -35%;
-    left: 0%;
-  }
-  #circulo2 {
-    top: -10%;
-    left: -3%;
-  }
-  #circulo3 {
-    top: -8%;
-    left:4%;
-  }
-  #circulo4 {
-    top: -5%;
-    left:-37%;
-  }
-  #circulo5 {
-    top: -15%;
-    left: -55%;
-  }
-  #circulo6 {
-    top: -10%;
-    left: 2%;
-  }
-
-  }
-
-
-
-
+  
   
 `
