@@ -10,7 +10,7 @@ import img4 from "../../assets/iconesCasinha/4.png";
 import img5 from "../../assets/iconesCasinha/5.png";
 import img6 from "../../assets/iconesCasinha/6.png"
 
-import casinha from "../../assets/gif.gif"
+import casinha from "../../assets/bol.gif"
 
 
 
@@ -192,21 +192,21 @@ export default function Funcionamento() {
                     <div className="cxInfo">
                         <img className="icone" src={img1} alt="foto" />
                         <div className="info">
-                            <h3>Painéis</h3>
+                            <h3>1-Painéis</h3>
                             <p>Captam a energia do sol</p>
                         </div>
                     </div>
                     <div className="cxInfo">
                         <img className="icone" src={img2} alt="foto" />
                         <div className="info">
-                            <h3>Inversor</h3>
+                            <h3>2-Inversor</h3>
                             <p>A energia é transformada e inserida na rede elétrica local.</p>
                         </div>
                     </div>
                     <div className="cxInfo">
                         <img className="icone" src={img3} alt="foto" />
                         <div className="info">
-                            <h3>Quadro geral</h3>
+                            <h3>3-Quadro geral</h3>
                             <p>A energia solar é enviada para o quadro de luz e distribuída para a casa ou empresa.</p>
                         </div>
 
@@ -214,7 +214,7 @@ export default function Funcionamento() {
                     <div className="cxInfo">
                         <img className="icone" src={img4} alt="foto" />
                         <div className="info">
-                            <h3>Medidor bidirecional</h3>
+                            <h3>4-Medidor bidirecional</h3>
                             <p>Realiza a leitura da energia solar injetada na rede e a consumida pelo imóvel.</p>
                         </div>
 
@@ -222,7 +222,7 @@ export default function Funcionamento() {
                     <div className="cxInfo">
                         <img className="icone" src={img5} alt="foto" />
                         <div className="info">
-                            <h3>Energia</h3>
+                            <h3>5-Energia</h3>
                             <p>O excesso de energia vai para a rede da distribuidora, gerando créditos!</p>
                         </div>
 
@@ -230,7 +230,7 @@ export default function Funcionamento() {
                     <div className="cxInfo">
                         <img className="icone" src={img6} alt="foto" />
                         <div className="info">
-                        <h3>Taxa mínima</h3>
+                        <h3>6-Taxa mínima</h3>
                             <p> você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!</p>
                         </div>
                         

@@ -8,35 +8,29 @@ export const StyledTelaMenor = styled.section `
 
 background-image: ${fundoCasa};
 background-repeat: no-repeat; 
-background-size: cover;
+background-size: 100%;
 background-position: center;
+background-position: 90% 0%;
+background-color: #65ab27ff;
 
 
 display: flex;
-text-align: center;
 align-items: center;
 justify-content: center;
-
-display: flex;
-align-items: center;
-justify-content:center;
 text-align: center;
+
 
 @media(min-width:600px){
     display: none;
 }
 
 @media(max-width:600px){
-   display: block;
-
-   #containerInfo{
-    width: 100%;
-
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-   }
+    justify-content:center;
+    text-align: center;
 
    #titulo{
     width: 90%;
@@ -53,6 +47,16 @@ text-align: center;
     margin-bottom: 3%;
    }
 
+   #containerInfo{
+    width: 100%;
+    background-color: #65ab27ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
    img{
     width: 95%;
     height: 40%;
@@ -62,14 +66,12 @@ text-align: center;
     width: 95%;
     height: 80px;
     
-
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
     margin-top: 1%;
-
-    border: solid 1px red;
+    margin-bottom: 3%;
    }
    .icone{
     width: 100px;
@@ -80,11 +82,11 @@ text-align: center;
     height: 90%;
     margin-left: 2%;
 
-    text-align:left;
     display: flex;
+    align-items: flex-start;
+    justify-content:center;
     flex-direction: column;
-
-    border: solid 1px #000000;
+    text-align: left;
    }
    h3{
     margin-bottom: 2%;
