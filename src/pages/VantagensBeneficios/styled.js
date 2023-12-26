@@ -143,9 +143,9 @@ export const StyledBeneficios = styled.section`
 }
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
   h1{
-    font-size:2rem;
+    font-size:1.5rem;
     text-align: center;
     font-weight: 700;
     color: #000000;

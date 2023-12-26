@@ -3,20 +3,12 @@ import styled from 'styled-components';
 export const StyledNumeros = styled.section`
 width: 100%;
 height: 100vh;
-
-
-
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
-/*  #00BF3E; */
 background-color: #eceeee;
-background-image: url('https://nhssolar.com.br/wp-content/uploads/2019/03/shutterstock_175274429-1.jpg');
-background-image: url('https://blog.intelbras.com.br/wp-content/uploads/2022/10/post73_1200x628-1.jpg');
-
-background-size: cover;
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
+background-image: url('https://geracaosolarengenharia.com.br/wp-content/uploads/2020/07/300-sl-alternative-energy-blue-sky-371900-scaled.jpg.webp');
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
 
 display: flex;
 flex-direction: column;
@@ -83,12 +75,11 @@ h1{
    }
   }
 
-
-
 .circuloInterno{
   width: 150px;
   height: 150px;
   color: #ffffff;
+  font-weight: 700;
   border: solid 2px #ffffff;
   border-radius: 50% 50%;
 
@@ -100,9 +91,8 @@ h1{
 }
 h3{
   color: #ffffff;
-  font-size: 20px;
-  /* font-weight: 700;
-  color: #ffffff;
+  font-size: 1rem;
+  /*color: #ffffff;
   background-color:#00000047 ;
   backdrop-filter: blur(10px);
   opacity: 0.9;

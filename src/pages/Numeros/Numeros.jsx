@@ -20,7 +20,7 @@ export default function Numeros() {
 
     const handleScroll = () => {
         setScrollY(window.scrollY);
-        if (window.scrollY > 4500) {
+        if (window.scrollY > 3200) {
             setAnimationActive(true);
         }
     };
@@ -56,12 +56,11 @@ export default function Numeros() {
 
 
     return (
-        <StyledNumeros className={scrollY > 4500 ? 'rolagem' : ''}>
+        <StyledNumeros className={scrollY > 3000 ? 'rolagem' : ''}>
             <div id="titulo">
                 <h1>NOSSOS NÚMEROS</h1>
             </div>
             <div id="container">
-
 
                 <div className="bolhas">
                     <span style={{ '--i': 11 }}></span>

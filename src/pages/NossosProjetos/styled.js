@@ -10,12 +10,6 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
-
 #titulo{
   font-size: 40px;
   font-weight:700;
