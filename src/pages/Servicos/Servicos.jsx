@@ -129,14 +129,14 @@ export default function Servicos() {
                     <div className="lado2">
 
                         <div className="cxFoto">
-                            <p className="cxtitulo">Antes</p>
-                            <img src={antes} alt="" />
+                            <h4 className="cxtitulo">Antes</h4>
+                            <img src={antes} alt="foto" />
                             <p>9.510,9KWH/m</p>
                         </div>
 
                         <div className="cxFoto">
-                            <p className="cxtitulo">Depois</p>
-                            <img src={depois} alt="" />
+                            <h4 className="cxtitulo">Depois</h4>
+                            <img src={depois} alt="foto" />
                             <p>13.600KWH/m</p>
                         </div>
 

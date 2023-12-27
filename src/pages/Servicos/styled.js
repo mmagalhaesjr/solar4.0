@@ -1,14 +1,11 @@
 import styled from 'styled-components';
 
-
 import foto from '../../assets/fundoServicos.png';
-
 
 const img = `url(${foto})`;
 
 export const StyledServicos = styled.section`
 width: 100%;
-
 
 background-color: #eceeee; 
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
@@ -23,10 +20,13 @@ span{
 }
 
 #titulo{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  font-weight:700;
+  width: 90%;
   margin-top: 50px;
+}
+#titulo h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:700;
 }
 
 #container{
@@ -121,6 +121,11 @@ button{
   }
 }
 @media(max-width:600px){
+  #titulo h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight:700;
+}
   #container{
    width: 95%;
   }
@@ -132,9 +137,7 @@ button{
 `
 
 export const StyledServicos2 = styled.section`
-
 width: 100%;
-height: 100vh;
 background-color: #eceeee; 
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 display: flex;
@@ -146,19 +149,22 @@ align-items: center;
 
 #titulo{
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  font-weight:700;
   margin-top: 50px;
+}
+#titulo h1{
+  font-weight:700;
+  font-size: 2rem;
+  font-weight:700;
+  margin-top: 20px;
 }
 #titulo h2{
   font-weight:700;
-  font-size:20px;
+  font-size:1.5;
   margin-top: 20px;
-
 }
 #titulo h3{
-font-weight: 200;
-font-size: 20px;
+font-weight: 400;
+font-size: 1.5rem;
 margin-top: 20px;
 }
 #container{
@@ -167,19 +173,25 @@ margin-top: 20px;
   display: flex;
   justify-content:center;
   gap: 100px;
-  flex-wrap: wrap;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .lado1{
-  width: 30%;
+  width: 400px;
+
   display: flex;
   flex-direction: column;
   justify-content: center; 
 }
 .sessao{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px; 
+
 }
 
 .icone{
@@ -187,11 +199,12 @@ margin-top: 20px;
 }
 
 .divInterna{
+  width: 350px; 
+  height: 60px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 350px; 
-  height: 60px;
 }
 
 .sessao:nth-child(odd) .divInterna {
@@ -209,24 +222,82 @@ margin-top: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap:50px;
 }
 .cxFoto{
-
+  position: relative;
 }
 .cxFoto img{
   width: 250px;
   height: 190px;
 }
 .cxtitulo{
+position: absolute;
+top: 0px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lado2  h4{
+  position: absolute;
+  top:0;
+  font-weight: 700;
+}
+.lado2  p{
+  position: absolute;
+  top:90%;
+  font-weight: 700;
+  left: 50%;
+  color: #ffffff;
+}
+
+
+@media(max-width:850px){
+  #container{
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+  .lado2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+}
+.cxFoto{
+  width: 100%;
+  height: 300px;
+}
+.cxFoto img{
+  width:100%;
+  height:100%;
+}
+.cxtitulo{
 position: relative;
 top: 30px;
 }
-.lado2  p{
-  margin-top: 10px;
-  font-weight: 700;
+
+.lado1{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+.sessao{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; 
+  background-color: #eceeee;
+
+  
 }
 
 
-
+}
 
 `
