@@ -255,7 +255,6 @@ gap:10px;
   }
   form{
     width: 100%;
-    border: solid 1px red;
   }
 }
 @media(max-width:610px) {

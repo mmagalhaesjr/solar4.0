@@ -18,16 +18,16 @@ justify-content: center;
 }
 
 .iconesLatetral{
+  margin-top: -8%;
+
   display: flex;
   flex-direction: column;
   justify-content:center;
   gap:4rem;
-  margin-top: -5%;
-
 }
 .iconesLatetral img{
- width:8rem;
- height: 7.5rem;
+ width:6rem;
+ height: 6rem;
 }
 form{
     width:90%; 
@@ -38,14 +38,7 @@ form{
     justify-content: center;
     gap:10px;
     align-items: center;
-    color:#101010 ;
-
-    /* -webkit-backdrop-filter: blur(10px);
-    -webkit-background-color: rgba(18, 18, 18, 0.458);
-    backdrop-filter: blur(10px);
-    background-color: rgba(12, 12, 12, 0.333);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  */
-
+    color:#101010;
 }
 
 .inputBox{

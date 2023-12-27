@@ -16,8 +16,8 @@ import TelaInicial from "../../pages/TelaInicial/TelaInicial";
 import QuemSomos from "../../pages/QuemSomos/QuemSomos";
 import Mvv from "../MissaoVisaoValores/MissaoVisaoValores";
 import Numeros from "../../pages/Numeros/Numeros";
-// import Depoimento from "../Depoimento/Depoimento";
 import TelaDepoimento from "../TelaDepoimento/TelaDepoimento";
+// import Orcamento from "../Orcamento/Orcamento";
 
 
 
@@ -25,6 +25,8 @@ import TelaDepoimento from "../TelaDepoimento/TelaDepoimento";
 export default function Main() {
     return (
         <StyledMain>
+
+            {/* <Orcamento/> */}
 
             <Header />
 
@@ -47,7 +49,7 @@ export default function Main() {
             <NossosProjetos />
 
             
-            {/* <Depoimento/> */}
+          
             <TelaDepoimento />
 
             <Parceiros />

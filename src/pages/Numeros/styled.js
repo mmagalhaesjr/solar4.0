@@ -17,41 +17,47 @@ font-family: 'Montserrat', sans-serif;
 
 overflow: hidden;
 
+#container{
+  width: 100%;
+  height: 100%;
+  position: relative;
 
-
-#titulo{
-  font-size: 40px;
-  font-weight:700;
-  margin-top: 90px;
-  z-index:2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-h1{
+#titulo{
+  font-weight:700;
   z-index:2;
+  position: absolute;
+  top: 0;
+  margin-top: 5%;
+}
+h1{
+  font-size: 3rem;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
-#container{
+#containerAnimacao{
   height: 100%;
   width: 100%;
-  margin-top: 100px;
   position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
- 
-
-  border: solid 2px red;
+  gap: 10%;
 }
 
-.containerCirculo{
+.cxCirculo{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+
+  
 }
 .circulo{
   width: 200px;
@@ -97,11 +103,6 @@ h1{
 h3{
   color: #ffffff;
   font-size: 1rem;
-  /*color: #ffffff;
-  background-color:#00000047 ;
-  backdrop-filter: blur(10px);
-  opacity: 0.9;
-  border-radius:50px 50px 50px 50px; */
 }
 .fundoTexto{
   height: 40px;
@@ -120,15 +121,14 @@ h3{
 .bolhas{
   width: 100%;
   height: 100%;
-
+  overflow-y:hidden;
   position: absolute;
+ 
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap; 
   gap: 8px;
-  
-  overflow-y:hidden;
-  border:solid 2px green;
- 
 }
 
 .bolhas span{
@@ -164,39 +164,39 @@ h3{
   }
 }
 
-@media(max-width:1010px) {
-  #container{
-    justify-content: space-evenly;
-    gap: 0;
-  }
+
+
+@media(max-width:630px) {
+
+  #titulo{
+  font-weight:700;
+  z-index:2;
+  position: absolute;
+  top: 0;
+  margin-top: 20%;
+}
+h1{
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media(max-width:937px) {
-  #container{
-    flex-wrap: wrap; 
-  }
-}
-
-@media(max-width:615px) {
-  #container{
-    margin-top: 80px;
-  }
-  .containerCirculo{
-
+#containerAnimacao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .circulo{
 width: 150px;
 height: 150px;
 }
 .circuloInterno{
-  width: 120px;
+width: 120px;
 height: 120px;
 }
 .fundoTexto{
 margin-top: -35px;
 }
-.fundoTexto h3{
-  
 }
-}
+
 `

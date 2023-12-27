@@ -3,7 +3,7 @@ import { StyledOrcamento } from "./styled";
 
 import logo from "../../assets/logosIcones/logo.png"
 import logo2 from "../../assets/logosIcones/intel-solar.png"
-import casal from '../../assets/orcamento/casal.jpg'
+import casal from '../../assets/orcamento/casal2.jpg'
 
 
 import Formulario from "../../componentes/Formulario/Formulario";

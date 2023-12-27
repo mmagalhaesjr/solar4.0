@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const StyledSolucoes = styled.section`
 width: 100%;
 background-color: #00BF3E; 
@@ -13,11 +14,11 @@ text-align: center;
 
 
 #titulo{
-  font-size: 4rem;
-  font-weight:700;
   margin-top: 10%;
 }
 h1{
+  font-size: 4rem;
+  font-weight:700;
   color:#000000;
 }
 #container{
@@ -47,24 +48,40 @@ span{
   font-weight: 700;
   color: #000000;
 }
+a{
+width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
 
 button{
-  width: 90%;
-  height: 60px;
+  width: 50%;
+  height: 80px;
   border-radius: 20px;
   border: none;
   background-color:#00a335;
   color: #ffffff;
-  font-weight:700;
-  font-size: 1.7rem;
-  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
-
   margin: 40px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   
   &:hover{
      background-color: #00BF3E;
   }
+}
+button p{
+  width: 90%;
+  height: 90%;
+  font-weight:700;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #containerImg{
@@ -151,8 +168,14 @@ font-weight: 700;
 }
 }
 @media(max-width:500px){
-  #subTitulo, #titulo{
-    font-size: 2.5rem;
+  #container{
+    margin-top:20%;
+  }
+  #titulo{
+    
+  }
+   h1{
+    font-size: 2rem;
   }
   button{
     width: 80%;

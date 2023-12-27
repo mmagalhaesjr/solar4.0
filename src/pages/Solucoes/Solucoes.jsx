@@ -28,7 +28,13 @@ export default function Solucoes() {
                             para potencializar a geração de energia, a partir dos equipamentos da Intelbras. <br></br><br></br>
                         </p>
 
-                        <button>Invista na sua própria fonte de energia renovável!</button>
+                        <a href="/Orcamento" target="_blank">
+                            <button>
+                                <p>
+                                    Invista na sua própria fonte de energia renovável!
+                                </p>
+                            </button>
+                        </a>
 
                         <p>
                             Com retorno a curto prazo e uma economia de até 95% na conta de luz,

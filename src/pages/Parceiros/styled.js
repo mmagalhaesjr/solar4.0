@@ -14,12 +14,12 @@ overflow: hidden;
 
 
 #titulo{
-  font-size: 40px;
-  font-weight:700;
   margin-top: 10%;
 }
 
 h1{
+  font-size: 3rem;
+  font-weight:700;
   color:#000000 ;
   font-family: 'Montserrat', sans-serif;
 }
@@ -67,6 +67,10 @@ h1{
 
 
 @media(max-width:500px) {
+
+  h1{
+    font-size: 1.5rem;
+  }
   #container img{
   width: 100px;
   height: 50px;

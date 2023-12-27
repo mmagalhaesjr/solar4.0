@@ -13,13 +13,13 @@ align-items: center;
 justify-content: center;
 
 #titulo{
-  font-size: 40px;
   font-weight:700;
   margin-top: 90px;
   margin-bottom: 3%;
 }
 
 h1{
+  font-size: 3rem;
   color:#000000 ;
   font-family: 'Montserrat', sans-serif;
 }
@@ -75,6 +75,12 @@ h1{
 }
 
 @media(max-width:500px){
+  h1{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color:#000000 ;
+  font-family: 'Montserrat', sans-serif;
+}
 .swiper-button-prev,
 .swiper-button-next{
     display: none;

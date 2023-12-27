@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 
 import sol2 from "../../assets/logosIcones/cor.png"
-import sol3 from "../../assets/logosIcones/sombra.png"
+import sol3 from "../../assets/logosIcones/luz.png"
 
 export default function QuemSomos() {
   
@@ -23,7 +23,7 @@ export default function QuemSomos() {
   };
 
   return (
-    <StyledQuemSomos id="quemSomos"   className={scrollY > 100 ? 'rolagem' : ''}>
+    <StyledQuemSomos id="quemSomos"   className={scrollY > 300 ? 'rolagem' : ''}>
       
 
       <div id="container">

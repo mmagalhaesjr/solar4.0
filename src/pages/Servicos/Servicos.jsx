@@ -29,7 +29,7 @@ export default function Servicos() {
                             <h3>Projeto</h3>
                             <p>
                                 Nós fazemos o projeto do seu sistema utilizando a
-                                tecnologia intelbras, com foco em qualidade e segurança.
+                                tecnologia <span>intelbras</span>, com foco em qualidade e segurança.
                             </p>
                         </div>
 
@@ -49,7 +49,7 @@ export default function Servicos() {
                             <div className="circulo">4</div>
                             <h3>instalação</h3>
                             <p>
-                                Instalação rápida e limpa. O sistema é instalado pela equipe de profissionais capacitados e experientes da Solar 4.0.
+                                Instalação rápida e limpa. O sistema é instalado pela equipe de profissionais capacitados e experientes da <span>Solar 4.0</span> 
                             </p>
                         </div>
 
