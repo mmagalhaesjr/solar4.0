@@ -4,12 +4,16 @@ import antes from '../../assets/antes.jpg'
 import depois from '../../assets/depois.jpg'
 
 import { AiOutlineCheck } from 'react-icons/ai';
+import Header from "../../componentes/Header/Header";
+import Footer from "../../componentes/Footer/Footer";
 
 
 export default function Servicos() {
     return (
 
         <>
+          <Header />
+
             <StyledServicos>
                 <div id="titulo">
                     <h1>PROJETO E INSTALAÇÃO DE ENRGIA SOLAR</h1>
@@ -144,7 +148,10 @@ export default function Servicos() {
 
                 </div>
 
+                
+
             </StyledServicos2>
+            <Footer />
         </>
 
     )

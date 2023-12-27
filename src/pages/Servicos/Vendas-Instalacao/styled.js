@@ -9,20 +9,18 @@ width: 100%;
 
 background-color: #ECEEEE;
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
+background-image: ${fotoCaminho};
+  background-repeat: no-repeat;
+  background-size: cover;
+
 display: flex;
 flex-direction: column;
 align-items: center;
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
 
 #container{
   width: 100%;
   height: 100vh;
-  background-image: ${fotoCaminho};
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 
   display: flex;
   flex-direction: column;

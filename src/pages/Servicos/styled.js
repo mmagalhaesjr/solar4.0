@@ -14,6 +14,7 @@ flex-direction: column;
 text-align: center;
 align-items: center;
 
+
 span{
   color: #00BF3E;
   font-weight: 700;
@@ -21,7 +22,7 @@ span{
 
 #titulo{
   width: 90%;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 #titulo h1{
   font-family: 'Montserrat', sans-serif;
@@ -45,6 +46,8 @@ span{
   
   gap: 200px;
   flex-wrap: wrap;
+
+ 
 }
 .lado{
   margin-top: 3%;
@@ -121,6 +124,9 @@ button{
   }
 }
 @media(max-width:600px){
+  #titulo{
+  margin-top: 30%;
+}
   #titulo h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -145,7 +151,7 @@ flex-direction: column;
 text-align: center;
 align-items: center;
 
-
+margin-bottom: 5%;
 
 #titulo{
   font-family: 'Montserrat', sans-serif;
