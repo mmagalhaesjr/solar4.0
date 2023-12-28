@@ -12,36 +12,35 @@ width: 100%;
 background-color: #ECEEEE;
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
 background-image: ${fotoCaminho};
-  background-repeat: no-repeat;
-  background-size: cover;
+background-repeat: no-repeat;
+background-size: cover;
 
 display: flex;
 flex-direction: column;
 align-items: center;
 
-
 #container{
   width: 100%;
   height: 100%;
   
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 #titulo {
-  font-size: 40px;
-  font-weight: 700;
-  margin-top: 3rem;
+  margin-top:10%;
   }
 h1{
+  font-size:3rem;
+  font-weight: 700;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
 }
-
 #contInterno{
-  width: 800px;
-  height: 350px;
+  width: 1000px;
+  height: 400px;
   margin-top: 60px;
   background-color: #9bc4eaa4;
   backdrop-filter: blur(10px);
@@ -50,35 +49,44 @@ h1{
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items:center;
   justify-content: center;
   gap: 50px; 
 }
-
 #cont6{
+  width: 95%;
+  height: 65%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
+#cont1{
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+#caixa3{
+ 
+  height:100%;
+  margin: 3% 0; 
 
-#cont{
   display: flex;
   flex-direction: column;
-  gap:50px;
-  margin-left: 20px;
+  justify-content: space-between;
 }
-
+#caixa1{
+  
+}
 .funcoes{
   font-size: 30px;
 
   display: flex;
   gap: 10px;
 }
-
 button{
   width: 300px;
-  height: 50px;
+  height: 70px;
   border-radius: 20px;
   border: none;
   background-color:#00a335;
@@ -93,13 +101,11 @@ button{
      background-color: #00BF3E;
   }
 }
-
 #icone{
   margin-top: 50px;
   color: #ffffff;
   font-size: 50px;
 }
-
 @keyframes moveUpDown {
   0%, 100% {
     transform: translateY(0);
@@ -108,17 +114,13 @@ button{
     transform: translateY(-10px);
   }
 }
-
 #icone {
   animation: moveUpDown 1s infinite;
 }
-
 /* fotos--------------------- */
 #container2{
   width: 100%;
   height: 100%;
-
-
 }
 #containerFotos{
   width: 100%;
@@ -126,7 +128,19 @@ button{
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+}
+.cxFoto{
+  width: 500px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cxFoto img{
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
 }
 h3{
   font-size: 25px;
@@ -136,17 +150,7 @@ h4{
   font-size: 20px;
   margin-top: 15px;
 }
-.foto{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.foto img{
-  width: 450px;
-  height: 250px;
-  border-radius: 10px;
-}
+
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -193,7 +197,6 @@ h2{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 #containerBotao{
@@ -203,8 +206,6 @@ h2{
   align-items: center;
   flex-direction: column;
 }
-
-
 
 .respostas{
 width: 95%;
@@ -217,10 +218,17 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
   margin: 10px;
 }   
 
-
-
 .pergunta{
   width: 100%;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.pergunta p{
+  width: 90%;
+  margin: 3% 0;
 }
 
 #duvidas{
@@ -237,5 +245,176 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
 }
 #imgPlaca{
   width: 100%;
+}
+@media(max-width:1200px){
+  #titulo {
+  margin-top:20%;
+  }
+}
+@media(max-width:1000px){
+  #containerFotos{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.cxFoto{
+  width: 45%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cxFoto img{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+}
+@media(max-width:1010px){
+  #contInterno{
+  width: 90%;
+  height: fit-content;
+  margin-top: 60px;
+  background-color: #9bc4eaa4;
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+  border-radius: 15px;
+  margin: 5% 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; 
+}
+#cont6{
+  width:90%;
+  height:150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+#cont1{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+#caixa3{
+  height:100%;
+  margin-top: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#caixa1{
+  height:100%;
+  margin-top: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.funcoes{
+  font-size: 30px;
+
+  display: flex;
+  gap: 10px;
+}
+.funcoes,.funcoes p{
+  font-size: 1.5rem;
+
+  display: flex;
+  gap: 10px;
+}
+//botoes perguntas---------
+#containerBotao{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+}
+
+@media(max-width:500px){
+ 
+  #contInterno{
+  width: fit-content;
+  height: fit-content;
+  margin-top: 60px;
+  background-color: #9bc4eaa4;
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+  border-radius: 15px;
+  margin: 5% 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; 
+}
+#cont6{
+  width: 95%;
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#cont1{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+#caixa3{
+  width: 50%;
+  height:100%;
+  margin-top: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#caixa1{
+  
+}
+.funcoes{
+  font-size: 30px;
+
+  display: flex;
+  gap: 10px;
+}
+.funcoes,.funcoes p{
+  font-size: 1rem;
+
+  display: flex;
+  gap: 10px;
+}
+
+//titulo-----
+#titulo {
+ 
+  margin-top: 35%;
+  }
+h1{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#containerBotao{
+  margin-bottom: 20%;
+}
+#logo{
+  margin-bottom: 5%;
+}
 }
 `
