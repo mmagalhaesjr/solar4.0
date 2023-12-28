@@ -76,7 +76,7 @@ h1{
   justify-content: space-between;
 }
 #caixa1{
-  
+  margin-top: 3%;
 }
 .funcoes{
   font-size: 30px;
@@ -401,7 +401,6 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
 
 //titulo-----
 #titulo {
- 
   margin-top: 35%;
   }
 h1{
