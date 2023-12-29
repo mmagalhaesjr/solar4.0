@@ -27,7 +27,7 @@ export default function Parceiros() {
     };
 
     return (
-        <StyledParceiros className={scrollY > 5000 ? 'rolagem' : ''}>
+        <StyledParceiros id='contato' className={scrollY > 5000 ? 'rolagem' : ''}>
             
             
 

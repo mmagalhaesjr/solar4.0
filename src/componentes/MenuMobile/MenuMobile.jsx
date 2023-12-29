@@ -5,6 +5,8 @@ import { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HomeContext } from '../../contexts/HomeContext';
 
+import PropTypes from 'prop-types';
+
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     const navegar = useNavigate();
@@ -35,3 +37,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     );
 }
 
+MenuMobile.propTypes = {
+    mobileAtivado: PropTypes.bool.isRequired,
+    setMobileAtivado: PropTypes.func.isRequired,
+};

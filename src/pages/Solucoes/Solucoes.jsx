@@ -1,5 +1,7 @@
 import { StyledSolucoes } from "./styled";
 
+import { useState, useEffect } from "react";
+
 import residencial from "../../assets/residencial/residencial3.jpeg"
 import comercial from "../../assets/comercial/comercial2.jpeg"
 import industrial from "../../assets/industrial/industrial6.jpeg"
@@ -9,10 +11,24 @@ import Footer from "../../componentes/Footer/Footer";
 
 
 export default function Solucoes() {
+
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+  
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
     return (
         <>
             <Header />
-            <StyledSolucoes>
+            <StyledSolucoes  className={scrollY > 300 ? 'rolagem' : ''}>
 
                 <div id="container">
 

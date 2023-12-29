@@ -35,7 +35,7 @@ align-items: center;
   text-align: center;
   }
 h1{
-  color: #000000;
+  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -46,6 +46,7 @@ h1{
   margin-top: 50px;
   font-size: 25px;
   text-align: center;
+  color: #ffffff;
 }
 #contInterno{
   width:90%;
@@ -57,6 +58,7 @@ h1{
   opacity: 0.9;
   border-radius: 15px;
 
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;

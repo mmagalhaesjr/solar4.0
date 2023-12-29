@@ -3,7 +3,7 @@ import { StyledOrcamento } from "./styled";
 
 import logo from "../../assets/logosIcones/logo.png"
 import logo2 from "../../assets/logosIcones/intel-solar.png"
-import casal from '../../assets/orcamento/casal2.jpg'
+import orcamento from '../../assets/orcamento/orcamento.png'
 
 
 import Formulario from "../../componentes/Formulario/Formulario";
@@ -20,7 +20,7 @@ export default function Orcamento() {
                 </div>
 
                 <div className="cx1">
-                    <img src={casal} alt="foto" />
+                    <img src={orcamento} alt="foto" />
                 </div>
 
                 <div className="cxTexto">

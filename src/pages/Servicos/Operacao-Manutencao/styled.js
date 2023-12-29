@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import foto from '../../../assets/fundoCima.jpeg';
 
+
 const fotoCaminho = `url(${foto})`;
 
 
@@ -35,7 +36,8 @@ align-items: center;
 h1{
   font-size:3rem;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
+  
   font-family: 'Montserrat', sans-serif;
 }
 #contInterno{
@@ -47,6 +49,7 @@ h1{
   opacity: 0.9;
   border-radius: 15px;
 
+  color:#ffffff;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -239,7 +242,7 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
 }
 #logo{
   width: 300px;
-  height: 100px;
+  height: 80px;
   position: relative;
   top: 50px;
 }
@@ -404,7 +407,6 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
   margin-top: 35%;
   }
 h1{
-  color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;

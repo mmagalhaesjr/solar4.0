@@ -57,7 +57,7 @@ export default function Comercial() {
 
 
                     <div className="box">
-                        <img src={reducao} alt="" />
+                        <img src={reducao} alt="foto" />
                         <h3 className="tituloBox">
                             Redução de custos
                         </h3>
@@ -69,7 +69,7 @@ export default function Comercial() {
                     </div>
 
                     <div className="box">
-                        <img src={retorno} alt="" />
+                        <img src={retorno} alt="foto" />
                         <h3 className="tituloBox">
                             Retorno Financeiro
                         </h3>
@@ -81,7 +81,7 @@ export default function Comercial() {
                     </div>
 
                     <div className="box">
-                        <img src={independencia} alt="" />
+                        <img src={independencia} alt="foto" />
                         <h3 className="tituloBox">
                             Independência Energética
                         </h3>
@@ -94,7 +94,7 @@ export default function Comercial() {
 
 
                     <div className="box">
-                        <img src={manutencao} alt="" />
+                        <img src={manutencao} alt="foto" />
                         <h3 className="tituloBox">
                             Durabilidade e Baixa Manutenção
                         </h3>
@@ -105,7 +105,7 @@ export default function Comercial() {
                     </div>
 
                     <div className="box">
-                        <img src={lucro} alt="" />
+                        <img src={lucro} alt="foto" />
                         <h3 className="tituloBox">
                             Aumento de Lucro
                         </h3>
@@ -116,7 +116,7 @@ export default function Comercial() {
                     </div>
 
                     <div className="box">
-                        <img src={marketing} alt="" />
+                        <img src={marketing} alt="foto" />
                         <h3 className="tituloBox">
                             Benefícios de marketing
                         </h3>

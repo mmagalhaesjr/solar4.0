@@ -6,7 +6,7 @@ import { BsChevronDoubleDown } from 'react-icons/bs'
 import antes from '../../../assets/antes.jpg'
 import depois from '../../../assets/depois.jpg'
 import placa from '../../../assets/fundoOem.jpg'
-import logo from '../../../assets/logosIcones/logo2.png'
+// import logo from '../../../assets/logosIcones/logo2.png'
 import { FaWhatsapp } from "react-icons/fa6";
 import Header from '../../../componentes/Header/Header';
 import Footer from '../../../componentes/Footer/Footer';
@@ -138,7 +138,7 @@ export default function OPM() {
                     </div>
 
                 </div>
-                <img id="logo" src={logo} alt="" />
+                {/* <img id="logo" src={logo} alt="" /> */}
                 <img id="imgPlaca" src={placa} alt="" />
             </StyledOPM>
             <Footer />
