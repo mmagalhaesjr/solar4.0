@@ -8,6 +8,7 @@ const fotoCaminho = `url(${foto})`;
 
 
 export const StyledOrcamento = styled.section`
+width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -35,10 +36,14 @@ justify-content: center;
 width: 100%;
 height: 100px;
 background-color: #14a238;
+margin-top: 5%;
 
 display: flex;
 align-items: center;
 justify-content:space-between;
+
+
+
 }
 
 .cabecalho img{

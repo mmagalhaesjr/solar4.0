@@ -8,35 +8,42 @@ import orcamento from '../../assets/orcamento/orcamento.png'
 
 import Formulario from "../../componentes/Formulario/Formulario";
 import RodapeLandingPages from "../../componentes/RodapeLandingPages/RodapeLandingPages";
+import Header2 from '../../componentes/Header2/Header2';
 
 export default function Orcamento() {
     return (
-        <StyledOrcamento >
 
-            <section id="container">
-                <div className="cabecalho">
-                    <img src={logo} alt="logo" />
-                    <img className="intel" src={logo2} alt="logo" />
-                </div>
+        <>
 
-                <div className="cx1">
-                    <img src={orcamento} alt="foto" />
-                </div>
+            <Header2 />
+            <StyledOrcamento >
 
-                <div className="cxTexto">
-                    <h1>Economize até 95% em sua conta de luz!</h1>
+                <section id="container">
+                    <div className="cabecalho">
+                        <img src={logo} alt="logo" />
+                        <img className="intel" src={logo2} alt="logo" />
+                    </div>
 
-                    <h2>E ainda fique protegido dos aumentos de,<br />
-                        energia elétrica por pelo menos 25 anos.</h2>
-                </div>
+                    <div className="cx1">
+                        <img src={orcamento} alt="foto" />
+                    </div>
+
+                    <div className="cxTexto">
+                        <h1>Economize até 95% em sua conta de luz!</h1>
+
+                        <h2>E ainda fique protegido dos aumentos de,<br />
+                            energia elétrica por pelo menos 25 anos.</h2>
+                    </div>
 
 
-                <Formulario/>
-                <RodapeLandingPages/>
+                    <Formulario />
+                    <RodapeLandingPages />
 
-               
-            </section>
 
-        </StyledOrcamento >
+                </section>
+
+            </StyledOrcamento >
+        </>
+
     )
 }

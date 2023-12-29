@@ -21,13 +21,10 @@ export const StyledMenuMobile = styled.div`
     clip-path: circle(100px at 90% -15%);
     transition: 1s;
 
-
-  
     .nav-lista{
         margin-top: 130px;
         text-align:center; 
         color: #ffffff;
-        
     }
    
 nav{
@@ -38,7 +35,6 @@ nav{
     gap: 2rem;
     transform: scale(0);
     transition: 1s;
-   
 }
 
  a{
@@ -70,7 +66,7 @@ nav a:hover::after{
 ${({mobile}) => mobile && css`
 
     opacity:1;
-    pointer-events:auto;
+    pointer-events: visible;
     transition: .7s;
     transform: translatex(0);
     clip-path: circle(200% at 90% -15%);
@@ -78,7 +74,6 @@ ${({mobile}) => mobile && css`
 
     nav{
         transform: scale(1);
-       
     }
     
 `}
