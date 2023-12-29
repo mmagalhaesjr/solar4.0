@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import foto from '../../../assets/fundoCima.jpeg';
 
+
 const fotoCaminho = `url(${foto})`;
 
 export const StyledVI = styled.section`
@@ -259,6 +260,10 @@ display: ${(props) => (props.mostrarRespostas ? 'block' : 'none')};
 }
 #imgPlaca{
   width: 100%;
+}
+.ico{
+  font-size: 3rem;
+  color: black;
 }
 @media(max-width:1200px){
   #titulo {
