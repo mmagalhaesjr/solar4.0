@@ -6,8 +6,8 @@ import residencial from "../../assets/residencial/residencial3.jpeg"
 import comercial from "../../assets/comercial/comercial2.jpeg"
 import industrial from "../../assets/industrial/industrial6.jpeg"
 import agro from "../../assets/agro/agro2.jpeg"
-import Header from "../../componentes/Header/Header";
 import Footer from "../../componentes/Footer/Footer";
+import Header2 from '../../componentes/Header2/Header2';
 
 
 export default function Solucoes() {
@@ -27,7 +27,7 @@ export default function Solucoes() {
 
     return (
         <>
-            <Header />
+            <Header2 />
             <StyledSolucoes  className={scrollY > 300 ? 'rolagem' : ''}>
 
                 <div id="container">

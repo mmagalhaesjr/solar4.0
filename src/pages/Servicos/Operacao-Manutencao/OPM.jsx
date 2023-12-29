@@ -8,8 +8,8 @@ import depois from '../../../assets/depois.jpg'
 import placa from '../../../assets/fundoOem.jpg'
 // import logo from '../../../assets/logosIcones/logo2.png'
 import { FaWhatsapp } from "react-icons/fa6";
-import Header from '../../../componentes/Header/Header';
 import Footer from '../../../componentes/Footer/Footer';
+import Header2 from '../../../componentes/Header2/Header2';
 
 
 export default function OPM() {
@@ -35,7 +35,7 @@ export default function OPM() {
 
     return (
         <>
-         <Header />
+         <Header2 />
             <StyledOPM mostrarRespostas={mostrarRespostas} className={scrollY > 100 ? 'rolagem' : ''}>
                 <div id="container">
 

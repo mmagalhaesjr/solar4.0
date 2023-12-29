@@ -1,6 +1,6 @@
 import {  StyledContainerIcones, StyledContainerImagens, StyledIndustrial } from "./styled";
 
-import Header from "../../../componentes/Header/Header";
+import Header2 from '../../../componentes/Header2/Header2';
 import Footer from "../../../componentes/Footer/Footer";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -33,10 +33,11 @@ import foto8 from '../../../assets/industrial/industrial8.jpeg'
 
 
 
+
 export default function Comercial() {
     return (
         <>
-            <Header />
+            <Header2 />
             <StyledIndustrial>
 
                 <section id="container">

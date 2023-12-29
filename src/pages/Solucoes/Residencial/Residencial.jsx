@@ -25,8 +25,9 @@ import foto4 from '../../../assets/residencial/residencial4.jpeg'
 import foto5 from '../../../assets/residencial/residencial5.jpeg'
 import foto6 from '../../../assets/residencial/residencial6.jpeg'
 import foto7 from '../../../assets/residencial/residencial7.jpeg'
-import Header from "../../../componentes/Header/Header";
+
 import Footer from "../../../componentes/Footer/Footer";
+import Header2 from '../../../componentes/Header2/Header2';
 
 
 
@@ -34,7 +35,7 @@ import Footer from "../../../componentes/Footer/Footer";
 export default function Residencial() {
     return (
         <>
-            <Header />
+            <Header2 />
             <StyledResidencial>
 
                 <section id="container">

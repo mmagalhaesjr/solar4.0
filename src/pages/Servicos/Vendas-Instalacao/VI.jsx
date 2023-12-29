@@ -12,7 +12,7 @@ import { BsChevronDoubleDown } from 'react-icons/bs'
 
 import { useState } from 'react';
 import Footer from "../../../componentes/Footer/Footer";
-import Header from "../../../componentes/Header/Header";
+import Header2 from '../../../componentes/Header2/Header2';
 
 
 
@@ -27,7 +27,7 @@ export default function VI() {
 
     return (
         <>
-            <Header />
+            <Header2 />
             <StyledVI mostrarRespostas={mostrarRespostas}>
                 <div id="container">
                     <div id="titulo">

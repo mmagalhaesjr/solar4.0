@@ -4,15 +4,16 @@ import antes from '../../assets/antes.jpg'
 import depois from '../../assets/depois.jpg'
 
 import { AiOutlineCheck } from 'react-icons/ai';
-import Header from "../../componentes/Header/Header";
+
 import Footer from "../../componentes/Footer/Footer";
+import Header2 from "../../componentes/Header2/Header2";
 
 
 export default function Servicos() {
     return (
 
         <>
-          <Header />
+          <Header2 />
 
             <StyledServicos>
                 <div id="titulo">
