@@ -136,18 +136,13 @@ h1{
 
 export const StyledContainerIcones = styled.section`
   width: 100%;
-  height: 70vh;
-  flex-wrap: wrap;
-
- 
   
-
   display: flex;
   justify-content:center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 70px;
   
-
 #box{
   width: 95%;
   max-width: 1150px;

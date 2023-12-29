@@ -141,7 +141,6 @@ export const StyledContainerIcones = styled.section`
   
   flex-wrap: wrap;
 
-  border: solid 3px red;
 
  
   
@@ -161,7 +160,6 @@ export const StyledContainerIcones = styled.section`
 
   margin: 5% 0;
 
-  border: solid 2px black;
 }
 .box{
 width: 300px;
