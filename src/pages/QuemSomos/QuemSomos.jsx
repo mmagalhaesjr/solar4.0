@@ -23,7 +23,7 @@ export default function QuemSomos() {
   };
 
   return (
-    <StyledQuemSomos id="quemSomos"   className={scrollY > 300 ? 'rolagem' : ''}>
+    <StyledQuemSomos id="sobreNos"   className={scrollY > 300 ? 'rolagem' : ''}>
       
 
       <div id="container">
