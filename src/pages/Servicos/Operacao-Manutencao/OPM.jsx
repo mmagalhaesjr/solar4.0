@@ -9,6 +9,7 @@ import depois from '../../../assets/depois.jpg'
 import placa from '../../../assets/fundoOem.jpg'
 // import logo from '../../../assets/logosIcones/logo2.png'
 // import { FaWhatsapp } from "react-icons/fa6";
+
 import Footer from '../../../componentes/Footer/Footer';
 import Header2 from '../../../componentes/Header2/Header2';
 
@@ -33,10 +34,7 @@ const perguntas = [
       pergunta: "Qual a diferença entre Manutenção Preventiva, Corretiva e de Condição?",
       resposta: "A manutenção preventiva, como o nome já sugere, previne desgastes das placas, evitando problemas futuros. A manutenção corretiva corrige alguma imperfeição do sistema, e a manutenção de condição.",
     },
-    {
-      pergunta: "Como entrar em contato com a Solar 4.0?",
-      resposta: "Solicite um orçamento ou entre em contato conosco através do WhatsApp. [Link do WhatsApp]",
-    },
+   
   ];
   
 
