@@ -17,7 +17,7 @@ text-align: center;
   margin-top: 10%;
 }
 h1{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight:700;
   color:#000000;
 }
@@ -34,22 +34,28 @@ h1{
 
 
 #texto{
-  width: 70%;
-  max-width: 1600px;
-  font-size: 20px;
+  width: 50%;
+  max-width: 1200px;
+  font-size: 1.5rem;
+  line-height: 1.2;
   margin-top: 50px;
+  font-weight: 300;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
 }
+.textoVerde{
+  color:#00a335;
+  font-weight: 700;
+}
 span{
   font-weight: 700;
   color: #000000;
 }
 a{
-width: 100%;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -58,8 +64,8 @@ width: 100%;
 }
 
 button{
-  width: 50%;
-  height: 80px;
+  width: 300px;
+  height: 70px;
   border-radius: 20px;
   border: none;
   background-color:#00a335;
@@ -70,18 +76,19 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   
   &:hover{
      background-color: #00BF3E;
   }
 }
-button p{
+a button p{
   width: 90%;
-  height: 90%;
   font-weight:700;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
+  margin: 3%;
 }
 
 #containerImg{
@@ -97,7 +104,7 @@ justify-content: center;
 #subTitulo{
 width: 100%;
 margin-bottom: 5%;
-font-size: 4rem;
+font-size: 2rem;
 font-weight: 700;
 }
 
@@ -114,6 +121,7 @@ font-weight: 700;
   width: 300px;
   height: 400px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 .img img{
   width: 300;
@@ -131,7 +139,7 @@ font-weight: 700;
   position: relative;
   top: -50px;
   text-decoration: none;
-  font-size: 40px;
+  font-size:3rem;
   color: #000000;
   display: none;
   transition: 1s;
@@ -144,17 +152,13 @@ font-weight: 700;
 }
 
 
-@media(max-width:1090px){
-  button{
-    height: 70px;
-  }
-}
 @media(max-width:900px){
   #texto{
     width: 90%;
+    text-align: left;
   }
   button{
-    width: 100%;
+    width: 80%;
   }
 }
 @media(max-width:681px){
@@ -181,16 +185,27 @@ font-weight: 700;
     width: 80%;
     font-size: 1rem;
   }
-}
-@media(max-width:460px){
-  .img{
+
+.img{
   width: 150px;
-  height: 250px;
+  height: 150px;
 }
 .img img{
-  width: 150px;
-  height:250px; 
+  width: 100%;
+  height:100px; 
 }
+
+#cxImg li p{
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  font-size:1rem;
+  color: #000000;
+  display: block;
+  transition: 1s;
+}
+
+
 }
 
 

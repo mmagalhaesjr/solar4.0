@@ -52,7 +52,7 @@ export default function Solucoes() {
                             </button>
                         </a>
 
-                        <p>
+                        <p className="textoVerde">
                             Com retorno a curto prazo e uma economia de até 95% na conta de luz,
                             o investimento em energia solar é a melhor escolha.
                         </p>
