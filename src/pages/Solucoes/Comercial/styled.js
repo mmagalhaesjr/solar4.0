@@ -17,6 +17,8 @@ text-align: center;
 
 
 
+
+
 #container{
   width: 100%;
   height: 100%;
@@ -136,8 +138,10 @@ h1{
 
 export const StyledContainerIcones = styled.section`
   width: 100%;
-  height: 70vh;
+  
   flex-wrap: wrap;
+
+  border: solid 3px red;
 
  
   
