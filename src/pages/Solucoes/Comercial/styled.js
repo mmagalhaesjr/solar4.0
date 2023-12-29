@@ -107,7 +107,7 @@ h1{
   height: 40vh;
   #titulo{
   width: 95%;
-  margin-top: 15%;
+  margin-top: 20%;
 
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@ h1{
 }
 h1{
   font-weight: 700;
-  font-size:3rem;
+  font-size:2.5rem;
   color:#00BF3E ;
 }
 
