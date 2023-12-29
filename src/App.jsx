@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UserProvider from "./contexts/UserContext";
+import HomeContextProvider from "./contexts/HomeContext";
 
 import Main from "./pages/Main/Main"
 import Blog from "./pages/Blog/Blog"
@@ -24,11 +24,12 @@ import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
 
+
 function App() {
   return (
     <BrowserRouter>
 
-    <UserProvider>
+    <HomeContextProvider>
         <div className="App">
             <Routes>
                 <Route path="/" element={<Main />} />
@@ -53,7 +54,7 @@ function App() {
                  {/* Lanading Pages----  */}
             </Routes>
         </div>
-    </UserProvider>
+    </HomeContextProvider>
 
 </BrowserRouter>
   )
