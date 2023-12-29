@@ -58,11 +58,11 @@ section{
   transition: opacity 1s ease; 
 
 }
-.projetos:hover p {
+/* .projetos:hover p {
   display: block;
   transition: opacity 3s ease; 
   opacity: 1;
-}
+} */
 
 .projetos img{
 cursor: pointer;
@@ -70,9 +70,9 @@ width: 100%;
 height: 100%;
 
 
-&:hover{
+/* &:hover{
  filter: opacity(90%);
-}
+} */
 }
 
 

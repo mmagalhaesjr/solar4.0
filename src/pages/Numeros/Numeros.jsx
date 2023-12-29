@@ -30,21 +30,14 @@ export default function Numeros() {
         if (animationActive) {
             interval = setInterval(() => {
                 setNumber1(prevNumber => {
-                    if (prevNumber >= 17000) {
-                        clearInterval(interval);
-                        return prevNumber;
-                    }
-                    return prevNumber + 200;
+                    const newNumber = prevNumber + 200;
+                    return newNumber >= 15000 ? 15000 : newNumber;
                 });
-
+    
                 setNumber2(prevNumber => {
-                    if (prevNumber >= 1000) {
-                        clearInterval(interval);
-                        return prevNumber;
-                    }
-                    return prevNumber + 10;
+                    const newNumber = prevNumber + 25;
+                    return newNumber >= 1500 ? 1500 : newNumber;
                 });
-
             }, 50);
         }
 
@@ -96,7 +89,7 @@ export default function Numeros() {
 
                     <div className="cxCirculo">
                         <div id="circulo1" className="circulo">
-                            <div className="circuloInterno">{number1}</div>
+                            <div className="circuloInterno">{number1.toLocaleString()}</div>
                         </div>
 
                         <div className="fundoTexto">
@@ -106,7 +99,7 @@ export default function Numeros() {
 
                     <div className="cxCirculo">
                         <div id="circulo2" className="circulo">
-                            <div className="circuloInterno">{number2}</div>
+                            <div className="circuloInterno">{number2.toLocaleString()}</div>
                         </div>
 
                         <div className="fundoTexto">
