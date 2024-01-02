@@ -30,7 +30,7 @@ export default function Numeros() {
         if (animationActive) {
             interval = setInterval(() => {
                 setNumber1(prevNumber => {
-                    const newNumber = prevNumber + 30;
+                    const newNumber = prevNumber + 10;
                     return newNumber >= 600 ? 600 : newNumber;
                 });
     
