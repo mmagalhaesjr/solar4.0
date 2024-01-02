@@ -20,7 +20,7 @@ align-items: center;
     height: 360px;
     background-color: #ffffff;
     color:#000000;
-    border-radius:50px;
+    border-radius:30px;
 
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ align-items: center;
 .foto{
     width: 100%;
     height: 200px;
-    border-radius:50px;
+    border-radius:30px;
     overflow: hidden;
    
 }
@@ -77,7 +77,7 @@ align-items: center;
     height: 360px;
     background-color: #ffffff;
     color:#000000;
-    border-radius:50px;
+    border-radius:30px;
 
     display: flex;
     align-items: center;
@@ -97,13 +97,15 @@ align-items: center;
     .foto{
     width: 100%;
     height: 40%;
-    border-radius:50px;
+    border-radius:30px;
     overflow: hidden;
+    margin-top: 5%;
    
 }
 .foto img{
-    width: 100%;
+    width: 95%;
     height: 100%; 
+    border-radius:30px;
 }
 }
 
