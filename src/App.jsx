@@ -25,8 +25,9 @@ import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
 
 
-import Blog1 from './Pages/Blogs/Blog1/Blog1 ';
+
 import BlogTelainicial from "./Pages/BlogTelainicial/BlogTelainicial";
+import Blog1 from './Pages/Blogs/Blog1/Blog1';
 
 
 
