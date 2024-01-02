@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeContextProvider from "./contexts/HomeContext";
 
 import Main from "./pages/Main/Main"
-import Blog from "./pages/Blog/Blog"
+
 
 
 import Solucoes  from "./pages/Solucoes/Solucoes"
@@ -25,6 +25,11 @@ import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
 
 
+import Blog1 from './Pages/Blogs/Blog1/Blog1';
+import BlogTelainicial from "./Pages/BlogTelainicial/BlogTelainicial";
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -33,7 +38,6 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path="/" element={<Main />} />
-                <Route path="/blog" element={<Blog />} />
                 <Route path="/orcamento" element={<Orcamento />} />
                 <Route path="/projetoComercial" element={<Comercial />} />
                 <Route path="/projetoIndustrial" element={<Industrial />} />
@@ -45,6 +49,11 @@ function App() {
                 <Route path="/vi" element={<VI />} />
 
                 <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
+
+                {/* blog-------------- */}
+                <Route path="/blog" element={<BlogTelainicial />} />
+                <Route path="/blog1" element={<Blog1 />} />
+                {/* blog-------------- */}
 
                 {/* Lanading Pages----  */}
                 <Route path="/economizeenergia" exact element={<TopoFunil />} />
