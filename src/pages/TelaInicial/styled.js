@@ -64,11 +64,14 @@ button{
   
   &:hover{
      background-color: #00BF3E;
+     p{
+      font-size: 1.1rem;
+     }
   }
 
 }
 button p{
-  font-size:100%;
+  font-size:1rem;
   color:#ffffff;
   margin: 3%;
 }

@@ -95,13 +95,15 @@ button{
   background-color:#00a335;
   color: #ffffff;
   font-weight:700;
-  font-size: 17px;
+  font-size: 1rem;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   
   &:hover{
      background-color: #00BF3E;
+     
+      font-size: 1.1rem;
   }
 }
 #icone{

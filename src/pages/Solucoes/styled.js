@@ -81,12 +81,15 @@ button{
   
   &:hover{
      background-color: #00BF3E;
+     p{
+      font-size: 1.1rem;
+     }
   }
 }
 a button p{
   width: 90%;
   font-weight:700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   margin: 3%;
 }

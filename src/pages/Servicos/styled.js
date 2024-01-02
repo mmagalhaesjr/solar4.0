@@ -116,13 +116,15 @@ p{
   background-color:#00a335;
   color: #ffffff;
   font-weight:700;
-  font-size: 17px;
+  font-size: 1rem;
   margin-top: 50px;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   
   &:hover{
      background-color: #00BF3E;
+      font-size: 1.1rem;
+     
   }
 }
 
@@ -287,13 +289,15 @@ button{
   background-color:#00a335;
   color: #ffffff;
   font-weight:700;
-  font-size: 17px;
+  font-size: 1rem;
   margin-top: 50px;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   
   &:hover{
      background-color: #00BF3E;
+      font-size: 1.1rem;
+     
   }
 }
 
