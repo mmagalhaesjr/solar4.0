@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 import foto from '../../assets/gif.gif';
+import fundo2 from '../../assets/fundoCasaNoite.png';
 import fundo from '../../assets/fundoCasa.png';
 
 
 const fotoCaminho = `url(${foto})`;
+const fundoCasa2 = `url(${fundo2})`;
 const fundoCasa = `url(${fundo})`;
 
 
@@ -13,10 +15,59 @@ export const StyledFuncionamento = styled.section`
 width: 100%;
 height: fit-content;
 
-background-image: ${fundoCasa};
+background-image: ${fundoCasa2};
 background-repeat: no-repeat; 
 background-size: cover;
 background-position: center;
+position: relative;
+
+
+
+#sol{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 8%; 
+  top: -150px;
+  opacity: 0;
+}
+#lua{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 85%; 
+  top: 15%;
+  opacity: 1;
+}
+
+
+  &.rolagem {
+    background-image: ${fundoCasa};
+    transition: 2s;
+ 
+      #sol{
+        transform: translateY(220px);
+        left: 0%; 
+        z-index: 9;
+        transition: 1s;
+        opacity: 1;
+      }
+      #lua{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 80%;
+        transition: 1s; 
+        top: -150px;
+        opacity: 0;
+}
+    }
+    #casinhaGif {
+    display: none;
+    z-index: 2; 
+    transition: opacity 4s ease;
+  }
+  
 
 
 display: flex;

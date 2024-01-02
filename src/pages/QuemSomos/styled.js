@@ -93,8 +93,6 @@ span{
     z-index: 0;
     transition: 1s;
    }
-
-
 }
 
   @media (max-width: 800px) {

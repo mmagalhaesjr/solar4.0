@@ -1,7 +1,10 @@
 import { StyledFuncionamento } from "./styled";
 import { StyledTelaMenor } from "./styled2";
 
-import { useState } from "react";
+import { useState,useEffect } from "react";
+
+import sol from "../../assets/sol.png";
+import lua from "../../assets/lua.png";
 
 import img1 from "../../assets/iconesCasinha/1.png";
 import img2 from "../../assets/iconesCasinha/2.png";
@@ -33,15 +36,33 @@ export default function Funcionamento() {
     const handleCircleMouseLeave = () => {
         setInfoVisible(null);
     };
+
+
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+  
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
     return (
 
         <>
-            <StyledFuncionamento className={scrollY > 1000 ? 'rolagem' : ''}>
+            <StyledFuncionamento className={scrollY > 1700 ? 'rolagem' : ''}>
 
                 <div id="titulo">
                     <h1>
                         COMO FUNCIONA A ENERGIA SOLAR
                     </h1>
+
+                    <img id="sol" src={sol} alt="sol" />
+                    <img id="lua" src={lua} alt="lua" />
 
                 </div>
 
