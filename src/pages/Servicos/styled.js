@@ -148,6 +148,15 @@ p{
   }
   .card{
     width: 95%;
+    height: fit-content;
+
+  }
+  .card p{
+    margin-bottom: 5%;
+
+  }
+  .card .circulo{
+    margin-top: 3%;
   }
 }
 

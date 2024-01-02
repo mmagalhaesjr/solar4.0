@@ -36,7 +36,7 @@ justify-content: center;
 width: 100%;
 height: 100px;
 background-color: #14a238;
-margin-top: 5%;
+
 
 display: flex;
 align-items: center;
@@ -264,10 +264,13 @@ gap:10px;
 }
 @media(max-width:610px) {
   .cxTexto h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
   }
   .cxTexto h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
+   
   }
   .labelImput{
     font-size: .7rem;

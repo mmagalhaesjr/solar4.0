@@ -3,7 +3,7 @@ import { StyledBlogPagina } from "./styled";
 
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import BlogMenor from "../../componentes/BlogMenor/BlogMenor";
+// import BlogMenor from "../../componentes/BlogMenor/BlogMenor";
 
 
 
@@ -53,38 +53,8 @@ export default function BlogTelainicial() {
                         </div>
 
                         <div className="cx2blogs">
-                            <BlogMenor
-                                link='/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                Solar como solução para se libertar das altas contas de
-                                 energia elétrica.'
-                            />
-                            <BlogMenor
-                                link='/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                Solar como solução para se libertar das altas contas de
-                                energia elétrica.'
-                            />
+                               {/* caixa com 2 blogs menores */}
                         </div>
-                        <div className="cx1blog">
-                            <BlogMaior
-                                link='/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                Solar como solução para se libertar das altas contas de
-                                energia elétrica.'
-                            />
-                        </div>
-
-
                     </div>
                    
 
