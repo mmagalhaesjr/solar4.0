@@ -99,8 +99,16 @@ p{
   color: #ffffff;
 }
 
+#cxlinks{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
 
-button{
+#cxlinks button{
   width: 300px;
   height: 50px;
   border-radius: 20px;
@@ -117,6 +125,9 @@ button{
      background-color: #00BF3E;
   }
 }
+
+
+
 
 @media(max-width:1335px){
   #container{
@@ -259,6 +270,25 @@ justify-content: center;
 }
 
 
+button{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color:#00a335;
+  color: #ffffff;
+  font-weight:700;
+  font-size: 17px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  
+  &:hover{
+     background-color: #00BF3E;
+  }
+}
+
+//responsividade-----------------------
 @media(max-width:850px){
   #container{
     flex-direction: column-reverse;

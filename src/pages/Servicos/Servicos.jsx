@@ -13,7 +13,7 @@ export default function Servicos() {
     return (
 
         <>
-          <Header2 />
+            <Header2 />
 
             <StyledServicos>
                 <div id="titulo">
@@ -54,7 +54,7 @@ export default function Servicos() {
                             <div className="circulo">4</div>
                             <h3>instalação</h3>
                             <p>
-                                Instalação rápida e limpa. O sistema é instalado pela equipe de profissionais capacitados e experientes da <span>Solar 4.0</span> 
+                                Instalação rápida e limpa. O sistema é instalado pela equipe de profissionais capacitados e experientes da <span>Solar 4.0</span>
                             </p>
                         </div>
 
@@ -78,7 +78,12 @@ export default function Servicos() {
 
                 </div>
 
-                <a href="/Orcamento" target="_blank"><button>QUERO ENERGIA SOLAR</button></a>
+                <div id="cxlinks">
+                    <a href="/vi"><button>Instalações</button></a>
+                    <a href="/opm" ><button>Operação e Manutenção</button></a>
+                </div>
+
+               
             </StyledServicos>
 
             <StyledServicos2>
@@ -88,7 +93,7 @@ export default function Servicos() {
                     <h3>Para você que já possui o sistema de energia solar e busca maxima performance</h3>
                 </div>
 
-                
+
 
                 <div id="container">
 
@@ -148,8 +153,9 @@ export default function Servicos() {
                     </div>
 
                 </div>
-
                 
+
+                <a href="/Orcamento" target="_blank"><button>QUERO ENERGIA SOLAR</button></a>
 
             </StyledServicos2>
             <Footer />

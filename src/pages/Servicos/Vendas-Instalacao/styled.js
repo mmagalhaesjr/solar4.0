@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import foto from '../../../assets/fundoCima.jpeg';
 
 
+
 const fotoCaminho = `url(${foto})`;
 
 export const StyledVI = styled.section`
@@ -190,6 +191,7 @@ margin-top: 10px;
   font-size: 30px;
   font-weight: 700;
   margin-top: 100px;
+  color: #000000;
 }
 
 button{

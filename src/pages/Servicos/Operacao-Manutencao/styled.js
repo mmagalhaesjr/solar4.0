@@ -204,6 +204,17 @@ h2{
   margin-top: 10%;
 }
 
+  #tituloDuvidas{
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+  color: #000000;
+}
+
+
+
 #containerBotao{
   width: 50%;
   display: flex;
