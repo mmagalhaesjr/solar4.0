@@ -3,7 +3,7 @@ import HomeContextProvider from "./contexts/HomeContext";
 
 import Main from "./pages/Main/Main"
 
-
+import Error404 from "./pages/Error/Error";
 
 import Solucoes  from "./pages/Solucoes/Solucoes"
 import Comercial  from "./pages/Solucoes/Comercial/Comercial"
@@ -31,6 +31,7 @@ import Blog1 from './pages/Blogs/Blog1/Blog1';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -38,6 +39,7 @@ function App() {
     <HomeContextProvider>
         <div className="App">
             <Routes>
+                <Route path="*" element={<Error404 />} />
                 <Route path="/" element={<Main />} />
                 <Route path="/orcamento" element={<Orcamento />} />
                 <Route path="/projetoComercial" element={<Comercial />} />
