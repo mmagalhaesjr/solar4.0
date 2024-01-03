@@ -39,23 +39,23 @@ function App() {
     <HomeContextProvider>
         <div className="App">
             <Routes>
-                <Route path="*" element={<Error404 />} />
-                <Route path="/" element={<Main />} />
-                <Route path="/orcamento" element={<Orcamento />} />
-                <Route path="/projetoComercial" element={<Comercial />} />
-                <Route path="/projetoIndustrial" element={<Industrial />} />
-                <Route path="/projetoResidencial" element={<Residencial />} />
-                <Route path="/projetoRural" element={<Rural />} />
-                <Route path="/solucoes" element={<Solucoes />} />
-                <Route path="/servicos" element={<Servicos />} />
-                <Route path="/opm" element={<OPM />} />
-                <Route path="/vi" element={<VI />} />
+                <Route path="*" exact element={<Error404 />} />
+                <Route path="/" exact element={<Main />} />
+                <Route path="/orcamento" exact element={<Orcamento />} />
+                <Route path="/projetoComercial" exact element={<Comercial />} />
+                <Route path="/projetoIndustrial" exact element={<Industrial />} />
+                <Route path="/projetoResidencial" exact element={<Residencial />} />
+                <Route path="/projetoRural" exact element={<Rural />} />
+                <Route path="/solucoes" exact element={<Solucoes />} />
+                <Route path="/servicos" exact element={<Servicos />} />
+                <Route path="/opm" exact element={<OPM />} />
+                <Route path="/vi" exact element={<VI />} />
 
                 <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
 
                 {/* blog-------------- */}
-                <Route path="/blog" element={<BlogTelainicial />} />
-                <Route path="/blog1" element={<Blog1 />} />
+                <Route path="/blog" exact element={<BlogTelainicial />} />
+                <Route path="/blog1" exact element={<Blog1 />} />
                 {/* blog-------------- */}
 
                 {/* Lanading Pages----  */}
