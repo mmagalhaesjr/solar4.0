@@ -44,7 +44,7 @@ h1{
   width: 1000px;
   height: 400px;
   margin-top: 60px;
-  background-color: #9bc4eaa4;
+  background-color: #6e8daa83;
   backdrop-filter: blur(10px);
   opacity: 0.9;
   border-radius: 15px;

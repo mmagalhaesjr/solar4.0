@@ -59,7 +59,7 @@ export default function VI() {
                             <div id="cont">
                                 <div className="funcoes"><CiCircleCheck className="chek" /><p>Gestão de Energia Elétrica</p></div>
                                 <div className="funcoes"><CiCircleCheck className="chek" /><p>Soluções Personalizadas</p></div>
-                                <div className="funcoes"><CiCircleCheck className="chek" /><p>Garantia Iltelbras</p></div>
+                                <div className="funcoes"><CiCircleCheck className="chek" /><p>Garantia Intelbras</p></div>
                             </div>
                             <div id="cont">
                                 <div className="funcoes"><CiCircleCheck className="chek" /><p>Manutenções</p></div>
