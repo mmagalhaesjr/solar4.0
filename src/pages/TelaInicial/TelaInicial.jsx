@@ -1,4 +1,5 @@
 import { StyledtextoInicial } from "./styled";
+import { Link } from 'react-router-dom';
 // import fundo from "../../assets/fundo.jpg"
 
 // import { useNavigate } from 'react-router-dom';
@@ -18,7 +19,8 @@ export default function TelaInicial() {
                        Conquiste sua independência energética.<br></br>
                        <span>Transforme energia solar em economia!</span> 
                     </h1>
-                    <a href="/orcamento" target="_blank"><button> <p>SOLICITE UM ORÇAMENTO</p></button></a>
+                     <Link to="/orcamento" target="_blank"><button> <p>SOLICITE UM ORÇAMENTO</p></button></Link>
+                    
                 </div>
             </div>
 
