@@ -1,6 +1,4 @@
 import { StyledMenuMobile } from "./styled";
-
-
 import { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HomeContext } from '../../contexts/HomeContext';

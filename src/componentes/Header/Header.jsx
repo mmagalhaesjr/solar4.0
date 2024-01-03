@@ -1,10 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import logo from '../../assets/logosIcones/logoBranca.png';
-import MenuMobile from '../MenuMobile/MenuMobile';
+
 import { StyledHeader } from './styled';
 
+// import MenuMobile from '../MenuMobile/MenuMobile';
+const MenuMobile = lazy(() => import('../MenuMobile/MenuMobile'));
+
+
+
 export default function Header() {
+    
     const [scrollY, setScrollY] = useState(0);
+    const [mobileAtivado, setMobileAtivado] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -13,26 +20,22 @@ export default function Header() {
         };
     }, []);
 
-    const handleScroll = () => {
-        setScrollY(window.scrollY);
-    };
-
-    const [mobileAtivado, setMobileAtivado] = useState(false);
-
-    const mobile = () => {
-        setMobileAtivado(!mobileAtivado);
-    };
-
     useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
     }, [mobileAtivado]);
 
+    const handleScroll = () => {
+        setScrollY(window.scrollY);
+    };
+
+    const mobile = () => {
+        setMobileAtivado(!mobileAtivado);
+    };
     return (
         <>
-            <MenuMobile
-                mobileAtivado={mobileAtivado}
-                setMobileAtivado={setMobileAtivado}
-            />
+           <Suspense fallback={<div> Loading...</div>}>
+                <MenuMobile mobileAtivado={mobileAtivado} setMobileAtivado={setMobileAtivado} />
+            </Suspense>
 
             <StyledHeader
                 mobile={mobileAtivado}
