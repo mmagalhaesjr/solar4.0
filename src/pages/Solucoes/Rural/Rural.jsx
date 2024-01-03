@@ -30,10 +30,6 @@ import foto6 from '../../../assets/agro/agro6.jpeg'
 import foto7 from '../../../assets/agro/agro7.jpeg'
 
 
-
-
-
-
 export default function Comercial() {
     return (
         <>
