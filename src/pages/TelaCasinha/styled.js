@@ -21,8 +21,6 @@ background-size: cover;
 background-position: center;
 position: relative;
 
-
-
 #sol{
   width: 200px;
   height: 200px;
