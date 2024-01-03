@@ -136,20 +136,23 @@ h1{
 
 export const StyledContainerIcones = styled.section`
   width: 100%;
- 
+  
   display: flex;
   justify-content:center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 70px;
-  
+  flex-wrap: wrap;
+  margin-top: 3%;
 
 #box{
   width: 95%;
   max-width: 1150px;
+  height:100%;
+ 
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .box{
 width: 300px;
@@ -159,8 +162,6 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-
-
 }
 .box img{
   width: 70px;
@@ -231,7 +232,7 @@ align-items: center;
 
 export const StyledContainerImagens = styled.section`
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   flex-wrap: wrap;
   overflow: hidden;
   margin-bottom: 3%;
@@ -239,11 +240,10 @@ export const StyledContainerImagens = styled.section`
  display: flex;
  align-items: center;
  justify-content: center;
-  
-
+ 
 #containerFoto{
     width: 70%;
-    max-width:1800px ;
+    max-width:1100px ;
     height: 600px;
    
     display: flex;

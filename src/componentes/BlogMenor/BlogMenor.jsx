@@ -1,12 +1,14 @@
 import { StyledBlog } from "./styled";
+import { useNavigate } from 'react-router-dom';
 
 export default function BlogMenor(p) {
+    const navegar = useNavigate();
 
     return (
 
         <StyledBlog>
 
-            <a className="materia" href={p.link}  >
+            <a className="materia"  onClick={() => navegar(`${p.link}`) } >
 
                 <div className="foto">
                     <img src={p.img} alt="foto Coworking" />

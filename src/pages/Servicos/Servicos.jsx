@@ -1,4 +1,5 @@
 import { StyledServicos, StyledServicos2 } from "./styled";
+import { useNavigate } from 'react-router-dom';
 
 import antes from '../../assets/antes.jpg'
 import depois from '../../assets/depois.jpg'
@@ -10,6 +11,8 @@ import Header2 from "../../componentes/Header2/Header2";
 
 
 export default function Servicos() {
+    const navegar = useNavigate();
+    
     return (
 
         <>
@@ -79,8 +82,8 @@ export default function Servicos() {
                 </div>
 
                 <div id="cxlinks">
-                    <a href="/vi"><button>Instalações</button></a>
-                    <a href="/opm" ><button>Operação e Manutenção</button></a>
+                    <a onClick={() => navegar("/vi") }><button>Instalações</button></a>
+                    <a onClick={() => navegar("/opm") } ><button>Operação e Manutenção</button></a>
                 </div>
 
                
@@ -155,7 +158,7 @@ export default function Servicos() {
                 </div>
                 
 
-                <a href="/Orcamento" target="_blank"><button>QUERO ENERGIA SOLAR</button></a>
+                <a onClick={() => navegar("/orcamento") }target="_blank"><button>QUERO ENERGIA SOLAR</button></a>
 
             </StyledServicos2>
             <Footer />

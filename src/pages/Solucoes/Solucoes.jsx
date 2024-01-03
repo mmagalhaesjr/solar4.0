@@ -1,6 +1,7 @@
 import { StyledSolucoes } from "./styled";
 
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 import residencial from "../../assets/residencial/residencial3.jpeg"
 import comercial from "../../assets/comercial/comercial2.jpeg"
@@ -11,7 +12,7 @@ import Header2 from '../../componentes/Header2/Header2';
 
 
 export default function Solucoes() {
-
+    const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -44,7 +45,7 @@ export default function Solucoes() {
                             para potencializar a geração de energia, a partir dos equipamentos da Intelbras. <br></br><br></br>
                         </p>
 
-                        <a href="/Orcamento" target="_blank">
+                        <a onClick={() => navegar("/orcamento") }target="_blank">
                             <button>
                                 <p>
                                     Invista na sua própria fonte de energia renovável!
@@ -65,16 +66,16 @@ export default function Solucoes() {
 
                         <div id="cxImg">
                             <div className="img">
-                                <li><a href="/projetoResidencial"><img src={residencial} alt="foto" /><p>RESIDENCIAL</p></a></li>
+                                <li><a  onClick={() => navegar("/projetoResidencial") }><img src={residencial} alt="foto" /><p>RESIDENCIAL</p></a></li>
                             </div>
                             <div className="img">
-                                <li><a href="/projetoComercial"><img src={comercial} alt="foto" /><p>COMERCIAL</p></a></li>
+                                <li><a onClick={() => navegar("/projetoComercial") } ><img src={comercial} alt="foto" /><p>COMERCIAL</p></a></li>
                             </div>
                             <div className="img">
-                                <li><a href="/projetoIndustrial"><img src={industrial} alt="foto" /><p>INDUSTRIAL</p></a></li>
+                                <li><a onClick={() => navegar("/projetoIndustrial") } ><img src={industrial} alt="foto" /><p>INDUSTRIAL</p></a></li>
                             </div>
                             <div className="img">
-                                <li><a href="/projetoRural"><img src={agro} alt="foto" /><p>AGRO</p></a></li>
+                                <li><a onClick={() => navegar("/projetoRural") }  ><img src={agro} alt="foto" /><p>AGRO</p></a></li>
                             </div>
                         </div>
 

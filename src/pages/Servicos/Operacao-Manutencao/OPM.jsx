@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { StyledOPM } from "./styled";
 import { CiCircleCheck } from 'react-icons/ci';
 import { BsChevronDoubleDown } from 'react-icons/bs'
@@ -40,7 +41,7 @@ const perguntas = [
 
 
 export default function OPM() {
-
+    const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -92,7 +93,7 @@ export default function OPM() {
                         </div>
                     </div>
 
-                    <a href="/Orcamento" target="_blank"> <button>SOLICITE UM ORÇAMENTO</button> </a>
+                    <a onClick={() => navegar("/orcamento") } target="_blank"> <button>SOLICITE UM ORÇAMENTO</button> </a>
 
 
                     <div id="icone">

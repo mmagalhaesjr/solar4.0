@@ -2,6 +2,7 @@ import { StyledBeneficios } from './styled';
 
 import { useState } from "react";
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import icone1 from '../../assets/icones projetos/reducao-custo.png'
 import icone2 from '../../assets/icones projetos/sustentabilidade.png'
@@ -13,7 +14,7 @@ import icone5 from '../../assets/icones projetos/economia-energia.png'
 
 
 export default function Beneficios() {
-
+    const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -61,7 +62,7 @@ export default function Beneficios() {
 
             <div id='button'>
 
-                <a href="/Orcamento" target="_blank"> <button>SOLICITE UM ORÇAMENTO</button> </a>
+                <a onClick={() => navegar("/orcamento") }target="_blank"> <button>SOLICITE UM ORÇAMENTO</button> </a>
 
             </div>
 
