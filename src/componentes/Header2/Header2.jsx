@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/logosIcones/logoBranca.png';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledHeader } from './styled';
 
 export default function Header2() {
+    const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -49,23 +51,24 @@ export default function Header2() {
                         <li className="dropSolucoes">
                             <a href="/solucoes">Soluções</a>
                             <ul className="submenuSolucoes">
-                                <li><a href="/projetoResidencial">Residenciais</a></li>
-                                <li><a href="/projetoComercial">Comerciais</a></li>
-                                <li><a href="/projetoIndustrial">Industriais</a></li>
-                                <li><a href="/projetoRural">Agronegócio</a></li>
+                            <li><a  onClick={() => navegar("/projetoResidencial") }>Residenciais</a></li>
+                                <li><a  onClick={() => navegar("/projetoComercial") } >Comerciais</a></li>
+                                <li><a  onClick={() => navegar("/projetoIndustrial") }>Industriais</a></li>
+                                <li><a  onClick={() => navegar("/projetoRural") }>Agronegócio</a></li>
                             </ul>
                         </li>
 
                         <li className="dropServicos">
-                            <a href="/servicos">Serviços</a>
+                            <a onClick={() => navegar("/servicos") }>Serviços</a>
                             <ul className="submenuServicos">
-                                <li><a href="/vi">Vendas e Instalações</a></li>
-                                <li><a href="/opm">Operação e Manutenção</a></li>
+                                <li><a onClick={() => navegar("/vi") }>Vendas e Instalações</a></li>
+                                <li><a onClick={() => navegar("/opm") }>Operação e Manutenção</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="/Orcamento" target="_blank" >Contato</a></li>
-                        <li><a href="/blog" target="_blank">Blog</a></li>
+                        <li><a  onClick={() => navegar("/orcamento") } target="_blank">Oçamento</a></li>
+                        <li><a href="#footer">Contato</a></li>
+                        <li><a onClick={() => navegar("/blog") }target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>

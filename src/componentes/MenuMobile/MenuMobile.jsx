@@ -25,7 +25,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
         <StyledMenuMobile mobile={mobileAtivado}>
             <nav className="nav-lista">
                 <a href="#sobreNos" onClick={() => component('sobreNos')}>SOBRE NÓS</a>
-                <a onClick={() => navegar("/solucoes")}>SOLUÇOES</a>
+                <a onClick={() => navegar("/solucoes")}>SOLUÇÕES</a>
                 <a onClick={() => navegar("/servicos")}>SERVIÇOS</a>
                 <a onClick={() => navegar("/orcamento")}>ORÇAMENTO</a>
                 <a href="#contato" onClick={() => component('contato')}>CONTATO</a>
