@@ -53,7 +53,7 @@ h1{
 #contInterno{
   width:90%;
   max-width: 1000px;
-  height: 350px;
+  height: 400px;
   margin-top: 60px;
   background-color: #6e8daa83;
   backdrop-filter: blur(10px);
@@ -66,6 +66,7 @@ h1{
   align-items: center;
   justify-content: center;
   gap: 50px; 
+
 }
 
 #cont6{
@@ -76,6 +77,8 @@ h1{
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  margin:3% 0;
+
 }
 
 #cont{
