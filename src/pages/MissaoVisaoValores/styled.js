@@ -78,6 +78,9 @@ h1{
   text-align: left;
   line-height: 1.2; 
 }
+#textoCentralizado{
+    text-align: center;
+}
 .card p{
   font-size: 1.3rem;
 }

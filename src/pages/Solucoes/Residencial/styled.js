@@ -53,7 +53,7 @@ h1{
 }
 
 #texto{
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

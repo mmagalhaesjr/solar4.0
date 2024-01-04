@@ -7,7 +7,7 @@ import logo from "../../assets/logosIcones/logoB.png"
 
 export default function Mvv() {
     const [scrollY, setScrollY] = useState(0);
-    
+
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -20,11 +20,11 @@ export default function Mvv() {
         setScrollY(window.scrollY);
     };
 
-   
+
 
     return (
         <StyledMvv className={scrollY > 900 ? 'rolagem' : ''}>
-            
+
             <div id="container">
                 <div className="card">
                     <h1>Missão</h1>
@@ -44,27 +44,27 @@ export default function Mvv() {
                         <p>
                             Ser a principal referência em gestão de energia elétrica
                             para o agronegócio na Região Sudeste oferecendo serviços<span> inovadores,
-                                personalizados e confiáveis.</span>
+                            personalizados e confiáveis.</span>
                         </p>
                     </div>
                 </div>
                 <div className="card">
                     <h1>Valores</h1>
-                    <div className="cxTexto">
+                    <div className="cxTexto" id="textoCentralizado">
                         <p>
-                            <span> Comprometimento,<br />
-                                Ética,<br />
-                                Sustentabilidade,<br />
-                                Excelência no atendimento,<br />
-                                Qualidade.</span>
+                            Ética<br />
+                            Qualidade<br />
+                            Sustentabilidade<br />
+                            Comprometimento<br />
+                            Excelência no atendimento<br />
                         </p>
                     </div>
                 </div>
             </div>
-            
-          
-                <img id="logo" src={logo} alt="" />
-          
+
+
+            <img id="logo" src={logo} alt="" />
+
 
         </StyledMvv>
     )

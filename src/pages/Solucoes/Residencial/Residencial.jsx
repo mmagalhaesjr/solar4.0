@@ -46,7 +46,7 @@ export default function Residencial() {
                     </div>
 
                     <div id="texto">
-                        <p>Se você quer <span> economia, conforto,  autonomia e valorização do seu imóvel,</span> a energia solar é ideal <br></br>para você!</p>
+                        <p>Se você quer <span> economia, conforto,  autonomia e valorização do seu imóvel,</span> a energia solar é ideal para você!</p>
                     </div>
 
                 </section>

@@ -31,7 +31,7 @@ export default function Orcamento() {
                     <div className="cxTexto">
                         <h1>Economize até 95% em sua conta de luz!</h1>
 
-                        <h2>E ainda fique protegido dos aumentos de,
+                        <h2>E ainda fique protegido dos aumentos de
                             energia elétrica por pelo menos 25 anos.</h2>
                     </div>
 

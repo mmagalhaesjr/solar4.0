@@ -33,6 +33,8 @@ export const StyledQuemSomos = styled.section`
     justify-content: center;
     color: #000000;
     position: relative;
+
+    margin-bottom: 10%;
   }
 
   h1 {
