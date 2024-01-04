@@ -5,6 +5,7 @@ import { useState,useEffect } from "react";
 
 import sol from "../../assets/sol.png";
 import lua from "../../assets/lua.png";
+import estrela from "../../assets/estrela.png";
 
 import img1 from "../../assets/iconesCasinha/1.png";
 import img2 from "../../assets/iconesCasinha/2.png";
@@ -63,6 +64,7 @@ export default function Funcionamento() {
 
                     <img id="sol" src={sol} alt="sol" />
                     <img id="lua" src={lua} alt="lua" />
+                    <img id="estrela" src={estrela} alt="estrela" />
 
                 </div>
 

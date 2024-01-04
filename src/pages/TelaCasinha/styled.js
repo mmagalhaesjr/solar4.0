@@ -37,6 +37,14 @@ position: relative;
   top: 15%;
   opacity: 1;
 }
+#estrela{
+    width:90%;
+    height: 50%;
+    position: absolute;
+    left: 0%; 
+    top: -40px;
+    opacity: 1;
+}
 
 
   &.rolagem {
@@ -58,7 +66,11 @@ position: relative;
         transition: 1s; 
         top: -150px;
         opacity: 0;
-}
+    }
+    #estrela{
+        opacity: 0;
+        transition: 1s; 
+    }
     }
     #casinhaGif {
     display: none;
