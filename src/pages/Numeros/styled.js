@@ -194,6 +194,9 @@ height: 150px;
 width: 120px;
 height: 120px;
 }
+.circuloInterno p{
+    font-size: 1.2rem;
+}
 .fundoTexto{
 margin-top: -35px;
 }

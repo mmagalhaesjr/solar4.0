@@ -89,7 +89,7 @@ export default function Numeros() {
 
                     <div className="cxCirculo">
                         <div id="circulo1" className="circulo">
-                            <div className="circuloInterno">{number1.toLocaleString()}</div>
+                            <div className="circuloInterno"><p>{number1.toLocaleString()}</p></div>
                         </div>
 
                         <div className="fundoTexto">
@@ -99,7 +99,7 @@ export default function Numeros() {
 
                     <div className="cxCirculo">
                         <div id="circulo2" className="circulo">
-                            <div className="circuloInterno">{number2.toLocaleString()}</div>
+                            <div className="circuloInterno"><p>{number2.toLocaleString()}</p></div>
                         </div>
 
                         <div className="fundoTexto">

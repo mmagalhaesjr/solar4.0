@@ -10,7 +10,7 @@ const MenuMobile = lazy(() => import('../MenuMobile/MenuMobile'));
 
 export default function Header() {
     const navegar = useNavigate();
-    
+
     const [scrollY, setScrollY] = useState(0);
     const [mobileAtivado, setMobileAtivado] = useState(false);
 
@@ -34,7 +34,7 @@ export default function Header() {
     };
     return (
         <>
-           <Suspense fallback={<div> Loading...</div>}>
+            <Suspense fallback={<div> Loading...</div>}>
                 <MenuMobile mobileAtivado={mobileAtivado} setMobileAtivado={setMobileAtivado} />
             </Suspense>
 
@@ -48,30 +48,29 @@ export default function Header() {
                         <img src={logo} alt='logo' />
                     </a>
                     <ul className="nav-list">
-                        <li><a href="#sobreNos">Sobre nós</a></li>
-
+                        {/* <li><a href="#sobreNos">Sobre nós</a></li> a rolagem para sobreNos nao funciona com HashRouter */}
+                         <li><a href="/">Home</a></li> 
                         <li className="dropSolucoes">
-                            <a  onClick={() => navegar("/solucoes") }>Soluções</a>
+                            <a onClick={() => navegar("/solucoes")}>Soluções</a>
                             <ul className="submenuSolucoes">
-                                <li><a  onClick={() => navegar("/projetoResidencial") }>Residenciais</a></li>
-                                <li><a  onClick={() => navegar("/projetoComercial") } >Comerciais</a></li>
-                                <li><a  onClick={() => navegar("/projetoIndustrial") }>Industriais</a></li>
-                                <li><a  onClick={() => navegar("/projetoRural") }>Agronegócio</a></li>
+                                <li><a onClick={() => navegar("/projetoResidencial")}>Residenciais</a></li>
+                                <li><a onClick={() => navegar("/projetoComercial")} >Comerciais</a></li>
+                                <li><a onClick={() => navegar("/projetoIndustrial")}>Industriais</a></li>
+                                <li><a onClick={() => navegar("/projetoRural")}>Agronegócio</a></li>
                             </ul>
                         </li>
 
                         <li className="dropServicos">
-                            <a onClick={() => navegar("/servicos") }>Serviços</a>
+                            <a onClick={() => navegar("/servicos")}>Serviços</a>
                             <ul className="submenuServicos">
-                                <li><a onClick={() => navegar("/vi") }>Vendas e Instalações</a></li>
-                                <li><a onClick={() => navegar("/opm") }>Operação e Manutenção</a></li>
+                                <li><a onClick={() => navegar("/vi")}>Vendas e Instalações</a></li>
+                                <li><a onClick={() => navegar("/opm")}>Operação e Manutenção</a></li>
                             </ul>
                         </li>
 
-                        {/* <li><a href="/Orcamento" target="_blank" >Orçamento</a></li> */}
-                        <li><a  onClick={() => navegar("/orcamento") } target="_blank">Orçamento</a></li>
+                        <li><a onClick={() => navegar("/orcamento")} target="_blank">Orçamento</a></li>
                         <li><a href="#footer">Contato</a></li>
-                        <li><a onClick={() => navegar("/blog") }target="_blank">Blog</a></li>
+                        <li><a onClick={() => navegar("/blog")} target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>
