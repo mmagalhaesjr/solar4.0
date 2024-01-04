@@ -42,7 +42,7 @@ export default function BlogTelainicial() {
                     <div className="cxBlogs">
                         <div className="cx1blog">
                             <BlogMaior
-                                link='/blog1'
+                                link='#/blog1'
                                 img={foto1}
                                 titulo='Conheça 5 vantagens de energia
                                 solar para empresas'

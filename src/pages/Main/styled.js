@@ -39,8 +39,7 @@ overflow-y: scroll; */
   #intel{
     z-index: 1;
     width: 5rem;
-    height: 5rem;
-  
-  
+    height: 2.5rem;
+    margin-top: 10%;
   }
 `;
