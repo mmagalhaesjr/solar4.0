@@ -24,11 +24,10 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     return (
         <StyledMenuMobile mobile={mobileAtivado}>
             <nav className="nav-lista">
-                <a href="#sobreNos" onClick={() => component('sobreNos')}>SOBRE NÓS</a>
+                <a href="/" onClick={() => component('/')}>HOME</a>
                 <a onClick={() => navegar("/solucoes")}>SOLUÇÕES</a>
                 <a onClick={() => navegar("/servicos")}>SERVIÇOS</a>
                 <a onClick={() => navegar("/orcamento")}>ORÇAMENTO</a>
-                <a href="#contato" onClick={() => component('contato')}>CONTATO</a>
                 <a onClick={() => navegar("/blog")}>BLOG</a>
             </nav>
         </StyledMenuMobile>
