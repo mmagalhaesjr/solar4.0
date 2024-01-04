@@ -46,7 +46,6 @@ position: relative;
     opacity: 1;
 }
 
-
   &.rolagem {
     background-image: ${fundoCasa};
     transition: 2s;
