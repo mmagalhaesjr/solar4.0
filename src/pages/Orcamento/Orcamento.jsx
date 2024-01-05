@@ -1,4 +1,5 @@
 import { StyledOrcamento } from "./styled";
+import { useEffect } from "react";
 
 
 // import logo from "../../assets/logosIcones/logo.png"
@@ -11,6 +12,10 @@ import RodapeLandingPages from "../../componentes/RodapeLandingPages/RodapeLandi
 import Header2 from '../../componentes/Header2/Header2';
 
 export default function Orcamento() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
 
         <>
