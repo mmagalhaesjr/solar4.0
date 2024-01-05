@@ -1,5 +1,7 @@
 import { StyledContainerIcones, StyledContainerImagens, StyledResidencial } from "./styled";
 
+import { useEffect } from "react";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css/effect-creative';
@@ -33,6 +35,9 @@ import Header2 from '../../../componentes/Header2/Header2';
 
 
 export default function Residencial() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <Header2 />

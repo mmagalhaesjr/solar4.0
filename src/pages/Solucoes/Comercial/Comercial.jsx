@@ -1,5 +1,7 @@
 import { StyledComercial, StyledContainerIcones, StyledContainerImagens } from "./styled";
 
+import {  useEffect } from "react";
+
 import Header2 from '../../../componentes/Header2/Header2';
 import Footer from "../../../componentes/Footer/Footer";
 
@@ -34,6 +36,9 @@ import foto8 from '../../../assets/comercial/comercial8.jpeg'
 
 
 export default function Comercial() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <Header2 />

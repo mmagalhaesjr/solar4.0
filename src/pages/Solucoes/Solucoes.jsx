@@ -16,6 +16,10 @@ export default function Solucoes() {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);

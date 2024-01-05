@@ -1,4 +1,8 @@
 import { StyledVI } from "./styled";
+
+import React, { useState } from 'react';
+import { useEffect } from "react";
+
 import foto1 from '../../../assets/ve/contaAntes.png';
 import foto2 from '../../../assets/ve/contaDepois.png';
 import iconeV from '../../../assets/ve/iconeV.png';
@@ -10,7 +14,7 @@ import { BsChevronDoubleDown } from 'react-icons/bs';
 import Footer from "../../../componentes/Footer/Footer";
 import Header2 from '../../../componentes/Header2/Header2';
 
-import React, { useState } from 'react';
+
 
 
 const perguntas = [
@@ -38,6 +42,10 @@ export default function VI() {
     const toggleResposta = (index) => {
         setPerguntaAtiva(perguntaAtiva === index ? null : index);
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

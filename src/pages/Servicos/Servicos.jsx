@@ -1,5 +1,6 @@
 import { StyledServicos, StyledServicos2 } from "./styled";
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from "react";
 
 import antes from '../../assets/antes.jpg'
 import depois from '../../assets/depois.jpg'
@@ -12,6 +13,10 @@ import Header2 from "../../componentes/Header2/Header2";
 
 export default function Servicos() {
     const navegar = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     
     return (
 
