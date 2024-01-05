@@ -67,7 +67,6 @@ export default function Header2() {
                         </li>
 
                         <li><a  onClick={() => navegar("/orcamento") } target="_blank">Oçamento</a></li>
-                        <li><a href="/">Contato</a></li>
                         <li><a onClick={() => navegar("/blog") }target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>

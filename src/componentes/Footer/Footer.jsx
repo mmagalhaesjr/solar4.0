@@ -5,12 +5,18 @@ import { CiFacebook } from 'react-icons/ci';
 import {PiInstagramLogoThin } from 'react-icons/pi';
 import {BsTelephone } from 'react-icons/bs';
 
+
 import { StyledFooter } from "./styled"
 
+import { useRef } from 'react';
+
 export default function Footer() {  
+    const footerRef = useRef(null);
+
+
     return (
 
-        <StyledFooter id='footer'>
+        <StyledFooter ref={footerRef} id='footer'>
             <div id="container">
                 
                 <div className="container">

@@ -1,6 +1,6 @@
 import { StyledMenuMobile } from "./styled";
 import { useContext, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import { HomeContext } from '../../contexts/HomeContext';
 
 import PropTypes from 'prop-types';
@@ -8,6 +8,9 @@ import PropTypes from 'prop-types';
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     const navegar = useNavigate();
+    const location = useLocation();
+
+   
 
     useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
@@ -21,6 +24,24 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
         navegar('/');
     };
 
+
+    useEffect(() => {
+        // Rola até a seção "Contato" quando a URL muda para "/contato"
+        if (location.pathname === "/contato") {
+            scrollToFooter();
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [location.pathname]);
+
+    const scrollToFooter = () => {
+        // Substitua 'footerId' pelo ID real do elemento ao qual deseja rolar
+        const footerElement = document.getElementById('footer');
+        if (footerElement) {
+            footerElement.scrollIntoView({ behavior: 'smooth' });
+            setMobileAtivado(false);
+        }
+    };
+
     return (
         <StyledMenuMobile mobile={mobileAtivado}>
             <nav className="nav-lista">
@@ -28,6 +49,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
                 <a onClick={() => navegar("/solucoes")}>SOLUÇÕES</a>
                 <a onClick={() => navegar("/servicos")}>SERVIÇOS</a>
                 <a onClick={() => navegar("/orcamento")}>ORÇAMENTO</a>
+                <a onClick={scrollToFooter}>CONTATO</a>
                 <a onClick={() => navegar("/blog")}>BLOG</a>
             </nav>
         </StyledMenuMobile>

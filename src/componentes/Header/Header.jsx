@@ -1,7 +1,8 @@
 import { useState, useEffect, lazy, Suspense } from "react";
+
 import logo from '../../assets/logosIcones/logoBranca.png';
 import { StyledHeader } from './styled';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation  } from 'react-router-dom';
 
 // import MenuMobile from '../MenuMobile/MenuMobile';
 const MenuMobile = lazy(() => import('../MenuMobile/MenuMobile'));
@@ -10,6 +11,8 @@ const MenuMobile = lazy(() => import('../MenuMobile/MenuMobile'));
 
 export default function Header() {
     const navegar = useNavigate();
+    const location = useLocation();
+    
 
     const [scrollY, setScrollY] = useState(0);
     const [mobileAtivado, setMobileAtivado] = useState(false);
@@ -20,6 +23,14 @@ export default function Header() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+
+    useEffect(() => {
+        // Rola até a seção "Contato" quando a URL muda para "/contato"
+        if (location.pathname === "/contato") {
+            scrollToFooter();
+        }
+    }, [location.pathname]);
 
     useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
@@ -32,6 +43,17 @@ export default function Header() {
     const mobile = () => {
         setMobileAtivado(!mobileAtivado);
     };
+
+    const scrollToFooter = () => {
+        // Substitua 'footerId' pelo ID real do elemento ao qual deseja rolar
+        const footerElement = document.getElementById('footer');
+        if (footerElement) {
+            footerElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
+   
     return (
         <>
             <Suspense fallback={<div> Loading...</div>}>
@@ -69,7 +91,8 @@ export default function Header() {
                         </li>
 
                         <li><a onClick={() => navegar("/orcamento")} target="_blank">Orçamento</a></li>
-                        <li><a href="/">Contato</a></li>
+                        <li><a onClick={scrollToFooter}>Contato</a></li>
+                        
                         <li><a onClick={() => navegar("/blog")} target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
