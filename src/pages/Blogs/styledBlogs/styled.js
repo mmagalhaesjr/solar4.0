@@ -51,13 +51,12 @@ justify-content: center;
 #container2{
 width: 90%;
 max-width: 1000px;
+
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-
-
 }
 
 #titulo{
@@ -120,8 +119,18 @@ ul li{
 }
 #cxVideo{
     margin-top: 5%;
+    width: 90%;
+    max-width: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 video{
+    width: 80%;
+    
+}
+#cxVideo iframe{
     width: 100%;
 }
 #ultimoTexto{
@@ -178,6 +187,13 @@ li{
 }
 .texto p{
     font-size: 1.2rem;
+}
+
+#cxVideo{
+width: 95%;
+}
+video{
+width: 100%;
 }
 
 }
