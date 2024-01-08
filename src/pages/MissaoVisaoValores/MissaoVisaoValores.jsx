@@ -1,5 +1,8 @@
 import { StyledMvv } from "./styled";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 import { useState, useEffect } from "react";
 
 import logo from "../../assets/logosIcones/logoB.png"
@@ -20,15 +23,15 @@ export default function Mvv() {
         setScrollY(window.scrollY);
     };
 
-
+    AOS.init();
 
     return (
         <StyledMvv className={scrollY > 900 ? 'rolagem' : ''}>
 
             <div id="container">
-                <div className="card">
+                <div className="card" data-aos="zoom-out"  data-aos-duration="1500" >
                     <h1>Missão</h1>
-                    <div className="cxTexto">
+                    <div className="cxTexto" >
                         <p>
                             Empoderar nossos clientes para terem<span> autonomia </span>
                             e controle <span> sobre sua energia elétrica </span>utilizando fontes de
@@ -38,7 +41,7 @@ export default function Mvv() {
                         </p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card" data-aos="zoom-out" data-aos-duration="1500">
                     <h1>Visão</h1>
                     <div className="cxTexto">
                         <p>
@@ -48,7 +51,7 @@ export default function Mvv() {
                         </p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card" data-aos="zoom-out" data-aos-duration="1500">
                     <h1>Valores</h1>
                     <div className="cxTexto" id="textoCentralizado">
                         <p>

@@ -25,7 +25,7 @@ export default function Blog2() {
 
                     <div id="titulo">
                         <h1>
-                            O futuro é solar: tendências e
+                            O futuro é solar: Tendências e
                             tecnologias
                         </h1>
                     </div>

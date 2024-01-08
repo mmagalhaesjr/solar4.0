@@ -15,7 +15,7 @@ export default function TelaInicial() {
 
             <div id="container">
                 <div id="cxTexto">
-                    <h1>
+                    <h1 data-aos="flip-left"  data-aos-duration="2000">
                        Conquiste sua independência energética.<br></br>
                        <span>Transforme energia solar em economia!</span> 
                     </h1>

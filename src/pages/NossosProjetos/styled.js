@@ -23,6 +23,7 @@ h1{
   width: 90%;
   max-width: 1660px;
   margin-top: 50px;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;

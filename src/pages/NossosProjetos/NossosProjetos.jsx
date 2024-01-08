@@ -27,7 +27,8 @@ export default function NossosProjetos() {
 
             <div id="projetos">
 
-                <section id="secao1">
+                <section id="secao1" data-aos="fade-right" data-aos-duration="1000">
+
                     <div className="projetos">
                         <img src={foto1} alt="" />
                         <p>NOME DA INSTALAÇÃO</p>
@@ -40,12 +41,11 @@ export default function NossosProjetos() {
                         <img src={foto3} alt="" />
                         <p>NOME DA INSTALAÇÃO</p>
                     </div>
-                    {/* <div className="projetos">
 
-                    </div> */}
                 </section>
 
-                <section id="secao2">
+                <section id="secao2" data-aos="fade-left" data-aos-duration="1000">
+
                     <div className="projetos">
                         <img src={foto4} alt="" />
                         <p>NOME DA INSTALAÇÃO</p>
@@ -64,7 +64,8 @@ export default function NossosProjetos() {
                     </div>
                 </section>
 
-                <section id="secao3">
+                <section id="secao3" data-aos="fade-left" data-aos-duration="1000">
+
                     <div className="projetos">
                         <img src={foto8} alt="" />
                         <p>NOME DA INSTALAÇÃO</p>
@@ -82,7 +83,8 @@ export default function NossosProjetos() {
                     </div> */}
                 </section>
 
-                <section id="secao4">
+                <section id="secao4"  data-aos="fade-right" data-aos-duration="1000">
+
                     <div className="projetos">
                         <img src={foto11} alt="" />
                         <p>NOME DA INSTALAÇÃO</p>
