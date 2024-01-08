@@ -119,10 +119,10 @@ export default function Formulario() {
                             <label htmlFor="text" className="labelImput">TELHADO:</label>
                             <select name="telhado" id="telhado">
                                 <option value="trp">Tipo de Telhado</option>
-                                <option value="trp">Telhado de cerâmica </option>
-                                <option value="tpa">Telhado de concreto </option>
-                                <option value="tbn">Telhado de fibrocimento </option>
-                                <option value="tbn">Telhado de metal</option>
+                                <option value="trp">Telhado Colonial </option>
+                                <option value="tbn">Telhado de Fibrocimento </option>
+                                <option value="tbn">Telhado de Metalico</option>
+                                <option value="tbn">Laje exposta</option>
                             </select>
                         </div>
                     </div>
