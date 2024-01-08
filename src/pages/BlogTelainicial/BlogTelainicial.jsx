@@ -3,7 +3,8 @@ import { StyledBlogPagina } from "./styled";
 
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-// import BlogMenor from "../../componentes/BlogMenor/BlogMenor";
+import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
+
 
 
 
@@ -13,6 +14,10 @@ import Footer from '../../componentes/Footer/Footer';
 
 
 import foto1 from "../../assets/blogs/blog1/1.png"
+import foto2 from "../../assets/blogs/blog2/1.png"
+import foto3 from "../../assets/blogs/blog3/1.png"
+
+
 
 
 
@@ -53,10 +58,27 @@ export default function BlogTelainicial() {
                         </div>
 
                         <div className="cx2blogs">
-                               {/* caixa com 2 blogs menores */}
+                            <BlogMenor
+                                link='#/blog2'
+                                img={foto2}
+                                titulo='O futuro é solar: tendências e
+                                tecnologias'
+                                texto='Neste blog, vamos explorar as tendências que estão moldando
+                                o futuro solar e impulsionando a transição para uma matriz
+                                energética mais sustentável.'
+                            />
+                               <BlogMenor
+                                link='#/blog3'
+                                img={foto3}
+                                titulo='Crescimento da energia solar no
+                                Brasil e as implicações futuras'
+                                texto='Hoje, o Brasil é um dos líderes em energia solar na América
+                                Latina e no mundo. Saiba os principais motivos por trás desse
+                                crescimento e os benefícios disponíveis.'
+                            />
                         </div>
                     </div>
-                   
+
 
 
                 </div>

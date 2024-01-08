@@ -10,14 +10,19 @@ import Rural from './pages/Solucoes/Rural/Rural';
 import Servicos from './pages/Servicos/Servicos';
 import OPM from './pages/Servicos/Operacao-Manutencao/OPM';
 import VI from './pages/Servicos/Vendas-Instalacao/VI';
+
 import Orcamento from './pages/Orcamento/Orcamento';
 import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
+
 import MeioFunil from './pages/landingPages/MeioFunil/MeioFunil';
 import TopoFunil from './pages/landingPages/TopoFunil/TopoFunil';
 import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
+
 import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
 import Blog1 from './pages/Blogs/Blog1/Blog1';
+import Blog2 from './pages/Blogs/Blog2/Blog2';
+import Blog3 from './pages/Blogs/Blog3/Blog3';
 
 function App() {
   return (
@@ -46,6 +51,8 @@ function App() {
             {/* blog---------- */}
             <Route path="/blog" element={<BlogTelainicial />} />
             <Route path="/blog1" element={<Blog1 />} />
+            <Route path="/blog2" element={<Blog2 />} />
+            <Route path="/blog3" element={<Blog3 />} />
           </Routes>
         </div>
       </HomeContextProvider>
