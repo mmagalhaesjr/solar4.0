@@ -133,7 +133,7 @@ export default function Blog3() {
                                 país está caminhando em direção a um futuro mais verde e energeticamente independente. A
                                 expansão contínua da energia solar no Brasil é um exemplo inspirador de como as fontes de
                                 energia limpa podem transformar o setor energético e contribuir para a redução das emissões
-                                de gases de efeito estufa
+                                de gases de efeito estufa.
                             </p>
                         </div>
 
