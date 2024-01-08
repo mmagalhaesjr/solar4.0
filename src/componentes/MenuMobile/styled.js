@@ -12,7 +12,6 @@ export const StyledMenuMobile = styled.div`
     position: fixed;
     width: 100%;
     height: 100vh;
-    z-index:5;
     opacity: 0;
     pointer-events:none;
     transition: 0.5s;
@@ -20,6 +19,8 @@ export const StyledMenuMobile = styled.div`
 
     clip-path: circle(100px at 90% -15%);
     transition: 1s;
+
+    z-index:8;
 
     .nav-lista{
         margin-top: 130px;

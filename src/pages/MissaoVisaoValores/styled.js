@@ -6,23 +6,14 @@ const fotoCaminho = `url(${foto})`;
 
 export const StyledMvv = styled.section`
 width: 100%;
-
-
-/* scroll-snap-align: start;
-position: sticky;
-top: 0;
-left: 0; */
-
-/* border: solid 3px #00BF3E; */
 background-color: #eceeee;
 background-image: ${fotoCaminho};
-
 background-size: cover;
 background-repeat: no-repeat;
+overflow: hidden;
 
 display: flex;
 flex-direction: column;
-
 align-items: center;
 
 
@@ -33,6 +24,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  overflow: hidden;
 }
 .card{
  width: 450px;

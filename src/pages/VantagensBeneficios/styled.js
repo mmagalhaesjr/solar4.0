@@ -4,11 +4,15 @@ export const StyledBeneficios = styled.section`
   width: 100%;
   background-color: #eceeee;
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,240,240,1) 100%);
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  
+  overflow: hidden;
  
   #titulo {
     margin-top: 10%;
@@ -38,6 +42,9 @@ export const StyledBeneficios = styled.section`
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+
+
+    overflow: hidden;
   }
 
   .divIcone {

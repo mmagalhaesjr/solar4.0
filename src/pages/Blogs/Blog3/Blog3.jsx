@@ -109,7 +109,6 @@ export default function Blog3() {
                                 em todo o mundo. A energia solar é uma fonte limpa e renovável, o que a torna uma escolha
                                 atraente para aqueles que desejam reduzir sua pegada de carbono e contribuir para a luta
                                 contra as mudanças climáticas.
-
                             </p>
                         </div>
                         <div className="subTitulo" >
