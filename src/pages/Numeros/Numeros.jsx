@@ -35,8 +35,8 @@ export default function Numeros() {
                 });
     
                 setNumber2(prevNumber => {
-                    const newNumber = prevNumber + 25;
-                    return newNumber >= 1500 ? 1500 : newNumber;
+                    const newNumber = prevNumber + 400;
+                    return newNumber >= 15000 ? 15000 : newNumber;
                 });
             }, 50);
         }
