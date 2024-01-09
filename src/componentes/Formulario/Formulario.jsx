@@ -23,42 +23,40 @@ export default function Formulario() {
                 </div>
 
 
-                <form action="https://formsubmit.co/contato@solar40.com.br" method="POST"  >
-
-                    <input type="hidden" name="_cc" value="zonadamata@solar40.com.br"></input>
+                <form action="https://formsubmit.co/mariaclara22@gmail.com" method="POST">
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input type="hidden" name="email" placeholder="email" />
-                    <input type="hidden" name="_next" value='https://www.instagram.com/solar4.0zm/' /> {/* pagina apos o envio */}
+                    <input type="hidden" name="_next" value='https://www.solar40.com.br/#/confirmar' /> {/* pagina apos o envio */}
                     <input type="hidden" name="_autoresponse" value="Agradecemos pelo contato, responderemos em breve. Atenciosamente, Solar 4.0"></input>
 
                     <div className="inputBox">
                         <div className="cxInput">
-                            <label htmlFor="text" className="labelImput">NOME:</label>
-                            <input type="text" name="" className="nome" required />
+                            <label htmlFor="nome" className="labelImput">NOME:</label>
+                            <input type="text" name="nome" className="nome" required />
                         </div>
                     </div>
 
                     <div className="inputBox">
                         <div className="cxInput">
                             <label htmlFor="email" className="labelImput">EMAIL:</label>
-                            <input type="email" name="" className="emailTelefone" required />
+                            <input type="text" name="email" className="emailTelefone" required />
                         </div>
 
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">TELEFONE:</label>
-                            <input type="text" name="" className="emailTelefone" required />
+                            <input type="text" name="telefone" className="emailTelefone" required />
                         </div>
                     </div>
 
                     <div className="inputBox">
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">CIDADE:</label>
-                            <input type="text" name="" className="endereco" required />
+                            <input type="text" name="cidade" className="endereco" required />
                         </div>
 
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">BAIRRO:</label>
-                            <input type="text" name="" className="endereco" required />
+                            <input type="text" name="bairro" className="endereco" required />
                         </div>
 
                         <div className="cxInput" >
@@ -102,27 +100,27 @@ export default function Formulario() {
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">PADRÃO:</label>
 
-                            <select name="adrao" id="padrao">
-                                <option value="trp">Tipo de Padrão</option>
-                                <option value="trp">Monofásico </option>
-                                <option value="tpa">Bifásico </option>
-                                <option value="tbn">Trifásico </option>
+                            <select name="padrao" id="padrao">
+                                <option value="não forncido">Tipo de Padrão</option>
+                                <option value="Monofásico">Monofásico </option>
+                                <option value="Bifásico">Bifásico </option>
+                                <option value="Trifásico">Trifásico </option>
                             </select>
                         </div>
 
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">MÉDIA DA CONTA DE LUZ:</label>
-                            <input type="text" name="" className="instalacao" />
+                            <input type="number" name="medida da conta de luz" className="instalacao" />
                         </div>
 
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">TELHADO:</label>
                             <select name="telhado" id="telhado">
-                                <option value="trp">Tipo de Telhado</option>
-                                <option value="trp">Telhado Colonial </option>
-                                <option value="tbn">Telhado de Fibrocimento </option>
-                                <option value="tbn">Telhado Metálico</option>
-                                <option value="tbn">Laje exposta</option>
+                                <option value="não forncido">Tipo de Telhado</option>
+                                <option value="Telhado Colonial">Telhado Colonial </option>
+                                <option value="Telhado de Fibrocimento">Telhado de Fibrocimento </option>
+                                <option value="elhado Metálico">Telhado Metálico</option>
+                                <option value="Laje exposta">Laje exposta</option>
                             </select>
                         </div>
                     </div>
@@ -130,9 +128,13 @@ export default function Formulario() {
                     <div className="inputBox">
                         <div className="cxInput">
                             <label htmlFor="text" className="labelImput">MENSAGEM:</label>
-                            <textarea rows="4" cols="50" type="text" name="" className="texto" />
+                            <textarea rows="4" cols="50" type="text" name="mensagem" className="texto" />
                         </div>
                     </div>
+                    {/* <div className="inputBox">
+                        <label htmlFor="email" className="labelInput">Mensagem:</label>
+                        <textarea id="msg" className="imputMesnsagem" name="msg" rows="4" cols="50"></textarea>
+                    </div> */}
 
                     <button>ENVIAR  <FaPaperPlane /> </button>
 
