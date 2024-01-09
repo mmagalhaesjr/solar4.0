@@ -7,10 +7,11 @@ import mao from '../../assets/orcamento/PNG/mao.png'
 import anos from '../../assets/orcamento/PNG/anos.png'
 import medalha from '../../assets/orcamento/PNG/medalha.png'
 
-
 import { FaPaperPlane } from "react-icons/fa";
 
+
 export default function Formulario() {
+
     return (
         <StyledFormulario>
 
@@ -23,7 +24,7 @@ export default function Formulario() {
                 </div>
 
 
-                <form action="https://formsubmit.co/magalhaesmarcosjr@gmail.com" method="POST">
+                <form action="https://formsubmit.co/contato@solar40.com.br" method="POST">
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input type="hidden" name="email" placeholder="email" />
                     <input type="hidden" name="_next" value='https://www.solar40.com.br/#/confirmar' /> {/* pagina apos o envio */}

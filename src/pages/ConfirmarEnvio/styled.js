@@ -27,7 +27,6 @@ div{
     }
 }
 .cxLogo{
-   
     background-color:transparent;
     display: flex;
     align-items: center;
@@ -49,6 +48,25 @@ a{
     &:hover{
         color: #000000;
     }
+}
+
+@media(max-width:600px){
+   div h1{
+    color:#000;
+    font-size:2rem;
+    font-weight: 300;
+    margin: 2% 0px;
+    }
+    .cxLogo{
+    margin-top: 5%;
+}
+img{
+    width:150px;
+    margin-top: 3%;
+}
+#img2{
+    width: 100px;
+}
 }
 
 `
