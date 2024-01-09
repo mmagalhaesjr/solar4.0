@@ -23,12 +23,11 @@ export default function Formulario() {
                 </div>
 
 
-                <form action="https://formsubmit.co/mariaclara22@gmail.com" method="POST">
+                <form action="https://formsubmit.co/magalhaesmarcosjr@gmail.com" method="POST">
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input type="hidden" name="email" placeholder="email" />
                     <input type="hidden" name="_next" value='https://www.solar40.com.br/#/confirmar' /> {/* pagina apos o envio */}
-                    <input type="hidden" name="_autoresponse" value="Agradecemos pelo contato, responderemos em breve. Atenciosamente, Solar 4.0"></input>
-
+                   
                     <div className="inputBox">
                         <div className="cxInput">
                             <label htmlFor="nome" className="labelImput">NOME:</label>
@@ -131,11 +130,7 @@ export default function Formulario() {
                             <textarea rows="4" cols="50" type="text" name="mensagem" className="texto" />
                         </div>
                     </div>
-                    {/* <div className="inputBox">
-                        <label htmlFor="email" className="labelInput">Mensagem:</label>
-                        <textarea id="msg" className="imputMesnsagem" name="msg" rows="4" cols="50"></textarea>
-                    </div> */}
-
+                
                     <button>ENVIAR  <FaPaperPlane /> </button>
 
                 </form >
