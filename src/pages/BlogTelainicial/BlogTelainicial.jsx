@@ -47,13 +47,13 @@ export default function BlogTelainicial() {
                     <div className="cxBlogs">
                         <div className="cx1blog">
                             <BlogMaior
-                                link='#/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                Solar como solução para se libertar das altas contas de
-                                energia elétrica.'
+                                 link='#/blog3'
+                                 img={foto3}
+                                 titulo='Crescimento da energia solar no
+                                 Brasil e as implicações futuras'
+                                 texto='Hoje, o Brasil é um dos líderes em energia solar na América
+                                 Latina e no mundo. Saiba os principais motivos por trás desse
+                                 crescimento e os benefícios disponíveis.'
                             />
                         </div>
 
@@ -68,13 +68,13 @@ export default function BlogTelainicial() {
                                 energética mais sustentável.'
                             />
                                <BlogMenor
-                                link='#/blog3'
-                                img={foto3}
-                                titulo='Crescimento da energia solar no
-                                Brasil e as implicações futuras'
-                                texto='Hoje, o Brasil é um dos líderes em energia solar na América
-                                Latina e no mundo. Saiba os principais motivos por trás desse
-                                crescimento e os benefícios disponíveis.'
+                                 link='#/blog1'
+                                 img={foto1}
+                                 titulo='Conheça 5 vantagens de energia
+                                 solar para empresas'
+                                 texto='Empresas de diferentes portes vêm investindo em Energia
+                                 Solar como solução para se libertar das altas contas de
+                                 energia elétrica.'
                             />
                         </div>
                     </div>
