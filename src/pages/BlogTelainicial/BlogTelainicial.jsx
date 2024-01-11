@@ -16,6 +16,7 @@ import Footer from '../../componentes/Footer/Footer';
 import foto1 from "../../assets/blogs/blog1/1.png"
 import foto2 from "../../assets/blogs/blog2/1.png"
 import foto3 from "../../assets/blogs/blog3/1.png"
+import foto4 from "../../assets/blogs/blog4/1.png"
 
 
 
@@ -42,8 +43,23 @@ export default function BlogTelainicial() {
                 <div id="container">
 
                     <div className="cxBlogs">
+
                         <div className="cx1blog">
                             <BlogMaior
+                                 link='#/blog4'
+                                 img={foto4}
+                                 titulo='Como a energia solar pode
+                                 transformar a agricultura? Descubra
+                                 a relação entre luz solar e colheitas
+                                 sustentáveis.'
+                                 texto='Abaixo, exploraremos a sinergia entre esses dois setores
+                                 aparentemente distintos, destacando como a energia solar
+                                 não apenas ilumina, mas também fertiliza o futuro da
+                                 agricultura.'
+                            />
+                        </div>
+                        <div className="cx2blogs">
+                        <BlogMenor
                                  link='#/blog3'
                                  img={foto3}
                                  titulo='Crescimento da energia solar no
@@ -52,8 +68,6 @@ export default function BlogTelainicial() {
                                  Latina e no mundo. Saiba os principais motivos por trás desse
                                  crescimento e os benefícios disponíveis.'
                             />
-                        </div>
-                        <div className="cx2blogs">
                             <BlogMenor
                                 link='#/blog2'
                                 img={foto2}
@@ -63,7 +77,18 @@ export default function BlogTelainicial() {
                                 o futuro solar e impulsionando a transição para uma matriz
                                 energética mais sustentável.'
                             />
-                               <BlogMenor
+                             <BlogMenor
+                                 link='#/blog1'
+                                 img={foto1}
+                                 titulo='Conheça 5 vantagens de energia
+                                 solar para empresas'
+                                 texto='Empresas de diferentes portes vêm investindo em Energia
+                                 Solar como solução para se libertar das altas contas de
+                                 energia elétrica.'
+                            /> 
+                        </div>
+                        {/* <div className="cx1blog">
+                        <BlogMenor
                                  link='#/blog1'
                                  img={foto1}
                                  titulo='Conheça 5 vantagens de energia
@@ -72,7 +97,7 @@ export default function BlogTelainicial() {
                                  Solar como solução para se libertar das altas contas de
                                  energia elétrica.'
                             />
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
