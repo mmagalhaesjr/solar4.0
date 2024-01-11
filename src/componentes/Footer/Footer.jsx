@@ -47,8 +47,8 @@ export default function Footer() {
                 <div className="container" id="endereço">
                     <h3>Redes Sociais</h3>
                     <ul className="containerRedesS" >
-                       <li><a href="https://www.instagram.com/solar4.0zm/" target="_blank" rel="noreferrer"> <PiInstagramLogoThin className='ico' /></a></li> 
-                        <li><a href="https://www.facebook.com/profile.php?id=100059271851196&paipv=0&eav=AfaPpUuxBUsCFiNX0ed7ApQJ6us1oh-EJBbX3IIbv75E8dcIVGNfD4gBAqqSXjicD_E&_rdr"><CiFacebook className='ico' /></a></li>
+                       <li><a href="https://www.instagram.com/solar4.0/" target="_blank" rel="noreferrer"> <PiInstagramLogoThin className='ico' /></a></li> 
+                        <li><a href="https://web.facebook.com/solar40mg"><CiFacebook className='ico' /></a></li>
                         {/* <li><a href="https://www.linkedin.com/company/temasek-jf/about/?viewAsMember=true" target="_blank" rel="noreferrer"><AiFillLinkedin /></a></li> */}
                     </ul>
                 </div>

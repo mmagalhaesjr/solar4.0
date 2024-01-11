@@ -27,9 +27,6 @@ export default function BlogTelainicial() {
 
 
         <>
-
-
-
             <Header2 />
 
             <StyledBlogPagina>
@@ -56,7 +53,6 @@ export default function BlogTelainicial() {
                                  crescimento e os benefícios disponíveis.'
                             />
                         </div>
-
                         <div className="cx2blogs">
                             <BlogMenor
                                 link='#/blog2'
@@ -79,15 +75,11 @@ export default function BlogTelainicial() {
                         </div>
                     </div>
 
-
-
                 </div>
 
             </StyledBlogPagina>
 
             <Footer />
-
-
         </>
     )
 }
