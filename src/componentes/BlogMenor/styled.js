@@ -15,8 +15,8 @@ align-items: center;
 
 
 .materia{
-    width: 100%;
-    max-width: 370px;
+   
+    max-width: 300px;
     height: 360px;
     background-color: #ffffff;
     color:#000000;

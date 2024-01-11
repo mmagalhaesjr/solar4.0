@@ -50,9 +50,11 @@ color: #ffffff;
     flex-direction: row;
     flex-wrap: wrap; 
     gap: 5%; 
+
+
 }
 .cxBlogs{
-    width: 95%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -68,16 +70,32 @@ color: #ffffff;
     justify-content:center;
 }
 .cx2blogs{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 1%;
+
+    border: solid 2px red;
+}
+.cx3blogs{
     width: 90%;
     max-width: 800px;
 
     display: flex;
-    align-items: center;
     justify-content:center;
+    align-items: center;
     gap: 3%;
+    border: solid 2px blue;
 }
 
 @media(max-width:600px) {
+    .cxBlogs{
+        max-width: none;
+        width: 100%;
+    }
     .cx2blogs{
         width: 100%;
     }
