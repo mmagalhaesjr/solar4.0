@@ -73,8 +73,7 @@ export default function BlogTelainicial() {
                                 o futuro solar e impulsionando a transição para uma matriz
                                 energética mais sustentável.'
                             />
-
-                            <BlogMenor
+                             <BlogMenor
                                 link='#/blog1'
                                 img={foto1}
                                 titulo='Conheça 5 vantagens de energia
@@ -83,6 +82,8 @@ export default function BlogTelainicial() {
                                  Solar como solução para se libertar das altas contas de
                                  energia elétrica.'
                             />
+                             
+
                         </div>
                         {/* <div className="cx3blogs">
                             <BlogMenor
@@ -96,7 +97,7 @@ export default function BlogTelainicial() {
                             />
                         </div> */}
                         {/* <div className="cx1blog">
-                        <BlogMenor
+                        <BlogMaior
                                  link='#/blog1'
                                  img={foto1}
                                  titulo='Conheça 5 vantagens de energia

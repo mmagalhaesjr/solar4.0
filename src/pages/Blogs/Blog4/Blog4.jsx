@@ -33,7 +33,7 @@ export default function Blog4() {
                     </div>
 
                     <div id="container2">
-                        <div className="subTitulo" >
+                        <div className="subTitulo" id="subTitulo1" >
                             <p>
                                 Abaixo, exploraremos a sinergia entre esses dois setores
                                 aparentemente distintos, destacando como a energia solar

@@ -84,8 +84,8 @@ font-size: 1.2rem;
 .subTitulo{
   width: 100%;
   text-align: left;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 5%;
+ 
 } 
 #subTitulo1{
   text-align:center;
@@ -166,12 +166,14 @@ video{
     margin-top: 20%;
 }
 #titulo h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     font-weight: 600;
 }
 .subTitulo{
+  width: 100%;
   text-align: left;
+  margin-top: 15%;
 }
 #subTitulo1{
     text-align: left;

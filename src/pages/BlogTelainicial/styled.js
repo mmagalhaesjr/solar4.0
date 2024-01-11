@@ -41,7 +41,7 @@ color: #ffffff;
 #container{
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 95%;
+    width: 98%;
 
 
     display: flex;
@@ -64,21 +64,22 @@ color: #ffffff;
 .cx1blog{
     width: 90%;
     max-width: 800px;
+    height: 350px;
 
     display: flex;
     align-items: center;
     justify-content:center;
+
+    
 }
 .cx2blogs{
     width: 100%;
-    
+   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-evenly;
-    gap: 1%;
-
-    border: solid 2px red;
+    justify-content:center;
+    gap: 2%;
 }
 .cx3blogs{
     width: 90%;
@@ -88,17 +89,38 @@ color: #ffffff;
     justify-content:center;
     align-items: center;
     gap: 3%;
-    border: solid 2px blue;
+   
 }
 
 @media(max-width:600px) {
+    #container{
+        width: 98%;
+    }
     .cxBlogs{
         max-width: none;
         width: 100%;
     }
+    .cx1blog{
+    width: 90%;
+    max-width: 800px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
     .cx2blogs{
-        width: 100%;
-    }
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    gap: 0;
+
+    
+  
+}
     .cx1blog{
         width: 100%;
     }

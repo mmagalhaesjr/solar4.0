@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledBlog = styled.main`
-width:45%;
 
+width: fit-content;
 margin-top: 2.5%;
 margin-bottom: 2.5%;
 
@@ -10,7 +10,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 align-items: center;
-
 
 
 
@@ -89,23 +88,49 @@ align-items: center;
 }
 @media(max-width:600px) {
     width: 50%;
-    .materia{
-        width: 100%;
-        max-width: 300px;
-        height: 300px;
-    }
-    .foto{
+    
+.materia{
+   width: 150px;
+   height: 230px;
+   background-color: #ffffff;
+   color:#000000;
+   border-radius:30px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   &:hover{
+       background-color: #bfbfbf;
+   }
+}
+.texto{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.materia h1{
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700; 
+    
+}
+.materia p{
+   display: none;
+}
+.foto{
     width: 100%;
-    height: 40%;
+    height:150px;
     border-radius:30px;
     overflow: hidden;
-    margin-top: 5%;
    
 }
 .foto img{
-    width: 95%;
+    width: 100%;
     height: 100%; 
-    border-radius:30px;
 }
 }
 

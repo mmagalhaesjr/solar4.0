@@ -11,7 +11,7 @@ justify-content: center;
 
 
 .materia{
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: #ffffff;
     color:#000000;
@@ -79,19 +79,56 @@ justify-content: center;
 @media(max-width:600px) {
 //tudo
 width: 100%;
+
 .materia{
-    width: 100%;
+    width: 90%;
     height: 90%;
+    max-height: 210px;
+    background-color: #ffffff;
+    color:#000000;
+    border-radius:50px;
+
+    display: flex;
+    align-items: center;
+    
+    &:hover{
+        background-color: #bfbfbf;
+    }
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 90%;
+}
+.materia h1{
+    font-size: .9rem;
+    text-align: left;
+    margin-top: 5%;
+    font-weight: 700; 
+    
+}
+.materia p{
+    font-size: .7rem;
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
 }
 .foto{
-    width: 100%;
+    width: 95%;
     height: 80%;
     border-radius:50px;
     overflow: hidden;
-}
+   
 .foto img{
     width: 100%;
     height: 100%; 
+}
 }
 }
 
