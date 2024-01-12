@@ -49,7 +49,7 @@ export default function Header2() {
                         <li><a href="/">Home</a></li>
 
                         <li className="dropSolucoes">
-                            <a href="/solucoes">Soluções</a>
+                            <a onClick={() => navegar("/solucoes") }>Serviços</a>
                             <ul className="submenuSolucoes">
                             <li><a  onClick={() => navegar("/projetoResidencial") }>Residenciais</a></li>
                                 <li><a  onClick={() => navegar("/projetoComercial") } >Comerciais</a></li>
