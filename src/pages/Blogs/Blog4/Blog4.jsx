@@ -58,7 +58,7 @@ export default function Blog4() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                Eletrificação rura
+                                Eletrificação rural
                             </p>
                         </div>
                         <div className="texto" >
