@@ -50,7 +50,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
                 <a onClick={() => navegar("/servicos")}>SERVIÇOS</a>
                 <a onClick={() => navegar("/orcamento")}>ORÇAMENTO</a>
                 <a onClick={scrollToFooter}>CONTATO</a>
-                {/* <a onClick={() => navegar("/blog")}>BLOG</a> */}
+                <a onClick={() => navegar("/blog")}>BLOG</a>
             </nav>
         </StyledMenuMobile>
     );

@@ -93,7 +93,7 @@ export default function Header() {
                         <li><a onClick={() => navegar("/orcamento")} target="_blank">Orçamento</a></li>
                         <li><a onClick={scrollToFooter}>Contato</a></li>
                         
-                        {/* <li><a onClick={() => navegar("/blog")} target="_blank">Blog</a></li> */}
+                        <li><a onClick={() => navegar("/blog")} target="_blank">Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>

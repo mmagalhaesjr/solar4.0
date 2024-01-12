@@ -25,21 +25,21 @@ export default function BlogTelainicial() {
     const arrayBlogs = [
         {
             id: 3,
-            link: '#/blog3',
+            // link: '#/blog3',
             img: foto3,
             titulo: 'Crescimento da energia solar no Brasil e as implicações futuras',
             texto: 'Hoje, o Brasil é um dos líderes em energia solar na América Latina e no mundo. Saiba os principais motivos por trás desse crescimento e os benefícios disponíveis.'
         },
         {
             id: 2,
-            link: '#/blog2',
+            // link: '#/blog2',
             img: foto2,
             titulo: 'O futuro é solar: tendências e tecnologias',
             texto: 'Neste blog, vamos explorar as tendências que estão moldando o futuro solar e impulsionando a transição para uma matriz energética mais sustentável.'
         },
         {
             id: 1,
-            link: '#/blog1',
+            // link: '#/blog1',
             img: foto1,
             titulo: 'Conheça 5 vantagens de energia solar para empresas',
             texto: 'Empresas de diferentes portes vêm investindo em Energia Solar como solução para se libertar das altas contas de energia elétrica.'
@@ -67,9 +67,10 @@ export default function BlogTelainicial() {
 
                     <div className="cxBlogs">
 
-                        <div className="cx1blog">
+                        <div className="cx1blog">   
+                        {/* adiciionar # */}
                             <BlogMaior
-                                link='#/blog/4'
+                                link='/blog/4'
                                 img={foto4}
                                 titulo='Como a energia solar pode
                                 transformar a agricultura?...'
@@ -82,7 +83,7 @@ export default function BlogTelainicial() {
                             {arrayBlogs.map((blog) => (
                                 <BlogMenor
                                     key={blog.id}
-                                    link={`#/blog/${blog.id}`}
+                                    link={`/blog/${blog.id}`}
                                     img={blog.img}
                                     titulo={blog.titulo}
                                     texto={blog.texto}

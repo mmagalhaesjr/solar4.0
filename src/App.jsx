@@ -1,4 +1,6 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// arrumar a pagina de blogs
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeContextProvider from './contexts/HomeContext';
 import Main from './pages/Main/Main';
 import Error404 from './pages/Error/Error';
@@ -19,46 +21,48 @@ import TopoFunil from './pages/landingPages/TopoFunil/TopoFunil';
 import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
-// import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
-// import Blog from './pages/Blogs/Blog/Blog';
+import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
+import Blog from './pages/Blogs/Blog/Blog';
 
 
 function App() {
-  return (
-    <Router>
-      <HomeContextProvider>
-        <div className="App">
-          <Routes>
-            <Route path="*" element={<Error404 />} />
-            <Route path="/" element={<Main />} />
-            <Route path="/orcamento" element={<Orcamento />} />
-            <Route path="/projetoComercial" element={<Comercial />} />
-            <Route path="/projetoIndustrial" element={<Industrial />} />
-            <Route path="/projetoResidencial" element={<Residencial />} />
-            <Route path="/projetoRural" element={<Rural />} />
-            <Route path="/solucoes" element={<Solucoes />} />
-            <Route path="/servicos" element={<Servicos />} />
-            <Route path="/opm" element={<OPM />} />
-            <Route path="/vi" element={<VI />} />
-            <Route path="/confirmar" element={<ConfirmarEnvio />} />
-           
-            {/* landinpages---------- */}
-            <Route path="/economizeenergia" element={<TopoFunil />} />
-            <Route path="/energiasolar" element={<MeioFunil />} />
-            <Route path="/economize" element={<FundoFunil />} />
-            <Route path="/usinaSolar" element={<UsinaSolar />} />
-            {/* blog---------- */}
-            {/* <Route path="/blog" element={<BlogTelainicial />} />
-            <Route path="/blog/:blogId" element={<Blog />} /> */}
-           
-          </Routes>
-        </div>
-      </HomeContextProvider>
-    </Router>
-  );
+    return (
+    
+            <BrowserRouter>
+                <HomeContextProvider>
+                    <div className="App">
+                        <Routes>
+                            <Route path="*" element={<Error404 />} />
+                            <Route path="/" element={<Main />} />
+                            <Route path="/orcamento" element={<Orcamento />} />
+                            <Route path="/projetoComercial" element={<Comercial />} />
+                            <Route path="/projetoIndustrial" element={<Industrial />} />
+                            <Route path="/projetoResidencial" element={<Residencial />} />
+                            <Route path="/projetoRural" element={<Rural />} />
+                            <Route path="/solucoes" element={<Solucoes />} />
+                            <Route path="/servicos" element={<Servicos />} />
+                            <Route path="/opm" element={<OPM />} />
+                            <Route path="/vi" element={<VI />} />
+                            <Route path="/confirmar" element={<ConfirmarEnvio />} />
+
+                            {/* landinpages---------- */}
+                            <Route path="/economizeenergia" element={<TopoFunil />} />
+                            <Route path="/energiasolar" element={<MeioFunil />} />
+                            <Route path="/economize" element={<FundoFunil />} />
+                            <Route path="/usinaSolar" element={<UsinaSolar />} />
+                            {/* blog---------- */}
+                            <Route path="/blog" element={<BlogTelainicial />} />
+                            <Route path="/blog/:blogId" element={<Blog />} />
+
+                        </Routes>
+                    </div>
+                </HomeContextProvider>
+                </BrowserRouter >
+            
+            );
 }
 
-export default App;
+            export default App;
 
 
 
