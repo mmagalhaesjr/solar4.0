@@ -84,7 +84,7 @@ export default function BlogTelainicial() {
                             {arrayBlogs.map((blog) => (
                                 <BlogMenor
                                     key={blog.id}
-                                    link={`/blog/${blog.id}`}
+                                    link={`#/blog/${blog.id}`}
                                 
                                     img={blog.img}
                                     titulo={blog.titulo}
