@@ -19,8 +19,8 @@ import TopoFunil from './pages/landingPages/TopoFunil/TopoFunil';
 import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
-import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
-import Blog from './pages/Blogs/Blog/Blog';
+// import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
+// import Blog from './pages/Blogs/Blog/Blog';
 
 
 function App() {
@@ -48,8 +48,8 @@ function App() {
             <Route path="/economize" element={<FundoFunil />} />
             <Route path="/usinaSolar" element={<UsinaSolar />} />
             {/* blog---------- */}
-            <Route path="/blog" element={<BlogTelainicial />} />
-            <Route path="/blog/:blogId" element={<Blog />} />
+            {/* <Route path="/blog" element={<BlogTelainicial />} />
+            <Route path="/blog/:blogId" element={<Blog />} /> */}
            
           </Routes>
         </div>
