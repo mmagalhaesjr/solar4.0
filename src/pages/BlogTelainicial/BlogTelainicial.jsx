@@ -2,7 +2,7 @@ import { StyledBlogPagina } from "./styled";
 
 
 
-import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
+// import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 
 
@@ -16,7 +16,7 @@ import Footer from '../../componentes/Footer/Footer';
 import foto1 from "../../assets/blogs/blog1/1.png"
 import foto2 from "../../assets/blogs/blog2/1.png"
 import foto3 from "../../assets/blogs/blog3/1.png"
-import foto4 from "../../assets/blogs/blog4/1.png"
+// import foto4 from "../../assets/blogs/blog4/1.png"
 
 
 
@@ -67,7 +67,7 @@ export default function BlogTelainicial() {
 
                     <div className="cxBlogs">
 
-                        <div className="cx1blog">   
+                        {/* <div className="cx1blog">   
                       
                             <BlogMaior
                                 // link='/blog/4'
@@ -78,7 +78,7 @@ export default function BlogTelainicial() {
                                 texto='Abaixo, exploraremos a sinergia entre esses dois setores
                                 aparentemente distintos...'
                             />
-                        </div>
+                        </div> */}
 
                         <div className="cx2blogs">
                             {arrayBlogs.map((blog) => (
