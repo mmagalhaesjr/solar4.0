@@ -1,6 +1,6 @@
-// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // arrumar a pagina de blogs
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeContextProvider from './contexts/HomeContext';
 import Main from './pages/Main/Main';
 import Error404 from './pages/Error/Error';
@@ -28,7 +28,7 @@ import Blog from './pages/Blogs/Blog/Blog';
 function App() {
     return (
     
-            <BrowserRouter>
+            <Router>
                 <HomeContextProvider>
                     <div className="App">
                         <Routes>
@@ -57,7 +57,7 @@ function App() {
                         </Routes>
                     </div>
                 </HomeContextProvider>
-                </BrowserRouter >
+                </Router >
             
             );
 }
