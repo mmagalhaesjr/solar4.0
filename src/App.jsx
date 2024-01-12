@@ -20,6 +20,7 @@ import FundoFunil from './pages/landingPages/FundoFunil/FundoFunil';
 import UsinaSolar from './pages/landingPages/UsinaSolar/UsinaSolar';
 
 import BlogTelainicial from './pages/BlogTelainicial/BlogTelainicial';
+
 import Blog1 from './pages/Blogs/Blog1/Blog1';
 import Blog2 from './pages/Blogs/Blog2/Blog2';
 import Blog3 from './pages/Blogs/Blog3/Blog3';
@@ -51,10 +52,14 @@ function App() {
             <Route path="/usinaSolar" element={<UsinaSolar />} />
             {/* blog---------- */}
             <Route path="/blog" element={<BlogTelainicial />} />
+
+            <Route path="/blog/:blogId" element={<BlogTelainicial />} />
+
             <Route path="/blog1" element={<Blog1 />} />
             <Route path="/blog2" element={<Blog2 />} />
             <Route path="/blog3" element={<Blog3 />} />
             <Route path="/blog4" element={<Blog4 />} />
+
           </Routes>
         </div>
       </HomeContextProvider>

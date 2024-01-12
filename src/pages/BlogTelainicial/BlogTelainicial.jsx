@@ -20,10 +20,33 @@ import foto4 from "../../assets/blogs/blog4/1.png"
 
 
 
-
-
-
 export default function BlogTelainicial() {
+
+    const arrayBlogs = [
+        {
+            id: 3,
+            link: '#/blog3',
+            img: foto3,
+            titulo: 'Crescimento da energia solar no Brasil e as implicações futuras',
+            texto: 'Hoje, o Brasil é um dos líderes em energia solar na América Latina e no mundo. Saiba os principais motivos por trás desse crescimento e os benefícios disponíveis.'
+        },
+        {
+            id: 2,
+            link: '#/blog2',
+            img: foto2,
+            titulo: 'O futuro é solar: tendências e tecnologias',
+            texto: 'Neste blog, vamos explorar as tendências que estão moldando o futuro solar e impulsionando a transição para uma matriz energética mais sustentável.'
+        },
+        {
+            id: 1,
+            link: '#/blog1',
+            img: foto1,
+            titulo: 'Conheça 5 vantagens de energia solar para empresas',
+            texto: 'Empresas de diferentes portes vêm investindo em Energia Solar como solução para se libertar das altas contas de energia elétrica.'
+        },
+    ];
+
+
     return (
 
 
@@ -49,64 +72,24 @@ export default function BlogTelainicial() {
                                 link='#/blog4'
                                 img={foto4}
                                 titulo='Como a energia solar pode
-                                 transformar a agricultura?...'
+                                transformar a agricultura?...'
                                 texto='Abaixo, exploraremos a sinergia entre esses dois setores
-                                 aparentemente distintos...'
+                                aparentemente distintos...'
                             />
                         </div>
-                        <div className="cx2blogs">
-                            <BlogMenor
-                                link='#/blog3'
-                                img={foto3}
-                                titulo='Crescimento da energia solar no
-                                 Brasil e as implicações futuras'
-                                texto='Hoje, o Brasil é um dos líderes em energia solar na América
-                                 Latina e no mundo. Saiba os principais motivos por trás desse
-                                 crescimento e os benefícios disponíveis.'
-                            />
-                            <BlogMenor
-                                link='#/blog2'
-                                img={foto2}
-                                titulo='O futuro é solar: tendências e
-                                tecnologias'
-                                texto='Neste blog, vamos explorar as tendências que estão moldando
-                                o futuro solar e impulsionando a transição para uma matriz
-                                energética mais sustentável.'
-                            />
-                             <BlogMenor
-                                link='#/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                 solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                 Solar como solução para se libertar das altas contas de
-                                 energia elétrica.'
-                            />
-                             
 
+                        <div className="cx2blogs">
+                            {arrayBlogs.map((blog) => (
+                                <BlogMenor
+                                    key={blog.id}
+                                    link={blog.link}
+                                    img={blog.img}
+                                    titulo={blog.titulo}
+                                    texto={blog.texto}
+                                />
+                            ))}
                         </div>
-                        {/* <div className="cx3blogs">
-                            <BlogMenor
-                                link='#/blog1'
-                                img={foto1}
-                                titulo='Conheça 5 vantagens de energia
-                                 solar para empresas'
-                                texto='Empresas de diferentes portes vêm investindo em Energia
-                                 Solar como solução para se libertar das altas contas de
-                                 energia elétrica.'
-                            />
-                        </div> */}
-                        {/* <div className="cx1blog">
-                        <BlogMaior
-                                 link='#/blog1'
-                                 img={foto1}
-                                 titulo='Conheça 5 vantagens de energia
-                                 solar para empresas'
-                                 texto='Empresas de diferentes portes vêm investindo em Energia
-                                 Solar como solução para se libertar das altas contas de
-                                 energia elétrica.'
-                            />
-                        </div> */}
+
                     </div>
 
                 </div>
