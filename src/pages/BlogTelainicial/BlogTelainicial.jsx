@@ -69,7 +69,7 @@ export default function BlogTelainicial() {
 
                         <div className="cx1blog">
                             <BlogMaior
-                                link='#/blog4'
+                                link='#/blog/4'
                                 img={foto4}
                                 titulo='Como a energia solar pode
                                 transformar a agricultura?...'
@@ -82,7 +82,7 @@ export default function BlogTelainicial() {
                             {arrayBlogs.map((blog) => (
                                 <BlogMenor
                                     key={blog.id}
-                                    link={blog.link}
+                                    link={`#/blog/${blog.id}`}
                                     img={blog.img}
                                     titulo={blog.titulo}
                                     texto={blog.texto}
