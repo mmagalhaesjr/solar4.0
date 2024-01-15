@@ -18,9 +18,9 @@ export default function RodapeLandingPages() {
 
                 <div className="icones">
 
-                    <a href="https://www.facebook.com/profile.php?id=100059271851196&paipv=0&eav=AfaPpUuxBUsCFiNX0ed7ApQJ6us1oh-EJBbX3IIbv75E8dcIVGNfD4gBAqqSXjicD_E&_rdr" className="ico"><AiOutlineFacebook /></a>
+                    <a href="https://www.facebook.com/solar40mg?mibextid=ZbWKwL" className="ico"><AiOutlineFacebook /></a>
                     <a href="https://www.contato@solar40.com.br" className="ico"><MdOutlineMail /></a>
-                    <a href="https://www.instagram.com/solar4.0zm/" className="ico"><FiInstagram /></a>
+                    <a href="https://www.instagram.com/solar4.0?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="ico"><FiInstagram /></a>
                     <a href="https://api.whatsapp.com/send?phone=31997749508" target="_blank" rel="noreferrer" className="ico"><FaWhatsapp /></a>
 
                 </div>
