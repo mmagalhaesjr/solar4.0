@@ -1,3 +1,4 @@
+import  { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomeContextProvider from './contexts/HomeContext';
@@ -25,6 +26,16 @@ import Blog from './pages/Blogs/Blog/Blog';
 
 
 function App() {
+    useEffect(() => {
+        removerParametroFbclid();
+      }, []);
+    
+      const removerParametroFbclid = () => {
+        if (window.location.href.includes("fbclid")) {
+          const newUrl = window.location.href.split("?")[0]; // Remove o parâmetro fbclid
+          window.history.replaceState({}, document.title, newUrl);
+        }
+      }
     return (
     
             <Router>
