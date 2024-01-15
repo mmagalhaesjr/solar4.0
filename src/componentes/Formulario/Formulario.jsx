@@ -119,7 +119,7 @@ export default function Formulario() {
                                 <option value="não forncido">Tipo de Telhado</option>
                                 <option value="Telhado Colonial">Telhado Colonial </option>
                                 <option value="Telhado de Fibrocimento">Telhado de Fibrocimento </option>
-                                <option value="elhado Metálico">Telhado Metálico</option>
+                                <option value="Telhado Metálico">Telhado Metálico</option>
                                 <option value="Laje exposta">Laje exposta</option>
                             </select>
                         </div>

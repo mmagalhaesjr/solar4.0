@@ -12,11 +12,13 @@ import {arrayBlogs} from '../../componentes/BlogLista/BlogLista'
 
 export default function BlogTelainicial() {
 
+    
+
 
     return (
-
-
+       
         <>
+         
             <Header2 />
 
             <StyledBlogPagina>
@@ -34,7 +36,6 @@ export default function BlogTelainicial() {
                     <div className="cxBlogs">
 
                         {/* <div className="cx1blog">   
-                      
                             <BlogMaior
                                 // link='/blog/4'
                                 link='#/blog/4'
@@ -50,10 +51,8 @@ export default function BlogTelainicial() {
                             {arrayBlogs.map((blog) => (
                                 <BlogMenor
                                     key={blog.id}
-                                  
                                     // link={`/blog/${blog.id}`}
                                     link={`#/blog/${blog.id}`} 
-                                
                                     img={blog.img}
                                     titulo={blog.titulo}
                                     texto={blog.texto}
@@ -65,7 +64,7 @@ export default function BlogTelainicial() {
 
                 </div>
 
-            </StyledBlogPagina>
+            </StyledBlogPagina> 
 
             <Footer />
         </>
