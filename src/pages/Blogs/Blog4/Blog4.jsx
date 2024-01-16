@@ -154,7 +154,7 @@ export default function Blog4() {
                                 Escrito por: Lais Sindorf
                             </p>
                             <p>
-                                Publicado em: 12/01/2024
+                                Publicado em: 16/01/2024
                             </p>
                         </div>
 
