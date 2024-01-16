@@ -24,7 +24,8 @@ export default function Formulario() {
 
    
       
-          emailjs.sendForm('gmailSolar', 'template_7pyg1vg', form.current, 'yiVtsS9VNHrXe6tGn')
+        //   emailjs.sendForm('gmailSolar', 'template_7pyg1vg', form.current, 'yiVtsS9VNHrXe6tGn')
+          emailjs.sendForm('gmailSolar2', 'template_7pyg1vg', form.current, 'yiVtsS9VNHrXe6tGn')
             .then((result) => {
                 navegar("/confirmar");
                 console.log(result.text);
