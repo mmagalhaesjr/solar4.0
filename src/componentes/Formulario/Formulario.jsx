@@ -1,4 +1,8 @@
 import { StyledFormulario } from "./styled";
+import { useNavigate  } from 'react-router-dom';
+
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import casa from '../../assets/orcamento/PNG/casa.png'
 import ferramenta from '../../assets/orcamento/PNG/ferramenta.png'
@@ -11,7 +15,25 @@ import { FaPaperPlane } from "react-icons/fa";
 
 
 export default function Formulario() {
+    const navegar = useNavigate();
+    const form = useRef();
+  
+    
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+   
+      
+          emailjs.sendForm('emailGmail', 'template_38d2i7g', form.current, 'ubKa1lkMlaVum2Nxp')
+            .then((result) => {
+                navegar("/confirmar");
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+        }
+      
     return (
         <StyledFormulario>
 
@@ -24,10 +46,13 @@ export default function Formulario() {
                 </div>
 
 
-                <form action="https://formsubmit.co/contato@solar40.com.br" method="POST">
+                {/* <form action="https://formsubmit.co/contato@solar40.com.br" method="POST"> */}
+
+                <form ref={form}  onSubmit={sendEmail}>
+              
                     <input type="hidden" name="_captcha" value="false"></input>
                     <input type="hidden" name="email" placeholder="email" />
-                    <input type="hidden" name="_next" value='https://www.solar40.com.br/#/confirmar' /> {/* pagina apos o envio */}
+                    {/* <input type="hidden" name="_next" value='https://www.solar40.com.br/#/confirmar' />  */}
                    
                     <div className="inputBox">
                         <div className="cxInput">
