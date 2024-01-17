@@ -98,6 +98,7 @@ export const StyledSobreEnergiaSolarP6 = styled.section`
     border-radius: 30px;
     background-color: #14a238;
     margin-top: 10%;
+    margin-bottom: 5%;
 
     display: flex;
     align-items: center;
