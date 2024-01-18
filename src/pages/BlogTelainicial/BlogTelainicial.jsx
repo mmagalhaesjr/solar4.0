@@ -7,7 +7,8 @@ import Footer from '../../componentes/Footer/Footer';
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import {arrayBlogs} from '../../componentes/BlogLista/BlogLista'
-import foto4 from "../../assets/blogs/blog4/1.png"
+
+import foto5 from "../../assets/blogs/blog5/foto1.png"
 
 
 export default function BlogTelainicial() {
@@ -37,13 +38,14 @@ export default function BlogTelainicial() {
 
                         <div className="cx1blog">   
                             <BlogMaior
-                                // link='/blog/4'
-                                link='#/blog/4'
-                                img={foto4}
-                                titulo='Como a energia solar pode
-                                transformar a agricultura?...'
-                                texto='Abaixo, exploraremos a sinergia entre esses dois setores
-                                aparentemente distintos...'
+                                // link='/blog/5'
+                                link='#/blog/5'
+                                img={foto5}
+                                titulo='Como escolher o melhor projeto de
+                                energia solar para o seu imóvel?'
+                                texto='A seguir, confira passos importantes para ajudá-lo na escolha
+                                do projeto de energia solar que atenda às necessidades
+                                específicas do seu imóvel.'
                             />
                         </div>
 
