@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const StyledBlog = styled.main`
 
 width: fit-content;
@@ -26,7 +27,8 @@ align-items: center;
     align-items: center;
     
     &:hover{
-        background-color: #bfbfbf;
+        background-color: #7fef88b5;
+        color:#ffffff ;
     }
 }
 

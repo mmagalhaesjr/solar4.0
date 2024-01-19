@@ -42,10 +42,9 @@ export default function BlogTelainicial() {
                                 link='#/blog/5'
                                 img={foto5}
                                 titulo='Como escolher o melhor projeto de
-                                energia solar para o seu imóvel?'
+                                energia solar...'
                                 texto='A seguir, confira passos importantes para ajudá-lo na escolha
-                                do projeto de energia solar que atenda às necessidades
-                                específicas do seu imóvel.'
+                                do projeto de energia solar...'
                             />
                         </div>
 
