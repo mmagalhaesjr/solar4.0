@@ -6,20 +6,20 @@ import Footer from '../../componentes/Footer/Footer';
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
-import {arrayBlogs} from '../../componentes/BlogLista/BlogLista'
+import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
-import foto5 from "../../assets/blogs/blog5/foto1.png"
+import foto6 from "../../assets/blogs/blog6/1.png"
 
 
 export default function BlogTelainicial() {
 
-    
+
 
 
     return (
-       
+
         <>
-         
+
             <Header2 />
 
             <StyledBlogPagina>
@@ -36,15 +36,15 @@ export default function BlogTelainicial() {
 
                     <div className="cxBlogs">
 
-                        <div className="cx1blog">   
+                        <div className="cx1blog">
                             <BlogMaior
-                                // link='/blog/5'
-                                link='#/blog/5'
-                                img={foto5}
-                                titulo='Como escolher o melhor projeto de
-                                energia solar...'
-                                texto='A seguir, confira passos importantes para ajudá-lo na escolha
-                                do projeto de energia solar...'
+                                // link='/blog/6'
+                                link='#/blog/6'
+                                img={foto6}
+                                titulo='Por que energia solar e mobilidade
+                                elétrica formam a dupla sustentável
+                                do futuro?'
+                                texto='Confira este blog para entender como a integração desses...'
                             />
                         </div>
 
@@ -53,7 +53,7 @@ export default function BlogTelainicial() {
                                 <BlogMenor
                                     key={blog.id}
                                     // link={`/blog/${blog.id}`}
-                                    link={`#/blog/${blog.id}`} 
+                                    link={`#/blog/${blog.id}`}
                                     img={blog.img}
                                     titulo={blog.titulo}
                                     texto={blog.texto}
@@ -65,7 +65,7 @@ export default function BlogTelainicial() {
 
                 </div>
 
-            </StyledBlogPagina> 
+            </StyledBlogPagina>
 
             <Footer />
         </>

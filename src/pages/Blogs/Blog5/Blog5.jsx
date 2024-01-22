@@ -35,7 +35,7 @@ export default function Blog5() {
                             <p>
                                 A seguir, confira passos importantes para ajudá-lo na escolha
                                 do projeto de energia solar que atenda às necessidades
-                                específicas do seu imóvel.
+                                específicas do seu imóvel
                             </p>
                         </div>
                         <div className="texto" >
@@ -55,7 +55,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                1. Avalie o potencial solar da propriedade.
+                                1. Avalie o potencial solar da propriedade
                             </p>
                         </div>
                         <div className="texto" >
@@ -69,7 +69,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                2. Determine a capacidade necessária.
+                                2. Determine a capacidade necessária
                             </p>
                         </div>
                         <div className="texto" >
@@ -82,7 +82,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                3. Considere a estética e o espaço disponível.
+                                3. Considere a estética e o espaço disponível
                             </p>
                         </div>
                         <div className="texto" >
@@ -94,7 +94,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                4. Escolha entre painéis solares tradicionais e novas tecnologias.
+                                4. Escolha entre painéis solares tradicionais e novas tecnologias
                             </p>
                         </div>
                         <div className="texto" >
@@ -106,7 +106,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                5. Avalie o retorno sobre o investimento (ROI).
+                                5. Avalie o retorno sobre o investimento (ROI)
                             </p>
                         </div>
                         <div className="texto" >
@@ -118,7 +118,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                6. Obtenha diferentes orçamentos e consulte profissionais.
+                                6. Obtenha diferentes orçamentos e consulte profissionais
                             </p>
                         </div>
                         <div className="texto" >
@@ -130,7 +130,7 @@ export default function Blog5() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                Faça uma escolha consciente para um futuro sustentável.
+                                Faça uma escolha consciente para um futuro sustentável
                             </p>
                         </div>
                         <div className="texto" >

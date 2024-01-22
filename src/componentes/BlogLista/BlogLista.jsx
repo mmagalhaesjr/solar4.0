@@ -2,8 +2,16 @@ import foto1 from "../../assets/blogs/blog1/1.png"
 import foto2 from "../../assets/blogs/blog2/1.png"
 import foto3 from "../../assets/blogs/blog3/1.png"
 import foto4 from "../../assets/blogs/blog4/1.png"
+import foto5 from "../../assets/blogs/blog5/foto1.png"
 
 export const arrayBlogs = [
+    {
+        id: 5,
+        // link: '#/blog5',
+        img: foto5,
+        titulo:'Como a energia solar pode transformar a agricultura?...',
+        texto: 'Abaixo, exploraremos a sinergia entre esses dois setores aparentemente distintos...'
+    },
     {
         id: 4,
         // link: '#/blog4',
