@@ -34,9 +34,8 @@ export default function Blog6() {
                     <div id="container2">
                         <div className="subTitulo" id="subTitulo1" >
                             <p>
-                                Por que energia solar e mobilidade
-                                elétrica formam a dupla sustentável
-                                do futuro?
+                                Confira este blog para entender como a integração desses
+                                sistemas pode moldar um futuro mais limpo e eficiente
                             </p>
                         </div>
                         <div className="img">
@@ -44,7 +43,7 @@ export default function Blog6() {
                         </div>
                         <div className="subTitulo" >
                             <p>
-                                O Poder do sol na geração de eletricidade limpa
+                                O poder do sol na geração de eletricidade limpa
                             </p>
                         </div>
                         <div className="texto" >
