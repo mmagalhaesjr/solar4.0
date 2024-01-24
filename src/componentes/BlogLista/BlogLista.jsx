@@ -7,7 +7,7 @@ import foto5 from "../../assets/blogs/blog5/foto1.png"
 export const arrayBlogs = [
     {
         id: 5,
-        // link: '#/blog5',
+        
         img: foto5,
         titulo:'Como escolher o melhor projeto de energia solar para o seu imóvel?',
         texto: 'A seguir, confira passos importantes para ajudá-lo na escolha do projeto de energia solar ...'
