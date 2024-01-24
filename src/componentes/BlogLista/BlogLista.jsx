@@ -9,8 +9,8 @@ export const arrayBlogs = [
         id: 5,
         // link: '#/blog5',
         img: foto5,
-        titulo:'Como a energia solar pode transformar a agricultura?...',
-        texto: 'Abaixo, exploraremos a sinergia entre esses dois setores aparentemente distintos...'
+        titulo:'Como escolher o melhor projeto de energia solar para o seu imóvel?',
+        texto: 'A seguir, confira passos importantes para ajudá-lo na escolha do projeto de energia solar ...'
     },
     {
         id: 4,
