@@ -3,8 +3,18 @@ import foto2 from "../../assets/blogs/blog2/1.png"
 import foto3 from "../../assets/blogs/blog3/1.png"
 import foto4 from "../../assets/blogs/blog4/1.png"
 import foto5 from "../../assets/blogs/blog5/foto1.png"
+import foto6 from "../../assets/blogs/blog6/1.png"
+
+
 
 export const arrayBlogs = [
+    {
+        id: 6,
+        
+        img: foto6,
+        titulo:'Por que energia solar e mobilidade elétrica formam a dupla sustentável do futuro?',
+        texto: ' Confira este blog para entender como a integração desses sistemas pode moldar um futuro...'
+    },
     {
         id: 5,
         

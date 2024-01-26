@@ -8,7 +8,7 @@ import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
-import foto6 from "../../assets/blogs/blog6/1.png"
+import foto7 from "../../assets/blogs/blog7/1.png"
 
 
 export default function BlogTelainicial() {
@@ -36,15 +36,16 @@ export default function BlogTelainicial() {
 
                     <div className="cxBlogs">
 
+
                         <div className="cx1blog">
                             <BlogMaior
-                                // link='/blog/6'
-                                link='#/blog/6'
-                                img={foto6}
-                                titulo='Por que energia solar e mobilidade
-                                elétrica formam a dupla sustentável
-                                do futuro?'
-                                texto='Confira este blog para entender como a integração desses...'
+                                // link='/blog/7'
+                                link='#/blog/7'
+                                img={foto7}
+                                titulo='Curiosidades sobre energia solar
+                                que você não sabia'
+                                texto='A energia solar é uma fonte de energia renovável fascinante
+                                e cheia de curiosidades ...'
                             />
                         </div>
 
