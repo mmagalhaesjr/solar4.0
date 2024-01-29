@@ -95,10 +95,10 @@ align-items: center;
     
 .blog{
    width: 100%;
-   height: 150px;
+   height: 100px;
    background-color: #ffffff;
    color:#000000;
-   border-radius:30px;
+   border-radius:10px;
 
    display: flex;
    flex-direction: row;
@@ -117,10 +117,10 @@ align-items: center;
 }
 .blog h1{
     width: 90%;
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: left;
     margin-top: 5%;
-    font-weight: 700; 
+    font-weight: 600; 
     
 }
 .blog p{
@@ -129,7 +129,7 @@ align-items: center;
 .foto{
     width: 40%;
     height:100%;
-    border-radius:30px;
+    border-radius:10px;
     overflow: hidden;
    
 }
