@@ -10,54 +10,59 @@ align-items: center;
 justify-content: center;
 
 
-.materia{
-    width: 90%;
+.blog{
+    width: 100%;
     height: 100%;
     background-color: #ffffff;
     color:#000000;
-    border-radius:50px;
+    border-radius:10px;
 
     display: flex;
     align-items: center;
-    
+
     &:hover{
         background-color: #7fef88b5;
         color:#ffffff ;
     }
 }
+#foto{
+    width: 60%;
+    height: 100%;
+    border-radius:10px;
+    overflow: hidden;
+}
+#foto img{
+    width: 100%;
+    height: 100%; 
+}
+
 #texto{
+    height: 100%;
+    width: 40%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.texto{
+
+ h1{
     width: 90%;
-}
-.materia h1{
+    text-align: left;
     font-size: 1rem;
-    text-align: center;
     margin-top: 5%;
     font-weight: 700; 
-    
 }
-.materia p{
+ p{
+    width: 90%;
+    text-align: left;
     font-size: .7rem;
     margin-top: 10%;
     margin-bottom: 10%;
     width: 90%;
 }
-.foto{
-    width: 100%;
-    height: 300px;
-    border-radius:50px;
-    overflow: hidden;
-}
-.foto img{
-    width: 100%;
-    height: 100%; 
-}
+
 
 @media(max-width:1300px) {
     #titulo{
@@ -81,56 +86,59 @@ justify-content: center;
 //tudo
 width: 100%;
 
-.materia{
-    width: 90%;
-    height: 90%;
-    max-height: 210px;
+.blog{
+    width: 100%;
+    height: 100%;
     background-color: #ffffff;
     color:#000000;
-    border-radius:50px;
+    border-radius:10px;
 
-    display: flex;
-    align-items: center;
-    
-    &:hover{
-        background-color: #bfbfbf;
-    }
-}
-#texto{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
+    &:hover{
+        background-color: #7fef88b5;
+        color:#ffffff ;
+    }
 }
 
-.texto{
-    width: 90%;
-}
-.materia h1{
-    font-size: .9rem;
-    text-align: left;
-    margin-top: 5%;
-    font-weight: 700; 
-    
-}
-.materia p{
-    font-size: .7rem;
-    text-align: left;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 90%;
-}
-.foto{
-    width: 95%;
-    height: 80%;
-    border-radius:50px;
+#foto{
+    width: 100%;
+    height: 70%;
+    border-radius:10px;
     overflow: hidden;
    
-.foto img{
+#foto img{
     width: 100%;
     height: 100%; 
 }
 }
+
+#texto{
+    width: 95%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.blog h1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700; 
+    
+}
+.blog p{
+    text-align: center;
+    font-size: 1rem;
+    width: 90%;
+}
+
 }
 
 `

@@ -32,10 +32,10 @@ export default function BlogTelainicial() {
 
                 <div id="container">
 
-                    <div className="cxBlogs">
+                    
 
 
-                        <div className="cx1blog">
+                        <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
                                 link='#/blog/8'
@@ -46,7 +46,7 @@ export default function BlogTelainicial() {
                             />
                         </div>
 
-                        <div className="cx2blogs">
+                        <div className="cx2">
                             {arrayBlogs.map((blog) => (
                                 <BlogMenor
                                     key={blog.id}
@@ -61,7 +61,7 @@ export default function BlogTelainicial() {
 
                     </div>
 
-                </div>
+               
 
             </StyledBlogPagina>
 

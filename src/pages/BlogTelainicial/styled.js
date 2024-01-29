@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const StyledBlogPagina = styled.main`
 width: 100%;
 
-
 display: flex;
 align-items: center;
 text-align: center;
@@ -42,26 +41,16 @@ color: #ffffff;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 98%;
-
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; 
     gap: 5%; 
-
-
 }
-.cxBlogs{
-    width: 100%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.cx1blog{
+.cx1{
     width: 90%;
     max-width: 800px;
     height: 350px;
@@ -69,68 +58,52 @@ color: #ffffff;
     display: flex;
     align-items: center;
     justify-content:center;
-
     
+   
 }
-.cx2blogs{
+.cx2{
     width: 100%;
    
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
-    gap: 2%;
-}
-.cx3blogs{
-    width: 90%;
-    max-width: 800px;
-
-    display: flex;
-    justify-content:center;
-    align-items: center;
     gap: 3%;
-   
 }
+
 
 @media(max-width:600px) {
     #container{
         width: 98%;
     }
-    .cxBlogs{
-        max-width: none;
-        width: 100%;
-    }
-    .cx1blog{
-    width: 90%;
-    max-width: 800px;
-    height: 250px;
-
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-    .cx2blogs{
-    width: 100%;
-   
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
-    gap: 0;
-
-    
-  
-}
-    .cx1blog{
-        width: 100%;
-    }
-}
-
-@media(max-width:500px) {
     #titulo{
-        margin-top: 20%;
+        margin-top: 15%;
+        margin-bottom: 5%;
     }
    
+    .cx1{
+        width: 90%;
+        height: fit-content;
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-bottom: 5%;
 }
+    .cx2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:space-between;
+        gap: 0;
+}
+    .cx1{
+        width: 100%;
+    }
+}
+
+
 
 `

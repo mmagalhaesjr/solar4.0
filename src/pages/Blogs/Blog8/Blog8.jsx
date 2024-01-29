@@ -44,9 +44,9 @@ export default function Blog8() {
                         <div className="texto" >
                             <p>
                                 90% dos brasileiros desejam gerar
-                                a própria energia
-                                Entenda a lei aprovada em 6 de janeiro de 2022
-                                Oitenta e quatro por cento dos entrevistados no estudo conduzido pelo IBOPE e pela
+                                a própria energia.
+                                Entenda a lei aprovada em 6 de janeiro de 2022,
+                                84% dos entrevistados no estudo conduzido pelo IBOPE e pela
                                 Abraceel (Associação Brasileira dos Comercializadores de Energia) expressaram a opinião de
                                 que a energia elétrica é cara ou muito cara.
                             </p>

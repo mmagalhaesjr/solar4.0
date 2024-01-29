@@ -6,18 +6,18 @@ export default function BlogMaior(p) {
 
         <StyledBlog>
 
-            <a className="materia" href={p.link}  >
+            <a className="blog" href={p.link}  >
 
-                <div className="foto">
+                <div id="foto">
                     <img src={p.img} alt="foto Coworking" />
                 </div>
                 
                 <div id="texto">
-                    <div className="texto">
-                        <h1>
-                            {p.titulo}
-                        </h1>
-                    </div>
+                    
+                    <h1>
+                        {p.titulo}
+                    </h1>
+                    
                     <p>
                         {p.texto}
                     </p>

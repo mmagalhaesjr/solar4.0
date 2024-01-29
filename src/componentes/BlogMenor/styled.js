@@ -2,10 +2,9 @@ import styled from 'styled-components';
 
 
 export const StyledBlog = styled.main`
-
 width: fit-content;
-margin-top: 2.5%;
-margin-bottom: 2.5%;
+margin-top: 1.5%;
+margin-bottom: 1.5%;
 
 display: flex;
 align-items: center;
@@ -14,9 +13,8 @@ align-items: center;
 
 
 
-.materia{
-   
-    max-width: 300px;
+.blog{
+    width: 300px;
     height: 360px;
     background-color: #ffffff;
     color:#000000;
@@ -25,6 +23,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+   
     
     &:hover{
         background-color: #7fef88b5;
@@ -32,23 +32,6 @@ align-items: center;
     }
 }
 
-.texto{
-    width: 90%;
-   
-}
-.materia h1{
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 5%;
-    font-weight: 700; 
-    
-}
-.materia p{
-    font-size: .7rem;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 90%;
-}
 .foto{
     width: 100%;
     height: 200px;
@@ -61,6 +44,25 @@ align-items: center;
     height: 100%; 
 }
 
+.texto{
+    width: 90%;
+   
+}
+.blog h1{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700; 
+    
+}
+.blog p{
+    font-size: .7rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+
 @media(max-width:1300px) {
     #titulo{
         margin-top: 10%;
@@ -72,9 +74,9 @@ align-items: center;
         margin-top: 20%;
     } 
 
-    .materia{
+    .blog{
     width: 100%;
-    max-width: 300px;
+    width: 300px;
     height: 360px;
     background-color: #ffffff;
     color:#000000;
@@ -89,17 +91,17 @@ align-items: center;
 }
 }
 @media(max-width:600px) {
-    width: 50%;
+    width: 100%;
     
-.materia{
-   width: 150px;
-   height: 230px;
+.blog{
+   width: 100%;
+   height: 150px;
    background-color: #ffffff;
    color:#000000;
    border-radius:30px;
 
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    align-items: center;
    
    &:hover{
@@ -113,19 +115,20 @@ align-items: center;
     justify-content: center;
    
 }
-.materia h1{
-    font-size: .8rem;
-    text-align: center;
+.blog h1{
+    width: 90%;
+    font-size: 1rem;
+    text-align: left;
     margin-top: 5%;
     font-weight: 700; 
     
 }
-.materia p{
+.blog p{
    display: none;
 }
 .foto{
-    width: 100%;
-    height:150px;
+    width: 40%;
+    height:100%;
     border-radius:30px;
     overflow: hidden;
    
