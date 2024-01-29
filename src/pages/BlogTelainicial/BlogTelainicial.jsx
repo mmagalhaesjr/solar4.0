@@ -8,12 +8,10 @@ import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
-import foto7 from "../../assets/blogs/blog7/1.png"
+import foto8 from "../../assets/blogs/blog8/3.png"
 
 
 export default function BlogTelainicial() {
-
-
 
 
     return (
@@ -40,12 +38,11 @@ export default function BlogTelainicial() {
                         <div className="cx1blog">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/7'
-                                img={foto7}
-                                titulo='Curiosidades sobre energia solar
-                                que você não sabia'
-                                texto='A energia solar é uma fonte de energia renovável fascinante
-                                e cheia de curiosidades ...'
+                                link='#/blog/8'
+                                img={foto8}
+                                titulo='90% dos brasileiros desejam gerar
+                                a própria energia'
+                                texto='Entenda a lei aprovada em 6 de janeiro de 2022...'
                             />
                         </div>
 

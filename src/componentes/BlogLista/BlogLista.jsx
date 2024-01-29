@@ -4,10 +4,18 @@ import foto3 from "../../assets/blogs/blog3/1.png"
 import foto4 from "../../assets/blogs/blog4/1.png"
 import foto5 from "../../assets/blogs/blog5/foto1.png"
 import foto6 from "../../assets/blogs/blog6/1.png"
+import foto7 from "../../assets/blogs/blog7/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 7,
+        
+        img: foto7,
+        titulo:'Curiosidades sobre energia solar que você não sabia',
+        texto: 'A energia solar é uma fonte de energia renovável fascinante e cheia de curiosidades ...'
+    },
     {
         id: 6,
         
