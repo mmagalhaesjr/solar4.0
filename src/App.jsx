@@ -26,13 +26,15 @@ import Blog from './pages/Blogs/Blog/Blog';
 
 
 function App() {
+
+    // Remove o parâmetro fbclid
     useEffect(() => {
         removerParametroFbclid();
       }, []);
     
       const removerParametroFbclid = () => {
         if (window.location.href.includes("fbclid")) {
-          const newUrl = window.location.href.split("?")[0]; // Remove o parâmetro fbclid
+          const newUrl = window.location.href.split("?")[0]; 
           window.history.replaceState({}, document.title, newUrl);
         }
       }
@@ -54,7 +56,7 @@ function App() {
                             <Route path="/opm" element={<OPM />} />
                             <Route path="/vi" element={<VI />} />
                             <Route path="/confirmar" element={<ConfirmarEnvio />} />
-
+                            
                             {/* landinpages---------- */}
                             <Route path="/economizeenergia" element={<TopoFunil />} />
                             <Route path="/energiasolar" element={<MeioFunil />} />
