@@ -23,7 +23,7 @@ export default function Footer() {
                     <h3 className='tituloContato'>Contato</h3>
                     <div className="contContatos" id="endereco" >
                         <div className="icones">
-                            <div> <span> Belo Horizonte </span> &nbsp; <BsTelephone /> &nbsp;&nbsp; <p>(31)&nbsp;98534-5277 </p></div>
+                            <div> <span> Belo Horizonte </span> &nbsp; <BsTelephone /> &nbsp;&nbsp; <p>(31)&nbsp;99774-9508 </p></div>
                             
                         </div>
                         <div className="icones" >
