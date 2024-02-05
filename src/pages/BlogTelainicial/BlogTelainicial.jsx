@@ -4,10 +4,11 @@ import { BsWhatsapp } from 'react-icons/bs';
 import Header2 from '../../componentes/Header2/Header2';
 import Footer from '../../componentes/Footer/Footer';
 
-import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
+
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
+import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import foto9 from "../../assets/blogs/blog9/1.png"
 
 
@@ -40,9 +41,10 @@ export default function BlogTelainicial() {
                                 // link='/blog/7'
                                 link='#/blog/9'
                                 img={foto9}
-                                titulo='Energia solar e hidrogênio verde'
-                                texto=' Neste blog, exploraremos como a energia solar e o hidrogênio
-                                verde estão interligados'
+                                titulo='Como usar uma usina solar para
+                                investimento?'
+                                texto='Confira, a seguir, por que você deveria considerar investir em
+                                uma usina de energia solar'
                             />
                         </div>
 
