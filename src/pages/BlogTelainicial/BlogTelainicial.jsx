@@ -8,7 +8,7 @@ import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
 import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
-import foto8 from "../../assets/blogs/blog8/3.png"
+import foto9 from "../../assets/blogs/blog9/1.png"
 
 
 export default function BlogTelainicial() {
@@ -38,11 +38,11 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/8'
-                                img={foto8}
-                                titulo='90% dos brasileiros desejam gerar
-                                a própria energia'
-                                texto='Entenda a lei aprovada em 6 de janeiro de 2022...'
+                                link='#/blog/9'
+                                img={foto9}
+                                titulo='Energia solar e hidrogênio verde'
+                                texto=' Neste blog, exploraremos como a energia solar e o hidrogênio
+                                verde estão interligados'
                             />
                         </div>
 

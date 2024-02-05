@@ -5,10 +5,18 @@ import foto4 from "../../assets/blogs/blog4/1.png"
 import foto5 from "../../assets/blogs/blog5/foto1.png"
 import foto6 from "../../assets/blogs/blog6/1.png"
 import foto7 from "../../assets/blogs/blog7/1.png"
+import foto8 from "../../assets/blogs/blog8/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 8,
+        
+        img: foto8,
+        titulo:'90% dos brasileiros desejam gerar a própria energia',
+        texto: 'Entenda a lei aprovada em 6 de janeiro de 2022...'
+    },
     {
         id: 7,
         
