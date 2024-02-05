@@ -176,7 +176,7 @@ export default function Blog9() {
                         </div>
                         <div className="texto" >
                             <p>
-                            <span>5. Conexão à rede elétrica:</span> Após a instalação, a usina solar é conectada à rede elétri local,
+                            <span>5. Conexão à rede elétrica:</span> Após a instalação, a usina solar é conectada à rede elétrica local,
                                 envolvendo a instalação de um medidor bidirecional para monitorar o consumo e a geração de
                                 energia.
                             </p>
