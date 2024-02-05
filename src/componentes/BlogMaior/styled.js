@@ -117,13 +117,12 @@ width: 100%;
 
 #texto{
     width: 95%;
-    height: 40%;
+    height:40%;
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 
@@ -131,12 +130,15 @@ width: 100%;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 700; 
-    
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .blog p{
     text-align: center;
     font-size: 1rem;
     width: 90%;
+    margin-top: 0;
+    margin-bottom: 2%;
 }
 
 }
