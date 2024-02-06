@@ -55,17 +55,7 @@ export default function CadaDepoimento() {
                             contratação desta empresa por ter sido muito honesta e responsável com o que foi prometido."
                         />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Depoimento
-                            img="https://lh3.googleusercontent.com/a-/ALV-UjX-0hTSTOqrADJKl_ALGsrMV38-fCk1gdCAujnjYye93Vg=w75-h75-p-rp-mo-br100"
-                            nome="Júnia Borges"
-                            data="8 meses atrás"
-                            texto=" Fizemos a instalação do sistema fotovoltaico com o Sr. Fábio e ficamos impressionados com o atendimento.
-                            Desde a apresentação da tecnologia, a compra, presteza em nos atender sempre que precisávamos,
-                            na instalação (muito rápida, por sinal) e no pós-venda, sempre atencioso! Estamos muito satisfeitos com a geração da energia,
-                            sistema muito bom! Enfim, recomendamos a Solar 2.0 de olhos fechados!"
-                        />
-                    </SwiperSlide>
+                  
                     <SwiperSlide>
                         <Depoimento
                             img="https://lh3.googleusercontent.com/a/ACg8ocKHpeLUZ44DDsSZLisfNUMsk7p5Lu0crm9rs-mEFadk=w75-h75-p-rp-mo-br100"
