@@ -3,7 +3,8 @@ import { HashRouter as Router, Routes, Route} from 'react-router-dom';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomeContextProvider from './contexts/HomeContext';
 
-import Manutencao from './pages/Manutencao/Manutencao';
+// import Manutencao from './pages/Manutencao/Manutencao';
+
 import Main from './pages/Main/Main';
 import Error404 from './pages/Error/Error';
 import Solucoes from './pages/Solucoes/Solucoes';
@@ -47,7 +48,7 @@ function App() {
                 <HomeContextProvider>
                     <div className="App">
                         <Routes>
-                            <Route path="/manutencao" element={<Manutencao />} />
+                            {/* <Route path="/" element={<Manutencao />} /> */}
 
                             <Route path="*" element={<Error404 />} />
                             <Route path="/" element={<Main />} />
