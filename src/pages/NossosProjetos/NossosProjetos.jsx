@@ -1,4 +1,5 @@
 import { StyledNossosProjetos } from "./styled";
+
 import foto1 from "../../assets/projetos/1.jpg"
 import foto2 from "../../assets/projetos/2.jpg"
 import foto3 from "../../assets/projetos/3.jpg"

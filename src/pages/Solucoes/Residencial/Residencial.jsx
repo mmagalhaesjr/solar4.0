@@ -63,7 +63,9 @@ export default function Residencial() {
                 <div id="box">
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={reducao} alt="foto" />
                         <h3 className="tituloBox">
                             Redução de custos
@@ -75,7 +77,9 @@ export default function Residencial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={retorno} alt="foto" />
                         <h3 className="tituloBox">
                             Retorno Financeiro
@@ -87,7 +91,9 @@ export default function Residencial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={independencia} alt="foto" />
                         <h3 className="tituloBox">
                             Independência Energética
@@ -101,7 +107,9 @@ export default function Residencial() {
 
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={manutencao} alt="foto" />
                         <h3 className="tituloBox">
                             Durabilidade e Baixa Manutenção
@@ -112,7 +120,9 @@ export default function Residencial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={valorizacao} alt="foto" />
                         <h3 className="tituloBox">
                             Valorização do Imóvel
@@ -123,7 +133,9 @@ export default function Residencial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={sustentabilidade} alt="foto" />
                         <h3 className="tituloBox">
                             Consciência Ambiental

@@ -1,6 +1,6 @@
 import { StyledComercial, StyledContainerIcones, StyledContainerImagens } from "./styled";
 
-import {  useEffect } from "react";
+import { useEffect } from "react";
 
 import Header2 from '../../../componentes/Header2/Header2';
 import Footer from "../../../componentes/Footer/Footer";
@@ -35,10 +35,16 @@ import foto8 from '../../../assets/comercial/comercial8.jpeg'
 
 
 
+
+
 export default function Comercial() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+  
+
+
     return (
         <>
             <Header2 />
@@ -57,12 +63,14 @@ export default function Comercial() {
             </StyledComercial>
 
 
-            <StyledContainerIcones>
+            <StyledContainerIcones >
 
                 <div id="box">
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"  >
                         <img src={reducao} alt="foto" />
                         <h3 className="tituloBox">
                             Redução de custos
@@ -74,7 +82,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"  >
                         <img src={retorno} alt="foto" />
                         <h3 className="tituloBox">
                             Retorno Financeiro
@@ -86,7 +96,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" >
                         <img src={independencia} alt="foto" />
                         <h3 className="tituloBox">
                             Independência Energética
@@ -99,7 +111,9 @@ export default function Comercial() {
 
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={manutencao} alt="foto" />
                         <h3 className="tituloBox">
                             Durabilidade e Baixa Manutenção
@@ -110,7 +124,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={lucro} alt="foto" />
                         <h3 className="tituloBox">
                             Aumento de Lucro
@@ -121,7 +137,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={marketing} alt="foto" />
                         <h3 className="tituloBox">
                             Benefícios de marketing

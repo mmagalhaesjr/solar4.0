@@ -65,7 +65,9 @@ export default function Comercial() {
                 <div id="box">
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={reducao} alt="" />
                         <h3 className="tituloBox">
                             Redução de custos
@@ -77,7 +79,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={retorno} alt="" />
                         <h3 className="tituloBox">
                             Retorno Financeiro
@@ -89,7 +93,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={independencia} alt="" />
                         <h3 className="tituloBox">
                             Independência Energética
@@ -102,7 +108,9 @@ export default function Comercial() {
 
 
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={manutencao} alt="" />
                         <h3 className="tituloBox">
                             Durabilidade e Baixa Manutenção
@@ -113,7 +121,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={lucro} alt="" />
                         <h3 className="tituloBox">
                             Aumento de Lucro
@@ -124,7 +134,9 @@ export default function Comercial() {
                         </p>
                     </div>
 
-                    <div className="box">
+                    <div className="box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <img src={marketing} alt="" />
                         <h3 className="tituloBox">
                             Benefícios de marketing
