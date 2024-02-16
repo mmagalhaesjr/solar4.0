@@ -30,13 +30,13 @@ export default function Numeros() {
         if (animationActive) {
             interval = setInterval(() => {
                 setNumber1(prevNumber => {
-                    const newNumber = prevNumber + 10000;
-                    return newNumber >= 600000 ? 600000 : newNumber;
+                    const newNumber = prevNumber + 2000;
+                    return newNumber >= 85000 ? 85000 : newNumber;
                 });
     
                 setNumber2(prevNumber => {
-                    const newNumber = prevNumber + 400;
-                    return newNumber >= 15000 ? 15000 : newNumber;
+                    const newNumber = prevNumber + 50;
+                    return newNumber >= 2000 ? 2000 : newNumber;
                 });
             }, 50);
         }
