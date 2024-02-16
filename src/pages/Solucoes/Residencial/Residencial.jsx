@@ -27,6 +27,14 @@ import foto4 from '../../../assets/residencial/residencial4.jpeg'
 import foto5 from '../../../assets/residencial/residencial5.jpeg'
 import foto6 from '../../../assets/residencial/residencial6.jpeg'
 import foto7 from '../../../assets/residencial/residencial7.jpeg'
+import foto8 from '../../../assets/residencial/residencial8.jpg'
+import foto9 from '../../../assets/residencial/residencial9.jpg'
+import foto10 from '../../../assets/residencial/residencial10.jpg'
+import foto11 from '../../../assets/residencial/residencial11.jpg'
+import foto12 from '../../../assets/residencial/residencial12.jpg'
+import foto13 from '../../../assets/residencial/residencial13.jpg'
+import foto14 from '../../../assets/residencial/residencial14.jpg'
+import foto15 from '../../../assets/residencial/residencial15.jpg'
 
 import Footer from "../../../componentes/Footer/Footer";
 import Header2 from '../../../componentes/Header2/Header2';
@@ -180,6 +188,14 @@ export default function Residencial() {
                         <SwiperSlide><img className="foto" src={foto5} alt="foto" /></SwiperSlide>
                         <SwiperSlide><img className="foto" src={foto6} alt="foto" /></SwiperSlide>
                         <SwiperSlide><img className="foto" src={foto7} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto8} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto9} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto10} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto11} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto12} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto13} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto14} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto15} alt="foto" /></SwiperSlide>
 
                     </Swiper>
 
