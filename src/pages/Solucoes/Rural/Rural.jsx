@@ -30,6 +30,7 @@ import foto4 from '../../../assets/agro/agro4.jpeg'
 import foto5 from '../../../assets/agro/agro5.jpeg'
 import foto6 from '../../../assets/agro/agro6.jpeg'
 import foto7 from '../../../assets/agro/agro7.jpeg'
+import foto8 from '../../../assets/agro/agro8.jpg'
 
 
 export default function Comercial() {
@@ -181,6 +182,7 @@ export default function Comercial() {
                         <SwiperSlide><img className="foto" src={foto5} alt="foto" /></SwiperSlide>
                         <SwiperSlide><img className="foto" src={foto6} alt="foto" /></SwiperSlide>
                         <SwiperSlide><img className="foto" src={foto7} alt="foto" /></SwiperSlide>
+                        <SwiperSlide><img className="foto" src={foto8} alt="foto" /></SwiperSlide>
                       
 
                     </Swiper>
