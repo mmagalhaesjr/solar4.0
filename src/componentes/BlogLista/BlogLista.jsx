@@ -6,10 +6,18 @@ import foto5 from "../../assets/blogs/blog5/foto1.png"
 import foto6 from "../../assets/blogs/blog6/1.png"
 import foto7 from "../../assets/blogs/blog7/1.png"
 import foto8 from "../../assets/blogs/blog8/1.png"
+import foto9 from "../../assets/blogs/blog9/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 9,
+        
+        img: foto9,
+        titulo:'Como usar uma usina solar para investimento?',
+        texto: 'Confira, a seguir, por que você deveria considerar investir em uma usina de energia solar'
+    },
     {
         id: 8,
         

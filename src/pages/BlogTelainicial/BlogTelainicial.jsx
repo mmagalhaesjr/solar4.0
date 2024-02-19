@@ -9,7 +9,7 @@ import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import foto9 from "../../assets/blogs/blog9/1.png"
+import foto10 from "../../assets/blogs/blog10/1.png"
 
 
 export default function BlogTelainicial() {
@@ -39,12 +39,12 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/9'
-                                img={foto9}
-                                titulo='Como usar uma usina solar para
-                                investimento?'
-                                texto='Confira, a seguir, por que você deveria considerar investir em
-                                uma usina de energia solar'
+                                link='#/blog/10'
+                                img={foto10}
+                                titulo='O poder da energia solar no século
+                                XXI'
+                                texto='Bem-vindo ao nosso blog! Hoje vamos explorar o papel
+                                crucial da energia solar no cenário atual'
                             />
                         </div>
 
