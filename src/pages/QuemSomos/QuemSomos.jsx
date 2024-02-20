@@ -58,10 +58,10 @@ export default function QuemSomos() {
                     <Swiper pagination={{ clickable: true }}
                         slidesPerView={window.innerWidth < 600 ? 1 : 1}
                         loop={true}
-                        autoplay={{
-                            delay: 4000,
-                            disableOnInteraction: false
-                        }}
+                        // autoplay={{
+                        //     delay: 4000,
+                        //     disableOnInteraction: false
+                        // }}
                         effect={'fade'}
                         navigation={true}
                         speed={5000}
