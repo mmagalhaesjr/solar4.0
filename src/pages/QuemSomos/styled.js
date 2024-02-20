@@ -46,7 +46,9 @@ export const StyledQuemSomos = styled.section`
     width: 100%;
     height: 100%;
 
-    border: solid 3px  rgba(255, 255, 255, 0.537);  
+    border-right: 15px solid  transparent;
+    border-left: 15px solid  transparent;
+    overflow:hidden;    
 }
 
 .swiper-button-prev,
@@ -190,7 +192,9 @@ span{
     width: 100%;
     height: 100%;
 
-    border: solid 3px  rgba(255, 255, 255, 0.537);  
+    border-right: 5px solid  transparent;
+    border-left: 5px solid  transparent;
+    overflow:hidden; 
 }
 
 .swiper-button-prev,
