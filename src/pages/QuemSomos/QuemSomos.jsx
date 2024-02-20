@@ -60,8 +60,11 @@ export default function QuemSomos() {
                         loop={true}
                         // autoplay={{
                         //     delay: 4000,
-                        //     disableOnInteraction: false
+                        //     disableOnInteraction: false,
                         // }}
+
+                        
+                        
                         effect={'fade'}
                         navigation={true}
                         speed={5000}
