@@ -56,7 +56,7 @@ export default function QuemSomos() {
                         slidesPerView={window.innerWidth < 600 ? 1 : 1}
                         loop={true}
                         autoplay={{
-                            delay: 3000,
+                            delay: 4000,
                             disableOnInteraction: false
                         }}
                         effect={'fade'}
