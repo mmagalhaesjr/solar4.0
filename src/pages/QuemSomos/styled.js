@@ -169,13 +169,14 @@ span{
 
     #cxVideo{
     width: 90%;
-    height: 500px;
+    height: 300px;
     
     background: rgba(255, 255, 255, 0.537); 
     backdrop-filter: blur(10px); 
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     margin-top: -30px;
+    margin-bottom: 50px;
 
     display: flex;
     align-items: center;
