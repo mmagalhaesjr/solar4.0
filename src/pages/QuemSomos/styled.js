@@ -29,8 +29,8 @@ export const StyledQuemSomos = styled.section`
     width: 40%;
     height: 500px;
     
-    background: rgba(255, 255, 255, 0.537); 
-    backdrop-filter: blur(10px); 
+    /* background: rgba(255, 255, 255, 0.537); 
+    backdrop-filter: blur(10px);  */
     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
     border-radius:10px ;
     border-radius: 20px;
@@ -89,6 +89,12 @@ color: #fff;
     position: relative;
 
     margin-bottom: 10%;
+  }
+
+  #texto img{
+    width: 100%;
+    position: absolute;
+    top: -10%;
   }
 
   h1 {
@@ -225,6 +231,13 @@ color: #fff;
   }
 
   @media (max-width: 600px) {
+
+    #texto img{
+    width: 100%;
+    position: absolute;
+    top:15%;
+    
+  }
    
     #texto {
       align-items: center;

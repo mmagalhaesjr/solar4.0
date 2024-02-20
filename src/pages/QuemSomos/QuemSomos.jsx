@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
 
 
-
+import gota from "../../assets/logosIcones/tranparente.png"
 
 // import sol2 from "../../assets/logosIcones/cor.png"
 // import sol3 from "../../assets/logosIcones/luz.png"
@@ -40,6 +40,9 @@ export default function QuemSomos() {
             <div id="container">
                 <div id="texto">
                     <h1>Quem somos</h1>
+                    <img data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom"  data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000" src={gota} alt="img" />
                     <p>
                         A <span>Solar 4.0 </span>é uma empresa que faz a gestão da energia elétrica utilizando soluções verdes,
                         atuando principalmente na Região Sudeste do país e possui polos em Minas Gerais,
@@ -76,18 +79,18 @@ export default function QuemSomos() {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/re85LxBj3fY?si=NsxO-6QiezOly_dm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/re85LxBj3fY?si=NsxO-6QiezOly_dm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nOOEoEBDENs?si=CLtz4990F1MoVxnC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nOOEoEBDENs?si=CLtz4990F1MoVxnC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FXvzcCcocWA?si=am1MfaMNUG9sGjXB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FXvzcCcocWA?si=am1MfaMNUG9sGjXB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </SwiperSlide>
 
-                        
+
 
 
 
