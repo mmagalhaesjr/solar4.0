@@ -9,72 +9,78 @@ import icone4 from '../../../../assets/orcamento/PNG/mao.png'
 import icone5 from '../../../../assets/orcamento/PNG/medalha.png'
 import icone6 from '../../../../assets/orcamento/PNG/anos.png'
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 export default function Pagina2() {
 
- 
-    
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
 
     return (
         <StyledPagina2>
 
 
-                <div className='meioVerde'  >
-                    <div className='cabecalho'>
-                        <div className='txtTitulo' data-aos="flip-left"  data-aos-duration="2000" >
-                            <h1>Benefícios</h1>
-                            <h2>A energia solar traz diversas vantagens para você!</h2>
-                        </div>
-                        <img src={gota} alt="logo" />
+            <div className='meioVerde' data-aos="fade-right" data-aos-duration="2000" >
+                <div className='cabecalho'>
+                    <div className='txtTitulo' >
+                        <h1>Benefícios</h1>
+                        <h2>A energia solar traz diversas vantagens para você!</h2>
                     </div>
-                    <div className='containerIcones' >
+                    <img src={gota} alt="logo" />
+                </div>
+                <div className='containerIcones' >
 
-                        <div className='cxCadaIcone'>
-                            <img src={icone1} alt="icone" />
-                            <p>
-                                Valorização do imóvel
-                            </p>
-                        </div>
-                        <div className='cxCadaIcone'>
-                            <img src={icone2} alt="icone" />
-                            <p>
-                                Economia de até 95%
-                                na conta de luz
-                            </p>
-                        </div>
-                        <div className='cxCadaIcone'>
-                            <img src={icone3} alt="icone" />
-                            <p>
-                                Assistência técnica
-                                nacional
-                            </p>
-                        </div>
-                        <div className='cxCadaIcone'>
-                            <img src={icone4} alt="icone" />
-                            <p>
-                                Retorno garantido
-                                do investimento
-                            </p>
-                        </div>
-                        <div className='cxCadaIcone'>
-                            <img src={icone5} alt="icone" />
-                            <p>
-                                Empresa reconhecida
-                                em todo o Brasil
-                            </p>
-                        </div>
-                        <div className='cxCadaIcone'>
-                            <img src={icone6} alt="icone" />
-                            <p>
-                                Duração do investimento
-                                de até 25 anos
-                            </p>
-                        </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone1} alt="icone" />
+                        <p>
+                            Valorização do imóvel
+                        </p>
+                    </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone2} alt="icone" />
+                        <p>
+                            Economia de até 95%
+                            na conta de luz
+                        </p>
+                    </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone3} alt="icone" />
+                        <p>
+                            Assistência técnica
+                            nacional
+                        </p>
+                    </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone4} alt="icone" />
+                        <p>
+                            Retorno garantido
+                            do investimento
+                        </p>
+                    </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone5} alt="icone" />
+                        <p>
+                            Empresa reconhecida
+                            em todo o Brasil
+                        </p>
+                    </div>
+                    <div className='cxCadaIcone'>
+                        <img src={icone6} alt="icone" />
+                        <p>
+                            Duração do investimento
+                            de até 25 anos
+                        </p>
                     </div>
                 </div>
+            </div>
 
-        
+
 
         </StyledPagina2>
     )

@@ -3,7 +3,16 @@ import { StyledPagina5 } from "./styled";
 import logo4 from '../../../../assets/logosIcones/logoBranca.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Pagina5() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <StyledPagina5>
 
@@ -23,7 +32,7 @@ export default function Pagina5() {
                 <div className="container">
                     <div className="cxDepoimento" >
 
-                        <div className="cadaDepoimento">
+                        <div className="cadaDepoimento" data-aos="fade-down-left" data-aos-duration="2000" >
                             <img src="https://lh3.googleusercontent.com/a-/ALV-UjWrkz6qFVcGcXtTfgix5897w7tZ5XYOcfq6LMWT7sti8Mk=w75-h75-p-rp-mo-br100" alt="foto" />
                             <div className="texto">
                                 <h3>
@@ -43,7 +52,7 @@ export default function Pagina5() {
 
                     </div>
                     <div className="cxDepoimento" >
-                        <div className="cadaDepoimento">
+                        <div className="cadaDepoimento" data-aos="fade-down-right" data-aos-duration="2000">
                             <img src="https://lh3.googleusercontent.com/a-/ALV-UjUfriJpzQ25yRrTF97oRYNQgCTS2mG8FJ-CnxEQxUsjYwo=w75-h75-p-rp-mo-br100" alt="foto" />
                             <div className="texto">
                                 <h3>
@@ -59,7 +68,7 @@ export default function Pagina5() {
                         </div>
                     </div>
                     <div className="cxDepoimento" >
-                        <div className="cadaDepoimento">
+                        <div className="cadaDepoimento" data-aos="fade-down-left" data-aos-duration="2000">
                             <img src="https://lh3.googleusercontent.com/a-/ALV-UjVH1iipJlA6bYmMB-0RwjWD3K6HxhcF9yPXv-5aERimn2Q=w75-h75-p-rp-mo-br100" alt="foto" />
                             <div className="texto">
                                 <h3>
@@ -77,7 +86,7 @@ export default function Pagina5() {
                         </div>
                     </div>
                     <div className="cxDepoimento" >
-                        <div className="cadaDepoimento">
+                        <div className="cadaDepoimento" data-aos="fade-down-right" data-aos-duration="2000">
                             <img src="https://lh3.googleusercontent.com/a-/ALV-UjWBykHkhKHVMVVHpxLJw2hW_ApQtvYtMMLtDwaKZmgrg1Ds=w75-h75-p-rp-mo-br100" alt="foto" />
                             <div className="texto">
                                 <h3>

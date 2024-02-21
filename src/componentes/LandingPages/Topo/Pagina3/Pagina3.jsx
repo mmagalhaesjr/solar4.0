@@ -10,7 +10,18 @@ import icone5 from '../../../../assets/landingPage/topoFunil/icone5.png'
 import icone6 from '../../../../assets/landingPage/topoFunil/icone6.png'
 import { FaLongArrowAltRight } from "react-icons/fa";
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 export default function Pagina3() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+    
     return (
         <StyledPagina3>
 
@@ -35,7 +46,7 @@ export default function Pagina3() {
                             <h3>Antes da energia Solar:</h3>
                         </div>
 
-                        <div className="cx">
+                        <div className="cx" id="cx1" data-aos="zoom-in-right" data-aos-duration="3000">
 
                             <div className="divisaoCx">
                                 <section><img src={icone1} alt="icone" /></section>
@@ -60,7 +71,7 @@ export default function Pagina3() {
                         <div className="txt">
                             <h3>Depois da energia Solar:</h3>
                         </div>
-                        <div className="cx">
+                        <div className="cx" id="cx2" data-aos="zoom-in-left" data-aos-duration="3000">
 
                             <div className="divisaoCx">
                                 <section> <img src={icone4} alt="icone" /></section>

@@ -1,7 +1,7 @@
 import { StyledFuncionamento } from "./styled";
 import { StyledTelaMenor } from "./styled2";
 
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import sol from "../../assets/sol.png";
 import lua from "../../assets/lua.png";
@@ -15,6 +15,11 @@ import img5 from "../../assets/iconesCasinha/5.png";
 import img6 from "../../assets/iconesCasinha/6.png"
 
 import casinha from "../../assets/bol.gif"
+
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -47,10 +52,14 @@ export default function Funcionamento() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-  
+
     const handleScroll = () => {
         setScrollY(window.scrollY);
     };
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
 
     return (
 
@@ -212,21 +221,27 @@ export default function Funcionamento() {
                 <img src={casinha} alt="imagem Casa" />
 
                 <div id="containerInfo">
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img1} alt="foto" />
                         <div className="info">
                             <h3>1-Painéis</h3>
                             <p>Captam a energia do sol</p>
                         </div>
                     </div>
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img2} alt="foto" />
                         <div className="info">
                             <h3>2-Inversor</h3>
                             <p>A energia é transformada e inserida na rede elétrica local.</p>
                         </div>
                     </div>
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img3} alt="foto" />
                         <div className="info">
                             <h3>3-Quadro geral</h3>
@@ -234,7 +249,9 @@ export default function Funcionamento() {
                         </div>
 
                     </div>
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img4} alt="foto" />
                         <div className="info">
                             <h3>4-Medidor bidirecional</h3>
@@ -242,7 +259,9 @@ export default function Funcionamento() {
                         </div>
 
                     </div>
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img5} alt="foto" />
                         <div className="info">
                             <h3>5-Energia</h3>
@@ -250,13 +269,15 @@ export default function Funcionamento() {
                         </div>
 
                     </div>
-                    <div className="cxInfo">
+                    <div className="cxInfo" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img className="icone" src={img6} alt="foto" />
                         <div className="info">
-                        <h3>6-Taxa mínima</h3>
+                            <h3>6-Taxa mínima</h3>
                             <p> você só paga o valor mínimo pelo uso da rede ou pela diferença entre o consumo total e a energia injetada!</p>
                         </div>
-                        
+
 
                     </div>
 
