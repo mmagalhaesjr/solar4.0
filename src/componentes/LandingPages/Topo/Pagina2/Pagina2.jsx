@@ -12,19 +12,23 @@ import icone6 from '../../../../assets/orcamento/PNG/anos.png'
 
 
 export default function Pagina2() {
+
+ 
+    
+
     return (
         <StyledPagina2>
 
 
-                <div className='meioVerde'>
+                <div className='meioVerde'  >
                     <div className='cabecalho'>
-                        <div className='txtTitulo' >
+                        <div className='txtTitulo' data-aos="flip-left"  data-aos-duration="2000" >
                             <h1>Benefícios</h1>
                             <h2>A energia solar traz diversas vantagens para você!</h2>
                         </div>
-                        <img src={gota} alt="" />
+                        <img src={gota} alt="logo" />
                     </div>
-                    <div className='containerIcones'>
+                    <div className='containerIcones' >
 
                         <div className='cxCadaIcone'>
                             <img src={icone1} alt="icone" />

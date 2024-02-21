@@ -1,22 +1,28 @@
 import styled from "styled-components";
 
-import fot from '../../../../assets/landingPage/topoFunil/foto3.webp'
+// import fot from '../../../assets/landingPage/topoFunil/foto3.webp'
 
-const foto = `url(${fot})`;
+// const foto = `url(${fot})`;
 
 
-export const StyledPagina4 = styled.section`
+export const StyledComponenteVideo = styled.section`
 width: 100%;
+height: 100vh;
 
 
-background-image: ${foto};
+
+
+/* background-image: ${''}; */
+
+background-image: url('https://geracaosolarengenharia.com.br/wp-content/uploads/2020/07/300-sl-alternative-energy-blue-sky-371900-scaled.jpg.webp');
+
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 5% 70%;
 
 display: flex;
 flex-direction:column;
-/* justify-content: center; */
+justify-content: center;
 align-items: center;
 
 #container{
@@ -34,14 +40,24 @@ align-items: center;
     width: 50%;
     height: 400px;
     background-color: #00000094;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
     margin-bottom: 3%;
     margin-top: 10%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
 .cabecalho{
+    width: 90%;
+    height: fit-content;
     margin-top: 3%;
     width: 90%;
+
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -60,9 +76,11 @@ align-items: center;
     margin-top: 3%;
 }
 .cximg{
+    width: 90%;
+
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: center;
     gap: 5%;
 }
@@ -105,19 +123,23 @@ align-items: center;
 
 @media(max-width:500px){
 
+    width: 100%;
+    height: 50vh;
+
     .cxVideo{
-    width: 90%;
-    height: 300px;
+    width: 80%;
+    height: 200px;
     background-color: #00000094;
-    margin-bottom: 20%;
-   
+    margin-bottom: 50px;
+    margin-top: 0;
 }
     .cabecalho{
-     
+     height: fit-content;
+     margin-bottom: 50px;
+     margin-top: 50px;
     }
     .cximg{
-    margin-top: 3%;
-    margin-bottom: 3%;
+        
     }
     .cximg img{
     width: 100px;

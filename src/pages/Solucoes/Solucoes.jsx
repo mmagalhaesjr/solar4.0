@@ -37,7 +37,7 @@ export default function Solucoes() {
 
                 <div id="container">
 
-                    <div id="titulo">
+                    <div id="titulo"  >
                         <h1>SOLUÇÕES<h2></h2></h1>
                     </div>
                     <div id="texto">

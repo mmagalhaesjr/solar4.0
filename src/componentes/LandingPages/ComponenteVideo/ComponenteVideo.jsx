@@ -1,7 +1,8 @@
 import { StyledComponenteVideo } from "./styled";
 
-import logo4 from '../../../../assets/logosIcones/logoBranca.png'
-import logo5 from '../../../../assets/logosIcones/intel-solar.png'
+import logo4 from '../../../assets/logosIcones/logoBranca.png'
+import logo5 from '../../../assets/logosIcones/intel-solar.png'
+
 
 export default function ComponenteVideo() {
     return (
@@ -10,11 +11,11 @@ export default function ComponenteVideo() {
             <div id="container">
 
                 <div className='cabecalho'>
-                    <div className='subtitulo'>
+                    {/* <div className='subtitulo'>
                         <h2>
-                            Vídeo informativo
+                           
                         </h2>
-                    </div>
+                    </div> */}
                     <div className='cximg'>
                         <img src={logo4} alt="logo" />
                         <img className='intel' src={logo5} alt="logo" />

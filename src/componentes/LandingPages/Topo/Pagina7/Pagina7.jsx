@@ -3,7 +3,7 @@ import { StyledSobreEnergiaSolarP7 } from './styled';
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
 import logo3 from '../../../../assets/logosIcones/logoB.png'
 
-import Formulario from "../../../../componentes/Formulario/Formulario";
+import Formulario from "../../../Formulario/Formulario";
 
 
 export default function Pagina7() {

@@ -19,7 +19,7 @@ export default function TelaInicial() {
                        Conquiste sua independência energética.<br></br>
                        <span>Transforme energia solar em economia!</span> 
                     </h1>
-                     <Link to="/orcamento" target="_blank"><button> <p>SOLICITE UM ORÇAMENTO</p></button></Link>
+                     <Link to="/orcamento" target="_blank"><button > <p>SOLICITE UM ORÇAMENTO</p></button></Link>
                     
                 </div>
             </div>

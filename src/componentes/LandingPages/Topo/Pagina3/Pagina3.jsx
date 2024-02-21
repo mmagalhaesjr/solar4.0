@@ -16,8 +16,8 @@ export default function Pagina3() {
 
             <div id="container">
                 <div className='cabecalho'>
-                    <div className='subtitulo'>
-                        <h2>
+                    <div className='subtitulo'  >
+                        <h2 >
                             Seu dinheiro trabalhando
                             para você
                         </h2>
