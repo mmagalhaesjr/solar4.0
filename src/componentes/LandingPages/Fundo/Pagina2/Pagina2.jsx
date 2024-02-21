@@ -10,9 +10,17 @@ import ico3 from '../../../../assets/landingPage/fundoFunil/icone6.png';
 
 
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 export default function Pagina2() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
 
         <StyledPagina2>
@@ -38,13 +46,13 @@ export default function Pagina2() {
                     </ul>
 
                     <div className='containerBoxIcones'>
-                        <div className='boxIcones'>
+                        <div className='boxIcones'  data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico1} alt="foto" /> <h3>Tecnologia de Ponta</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones'  data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico2} alt="foto" /> <h3>Monitoramento Remoto</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones'  data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico3} alt="foto" /> <h3>Manutenção Simplificada</h3> </div>
                         </div>
                     </div>

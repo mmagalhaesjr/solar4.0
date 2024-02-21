@@ -11,10 +11,18 @@ import ico5 from '../../../../assets/landingPage/fundoFunil/icone7.png';
 import ico8 from '../../../../assets/landingPage/fundoFunil/icone8.png';
 
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 export default function Pagina5() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
 
         <StyledPagina5>
@@ -33,19 +41,19 @@ export default function Pagina5() {
                     </ul>
 
                     <div className='containerBoxIcones'>
-                        <div className='boxIcones'>
+                        <div className='boxIcones' data-aos="flip-up" data-aos-duration="2000"  >
                             <div className='ico'> <img src={ico1} alt="foto" /> <h3>Preencha o formulário</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones' data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico2} alt="foto" /> <h3>Consulta com especialista</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones' data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico4} alt="foto" /> <h3>Proposta detalhada</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones' data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico5} alt="foto" /> <h3>Visita técnica</h3> </div>
                         </div>
-                        <div className='boxIcones'>
+                        <div className='boxIcones' data-aos="flip-up" data-aos-duration="2000">
                             <div className='ico'> <img src={ico8} alt="foto" /> <h3>Instalação e pós-venda</h3> </div>
                         </div>
                     </div>

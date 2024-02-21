@@ -3,8 +3,19 @@ import { StyledPagina3 } from "./styled";
 import logo4 from '../../../../assets/logosIcones/logoBranca.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 
 export default function Pagina3() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <StyledPagina3>
             <div className='cabecalho'>
@@ -23,13 +34,13 @@ export default function Pagina3() {
             </div>
 
             <div className="container">
-                <div className="boxBranco" >
+                <div className="boxBranco" data-aos="flip-up" data-aos-duration="2000"  >
                     <div>
                         <h3>1. Alinhamento de Expectativas</h3>
                         <p>Nossa equipe entende suas necessidades e expectativas.</p>
                     </div>
                 </div>
-                <div className="boxBranco" >
+                <div className="boxBranco" data-aos="flip-up" data-aos-duration="2000" >
                     <div>
                         <h3>2. Projeto Personalizado</h3>
                         <p>
@@ -38,7 +49,7 @@ export default function Pagina3() {
                         </p>
                     </div>
                 </div>
-                <div className="boxBranco" >
+                <div className="boxBranco" data-aos="flip-up" data-aos-duration="2000" >
                     <div>
                         <h3>3. Instalação Profissional</h3>
                         <p>
@@ -47,13 +58,13 @@ export default function Pagina3() {
                         </p>
                     </div>
                 </div>
-                <div className="boxBranco" >
+                <div className="boxBranco" data-aos="flip-up" data-aos-duration="2000" >
                     <div>
                         <h3>4. Acesso Inteligente</h3>
                         <p>Monitore sua usina com o aplicativo  <span>Intelbras</span>  direto do seu celular.</p>
                     </div>
                 </div>
-                <div className="boxBranco" >
+                <div className="boxBranco" data-aos="flip-up" data-aos-duration="2000" >
                     <div>
                         <h3>5. Aproveite sua Economia</h3>
                         <p>

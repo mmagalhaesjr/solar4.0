@@ -3,7 +3,19 @@ import { StyledPagina4 } from "./styled";
 import logo4 from '../../../../assets/logosIcones/logoBranca.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
+
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 export default function Pagina4() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <StyledPagina4>
             <div className='cabecalho'>
@@ -18,7 +30,7 @@ export default function Pagina4() {
                 </div>
             </div>
             <div className="container">
-                <div className="cxDepoimento" >
+                <div className="cxDepoimento" data-aos="zoom-out-right" data-aos-duration="1000" >
                  
                     <div className="cadaDepoimento">
                     <img src="https://lh3.googleusercontent.com/a-/ALV-UjWrkz6qFVcGcXtTfgix5897w7tZ5XYOcfq6LMWT7sti8Mk=w75-h75-p-rp-mo-br100" alt="foto" />
@@ -39,7 +51,7 @@ export default function Pagina4() {
                     </div>
 
                 </div>
-                <div className="cxDepoimento" >
+                <div className="cxDepoimento" data-aos="zoom-out-right" data-aos-duration="2000" >
                     <div className="cadaDepoimento">
                     <img src="https://lh3.googleusercontent.com/a-/ALV-UjUfriJpzQ25yRrTF97oRYNQgCTS2mG8FJ-CnxEQxUsjYwo=w75-h75-p-rp-mo-br100" alt="foto" />
                         <div className="texto">
@@ -55,7 +67,7 @@ export default function Pagina4() {
                         </div>
                     </div>
                 </div>
-                <div className="cxDepoimento" >
+                <div className="cxDepoimento" data-aos="zoom-out-right" data-aos-duration="3000" >
                     <div className="cadaDepoimento">
                     <img src="https://lh3.googleusercontent.com/a-/ALV-UjVH1iipJlA6bYmMB-0RwjWD3K6HxhcF9yPXv-5aERimn2Q=w75-h75-p-rp-mo-br100" alt="foto" />
                         <div className="texto">
@@ -73,7 +85,7 @@ export default function Pagina4() {
                         </div>
                     </div>
                 </div>
-                <div className="cxDepoimento" >
+                <div className="cxDepoimento" data-aos="zoom-out-right" data-aos-duration="3000" >
                     <div className="cadaDepoimento">
                     <img src="https://lh3.googleusercontent.com/a-/ALV-UjWBykHkhKHVMVVHpxLJw2hW_ApQtvYtMMLtDwaKZmgrg1Ds=w75-h75-p-rp-mo-br100" alt="foto" />
                         <div className="texto">
