@@ -4,10 +4,20 @@ import { StyledSobreEnergiaSolarP3} from './styled';
 import logo4 from '../../../../assets/logosIcones/logo2.png'
 import logo5 from '../../../../assets/logosIcones/verde.png'
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 
 
 
 export default function SobreEnergiaSolar() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
 
         <StyledSobreEnergiaSolarP3>

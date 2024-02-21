@@ -5,10 +5,18 @@ import { StyledSobreEnergiaSolarP5 } from './styled';
 // import logo4 from '../../../../assets/logosIcones/logo2.png'
 
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 export default function Pagina5() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
 
         <StyledSobreEnergiaSolarP5>
@@ -17,9 +25,9 @@ export default function Pagina5() {
                
                
 
-                <section className='fundo'>
+                <section className='fundo' >
 
-                    <section className='cxTexto'>
+                    <section className='cxTexto' data-aos="fade-right" data-aos-duration="2000">
 
                         <div className='subtitulo'>
                             <h2>

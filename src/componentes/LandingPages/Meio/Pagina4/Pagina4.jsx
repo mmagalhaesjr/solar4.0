@@ -5,16 +5,22 @@ import { StyledSobreEnergiaSolarP4 } from './styled';
 import logo4 from '../../../../assets/logosIcones/logo2.png'
 import logo5 from '../../../../assets/logosIcones/verde.png'
 
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 export default function Pagina4() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
 
         <StyledSobreEnergiaSolarP4>
             <div className='box1'>
-                <div className='texto'>
+                <div className='texto' >
                     <div className='subtitulo'>
                         <h2>
                             Energia solar funciona
@@ -39,7 +45,7 @@ export default function Pagina4() {
                     </ul>
                 </div>
             </div>
-            <div className='box2'>
+            <div className='box2' data-aos="fade-left" data-aos-duration="2000">
                 <div className='cabecalho'>
                     <img className='logo1' src={logo4} alt="logo" />
                     <img className='logo2' src={logo5} alt="logo" />
