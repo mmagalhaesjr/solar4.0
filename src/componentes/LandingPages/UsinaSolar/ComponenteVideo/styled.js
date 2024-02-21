@@ -5,7 +5,7 @@ import fot from '../../../../assets/landingPage/topoFunil/foto3.webp'
 const foto = `url(${fot})`;
 
 
-export const StyledPagina4 = styled.section`
+export const StyledComponenteVideo = styled.section`
 width: 100%;
 
 

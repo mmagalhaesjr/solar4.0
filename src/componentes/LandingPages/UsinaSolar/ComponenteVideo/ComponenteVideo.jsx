@@ -1,11 +1,11 @@
-import { StyledPagina4 } from "./styled";
+import { StyledComponenteVideo } from "./styled";
 
 import logo4 from '../../../../assets/logosIcones/logoBranca.png'
 import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
-export default function Pagina4() {
+export default function ComponenteVideo() {
     return (
-        <StyledPagina4>
+        <StyledComponenteVideo>
 
             <div id="container">
 
@@ -26,6 +26,6 @@ export default function Pagina4() {
 
             </div>
 
-        </StyledPagina4>
+        </StyledComponenteVideo>
     )
 }

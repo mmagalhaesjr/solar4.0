@@ -1,3 +1,4 @@
+import ComponenteVideo from '../../../componentes/LandingPages/Fundo/ComponenteVideo/ComponenteVideo';
 import Pagina1 from '../../../componentes/LandingPages/Meio/Pagina1/Pagina1';
 import Pagina2 from '../../../componentes/LandingPages/Meio/Pagina2/Pagina2';
 import Pagina3 from '../../../componentes/LandingPages/Meio/Pagina3/Pagina3';
@@ -16,6 +17,7 @@ export default function MeioFunil() {
     return (
         <>
             <Pagina1/>
+            <ComponenteVideo />
             <Pagina2/>
             <Pagina3/>
             <Pagina4/>

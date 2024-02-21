@@ -8,6 +8,7 @@ import Pagina5 from "../../../componentes/LandingPages/UsinaSolar/Pagina5/Pagina
 import Pagina7 from "../../../componentes/LandingPages/UsinaSolar/Pagina7/Pagina7";
 import Pagina8 from "../../../componentes/LandingPages/UsinaSolar/Pagina8/Pagina8";
 import RodapeLandingPages from '../../../componentes/RodapeLandingPages/RodapeLandingPages';
+import ComponenteVideo from "../../../componentes/LandingPages/Fundo/ComponenteVideo/ComponenteVideo";
 
 
 
@@ -16,6 +17,7 @@ export default function UsinaSolar(){
         <StyledUsinaSolar>
 
             <Pagina1 />
+            <ComponenteVideo />
             <Pagina2 />
             <Pagina3 />
             <Pagina4 />

@@ -27,7 +27,7 @@ export const StyledQuemSomos = styled.section`
 
   #cxVideo{
     width: 40%;
-    height: 500px;
+    height: 400px;
     
     /* background: rgba(255, 255, 255, 0.537); 
     backdrop-filter: blur(10px);  */
@@ -46,16 +46,21 @@ export const StyledQuemSomos = styled.section`
     width: 100%;
     height: 100%;
 
-    border-right: 15px solid  transparent;
-    border-left: 15px solid  transparent;
+    border: 20px solid  transparent;
+  
     overflow:hidden;    
+
 }
 
-.swiper-button-prev,
+.swiper-button-prev{
+    color: #fff;
+    margin-left: -1%;
+    
+}
 .swiper-button-next{
 
-color: #fff;
- margin: 1%;
+    color: #fff;
+     margin-right: -1%;
 }
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
@@ -73,7 +78,9 @@ color: #fff;
     color: #000000;
 }
 .swiper-pagination-bullet {
-  background-color: #ffffff;
+  background-color: #000000;
+  position: relative;
+  top: 10px;
 }
 
 
