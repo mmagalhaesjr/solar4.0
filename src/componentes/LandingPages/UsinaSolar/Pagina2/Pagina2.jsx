@@ -14,13 +14,18 @@ import gota from '../../../../assets/logosIcones/cor.png'
 
 
 
-
-
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 export default function SobreEnergiaSolar() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
 
         <StyledPagina2>
@@ -53,7 +58,7 @@ export default function SobreEnergiaSolar() {
                             Conheça alguns benefícios de investir em USINAS SOLARES:
                         </p>
                     </div>
-                    <img src={gota} alt="" />
+                    <img src={gota} alt="logo" data-aos="fade-right" data-aos-duration="2000" />
                 </div>
 
             </section>
@@ -61,27 +66,33 @@ export default function SobreEnergiaSolar() {
             <section id='containerImg'>
                 <div id='cxIcones'>
 
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" >
                         <p>Baixo risco</p>
                         <img src={ico1} alt="foto" />
                     </div>
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <p>Renda garantida</p>
                         <img src={ico2} alt="foto" />
                     </div>
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <p>Manutenção barata</p>
                         <img src={ico3} alt="foto" />
                     </div>
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <p>Investimento consciente</p>
                         <img src={ico4} alt="foto" />
                     </div>
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <p>Economia</p>
                         <img src={ico5} alt="foto" />
                     </div>
-                    <div className='boxIcones'>
+                    <div className='boxIcones' data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <p>Lucratividade</p>
                         <img src={ico6} alt="foto" />
                     </div>

@@ -6,9 +6,20 @@ import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
 import gota from '../../../../assets/logosIcones/cor.png'
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 
 export default function Pagina7() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+    
+
     return (
 
         <StyledPagina7>
@@ -28,15 +39,15 @@ export default function Pagina7() {
                 </div>
 
 
-                <div className='cxTexto'>
-                    <div className='texto'>
+                <div className='cxTexto' data-aos="fade-right" data-aos-duration="2000">
+                    <div className='texto' >
                         <p>
                             Trabalhamos com equipamentos <h4>Intelbras</h4>  de alta tecnologia
                             e uma equipe técnica qualificada que irá acompanhar todas
                             as etapas do seu projeto.
                         </p>
                     </div>
-                    <img src={gota} alt="" />
+                    <img src={gota} alt="logo"  data-aos="fade-down" data-aos-duration="2000" />
                 </div>
 
                 <ul>

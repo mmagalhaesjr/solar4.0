@@ -14,6 +14,8 @@ export const StyledPagina5 = styled.section`
     display: flex;
     justify-content: center;
 
+    overflow: hidden;
+
 span{
     font-weight: 600;
     color:#14a238 ;

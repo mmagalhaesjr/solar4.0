@@ -11,11 +11,13 @@ import 'aos/dist/aos.css';
 
 
 
+
 export default function Pagina4() {
 
     useEffect(() => {
         AOS.init();
     }, []);
+
     return (
 
         <StyledSobreEnergiaSolarP4>

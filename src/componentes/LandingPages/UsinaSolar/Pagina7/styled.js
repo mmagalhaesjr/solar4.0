@@ -5,6 +5,7 @@ export const StyledPagina7 = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
+
     overflow: hidden;
     
 
@@ -15,6 +16,8 @@ h4{
 #container{
     width: 100%;
     background-color: #14a238;
+    
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;

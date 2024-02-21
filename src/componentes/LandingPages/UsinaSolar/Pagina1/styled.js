@@ -10,6 +10,7 @@ export const StyledPagina1 = styled.section`
    
     display: flex;
     justify-content: center;
+    overflow: hidden;
 
 span{
     font-weight: 600;
