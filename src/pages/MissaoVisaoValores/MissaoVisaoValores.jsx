@@ -29,7 +29,9 @@ export default function Mvv() {
         <StyledMvv className={scrollY > 900 ? 'rolagem' : ''}>
 
             <div id="container">
-                <div className="card" data-aos="zoom-out"  data-aos-duration="1500" >
+                <div className="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" >
                     <h1>Missão</h1>
                     <div className="cxTexto" >
                         <p>
@@ -41,17 +43,21 @@ export default function Mvv() {
                         </p>
                     </div>
                 </div>
-                <div className="card" data-aos="zoom-out" data-aos-duration="1500">
+                <div className="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" >
                     <h1>Visão</h1>
                     <div className="cxTexto">
                         <p>
                             Ser a principal referência em gestão de energia elétrica
                             para o agronegócio na Região Sudeste oferecendo serviços<span> inovadores,
-                            personalizados e confiáveis.</span>
+                                personalizados e confiáveis.</span>
                         </p>
                     </div>
                 </div>
-                <div className="card" data-aos="zoom-out" data-aos-duration="1500">
+                <div className="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"  >
                     <h1>Valores</h1>
                     <div className="cxTexto" id="textoCentralizado">
                         <p>

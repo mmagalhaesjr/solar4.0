@@ -46,7 +46,7 @@ align-items: center;
 h1{
   font-size: 3rem;
   font-weight: 700;
-  color: #000000;
+  color: #eceeee42;
   font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 120px;
@@ -54,6 +54,7 @@ h1{
 }
 &.rolagem {
   h1{
+    color: #000000;
     transform: translateY(-100px);
     z-index: 1;
     transition: 1s;
