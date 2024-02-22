@@ -57,7 +57,7 @@ export default function Pagina3() {
                         Possuímos engenharia própria, facilitando todo o processo;
                     </li>
                     <li>
-                        Equipamentos com garantia, assistencia técnica e pós-venda da Intelbras;
+                        Equipamentos com garantia, assistência  técnica e pós-venda Intelbras;
                     </li>
                 </ul>
 
