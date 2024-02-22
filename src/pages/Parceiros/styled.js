@@ -34,21 +34,21 @@ h1{
   justify-content: center;
   gap: 10%;
   margin-top: 50px;
-  left: 900px;
+  /* left: 900px; */
 
 }
 
-&.rolagem {
+/* &.rolagem {
   #container{
     transform: translatex(-900px);
     z-index: 1;
     transition: 1s;
    }
-  }
+  } */
 
 #container img{
   width: 200px;
-  height: 100px;
+  height: 130px;
   margin-top: 10px;
 }
 #linha{

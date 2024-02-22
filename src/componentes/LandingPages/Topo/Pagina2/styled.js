@@ -178,12 +178,19 @@ export const StyledPagina2 = styled.section`
         left: -15%;
         width: 75%;
         height: 100%;
-        background-color: #198f37c6;
+        background-color: #198f37dc;
         border-radius: 0px 0px 700px 0px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+
         }
         .containerIcones{
-        width: 70%;
+        width: 80%;
         max-width:600px;
         
         display: flex;
@@ -193,8 +200,8 @@ export const StyledPagina2 = styled.section`
         flex-wrap: wrap;
     }
     .cxCadaIcone{
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
 
         display: flex;
         flex-direction: column;
@@ -206,14 +213,14 @@ export const StyledPagina2 = styled.section`
     .cxCadaIcone p{
         width: 70%;
         height: 50px;
-        font-size:.5rem;
+        font-size:.7rem;
         flex-wrap: wrap;
         margin-top: 5%;
         color: #ffffff;
     }
     .containerIcones img{
-        width:30px;
-        height: 30px;
+        width:50px;
+        height: 50px;
     }
     .cabecalho img{
         width:0px;
