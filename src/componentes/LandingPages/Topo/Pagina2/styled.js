@@ -113,7 +113,7 @@ export const StyledPagina2 = styled.section`
         height: 80vh;
         .meioVerde{
             width: 90%;
-            max-width: 500px;
+            width: 500px;
             height: fit-content;
             border-radius: 0;
             left: 0;
@@ -163,6 +163,91 @@ export const StyledPagina2 = styled.section`
             font-size:.7rem;
         }
 
+    }
+
+    @media(max-width:600px){
+
+        background-image: ${foto1};
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 70%;
+
+
+        .meioVerde{
+        position: relative;
+        left: -15%;
+        width: 75%;
+        height: 100%;
+        background-color: #198f37c6;
+        border-radius: 0px 0px 700px 0px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
+        }
+        .containerIcones{
+        width: 70%;
+        max-width:600px;
+        
+        display: flex;
+        align-items:lefth;
+        justify-content: center;
+        gap: 3%;
+        flex-wrap: wrap;
+    }
+    .cxCadaIcone{
+        width: 90px;
+        height: 90px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .cxCadaIcone p{
+        width: 70%;
+        height: 50px;
+        font-size:.5rem;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        color: #ffffff;
+    }
+    .containerIcones img{
+        width:30px;
+        height: 30px;
+    }
+    .cabecalho img{
+        width:0px;
+        display: none;
+    }
+
+//-------------------
+
+    .cabecalho{
+        width: 100%;
+        height:fit-content;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .txtTitulo{
+        width: 90%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .txtTitulo h1{
+        font-size: 3rem;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .txtTitulo h2{
+        font-size: 1rem;
+        color: #ffffff;
+        font-weight: 600;
+        margin-top: 5%;
+    }
     }
    
 `
