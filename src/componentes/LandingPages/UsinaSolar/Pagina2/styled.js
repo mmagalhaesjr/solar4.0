@@ -6,9 +6,17 @@ const foto3 = `url(${f3})`;
 
 export const StyledPagina2 = styled.section`
     width: 100%;
+  
+    overflow: hidden;
+
+    background-color: #59c0cc;
+
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+
     
     
 
@@ -19,15 +27,20 @@ span{
 #container{
     width: 100%;
     
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: left;
+    justify-content: left; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cabecalho{
     width: 95%;
-    min-height: 200px;
+    height: 200px;
     margin-top: 3%;
    
     display: flex;
@@ -49,12 +62,12 @@ span{
     margin-left: 5%;
 }
 .cximg{
-    min-height: 200px;
-    width: fit-content;
+    height: 200px;
+    width: 90%;
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     text-align: center;
     gap: 5%;
 }
@@ -68,7 +81,7 @@ span{
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 200px;
+    height: 250px;
     margin-top: 3%;
     margin-bottom:3%;
     line-height: 1.2;
@@ -83,6 +96,8 @@ span{
 }
 .texto p{
     font-size: 2rem;
+    font-weight: 300;
+    color: #14a238;
 }
 .cxTexto img{
     width:30%;
@@ -175,22 +190,35 @@ span{
     }
 }
 @media(max-width:600px){
+    .cabecalho{
+    width: 95%;
+    height:fit-content;
+    margin-top: 3%;
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
     .cximg{
-        display: none;
-    }
-    .cximg2{
-        display: block;
-        width: 100%;
-    
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+    height:fit-content;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 5%;
+}
+.cximg img{
+    width: 100px;
+}
+.cximg .intel{
+    width: 80px;
+}
+   
     .cxTexto{
         z-index: 2;
-    }
-    .cxTexto {
-        
     }
 
     .boxIcones{
@@ -198,6 +226,41 @@ span{
     }
 }
 @media(max-width:560px){
+
+    .cxTexto{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 99%;
+    height: 250px;
+    margin-top: 3%;
+    margin-bottom:3%;
+    line-height: 1.6;
+    /* border-radius: 5px 50px 5px; */
+   
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.texto{
+    width: 100%;
+    margin-left: 3%;
+}
+.texto p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #000000;
+    z-index: 2;
+}
+.cxTexto img{
+    width:90%;
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+
+
+
+
    #containerImg{
         height:fit-content ;
    }

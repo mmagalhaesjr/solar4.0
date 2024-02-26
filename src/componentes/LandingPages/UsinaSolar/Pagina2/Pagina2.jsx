@@ -1,8 +1,8 @@
 import { StyledPagina2 } from './styled';
 
 
-import logo4 from '../../../../assets/logosIcones/logo2.png'
-import logo5 from '../../../../assets/logosIcones/verde.png'
+import logo4 from '../../../../assets/logosIcones/logoBranca.png'
+import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 
 import ico1 from '../../../../assets/landingPage/usinaSolar/ico1.webp'
 import ico2 from '../../../../assets/landingPage/usinaSolar/ico2.webp'
@@ -10,7 +10,7 @@ import ico3 from '../../../../assets/landingPage/usinaSolar/ico3.webp'
 import ico4 from '../../../../assets/landingPage/usinaSolar/ico4.webp'
 import ico5 from '../../../../assets/landingPage/usinaSolar/ico5.webp'
 import ico6 from '../../../../assets/landingPage/usinaSolar/ico6.webp'
-import gota from '../../../../assets/logosIcones/cor.png'
+import gota from '../../../../assets/logosIcones/tranparente.png'
 
 
 
@@ -31,19 +31,19 @@ export default function SobreEnergiaSolar() {
         <StyledPagina2>
             <section id='container'>
 
-                <div className='cximg2'>
+                {/* <div className='cximg2'>
                     <img src={logo4} alt="logo" />
                     <img className='intel' src={logo5} alt="logo" />
-                </div>
+                </div> */}
 
 
                 <div className='cabecalho'>
-                    <div className='subtitulo'>
+                    {/* <div className='subtitulo'>
                         <h2>
                             Energia solar precisa
                             de muito espaço?
                         </h2>
-                    </div>
+                    </div> */}
                     <div className='cximg'>
                         <img src={logo4} alt="logo" />
                         <img className='intel' src={logo5} alt="logo" />
@@ -52,10 +52,7 @@ export default function SobreEnergiaSolar() {
                 <div className='cxTexto'>
                     <div className='texto'>
                         <p>
-                            Aproveite a demanda crescente e garanta um investimento
-                            rentável e ecologicamente correto. Usinas solares ganharam
-                            força como opção de investimento nos últimos anos.
-                            Conheça alguns benefícios de investir em USINAS SOLARES:
+                            Investir em usinas solares fotovoltaicas proporciona excelentes retornos financeiros e também contribui para um futuro mais sustentável. Entre em contato conosco para explorar as oportunidades de investimento em usinas solares e fazer parte dessa revolução energética.
                         </p>
                     </div>
                     <img src={gota} alt="logo" data-aos="fade-right" data-aos-duration="2000" />
