@@ -73,6 +73,7 @@ span{
 }
 .cximg img{
     width: 200px;
+
 }
 .cximg .intel{
     width: 150px;
@@ -90,6 +91,7 @@ span{
     align-items: center;
     justify-content:left;
 }
+
 .texto{
     width: 65%;
     margin-left: 3%;
@@ -100,9 +102,12 @@ span{
     color: #14a238;
 }
 .cxTexto img{
-    width:30%;
+    width:34%;
     position: absolute;
     right: 0rem;
+}
+.transparente{
+    display: none;
 }
 
 #containerImg{
@@ -256,6 +261,12 @@ span{
     position: absolute;
     left: 20px;
     z-index: 1;
+}
+.transparente{
+    display: block;
+}
+.cor{
+    display: none;
 }
 
 

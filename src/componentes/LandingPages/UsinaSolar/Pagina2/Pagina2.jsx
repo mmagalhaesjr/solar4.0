@@ -11,6 +11,7 @@ import ico4 from '../../../../assets/landingPage/usinaSolar/ico4.webp'
 import ico5 from '../../../../assets/landingPage/usinaSolar/ico5.webp'
 import ico6 from '../../../../assets/landingPage/usinaSolar/ico6.webp'
 import gota from '../../../../assets/logosIcones/tranparente.png'
+import gota1 from '../../../../assets/logosIcones/cor.png'
 
 
 
@@ -55,7 +56,8 @@ export default function SobreEnergiaSolar() {
                             Investir em usinas solares fotovoltaicas proporciona excelentes retornos financeiros e também contribui para um futuro mais sustentável. Entre em contato conosco para explorar as oportunidades de investimento em usinas solares e fazer parte dessa revolução energética.
                         </p>
                     </div>
-                    <img src={gota} alt="logo" data-aos="fade-right" data-aos-duration="2000" />
+                    <img className='cor'  src={gota1} alt="logo" data-aos="fade-right" data-aos-duration="2000" />
+                    <img className='transparente'  src={gota} alt="logo" data-aos="fade-right" data-aos-duration="2000" />
                 </div>
 
             </section>
