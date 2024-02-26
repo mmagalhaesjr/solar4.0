@@ -35,7 +35,7 @@ export default function Pagina4() {
                             gerar energia!
                         </li>
                         <li>
-                            Eles captam a luz difusa do sol e
+                            Eles captam radiação solar e
                             podem continuar gerando
                             eletricidade.
                         </li>

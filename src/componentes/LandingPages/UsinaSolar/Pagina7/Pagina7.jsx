@@ -18,7 +18,7 @@ export default function Pagina7() {
     useEffect(() => {
         AOS.init();
     }, []);
-    
+
 
     return (
 
@@ -47,24 +47,30 @@ export default function Pagina7() {
                             as etapas do seu projeto.
                         </p>
                     </div>
-                    <img src={gota} alt="logo"  data-aos="fade-down" data-aos-duration="2000" />
+                    <img src={gota} alt="logo" data-aos="fade-down" data-aos-duration="2000" />
                 </div>
 
                 <ul>
-                    <li>
+                    <li data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         Com o crescimento gigantesco do <span>mercado de energia solar e repleto de
-                        oportunidades</span> , investir em uma usina solar, além de <span> economia na conta de energia</span>,
+                            oportunidades</span> , investir em uma usina solar, além de <span> economia na conta de energia</span>,
                         permite que você faça dinheiro de forma segura durante anos com <span>um único
-                        investimento, baixo risco e pouquíssima manutenção.</span> 
+                            investimento, baixo risco e pouquíssima manutenção.</span>
                     </li>
-                    <li>
+                    <li data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         Considerando ainda que o <span> sol é a maior fonte de energia renovável</span>, o Brasil por estar
                         localizado próximo a Linha do Equador, possui uma das médias de radiação solar mais elevadas
                         do mundo.
                     </li>
-                    <li>
+                    <li data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         Com nossos serviços e <span> com os equipamentos Intelbras, podemos garantir maior
-                        aproveitamento e desempenho</span> para os sistemas fotovoltaicos.
+                            aproveitamento e desempenho</span> para os sistemas fotovoltaicos.
                     </li>
                 </ul>
             </section>

@@ -33,13 +33,13 @@ export default function Pagina2() {
                     </div>
                     <ul>
                         <li>
-                            A <span>Solar 4.0 </span> é orgulhosamente parceira da
-                            <span>Intelbras</span>, líder em tecnologia para geração
+                            A <span>Solar 4.0 </span> é orgulhosamente parceira da 
+                            <span> Intelbras</span>, líder em tecnologia para geração
                             de energia solar.
                         </li>
                         <li>
                             Oferecemos equipamentos de qualidade,
-                            utilizando os mais recentes produtos da
+                            utilizando os produtos mais tecnológicos da
                             <span> Intelbras</span> para garantir eficiência e
                             durabilidade.
                         </li>

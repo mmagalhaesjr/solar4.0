@@ -119,11 +119,13 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 img{
     width: 80px;
     height: 80px;
 }
 h3{
+    width: 60%;
     font-size: 1.5rem;
     font-weight: 600;
 }

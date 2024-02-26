@@ -93,6 +93,7 @@ h4{
 
 ul{
     width: 90%;
+    margin-left: 5%;
 }
 
 ul li{
@@ -164,6 +165,21 @@ span{
 }
 
 @media(max-width:560px){
+
+    .cxTexto{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 170px;
+    margin-top: 3%;
+    margin-bottom:3%;
+    line-height: 1.2;
+   
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
    .cxTexto h3{
         font-size: 2rem;
         font-weight: 600;

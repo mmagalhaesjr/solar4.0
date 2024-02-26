@@ -4,6 +4,7 @@ import foto from '../../../../assets/landingPage/usinaSolar/5.png'
 
 
 
+
 const img = `url(${foto})`;
 
 
@@ -93,6 +94,8 @@ span{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+
+   
 }
 .logo1{
     width: 200px;
@@ -106,6 +109,10 @@ span{
     position: relative;
     width: 100%;
     left: -7%;
+}
+a{
+    color: #14a238;
+    font-weight: 700;
 }
 @media(max-width:1300px){
     .cxContainer ul li{

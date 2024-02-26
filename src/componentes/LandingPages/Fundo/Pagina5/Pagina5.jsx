@@ -30,7 +30,7 @@ export default function Pagina5() {
                 <div className='texto'>
                     <div className='subtitulo'>
                         <h2>
-                            Orçamento prático
+                            Fluxo comercial
                         </h2>
                     </div>
                     <ul>

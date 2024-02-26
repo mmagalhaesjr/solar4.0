@@ -16,8 +16,7 @@ export default function Pagina4(){
                 <div className='cabecalho'>
                     <div className='subtitulo'>
                         <h2>
-                            Energia solar precisa
-                            de muito espaço?
+                            Como funciona a energia solar?
                         </h2>
                     </div>
                     <div className='cximg'>

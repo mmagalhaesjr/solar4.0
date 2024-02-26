@@ -40,8 +40,8 @@ export default function SobreEnergiaSolar() {
                     Não se preocupe com espaço!
                 </h3>
                 <p>
-                    Os painéis da <span> Solar 4.0</span> são extremamente adaptáveis em qualquer espaço,
-                    elaboramos um projeto que atende suas expectativas utilizando o espaço
+                    Os painéis da <span> Intelbras</span> são extremamente adaptáveis em qualquer espaço,
+                    elaboramos um projeto que atenda suas expectativas utilizando o espaço
                     disponível.
                 </p>
 

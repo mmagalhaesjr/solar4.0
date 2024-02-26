@@ -13,6 +13,7 @@ export const StyledSobreEnergiaSolarP4 = styled.section`
    
     display: flex;
     justify-content: center;
+    overflow: hidden;
 
 span{
         font-weight: 600;

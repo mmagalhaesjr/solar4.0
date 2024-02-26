@@ -79,23 +79,27 @@ span{
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   /* gap:15px; */
+   margin-bottom: 5%;
 }
 .boxBranco{
     width: 90%;
-    height: 100px;
+    height: 130px;
     margin-bottom: 1%;
     background-color: #ffffffdb;
     border-radius: 10px;
+    margin-bottom: 5%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 .boxBranco div{
     width: 80%;
 }
 .boxBranco h3{
+    margin-top: 10px;
     font-size: 2rem;
     font-weight: 600;
 }

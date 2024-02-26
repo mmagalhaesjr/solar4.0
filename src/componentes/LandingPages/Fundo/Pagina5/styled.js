@@ -26,28 +26,33 @@ span{
     flex-direction: column;
     align-items: center;  
 }
+.subtitulo{
+    width: 90%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+
+}
+.subtitulo h2{
+    width: 100%;
+    height: 100%;
+    color: #14a238;
+    font-size: 4rem;
+    font-weight: 600;
+
+}
 .texto{
-    width: 95%;
+    width: 100%;
     height: 100%;
     background-color: #ffffff;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.texto h2{
-    color: #14a238;
-    font-size: 4rem;
-    font-weight: 600;
-    margin-top: 3%;
-}
-.subtitulo{
-    width: fit-content;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
+    
 }
 
 .texto ul{

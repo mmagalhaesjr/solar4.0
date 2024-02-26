@@ -24,7 +24,7 @@ export default function Pagina5() {
                     <div className='subtitulo'>
                         <h2>
                             Como montar uma
-                            usina solar de investimento?
+                            usina solar?
                         </h2>
                     </div>
                     <ul>
@@ -32,7 +32,7 @@ export default function Pagina5() {
                             Encontrar uma empresa capacitada para
                             dimensionamento, construção e
                             gerenciamento de grandes projetos é um
-                            excelente começo. Nós da <span>Solar 4.0</span>
+                            excelente começo. Nós da <span>Solar 4.0 </span>
                             possuímos diferenciais que você pode
                             conhecer aqui.
                         </li>
@@ -42,14 +42,14 @@ export default function Pagina5() {
                                 solar de investimento? Entre em contato
                                 conosco e marque um horário para
                                 conversar com um de nossos
-                                consultores!
+                                técnicos!
                             </span>
                         </li>
                         <li>
                             Para conferir mais benefícios da Energia
                             Solar e acompanhar mais conteúdos como
-                            este, siga nossos perfis no Instagram,
-                            Facebook e LinkedIn.
+                            este, siga nossos perfis no <a href="http://www.instagram.com/solar4.0/"> Instagram</a> e
+                             <a href="http://www.facebook.com/solar40mg?_rdc=1&_rdr"> Facebook</a>.
                         </li>
                     </ul>
 
