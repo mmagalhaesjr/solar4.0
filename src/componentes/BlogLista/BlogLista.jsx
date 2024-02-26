@@ -7,10 +7,18 @@ import foto6 from "../../assets/blogs/blog6/1.png"
 import foto7 from "../../assets/blogs/blog7/1.png"
 import foto8 from "../../assets/blogs/blog8/1.png"
 import foto9 from "../../assets/blogs/blog9/1.png"
+import foto10 from "../../assets/blogs/blog10/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 10,
+        
+        img: foto10,
+        titulo:'O poder da energia solar no século XXI',
+        texto: 'Bem-vindo ao nosso blog! Hoje vamos explorar o papel crucial da energia solar no cenário atual'
+    },
     {
         id: 9,
         

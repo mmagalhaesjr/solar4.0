@@ -9,7 +9,7 @@ import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import foto10 from "../../assets/blogs/blog10/1.png"
+import foto11 from "../../assets/blogs/blog11/1.png"
 
 
 export default function BlogTelainicial() {
@@ -39,12 +39,12 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/10'
-                                img={foto10}
-                                titulo='O poder da energia solar no século
-                                XXI'
-                                texto='Bem-vindo ao nosso blog! Hoje vamos explorar o papel
-                                crucial da energia solar no cenário atual'
+                                link='#/blog/11'
+                                img={foto11}
+                                titulo='Energia Solar como alternativa a
+                                pobreza energética no Brasil'
+                                texto='Descubra por que a energia do sol pode ser uma aliada contra
+                                a falta de energia no país'
                             />
                         </div>
 
