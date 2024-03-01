@@ -5,7 +5,7 @@ import styled from "styled-components";
 // const foto = `url(${fot})`;
 
 
-export const StyledComponenteVideo = styled.section`
+export const StyledTopoVideo = styled.section`
 width: 100%;
 height: 100vh;
 

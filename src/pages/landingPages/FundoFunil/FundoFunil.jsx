@@ -6,7 +6,8 @@ import Pagina4 from '../../../componentes/LandingPages/Fundo/Pagina4/Pagina4';
 import Pagina5 from '../../../componentes/LandingPages/Fundo/Pagina5/Pagina5';
 import Pagina7 from '../../../componentes/LandingPages/Fundo/Pagina7/Pagina7';
 import RodapeLandingPages from '../../../componentes/RodapeLandingPages/RodapeLandingPages';
-import ComponenteVideo from '../../../componentes/LandingPages/ComponenteVideo/ComponenteVideo';
+
+import FundoVideo from '../../../componentes/LandingPages/Fundo/FundoVideo/FundoVideo';
 
 
 
@@ -17,7 +18,7 @@ export default function FundoFunil() {
     return (
         <>
             <Pagina1 />
-            <ComponenteVideo />
+            <FundoVideo />
             <Pagina2 />
             <Pagina3 />
             <Pagina4 />
