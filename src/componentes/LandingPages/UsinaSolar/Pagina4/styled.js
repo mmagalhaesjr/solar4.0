@@ -97,5 +97,10 @@ width: 100%;
         height:100px;
         justify-content: center;
     }
+
+    #containerImg{
+    width: 100%;
+    margin-bottom: 5%;
+}
 }
 `

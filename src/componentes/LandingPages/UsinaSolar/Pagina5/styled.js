@@ -82,10 +82,12 @@ span{
 }
 #containerDireito{
     width: 50%;
+    
     background-image: ${img};
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 10% 100%;
+
 }
 .cabecalho{
     width: 100%;
@@ -160,11 +162,31 @@ background-color: #134489;
     #container{
         width: 100%;
         height: 100%;
+        margin-bottom: 10%;
     }
+
+    #containerDireito{
+    width: 50%;
+    
+    background-image: ${img};
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    
+}
+
     .cabecalho{
-        margin-top: 5%;
-        margin-bottom: 3%;
+      display: none;
     }
+    .subtitulo{
+        height: fit-content;
+        width: fit-content;
+        margin-top: -3%;
+   
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
     .cxContainer h2{
         font-size: 3rem;
         margin-top: 5%;

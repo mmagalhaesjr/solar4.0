@@ -75,6 +75,7 @@ align-items: center;
     justify-content:center;
 }
 h1{
+    width: 90%;
     color: #ffffff;
     font-size: 3rem;
     font-weight: 600;
@@ -136,25 +137,17 @@ h1{
 @media(max-width:500px){
 
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 
    
     .cabecalho{
      height: fit-content;
      margin-bottom: 5%;
      margin-top: 20%;
+    
     }
 
-    h1{
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 20%;
-    text-align: left;
-    
-}
-    
-.cximg{
+    .cximg{
         width: 98%;
 
         display: flex;
@@ -169,8 +162,20 @@ h1{
     width: 120px;
     }
 
+    h1{
+    width: 80%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 10%;
+    text-align: left;
+    
+}
+    
 
-.subtitulo{
+
+
+/* .subtitulo{
     width: 90%;
     background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
     border-radius: 10px;
@@ -179,7 +184,9 @@ h1{
     display: flex;
     align-items: center;
     justify-content:center;
-}
+
+  
+} */
 .subtitulo h2{
     color: #ffffff;
     font-size: 1.7rem;
@@ -192,8 +199,8 @@ h1{
     width: 80%;
     height: 200px;
     background-color: #00000094;
-    margin-bottom: 50px;
-    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 }
 
