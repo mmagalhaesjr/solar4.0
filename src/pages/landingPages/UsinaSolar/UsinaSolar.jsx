@@ -17,8 +17,8 @@ export default function UsinaSolar(){
     return(
         <StyledUsinaSolar>
 
-            <Pagina1 />
             <UsinaVideo />
+            <Pagina1 />
             <Pagina2 />
             <Pagina3 />
             <Pagina4 />

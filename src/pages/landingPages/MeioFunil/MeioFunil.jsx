@@ -1,5 +1,7 @@
 
-import Pagina1 from '../../../componentes/LandingPages/Meio/Pagina1/Pagina1';
+
+import MeioVideo from '../../../componentes/LandingPages/Meio/MeioVideo/MeioVideo';
+// import Pagina1 from '../../../componentes/LandingPages/Meio/Pagina1/Pagina1';
 import Pagina2 from '../../../componentes/LandingPages/Meio/Pagina2/Pagina2';
 import Pagina3 from '../../../componentes/LandingPages/Meio/Pagina3/Pagina3';
 import Pagina4 from '../../../componentes/LandingPages/Meio/Pagina4/Pagina4';
@@ -8,7 +10,7 @@ import Pagina6 from '../../../componentes/LandingPages/Meio/Pagina6/Pagina6';
 import Pagina7 from '../../../componentes/LandingPages/Meio/Pagina7/Pagina7';
 import RodapeLandingPages from '../../../componentes/RodapeLandingPages/RodapeLandingPages';
 
-import MeioVideo from '../../../componentes/LandingPages/Meio/MeioVideo/MeioVideo';
+
 
 
 
@@ -18,8 +20,8 @@ import MeioVideo from '../../../componentes/LandingPages/Meio/MeioVideo/MeioVide
 export default function MeioFunil() {
     return (
         <>
-            <Pagina1/>
-            <MeioVideo />
+            <MeioVideo/>
+            {/* <Pagina1/> */}
             <Pagina2/>
             <Pagina3/>
             <Pagina4/>

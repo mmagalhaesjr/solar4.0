@@ -1,24 +1,20 @@
 import styled from "styled-components";
 
-// import fot from '../../../assets/landingPage/topoFunil/foto3.webp'
-
-// const foto = `url(${fot})`;
+import f1 from '../../../../assets/fundoServicos.png'
+const foto1 = `url(${f1})`;
 
 
 export const StyledUsinaVideo = styled.section`
-width: 100%;
-height: 100vh;
+ width: 100%;
+    /* height: 100vh; */
+
+    background-image: ${foto1};
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 5% 70%; */
 
 
 
-
-/* background-image: ${''}; */
-
-background-image: url('https://geracaosolarengenharia.com.br/wp-content/uploads/2020/07/300-sl-alternative-energy-blue-sky-371900-scaled.jpg.webp');
-
-background-size: cover;
-background-repeat: no-repeat;
-background-position: 5% 70%;
 
 display: flex;
 flex-direction:column;
@@ -36,20 +32,7 @@ align-items: center;
     align-items: center;
 }
 
-.cxVideo{
-    width: 50%;
-    height: 400px;
-    background-color: #00000094;
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
-    margin-bottom: 3%;
-    margin-top: 10%;
 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
 
 .cabecalho{
@@ -59,38 +42,67 @@ align-items: center;
     width: 90%;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
-.subtitulo{
-    width: fit-content;
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-}
-.subtitulo h2{
-    color: #ffffff;
-    font-size: 4rem;
-    font-weight: 600;
-    margin-top: 3%;
-}
 .cximg{
     width: 90%;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     gap: 5%;
 }
 .cximg img{
+    width: 250px;
+}
+.cximg .logo2{
     width: 200px;
 }
-.cximg .intel{
-    width: 150px;
+
+
+.subtitulo{
+    width: fit-content;
+    background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
+    border-radius: 10px;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+h1{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 5%;
+    text-align: center;
+}
+.subtitulo h2{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1%;
+    text-align: center;
 }
 
+.cxVideo{
+    width: 50%;
+    height: 400px;
+    background-color: #00000094;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
@@ -124,29 +136,59 @@ align-items: center;
 @media(max-width:500px){
 
     width: 100%;
-    height: 50vh;
+    height: 100vh;
 
-    .cxVideo{
-    width: 80%;
-    height: 200px;
-    background-color: #00000094;
-    margin-bottom: 50px;
-    margin-top: 0;
-}
+   
     .cabecalho{
      height: fit-content;
-     margin-bottom: 50px;
-     margin-top: 50px;
+     margin-bottom: 5%;
+     margin-top: 20%;
     }
+
+    h1{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20%;
+    text-align: left;
+    
+}
     .cximg{
         
     }
     .cximg img{
     width: 100px;
     }
-    .cximg .intel{
+    .cximg .logo2{
     width: 70px;
     }
+
+
+.subtitulo{
+    width: 90%;
+    background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
+    border-radius: 10px;
+    margin-top:15%;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.subtitulo h2{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 2%;
+    text-align: center;
+}
+
+.cxVideo{
+    width: 80%;
+    height: 200px;
+    background-color: #00000094;
+    margin-bottom: 50px;
+    margin-top: 20%;
+}
 }
 
 

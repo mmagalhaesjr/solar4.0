@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 import f1 from '../../../../assets/landingPage/topoFunil/foto3.webp'
-
-
-
 const foto1 = `url(${f1})`;
 
 export const StyledPagina1 = styled.section`
