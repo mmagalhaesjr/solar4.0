@@ -34,6 +34,11 @@ export const StyledSobreEnergiaSolarP3 = styled.section`
     background-image: ${foto3};
     background-size: cover;
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 .cximg2{
     display: none;
@@ -121,12 +126,15 @@ margin-top: 5%;
         display: none;
     }
     .cximg2{
-        display: block;
+       
         width: 100%;
-    
-        display: flex;
+            margin-bottom: 30%;
+       display: none;
+
+       
+        /* display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-evenly; */
     }
     .texto{
         z-index: 2;

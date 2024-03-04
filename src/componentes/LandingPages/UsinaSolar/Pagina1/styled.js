@@ -70,6 +70,7 @@ ul{
     background-color: #ffffff;
     margin-top: 5%;
     border-radius: 40px;
+    cursor: pointer;
 
     display: flex;
     align-items: center;

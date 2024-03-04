@@ -73,7 +73,7 @@ align-items: center;
 
 .subtitulo{
     width: fit-content;
-    background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
+    background:rgba(5,157,55,1);
     border-radius: 10px;
     margin-top: 3%;
 
@@ -136,7 +136,7 @@ align-items: center;
 @media(max-width:500px){
 
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 
    
     .cabecalho{
@@ -183,7 +183,7 @@ align-items: center;
     height: 200px;
     background-color: #00000094;
     margin-bottom: 50px;
-    margin-top: 30%;
+    margin-top: 10%;
 }
 }
 

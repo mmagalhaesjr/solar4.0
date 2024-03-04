@@ -2,9 +2,18 @@ import { StyledUsinaVideo } from "./styled";
 
 import logo1 from '../../../../assets/logosIcones/logoBranca.png'
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
+import Botao from "../../../Botao/Botao";
 
 
 export default function UsinaVideo() {
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
     return (
         <StyledUsinaVideo>
 
@@ -39,6 +48,8 @@ export default function UsinaVideo() {
                 >
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tvn5YU9PIrI?si=hAwi_OnQkD6ScVWn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
+                <Botao onClick={scrollSimulador} />
 
             </div>
         </StyledUsinaVideo>

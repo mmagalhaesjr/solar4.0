@@ -7,6 +7,7 @@ import logo2 from '../../../../assets/logosIcones/intel-solar.png'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Botao from "../../../Botao/Botao";
 
 
 export default function FundoVideo() {
@@ -14,6 +15,13 @@ export default function FundoVideo() {
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
 
     return (
         <StyledFundoVideo>
@@ -45,6 +53,8 @@ export default function FundoVideo() {
                 >
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f50-WZTTWXI?si=QCbt1-LSe4-bLrTX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
+                <Botao  onClick={scrollSimulador}  />
 
             </div>
 

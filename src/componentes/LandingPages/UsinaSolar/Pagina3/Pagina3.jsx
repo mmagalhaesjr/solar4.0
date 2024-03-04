@@ -16,6 +16,13 @@ export default function Pagina3() {
     useEffect(() => {
         AOS.init();
     }, []);
+    
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
 
     return (
         <StyledPagina3>
@@ -75,7 +82,7 @@ export default function Pagina3() {
                     </p>
                 </div>
 
-                <div id="botao">
+                <div id="botao" onClick={scrollSimulador}>
                     <p>
                         QUERO INVESTIR
                     </p>

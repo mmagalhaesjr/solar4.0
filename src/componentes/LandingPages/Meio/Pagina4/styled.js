@@ -90,6 +90,7 @@ span{
     left: -7%;
 }
 
+
 @media(max-width:1300px){
 .texto ul li{
     font-size: 1.7rem;
@@ -116,6 +117,7 @@ span{
 }
 }
 @media(max-width:700px){
+    height: fit-content;
     display: flex;
     flex-direction: column;
     margin-top: 10%;

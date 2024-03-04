@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 
 
 
+
 export default function Pagina4() {
 
     useEffect(() => {
@@ -46,6 +47,7 @@ export default function Pagina4() {
                         </li>
                     </ul>
                 </div>
+              
             </div>
             <div className='box2' data-aos="fade-left" data-aos-duration="2000">
                 <div className='cabecalho'>

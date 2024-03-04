@@ -92,13 +92,14 @@ export const StyledSobreEnergiaSolarP6 = styled.section`
     left: -7%;
 }
 .botao{
-    width: 50%;
+    width: 80%;
     min-width: 150px;
     height:80px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: #14a238;
     margin-top: 10%;
     margin-bottom: 5%;
+    cursor: pointer;
 
     display: flex;
     align-items: center;

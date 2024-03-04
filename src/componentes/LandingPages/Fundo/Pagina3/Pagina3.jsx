@@ -6,6 +6,7 @@ import logo5 from '../../../../assets/logosIcones/intel-solar.png'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Botao from "../../../Botao/Botao";
 
 
 
@@ -15,6 +16,13 @@ export default function Pagina3() {
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
 
     return (
         <StyledPagina3>
@@ -73,6 +81,8 @@ export default function Pagina3() {
                         </p>
                     </div>
                 </div>
+
+                <Botao onClick={scrollSimulador}/>
 
 
 

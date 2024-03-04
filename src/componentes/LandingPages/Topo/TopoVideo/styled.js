@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import f1 from '../../../../assets/landingPage/topoFunil/foto3.webp'
+
 const foto1 = `url(${f1})`;
 
 export const StyledTopoVideo = styled.section`
@@ -110,6 +111,9 @@ h1{
 }
 
 
+ 
+
+
 
 @media(max-width:1000px) {
     .cabecalho{
@@ -141,7 +145,7 @@ h1{
 @media(max-width:500px){
 
     width: 100%;
-    height: 100vh;
+   
 
    
     .cabecalho{
@@ -197,10 +201,21 @@ h1{
     height: 200px;
     background-color: #00000094;
     margin-bottom: 50px;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 }
 
 
 
 `
+
+
+
+
+
+
+
+
+
+
+

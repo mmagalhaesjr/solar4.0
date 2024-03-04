@@ -147,10 +147,16 @@ overflow: hidden;
     color: #ffffff;
 }
 
+
+
 #seta{
     color: #ffffff;
     font-size: 10rem;
 }
+
+
+
+
 
 @media( max-width:1100px) {
     .container{
@@ -283,6 +289,11 @@ font-size: 2rem;
 font-weight: 600;
 margin-top: 3%;
 }
+
+
 }
 
+
+
 `
+

@@ -140,6 +140,7 @@ ul li{
     margin-top: 5%;
     border-radius: 20px;
     margin-bottom: 5%;
+    cursor: pointer;
 
     display: flex;
     align-items: center;

@@ -146,7 +146,7 @@ h1{
 @media(max-width:500px){
 
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 
    
     .cabecalho{
@@ -159,7 +159,7 @@ h1{
     color: #ffffff;
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
     
 }
@@ -201,8 +201,8 @@ h1{
     width: 80%;
     height: 200px;
     background-color: #00000094;
-    margin-bottom: 50px;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 }
 

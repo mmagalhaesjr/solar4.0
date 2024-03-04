@@ -10,11 +10,22 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 export default function Pagina6() {
 
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
+ 
+
 
     return (
         <StyledSobreEnergiaSolarP6>
@@ -40,11 +51,13 @@ export default function Pagina6() {
                         </li>
                     </ul>
                 </div>
-                <div className='botao'>
+                <div className='botao' onClick={scrollSimulador}>
                     <h2>
                         Quer economizar?
                     </h2>
                 </div>
+
+                
             </div>
             <div className='pagina2-box2'>
                 <div className='cabecalho'>

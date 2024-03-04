@@ -3,10 +3,14 @@ import { StyledTopoVideo } from "./styled";
 import logo1 from '../../../../assets/logosIcones/logoBranca.png'
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
 
+import Botao from '../../../Botao/Botao';
+
 
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+
 
 
 export default function TopoVideo() {
@@ -14,6 +18,14 @@ export default function TopoVideo() {
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
 
     return (
         <StyledTopoVideo>
@@ -49,6 +61,8 @@ export default function TopoVideo() {
                 >
                      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KoOhkeAhcdo?si=D-NrZD0_LwcR4xim" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
+              <Botao onClick={scrollSimulador}  />
 
             </div>
 

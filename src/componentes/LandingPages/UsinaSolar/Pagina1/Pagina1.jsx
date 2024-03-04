@@ -18,6 +18,13 @@ export default function Pagina1() {
         AOS.init();
     }, []);
 
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
     return (
 
         <StyledPagina1>
@@ -43,7 +50,7 @@ export default function Pagina1() {
                             seguro e lucrativo.
                         </li>
                     </ul>
-                    <div id='botao'>
+                    <div id='botao' onClick={scrollSimulador}>
                         <p>
                             FAÇA UMA SIMULAÇÃO
                         </p>

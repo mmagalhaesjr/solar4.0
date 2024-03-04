@@ -7,6 +7,7 @@ import logo2 from '../../../../assets/logosIcones/intel-solar.png'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Botao from '../../../Botao/Botao';
 
 
 export default function MeioVideo() {
@@ -14,6 +15,14 @@ export default function MeioVideo() {
     useEffect(() => {
         AOS.init();
     }, []);
+
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
 
     return (
         <StyledMeioVideo>
@@ -47,6 +56,8 @@ export default function MeioVideo() {
                 >
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FhzTHqkd8yI?si=dCiyfVcRt33rEUGc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
+                <Botao  onClick={scrollSimulador}  />
 
             </div>
 
