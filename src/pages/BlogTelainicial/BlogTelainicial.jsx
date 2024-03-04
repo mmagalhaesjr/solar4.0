@@ -9,7 +9,7 @@ import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import foto11 from "../../assets/blogs/blog11/1.png"
+import foto12 from "../../assets/blogs/blog12/1.png"
 
 
 export default function BlogTelainicial() {
@@ -39,12 +39,13 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/11'
-                                img={foto11}
-                                titulo='Energia Solar como alternativa a
-                                pobreza energética no Brasil'
-                                texto='Descubra por que a energia do sol pode ser uma aliada contra
-                                a falta de energia no país'
+                                link='#/blog/12'
+                                img={foto12}
+                                titulo='Cultura de sustentabilidade e
+                                energia solar: Uma aliança para um
+                                futuro mais limpo'
+                                texto='Entenda como a sustentabilidade e a energia solar estão se
+                                unindo para criar um mundo mais verde e consciente'
                             />
                         </div>
 

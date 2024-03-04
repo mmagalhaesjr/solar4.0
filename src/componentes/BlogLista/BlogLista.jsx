@@ -8,10 +8,18 @@ import foto7 from "../../assets/blogs/blog7/1.png"
 import foto8 from "../../assets/blogs/blog8/1.png"
 import foto9 from "../../assets/blogs/blog9/1.png"
 import foto10 from "../../assets/blogs/blog10/1.png"
+import foto11 from "../../assets/blogs/blog11/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 11,
+        
+        img: foto11,
+        titulo:'Energia Solar como alternativa a pobreza energética no Brasil',
+        texto: 'Descubra por que a energia do sol pode ser uma aliada contra a falta de energia no país'
+    },
     {
         id: 10,
         
