@@ -153,14 +153,20 @@ h1{
     text-align: left;
     
 }
-    .cximg{
-        
+    
+.cximg{
+        width: 98%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
     }
     .cximg img{
-    width: 100px;
+    width: 150px;
     }
     .cximg .logo2{
-    width: 70px;
+    width: 120px;
     }
 
 
