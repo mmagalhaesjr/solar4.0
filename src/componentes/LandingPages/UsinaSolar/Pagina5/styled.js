@@ -14,7 +14,6 @@ export const StyledPagina5 = styled.section`
    
     display: flex;
     justify-content: center;
-
     overflow: hidden;
 
 span{
@@ -67,18 +66,26 @@ span{
 #botao{
     width: 50%;
     height: 70px;
-    background-color: #ffffff;
+    background-color: #14a238;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     margin-top: 5%;
-    border-radius: 40px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &:hover{
+        background-color: #10852d;
+    }
 }
 #botao p{
     font-size: 1.5rem;
     font-weight: 600;
-    color: #14a238;
+    color: #ffffff;
 }
 #containerDireito{
     width: 50%;
@@ -163,6 +170,8 @@ background-color: #134489;
         width: 100%;
         height: 100%;
         margin-bottom: 10%;
+
+       
     }
 
     #containerDireito{
@@ -187,8 +196,11 @@ background-color: #134489;
         align-items: center;
         justify-content: flex-start;
 }
-    .cxContainer h2{
-        font-size: 3rem;
+    .subtitulo h2{
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    ul{
         margin-top: 5%;
     }
     #containerDireito{

@@ -68,13 +68,18 @@ ul{
     width: 50%;
     height: 70px;
     background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     margin-top: 5%;
-    border-radius: 40px;
+    border-radius: 20px;
     cursor: pointer;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &:hover{
+        background-color: #ffffffb4;
+    }
 }
 #botao p{
     font-size: 1.5rem;

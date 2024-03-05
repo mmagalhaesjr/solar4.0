@@ -57,7 +57,6 @@ width: 100%;
 
 #containerImg{
     width: 100%;
-    margin-bottom: 3%;
 }
 
 #containerImg img{
@@ -100,7 +99,7 @@ width: 100%;
 
     #containerImg{
     width: 100%;
-    margin-bottom: 5%;
+   
 }
 }
 `

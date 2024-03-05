@@ -4,7 +4,8 @@ export const StyledBotao = styled.button`
     width: 50%;
     height: 100px;
     background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
-    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
     border: none;
     cursor: pointer;
     margin-bottom: 5%;

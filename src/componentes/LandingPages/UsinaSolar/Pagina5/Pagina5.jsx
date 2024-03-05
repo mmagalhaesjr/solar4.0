@@ -16,6 +16,13 @@ export default function Pagina5() {
         AOS.init();
     }, []);
 
+    const scrollSimulador = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight, 
+            behavior: "smooth"
+        });
+    };
+
     return (
         <StyledPagina5>
             <div id='container'>
@@ -45,13 +52,19 @@ export default function Pagina5() {
                                 técnicos!
                             </span>
                         </li>
-                        <li>
+                        {/* <li>
                             Para conferir mais benefícios da Energia
                             Solar e acompanhar mais conteúdos como
                             este, siga nossos perfis no <a href="http://www.instagram.com/solar4.0/"> Instagram</a> e
                              <a href="http://www.facebook.com/solar40mg?_rdc=1&_rdr"> Facebook</a>.
-                        </li>
+                        </li> */}
                     </ul>
+
+                    <div id="botao" onClick={scrollSimulador}>
+                        <p>
+                            QUERO INVESTIR
+                        </p>
+                    </div>
 
                 </div>
             </div>
