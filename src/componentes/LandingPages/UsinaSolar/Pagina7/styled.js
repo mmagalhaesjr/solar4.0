@@ -187,7 +187,6 @@ span{
 }
     .cxTexto p{
         font-size: 1rem;
-        margin-top: 5%;
     }
     ul li{
         font-size: 1rem;

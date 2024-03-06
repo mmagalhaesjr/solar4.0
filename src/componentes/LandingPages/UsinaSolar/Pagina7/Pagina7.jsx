@@ -39,7 +39,8 @@ export default function Pagina7() {
                 </div>
 
 
-                <div className='cxTexto' data-aos="fade-right" data-aos-duration="2000">
+                <div className='cxTexto' 
+                data-aos="fade-right" data-aos-duration="2000">
                     <div className='texto' >
                         <p>
                             Trabalhamos com equipamentos <h4>Intelbras</h4>  de alta tecnologia
