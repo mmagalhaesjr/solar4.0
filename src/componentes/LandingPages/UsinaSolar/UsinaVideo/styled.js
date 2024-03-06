@@ -91,12 +91,14 @@ h1{
 }
 
 .cxVideo{
+    /* width: fit-content; */
     width: 50%;
     height: 400px;
     background-color: #00000094;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
     margin-top: 5%;
     margin-bottom: 5%;
+    overflow: hidden;
 
 
     display: flex;
@@ -104,6 +106,15 @@ h1{
     justify-content: center;
     text-align: center;
 }
+
+
+
+/* .cxVideo iframe {
+    width:300px;
+    height:500px;
+} */
+
+
 
 
 
@@ -196,11 +207,16 @@ h1{
 }
 
 .cxVideo{
-    width: 80%;
-    height: 200px;
+    width: fit-content;
+    height: fit-content;
     background-color: #00000094;
     margin-bottom: 10%;
     margin-top: 10%;
+}
+
+.cxVideo iframe {
+    width:300px;
+    height:500px;
 }
 }
 

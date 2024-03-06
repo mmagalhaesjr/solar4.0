@@ -2,6 +2,7 @@ import { StyledUsinaVideo } from "./styled";
 
 import logo1 from '../../../../assets/logosIcones/logoBranca.png'
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
+
 import Botao from "../../../Botao/Botao";
 
 
@@ -48,7 +49,13 @@ export default function UsinaVideo() {
                     data-aos-duration="1500"
 
                 >
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tvn5YU9PIrI?si=hAwi_OnQkD6ScVWn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tvn5YU9PIrI?si=hAwi_OnQkD6ScVWn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Tk5P0aC4MZU?si=7eoX32RoFNmK711X" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
+                 
+
+
                 </div>
 
                 <Botao onClick={scrollSimulador} />
