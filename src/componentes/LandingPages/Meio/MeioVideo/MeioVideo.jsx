@@ -1,4 +1,4 @@
-import { StyledMeioVideo } from "./styled";
+
 
 import logo1 from '../../../../assets/logosIcones/logoBranca.png'
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Botao from '../../../Botao/Botao';
+import { StyledVideo } from "../../StyledVideo/StyledVideo";
 
 
 export default function MeioVideo() {
@@ -25,7 +26,7 @@ export default function MeioVideo() {
 
 
     return (
-        <StyledMeioVideo>
+        <StyledVideo>
 
             <div id="container">
 
@@ -54,13 +55,15 @@ export default function MeioVideo() {
                     data-aos-duration="1500"
 
                 >
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FhzTHqkd8yI?si=dCiyfVcRt33rEUGc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 
+                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8_xgWt4Tkj8?si=bhQrvqdTg5av76kd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
                 </div>
 
                 <Botao  onClick={scrollSimulador}  />
 
             </div>
 
-        </StyledMeioVideo>
+        </StyledVideo>
     )
 }

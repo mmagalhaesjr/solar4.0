@@ -1,4 +1,4 @@
-import { StyledFundoVideo } from "./styled";
+
 
 import logo1 from '../../../../assets/logosIcones/logoBranca.png'
 import logo2 from '../../../../assets/logosIcones/intel-solar.png'
@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Botao from "../../../Botao/Botao";
+import { StyledVideo } from "../../StyledVideo/StyledVideo";
 
 
 export default function FundoVideo() {
@@ -24,7 +25,7 @@ export default function FundoVideo() {
     };
 
     return (
-        <StyledFundoVideo>
+        <StyledVideo>
 
             <div id="container">
 
@@ -51,13 +52,15 @@ export default function FundoVideo() {
                     data-aos-duration="1500"
 
                 >
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/f50-WZTTWXI?si=QCbt1-LSe4-bLrTX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GA6sV4_TNE4?si=DhYVc5VppT_BfYqe" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
                 </div>
 
                 <Botao  onClick={scrollSimulador}  />
 
             </div>
 
-        </StyledFundoVideo>
+        </StyledVideo>
     )
 }

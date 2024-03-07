@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-import f1 from '../../../../assets/fundoServicos.png'
+import f1 from '../../../assets/fundoServicos.png'
 const foto1 = `url(${f1})`;
 
 
-export const StyledUsinaVideo = styled.section`
+export const StyledVideo = styled.section`
  width: 100%;
     /* height: 100vh; */
 
@@ -80,6 +80,10 @@ h1{
     font-size: 3rem;
     font-weight: 600;
     margin-top: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
     text-align: center;
 }
 .subtitulo h2{
@@ -91,9 +95,9 @@ h1{
 }
 
 .cxVideo{
-    /* width: fit-content; */
-    width: 50%;
-    height: 400px;
+    width: fit-content;
+    /* width: 50%; */
+    height: fit-content;
     background-color: #00000094;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
     margin-top: 5%;
@@ -109,10 +113,10 @@ h1{
 
 
 
-/* .cxVideo iframe {
+.cxVideo iframe {
     width:300px;
     height:500px;
-} */
+}
 
 
 
@@ -179,15 +183,15 @@ h1{
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 10%;
-    text-align: left;
+    text-align: center;
     
 }
     
 
 
 
-/* .subtitulo{
-    width: 90%;
+.subtitulo{
+    width: 100%;
     background: linear-gradient(0deg, rgba(79,211,135,1) 0%, rgba(5,157,55,1) 54%);
     border-radius: 10px;
     margin-top:15%;
@@ -195,15 +199,13 @@ h1{
     display: flex;
     align-items: center;
     justify-content:center;
-
-  
-} */
+}
 .subtitulo h2{
     color: #ffffff;
     font-size: 1.7rem;
     font-weight: 600;
     margin: 2%;
-    text-align: center;
+    text-align: left;
 }
 
 .cxVideo{
