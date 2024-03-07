@@ -9,8 +9,8 @@ export const StyledPagina7 = styled.section`
     overflow: hidden;
     
 
-h4{
-    font-weight: 600;
+span{
+    font-weight: 700;
     color:#14a238 ;
 }
 #container{
@@ -102,12 +102,6 @@ ul li{
    margin-bottom: 5%;
    font-size: 1.4rem;
 }
-span{
-    font-weight: 700;
-}
-
-
-
 
 
 
@@ -166,7 +160,7 @@ span{
 
 @media(max-width:560px){
 
-    .cxTexto{
+.cxTexto{
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 100%;

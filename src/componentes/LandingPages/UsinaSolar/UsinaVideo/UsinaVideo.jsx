@@ -45,7 +45,7 @@ export default function UsinaVideo() {
                     </h1>
                 <div className="cxVideo"
                     data-aos="fade-up"
-                    data-aos-easing="linear"
+                    data-aos-easing="linear" 
                     data-aos-duration="1500"
 
                 >

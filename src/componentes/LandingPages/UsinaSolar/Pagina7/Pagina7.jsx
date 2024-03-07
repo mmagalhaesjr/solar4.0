@@ -43,7 +43,7 @@ export default function Pagina7() {
                 data-aos="fade-right" data-aos-duration="2000">
                     <div className='texto' >
                         <p>
-                            Trabalhamos com equipamentos <h4>Intelbras</h4>  de alta tecnologia
+                            Trabalhamos com equipamentos <span>Intelbras</span> de alta tecnologia
                             e uma equipe técnica qualificada que irá acompanhar todas
                             as etapas do seu projeto.
                         </p>
@@ -55,23 +55,23 @@ export default function Pagina7() {
                     <li data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
-                        Com o crescimento gigantesco do <span>mercado de energia solar e repleto de
-                            oportunidades</span> , investir em uma usina solar, além de <span> economia na conta de energia</span>,
-                        permite que você faça dinheiro de forma segura durante anos com <span>um único
-                            investimento, baixo risco e pouquíssima manutenção.</span>
+                        Com o crescimento gigantesco do mercado de energia solar e repleto de
+                        oportunidades, investir em uma usina solar, além de  economia na conta de energia,
+                        permite que você faça dinheiro de forma segura durante anos com um único
+                        investimento, baixo risco e pouquíssima manutenção.
                     </li>
                     <li data-aos="fade-left"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
-                        Considerando ainda que o <span> sol é a maior fonte de energia renovável</span>, o Brasil por estar
+                        Considerando ainda que o sol é a maior fonte de energia renovável, o Brasil por estar
                         localizado próximo a Linha do Equador, possui uma das médias de radiação solar mais elevadas
                         do mundo.
                     </li>
                     <li data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
-                        Com nossos serviços e <span> com os equipamentos Intelbras, podemos garantir maior
-                            aproveitamento e desempenho</span> para os sistemas fotovoltaicos.
+                        Com nossos serviços e  com os equipamentos Intelbras, podemos garantir maior
+                        aproveitamento e desempenho para os sistemas fotovoltaicos.
                     </li>
                 </ul>
             </section>
