@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import foto from '../../assets/fundo-orcamento.jpg';
 
 
+
 const fotoCaminho = `url(${foto})`;
 
 
@@ -34,7 +35,7 @@ justify-content: center;
 
 .cabecalho{
 width: 100%;
-height: 100px;
+height: 50px;
 background-color: #14a238;
 
 
@@ -56,6 +57,7 @@ justify-content:space-between;
 }
 .cx1{
   width: 100%;
+  
 }
 .cx1 img{
   width: 100%;
@@ -76,6 +78,48 @@ margin-top: 5%;
 .cxTexto h2{
   font-size: 3rem;
   margin-top: 3%;
+}
+/* -----------------video */
+.cxVideo{
+    width: fit-content;
+    /* width: 50%; */
+    height: fit-content;
+    background-color: #00000094;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cxVideo iframe {
+    width:300px;
+    height:500px;
+}
+
+#teste{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#text{
+    background-color: #ffffff;
+    width: 40%;
+    height: 200px;
+    color: #14a238;
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight:600;
+    text-align: center;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 
@@ -165,35 +209,9 @@ input{
     outline: none;
     padding: 1%;
 }
-button{
-  width:150px;
-  height: 50px;
-  border-radius: 200px;
-  border: none;
 
-  margin-top:50px;
-  margin-bottom: 20px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  color:#14a238;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-button:hover{
-  background-color: #14a238;
-  color: #ffffff;
-}
-select{
-  width: 100%;
-  height: 40px;
-  border-radius: 10px;
-  border: none;
-  margin-top: 20px;
- padding: 1%;
-  outline: none;
-}
+
 //-------------------
 .rodape{
 width: 100%;
@@ -278,6 +296,37 @@ gap:10px;
 
   }
 
+  .cxVideo{
+    width: fit-content;
+    height: fit-content;
+    background-color: #00000094;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.cxVideo iframe {
+    width:300px;
+    height:500px;
+}
+#text{
+    background-color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    color: #14a238;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    font-weight:600;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
 }
 @media(max-width:400px) {
   .cabecalho img{
@@ -287,3 +336,4 @@ gap:10px;
 }
 
 `
+

@@ -7,6 +7,7 @@ import logo2 from '../../../../assets/logosIcones/intel-solar.png'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 import Botao from '../../../Botao/Botao';
 import { StyledVideo } from "../../StyledVideo/StyledVideo";
 
