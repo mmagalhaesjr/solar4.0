@@ -9,10 +9,18 @@ import foto8 from "../../assets/blogs/blog8/1.png"
 import foto9 from "../../assets/blogs/blog9/1.png"
 import foto10 from "../../assets/blogs/blog10/1.png"
 import foto11 from "../../assets/blogs/blog11/1.png"
+import foto12 from "../../assets/blogs/blog12/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 12,
+        
+        img: foto12,
+        titulo:'Cultura de sustentabilidade e energia solar: Uma aliança para um futuro mais limpo',
+        texto: 'Entenda como a sustentabilidade e a energia solar estão se unindo para criar um mundo mais verde e consciente'
+    },
     {
         id: 11,
         

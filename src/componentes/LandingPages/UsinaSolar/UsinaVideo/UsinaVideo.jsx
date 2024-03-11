@@ -40,9 +40,7 @@ export default function UsinaVideo() {
                     </div>
 
                 </div>
-                {/* <h1 className='pagina1-titulo' data-aos="zoom-in-up" data-aos-duration="2000" >
-                    Investir em uma usina solar é inteligente e sustentável, proporciona retornos sólidos e contribui para um futuro mais limpo e verde.
-                </h1> */}
+              
                 <div className="cxVideo"
                     data-aos="fade-up"
                     data-aos-easing="linear"
