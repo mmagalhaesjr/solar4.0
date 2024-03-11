@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledFooter = styled.footer`
 
 background-color: #095074de;
@@ -21,12 +22,11 @@ color: #ffffff;
     bottom:0;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
-    /* border: solid 1px  #000000; */
 } 
-.container{
+.caixa{
+    width: fit-content;
     height: 200px;
     border-radius: 15px;
 
@@ -34,52 +34,48 @@ color: #ffffff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border: solid 1px #ffffff; */
 }
 .contContatos{
-    width: 400px;
+    width: fit-content;
     height: 100px;
     font-size: 30px;
     cursor: pointer; 
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    /* border: solid 1px red; */
-        
-}
-.icones{ 
-    gap:10px;
-    margin-top: 10px;
-
-    display: flex;
-    flex-direction: column;
-    
-}
-.icones div{
-    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;  
 }
-
-.containerRedesS{
-    width: 400px;
+.contRedes{
+    width: fit-content;
     height: 100px;
     font-size: 30px;
-    cursor: pointer;  
-    margin-top: 0px;
+    cursor: pointer; 
 
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap:30px;
+    justify-content: center;
+    gap: 10px;    
+}
+.cxIcones{ 
+    width:100%;
 
-    /* border: solid 1px red; */     
-} 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   
+    font-size: 1rem;
+}
+.ico{
+    color:#ffffff;
+    &:hover{
+        color: #1fc00ade;
+    }
+}
 
-.contLogo{
+
+.cxLogo{
     width: 100%;
     font-size: 30px;
     cursor: pointer;  
@@ -90,20 +86,8 @@ color: #ffffff;
     align-items: center;    
 }
 
-ul li a{
-color:#ffffff;
-cursor: pointer;
-&:hover{
-    color:#00BF3E; 
-    transition:0.3s;
-    }
-}
-ul{
-    justify-content:center;
-    text-align: center;
-    font-size: 15px; 
-    list-style: none;
-}
+
+
  .ico{
     font-size: 50px;
  }
@@ -114,23 +98,7 @@ h3{
 p{
     font-size: 16px;
 }
-.contContatos span{
-    font-weight: 700;
-}
-#endereco{
-    gap:3px;
-    text-align: center;
-    align-items: flex-start;
-    flex-direction: column;
-    font-size: 15px;
-    height: 100%;
-}
-.icones{
-    margin-left: 80px;
-}
-.tituloContato{
-    margin-top: 19px;
-}
+
 img{
     width: 250px;
     height: 70px;
@@ -143,26 +111,34 @@ h6{
     margin-bottom: 3%;
     margin-top: 5%;
 }
-#endereco li a #endereco{
-    &:hover{
-    color:#00BF3E; 
-    transition:0.3s;
-    }
-}
+
 @media (max-width:1064px) {
     #container{
-        overflow: hidden;
-    }
-    .container .logo img{
+    width: 95%;
+    height: 100%;
+    bottom:0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+    .caixa .logo img{
         width: 180px;
         height: 50px;
     }
 }
 @media(max-width:940px){
     #container{
-        flex-direction:column;
-    }
-    .container{
+    width: 95%;
+    height: 100%;
+    bottom:0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+    .caixa{
         margin-top: 5%;
         height: fit-content;
     }
@@ -170,15 +146,26 @@ h6{
     margin-top:0px;
     font-size: 30px;
 }
-    .container .logo img{
+    .caixa .logo img{
         width: 250px;
         height: 70px;
     }
 }
 @media(max-width:500px){
-    .container{
-        margin-top: 15%;
+    #container{
+    width: 95%;
+    height: 100%;
+    bottom:0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+    .caixa{
+        margin-top: 5%;
         height: fit-content;
+        
     }
 }
 
