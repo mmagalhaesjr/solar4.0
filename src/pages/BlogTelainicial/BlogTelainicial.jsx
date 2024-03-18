@@ -9,7 +9,7 @@ import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import foto13 from "../../assets/blogs/blog13/1.png"
+import foto14 from "../../assets/blogs/blog14/1.png"
 
 
 export default function BlogTelainicial() {
@@ -39,13 +39,13 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/13'
-                                img={foto13}
-                                titulo='As últimas tendências em tecnologia
-                                solar'
-                                texto='Vamos explorar as últimas tendências em energia solar,
-                                revelando como essas mudanças estão moldando o futuro da
-                                energia renovável'
+                                link='#/blog/14'
+                                img={foto14}
+                                titulo='Energia solar e economia: Incentivos
+                                fiscais no Brasil'
+                                texto='À medida que a busca por fontes de energia limpa cresce, os
+                                incentivos fiscais para energia solar assumem um papel de
+                                aceleração ...'
                             />
                         </div>
 

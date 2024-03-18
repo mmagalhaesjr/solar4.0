@@ -10,10 +10,18 @@ import foto9 from "../../assets/blogs/blog9/1.png"
 import foto10 from "../../assets/blogs/blog10/1.png"
 import foto11 from "../../assets/blogs/blog11/1.png"
 import foto12 from "../../assets/blogs/blog12/1.png"
+import foto13 from "../../assets/blogs/blog13/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 13,
+        
+        img: foto13,
+        titulo:'As últimas tendências em tecnologia solar',
+        texto: 'Vamos explorar as últimas tendências em energia solar, revelando como essas mudanças estão moldando o futuro da energia renovável'
+    },
     {
         id: 12,
         
