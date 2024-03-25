@@ -9,7 +9,7 @@ import BlogMenor from '../../componentes/BlogMenor/BlogMenor';
 import { arrayBlogs } from '../../componentes/BlogLista/BlogLista'
 
 import BlogMaior from "../../componentes/BlogMaior/BlogMaior";
-import foto14 from "../../assets/blogs/blog14/1.png"
+import foto15 from "../../assets/blogs/blog15/1.png"
 
 
 export default function BlogTelainicial() {
@@ -39,13 +39,11 @@ export default function BlogTelainicial() {
                         <div className="cx1">
                             <BlogMaior
                                 // link='/blog/7'
-                                link='#/blog/14'
-                                img={foto14}
-                                titulo='Energia solar e economia: Incentivos
-                                fiscais no Brasil'
-                                texto='À medida que a busca por fontes de energia limpa cresce, os
-                                incentivos fiscais para energia solar assumem um papel de
-                                aceleração ...'
+                                link='#/blog/15'
+                                img={foto15}
+                                titulo='Energia solar e hidrogênio verde'
+                                texto='Neste blog, exploraremos como a energia solar e o hidrogênio
+                                verde estão interligados'
                             />
                         </div>
 

@@ -11,10 +11,18 @@ import foto10 from "../../assets/blogs/blog10/1.png"
 import foto11 from "../../assets/blogs/blog11/1.png"
 import foto12 from "../../assets/blogs/blog12/1.png"
 import foto13 from "../../assets/blogs/blog13/1.png"
+import foto14 from "../../assets/blogs/blog14/1.png"
 
 
 
 export const arrayBlogs = [
+    {
+        id: 14,
+        
+        img: foto14,
+        titulo:'Energia solar e economia: Incentivos fiscais no Brasil',
+        texto: 'À medida que a busca por fontes de energia limpa cresce, os incentivos fiscais para energia solar assumem um papel deaceleração ...'
+    },
     {
         id: 13,
         
